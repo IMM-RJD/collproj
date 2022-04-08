@@ -1,42 +1,120 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+  <q-layout view="hHh lpR fFf">
+    <q-header elevated class="bg-primary text-white">
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+        <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title>
-          Quasar App
+          <q-avatar>
+            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+          </q-avatar>
+          Title
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn dense flat round icon="menu" @click="toggleRightDrawer" />
       </q-toolbar>
     </q-header>
 
     <q-drawer
-      v-model="leftDrawerOpen"
       show-if-above
+      :mini="miniStateLeft"
+      @mouseover="miniStateLeft = false"
+      @mouseout="miniStateLeft = true"
+      :width="200"
+      :breakpoint="500"
+      v-model="leftDrawerOpen"
+      side="left"
       bordered
     >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
+      <!-- drawer content -->
+      <q-scroll-area class="fit">
+        <q-list padding>
+          <q-item clickable v-ripple to="/idea">
+            <q-item-section avatar>
+              <q-icon name="fa-solid fa-ambulance" />
+            </q-item-section>
 
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
+            <q-item-section> Idea </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple to="/team">
+            <q-item-section avatar>
+              <q-icon name="person" />
+            </q-item-section>
+
+            <q-item-section> Team </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple to="/projects">
+            <q-item-section avatar>
+              <q-icon name="fa-solid fa-fan" />
+            </q-item-section>
+
+            <q-item-section> Projects </q-item-section>
+          </q-item>
+
+          <q-separator />
+
+          <q-item clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="drafts" />
+            </q-item-section>
+
+            <q-item-section> Drafts </q-item-section>
+          </q-item>
+        </q-list>
+      </q-scroll-area>
+    </q-drawer>
+
+    <q-drawer
+      show-if-above
+      :mini="miniState"
+      @mouseover="miniState = false"
+      @mouseout="miniState = true"
+      :width="200"
+      :breakpoint="500"
+      v-model="rightDrawerOpen"
+      side="right"
+      bordered
+    >
+      <!-- drawer content -->
+      <q-scroll-area class="fit">
+        <q-list padding>
+          <q-item clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="inbox" />
+            </q-item-section>
+
+            <q-item-section> Inbox </q-item-section>
+          </q-item>
+
+          <q-item active clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="star" />
+            </q-item-section>
+
+            <q-item-section> Star </q-item-section>
+          </q-item>
+
+          <q-item clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="send" />
+            </q-item-section>
+
+            <q-item-section> Send </q-item-section>
+          </q-item>
+
+          <q-separator />
+
+          <q-item clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="drafts" />
+            </q-item-section>
+
+            <q-item-section> Drafts </q-item-section>
+          </q-item>
+        </q-list>
+      </q-scroll-area>
     </q-drawer>
 
     <q-page-container>
@@ -45,72 +123,28 @@
   </q-layout>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
-import EssentialLink from 'components/EssentialLink.vue';
+<script>
+import { ref } from 'vue';
 
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-];
-
-export default defineComponent({
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink
-  },
-
-  setup () {
-    const leftDrawerOpen = ref(false)
+export default {
+  setup() {
+    const leftDrawerOpen = ref(false);
+    const rightDrawerOpen = ref(false);
 
     return {
-      essentialLinks: linksList,
       leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
-});
+      toggleLeftDrawer() {
+        leftDrawerOpen.value = !leftDrawerOpen.value;
+      },
+
+      rightDrawerOpen,
+      toggleRightDrawer() {
+        rightDrawerOpen.value = !rightDrawerOpen.value;
+      },
+
+      miniStateLeft: ref(true),
+      miniState: ref(true),
+    };
+  },
+};
 </script>
