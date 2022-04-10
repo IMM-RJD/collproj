@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <!-- content -->
-    Idea Page
+    Partner
   </q-page>
 </template>
 
