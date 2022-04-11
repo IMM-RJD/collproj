@@ -3,7 +3,7 @@
 
   <q-layout view="hHh lpR fFf">
     <q-header class="bg-primary text-white">
-      <q-toolbar>
+      <q-toolbar class="q-py-md">
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
 
         <q-toolbar-title>
@@ -31,7 +31,7 @@
         <q-list padding>
           <q-item clickable v-ripple to="/team">
             <q-item-section avatar>
-              <q-icon name="person" />
+              <q-icon name="fa-solid fa-people-group" />
             </q-item-section>
 
             <q-item-section> Team </q-item-section>
@@ -39,7 +39,7 @@
 
           <q-item clickable v-ripple to="/concept">
             <q-item-section avatar>
-              <q-icon name="fa-solid fa-ambulance" />
+              <q-icon name="fa-solid fa-shield-heart" />
             </q-item-section>
 
             <q-item-section> Konzept </q-item-section>
@@ -47,7 +47,7 @@
 
           <q-item clickable v-ripple to="/events">
             <q-item-section avatar>
-              <q-icon name="fa-solid fa-calendar" />
+              <q-icon name="fa-solid fa-calendar-days" />
             </q-item-section>
 
             <q-item-section> Termine & aktuelles </q-item-section>
@@ -55,7 +55,7 @@
 
           <q-item clickable v-ripple to="/projects">
             <q-item-section avatar>
-              <q-icon name="fa-solid fa-fan" />
+              <q-icon name="fa-solid fa-shield-virus" />
             </q-item-section>
 
             <q-item-section> Projekte </q-item-section>
@@ -63,7 +63,7 @@
 
           <q-item clickable v-ripple to="/contact">
             <q-item-section avatar>
-              <q-icon name="fa-solid fa-mail" />
+              <q-icon name="fa-solid fa-envelope" />
             </q-item-section>
 
             <q-item-section> Kontakt </q-item-section>
@@ -71,7 +71,7 @@
 
           <q-item clickable v-ripple to="/partner">
             <q-item-section avatar>
-              <q-icon name="fa-solid fa-fan" />
+              <q-icon name="fa-solid fa-children" />
             </q-item-section>
 
             <q-item-section> Partner </q-item-section>
@@ -81,7 +81,7 @@
 
           <q-item clickable v-ripple to="/impressum">
             <q-item-section avatar>
-              <q-icon name="draft" />
+              <q-icon name="fa-solid fa-child" />
             </q-item-section>
 
             <q-item-section> Impressum </q-item-section>
@@ -97,38 +97,42 @@
     <q-footer class="bg-primary text-white">
       <div>
         <div
-          class="full-width row wrap justify-evenly items-start content-start q-py-lg"
+          class="full-width row wrap justify-evenly items-start content-start q-py-md"
         >
-          <q-btn flat unelevated padding="md"
-            ><q-img
-              width="40px"
-              height="40px"
-              fit="contain"
-              src="https://picsum.photos/40/40"
-            ></q-img
-          ></q-btn>
-          <q-btn flat unelevated padding="md"
-            ><q-img
-              width="40px"
-              height="40px"
-              fit="contain"
-              src="https://picsum.photos/40/40"
-            ></q-img></q-btn
-          ><q-btn flat unelevated padding="md"
-            ><q-img
-              width="40px"
-              height="40px"
-              fit="contain"
-              src="https://picsum.photos/40/40"
-            ></q-img></q-btn
-          ><q-btn flat unelevated padding="md"
-            ><q-img
-              width="40px"
-              height="40px"
-              fit="contain"
-              src="https://picsum.photos/40/40"
-            ></q-img
-          ></q-btn>
+          <q-btn
+            flat
+            unelevated
+            size="1rem"
+            padding="md"
+            icon="fa-brands fa-facebook-f"
+            to=""
+          >
+          </q-btn>
+          <q-btn
+            flat
+            unelevated
+            size="1rem"
+            padding="md"
+            icon="fa-brands fa-instagram"
+            to=""
+          >
+          </q-btn>
+          <q-img
+            width="3rem"
+            height="3rem"
+            class="q-ma-sm"
+            fit="contain"
+            src="https://picsum.photos/400/400"
+          ></q-img>
+          <q-btn
+            flat
+            unelevated
+            size="1rem"
+            padding="md"
+            icon="fa-brands fa-youtube"
+            to=""
+          >
+          </q-btn>
         </div>
       </div>
     </q-footer>
