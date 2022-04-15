@@ -11,7 +11,8 @@
         width="100%"
         height="250px"
         class="imm-person-card-img"
-        fit="fill"
+        fit="cover"
+        position="0 0"
         :src="person.imgSrc"
       ></q-img>
       <div class="q-pb-none imm-person-card-content-wrapper">
@@ -26,9 +27,10 @@
           {{ person.description }}
         </q-card-section>
 
-        <q-separator dark />
+        <q-separator dark v-show="person.phone !== '' || person.email !== ''" />
         <q-card-actions vertical class="q-pb-none q-pt-md">
           <q-btn
+            v-show="person.phone !== ''"
             unelevated
             class="q-mb-sm"
             :no-caps="true"
@@ -39,6 +41,7 @@
             :label="person.phone"
           ></q-btn>
           <q-btn
+            v-show="person.email !== ''"
             flat
             unelevated
             class="q-mb-sm imm-ml-0-important"

@@ -1,7 +1,7 @@
 <template>
   <q-page padding>
     <!-- content -->
-    Events page
+    <h3>comming soon</h3>
   </q-page>
 </template>
 
