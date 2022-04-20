@@ -1,7 +1,11 @@
 <template>
   <q-page padding>
     <!-- content -->
-    <h3>comming soon</h3>
+    <h3>Bevorstehende Events</h3>
+    <h6>Unterwelten-Festival 2022</h6>
+    <div style="font-size: 18px">
+      Konzeptraum Palais Walderdorff in Aussicht
+    </div>
   </q-page>
 </template>
 

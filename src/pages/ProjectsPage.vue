@@ -22,7 +22,7 @@
         </q-timeline-entry>
 
         <q-timeline-entry
-          title="Illuminale 2021 Trier: Tanztheaterstück mit Lady Lightflow -panta rhei-alles fließt-"
+          title='Illuminale 2021 Trier: Tanztheaterstück mit Lady Lightflow "panta rhei-alles fließt"'
           subtitle=""
         >
           <q-video src="https://www.youtube.com/embed/oOBoDeAeCgs"></q-video>

@@ -12,7 +12,7 @@
         height="250px"
         class="imm-person-card-img"
         fit="cover"
-        position="0 0"
+        position="50% 0%"
         :src="person.imgSrc"
       ></q-img>
       <div class="q-pb-none imm-person-card-content-wrapper">
