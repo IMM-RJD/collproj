@@ -13,6 +13,7 @@
         class="imm-person-card-img"
         fit="cover"
         position="50% 0%"
+        loading="lazy"
         :src="person.imgSrc"
       ></q-img>
       <div class="q-pb-none imm-person-card-content-wrapper">

@@ -19,7 +19,7 @@ export default defineComponent({
     const persons = ref<Person[]>([
       {
         id: 0,
-        imgSrc: 'src/assets/team/jes-man.jpg',
+        imgSrc: 'assets/team/jes-man.jpg',
         firstName: 'Jessica',
         lastName: 'Mans',
         role: 'Organisatorin und performative Lichtkünstlerin',
@@ -30,7 +30,7 @@ export default defineComponent({
       },
       {
         id: 1,
-        imgSrc: 'src/assets/team/sam-pet.jpg',
+        imgSrc: 'assets/team/sam-pet.jpg',
         firstName: 'Samira',
         lastName: 'Petry',
         role: 'Studentin der Sozialpädagogik B.A., Schwerpunkt Kinder- und Jugendarbeit und soziale Gruppenarbeit',
@@ -42,7 +42,7 @@ export default defineComponent({
 
       {
         id: 2,
-        imgSrc: 'src/assets/team/persona-dummy.png',
+        imgSrc: 'assets/team/persona-dummy.png',
         firstName: 'Sebastian',
         lastName: 'Groll',
         role: 'IT & Sound',
@@ -52,7 +52,7 @@ export default defineComponent({
       },
       {
         id: 3,
-        imgSrc: 'src/assets/team/persona-dummy.png',
+        imgSrc: 'assets/team/persona-dummy.png',
         firstName: 'Sarah',
         lastName: 'Kowatsch',
         role: 'M.A. Kommunikationsdesign, Flyer und Printmediengestaltung/soziale Medien',
@@ -63,7 +63,7 @@ export default defineComponent({
       },
       {
         id: 4,
-        imgSrc: 'src/assets/team/persona-dummy.png',
+        imgSrc: 'assets/team/persona-dummy.png',
         firstName: 'Clara',
         lastName: 'Schiffmann',
         role: 'Raumgestaltung/Dekoration und Bühnenbild',
@@ -74,7 +74,7 @@ export default defineComponent({
       },
       {
         id: 5,
-        imgSrc: 'src/assets/team/persona-dummy.png',
+        imgSrc: 'assets/team/persona-dummy.png',
         firstName: 'Isabel',
         lastName: 'Müller',
         role: 'Grundschullehrerin, ausgebildeter 4-Elemente-Coach',
@@ -86,7 +86,7 @@ export default defineComponent({
 
       {
         id: 6,
-        imgSrc: 'src/assets/team/fran-leh.jpg',
+        imgSrc: 'assets/team/fran-leh.jpg',
         firstName: 'Franziska',
         lastName: 'Lehmann',
         role: 'Studierende der Psychologie (B. Sc.), Sozialassistentin',
