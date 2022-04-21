@@ -5,13 +5,9 @@
     <q-header class="bg-primary text-white">
       <q-toolbar class="q-py-md">
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
-
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
-          </q-avatar>
-          Title
-        </q-toolbar-title>
+        <a class="imm-banner-logo" href="/"
+          ><img src="src/assets/name.jpg" alt=""
+        /></a>
       </q-toolbar>
     </q-header>
 
@@ -103,7 +99,7 @@
             flat
             unelevated
             size="1rem"
-            padding="md"
+            padding="10px"
             icon="fa-brands fa-facebook-f"
             to=""
           >
@@ -112,23 +108,27 @@
             flat
             unelevated
             size="1rem"
-            padding="md"
+            padding="10px"
             icon="fa-brands fa-instagram"
             to=""
           >
           </q-btn>
-          <q-img
-            width="3rem"
-            height="3rem"
-            class="q-ma-sm"
-            fit="contain"
-            src="https://picsum.photos/400/400"
-          ></q-img>
+          <q-btn
+            flat
+            unelevated
+            size="30px"
+            padding="0px"
+            dense
+            icon="img:src/assets/logo.jpg"
+            to="/"
+          >
+          </q-btn>
+
           <q-btn
             flat
             unelevated
             size="1rem"
-            padding="md"
+            padding="10px"
             icon="fa-brands fa-youtube"
             to=""
           >

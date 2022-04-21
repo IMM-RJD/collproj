@@ -3,11 +3,11 @@
     <!-- content -->
     <h4 class="q-my-lg">Kontakt</h4>
 
-    <p class="q-mb-md">
+    <!-- <p class="q-mb-md">
       Asperiores voluptatibus natus quasi sed voluptatum molestiae. Veniam atque
       nostrum quo. Doloribus fugit consequatur. Ea consequatur enim consequuntur
       qui aut aliquam. Necessitatibus neque necessitatibus ex est.
-    </p>
+    </p> -->
 
     <person-component :persons="persons"></person-component>
   </q-page>

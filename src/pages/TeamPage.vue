@@ -17,9 +17,16 @@ export default defineComponent({
   components: { PersonComponent },
   setup() {
     const persons = ref<Person[]>([
+      /**
+       * TODO:
+       * - add image position
+       * - social media links
+       */
+
       {
         id: 0,
-        imgSrc: 'assets/team/jes-man.jpg',
+        imgSrc: 'src/assets/team/jes-man.jpg',
+        imgPosition: '50% 0%',
         firstName: 'Jessica',
         lastName: 'Mans',
         role: 'Organisatorin und performative Lichtkünstlerin',
@@ -30,19 +37,20 @@ export default defineComponent({
       },
       {
         id: 1,
-        imgSrc: 'assets/team/sam-pet.jpg',
+        imgSrc: 'src/assets/team/sam-pet.jpg',
+        imgPosition: '50% 0%',
         firstName: 'Samira',
         lastName: 'Petry',
-        role: 'Studentin der Sozialpädagogik B.A., Schwerpunkt Kinder- und Jugendarbeit und soziale Gruppenarbeit',
+        role: 'Studentin der Sozialpädagogik B. A., Schwerpunkt Kinder- und Jugendarbeit und soziale Gruppenarbeit',
         description:
           'Samira lässt mir ihrer mehrjährigen theoretischen und praktischen Erfahrung in sozialpädagogischer und kreativer Projektarbeit und ihrem kinderfreundlichen sowie empathischen Wesen die Augen und Herzen der Kinder mit Freude erblühen. Egal ob beim Modellierballons zaubern, Basteln, Malen, Kinderschminken oder interaktiven erlebnispädagogischen Rollenspielen. Für jeden ist etwas dabei. Die soziale Gruppenarbeit und Kinderbetreuung unterschiedlicher Gruppenformen ist ihre Expertise. „Kinder sind keine Fässer, die gefüllt, sondern Feuer, die entzündet werden wollen.“',
         phone: '',
         email: '',
       },
-
       {
         id: 2,
-        imgSrc: 'assets/team/persona-dummy.png',
+        imgSrc: 'src/assets/team/persona-dummy.png',
+        imgPosition: '50% 0%',
         firstName: 'Sebastian',
         lastName: 'Groll',
         role: 'IT & Sound',
@@ -50,32 +58,35 @@ export default defineComponent({
         phone: '',
         email: 'real_jane_doe@gmx.de',
       },
-      {
-        id: 3,
-        imgSrc: 'assets/team/persona-dummy.png',
-        firstName: 'Sarah',
-        lastName: 'Kowatsch',
-        role: 'M.A. Kommunikationsdesign, Flyer und Printmediengestaltung/soziale Medien',
-        description:
-          'Unser Genie in Sachen Printmedien und social Network…? Ihre Professionalität steckt sie liebevolle in all ihre Gestaltungen, was man sehen und spüren kann.',
-        phone: '',
-        email: '',
-      },
+      // {
+      //   id: 3,
+      //   imgSrc: 'src/assets/team/persona-dummy.png',
+      // imgPosition: '50% 0%',
+      //   firstName: 'Sarah',
+      //   lastName: 'Kowatsch',
+      //   role: 'M.A. Kommunikationsdesign, Flyer und Printmediengestaltung/soziale Medien',
+      //   description:
+      //     'Unser Genie in Sachen Printmedien und social Network…? Ihre Professionalität steckt sie liebevolle in all ihre Gestaltungen, was man sehen und spüren kann.',
+      //   phone: '',
+      //   email: '',
+      // },
       {
         id: 4,
-        imgSrc: 'assets/team/persona-dummy.png',
+        imgSrc: 'src/assets/team/cla-sch.jpg',
+        imgPosition: '50% 49%',
         firstName: 'Clara',
         lastName: 'Schiffmann',
         role: 'Raumgestaltung/Dekoration und Bühnenbild',
         description:
-          'Schon bei vielen Events in und um die Trierer Region konnte man die verzückenden Dekorationen von unserer Frau für die Bühnen- und Raumgestaltung bewundern. Sie belebt Stoffe und Naturmaterialien mit neuem Flair und schafft so neue Zauberwelten.',
+          'Schon bei vielen Events in und um die Trierer Region konnte man die verzückenden Dekorationen von unserer Frau für die Bühnen- und Raumgestaltung bewundern. Sie belebt Stoffe und Naturmaterialien mit neuem Flair und schafft so neue Zauberwelten. "Der krumme Baum lebt sein Leben, der gerade Baum wird ein Brett."',
         phone: '',
         email: '',
       },
       {
         id: 5,
-        imgSrc: 'assets/team/persona-dummy.png',
-        firstName: 'Isabel',
+        imgSrc: 'src/assets/team/isa-mul.jpg',
+        imgPosition: '50% 0%',
+        firstName: 'Isabell',
         lastName: 'Müller',
         role: 'Grundschullehrerin, ausgebildeter 4-Elemente-Coach',
         description:
@@ -83,10 +94,10 @@ export default defineComponent({
         phone: '',
         email: '',
       },
-
       {
         id: 6,
-        imgSrc: 'assets/team/fran-leh.jpg',
+        imgSrc: 'src/assets/team/fran-leh.jpg',
+        imgPosition: '50% 0%',
         firstName: 'Franziska',
         lastName: 'Lehmann',
         role: 'Studierende der Psychologie (B. Sc.), Sozialassistentin',

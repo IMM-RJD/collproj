@@ -12,7 +12,7 @@
         height="250px"
         class="imm-person-card-img"
         fit="cover"
-        position="50% 0%"
+        :position="person.imgPosition || '50% 50%'"
         loading="lazy"
         :src="person.imgSrc"
       ></q-img>

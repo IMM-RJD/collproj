@@ -16,8 +16,8 @@
             Vielen herzlichen Dank an dieser Stelle an Bettina Ghasempoor und
             Marc Kalbusch aus der Galerie Netzwerk in Trier, deren Location wir
             als Drehort nutzen durften.<br /><br />
-            Video/Schnitt/Produktion: Marius Jacob Kostüm und Styling: Lady Lace
-            LATEX
+            Video/Schnitt/Produktion: Marius Jacob, Kostüm und Styling: Lady
+            Lace LATEX
           </div>
         </q-timeline-entry>
 
@@ -40,6 +40,9 @@
             <br /><br />
             Vielen herzlichen Dank an dieser Stelle an Jan Hoffman, ttm und an
             Kathrin Koutrakos, Museum Simeonstift.
+            <br /><br />
+            Video/Schnitt/Musik: Lukas Busch, Quarantechno.de, Produktion:
+            Philipp Köhn, Quarantechno.de
           </div>
         </q-timeline-entry>
 

@@ -1,12 +1,12 @@
 <template>
   <q-page padding>
     <!-- content -->
-    <q-img
+    <!-- <q-img
       rounded
       width="100%"
       height="300px"
       src="https://picsum.photos/1200/800"
-    ></q-img>
+    ></q-img> -->
 
     <h4>Das Kollektiv mehrklang…</h4>
 
