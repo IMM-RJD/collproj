@@ -14,19 +14,24 @@
   }
 }
 
+.imm-event-link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .imm-person-card {
   width: 300px;
   display: flex;
   flex-flow: column;
-}
-.imm-person-card-img {
-  flex-grow: 1;
-}
-.imm-person-card-content-wrapper {
-  flex-grow: 10000;
-  display: flex;
-  flex-direction: column;
-}
-.imm-person-card-content-description {
-  flex-grow: 1;
+  > .content-wrapper {
+    flex-grow: 10000;
+    display: flex;
+    flex-direction: column;
+    > .content-description {
+      flex-grow: 1;
+    }
+  }
 }

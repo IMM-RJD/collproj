@@ -3,11 +3,10 @@
     <!-- content -->
     <h4 class="q-my-lg">Kontakt</h4>
 
-    <!-- <p class="q-mb-md">
-      Asperiores voluptatibus natus quasi sed voluptatum molestiae. Veniam atque
-      nostrum quo. Doloribus fugit consequatur. Ea consequatur enim consequuntur
-      qui aut aliquam. Necessitatibus neque necessitatibus ex est.
-    </p> -->
+    <p class="q-mb-md">
+      Liebe Menschen, bei Interesse und Fragen sowie Kooperationsideen melden
+      euch gerne telefonisch oder per E-Mail.
+    </p>
 
     <person-component :persons="persons"></person-component>
   </q-page>
@@ -26,12 +25,12 @@ export default defineComponent({
       {
         id: 0,
         imgSrc: 'src/assets/team/jes-man.jpg',
+        imgPosition: '50% 0%',
         firstName: 'Jessica',
         lastName: 'Mans',
         role: 'Organisatorin und performative Lichtkünstlerin',
-        description:
-          'Als Head des Kollektivs sprudelt sie vor Ideen und ist ein begeisterungsfähiger Wirbelwind. Ihren Abschluss B. A. absolvierte sie mit dem Schwerpunkt Modedesign und verknüpft ihre Liebe zum Kostüm und Theater mit ihren Bühnenshows unter dem Künstlernamen Lady Lightflow. Sie war bereits zwei Mal mit unterschiedlichen Formaten/Konzepten bei der Illuminale vertreten. Voller Tatendrang und Herzblut motiviert/begeistert sie die Außenwelt für neue Projekte. (www.ladylightflow.com) „Den Mutigen gehört die Welt.“',
-        phone: '015236374804',
+        description: '',
+        phone: '0152 363 748 04',
         email: 'jessica.mans@gmx.de',
       },
     ]);

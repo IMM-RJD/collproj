@@ -8,7 +8,7 @@
       src="https://picsum.photos/1200/800"
     ></q-img> -->
 
-    <h4>Das Kollektiv mehrklang…</h4>
+    <h4>Das Kollektiv Mehrklang…</h4>
 
     <p>
       …ist ein Zusammenschluss kreativer Freigeister verschiedener Sparten aus

@@ -46,7 +46,7 @@
               <q-icon name="fa-solid fa-calendar-days" />
             </q-item-section>
 
-            <q-item-section> Termine & aktuelles </q-item-section>
+            <q-item-section> Termine & Aktuelles </q-item-section>
           </q-item>
 
           <q-item clickable v-ripple to="/projects">

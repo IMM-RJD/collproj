@@ -2,7 +2,15 @@
   <q-page padding>
     <!-- content -->
     <h3>Bevorstehende Events</h3>
-    <h6>Unterwelten-Festival 2022</h6>
+    <h6>
+      <a
+        href="https://www.trierer-unterwelten.de/"
+        target="blank"
+        class="imm-event-link"
+      >
+        Unterwelten-Festival Herbst 2022 - "Schattenwelten und Lichtgestalten"
+      </a>
+    </h6>
     <div style="font-size: 18px">
       Konzeptraum Palais Walderdorff in Aussicht
     </div>

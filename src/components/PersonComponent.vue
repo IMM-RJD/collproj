@@ -10,13 +10,12 @@
       <q-img
         width="100%"
         height="250px"
-        class="imm-person-card-img"
         fit="cover"
         :position="person.imgPosition || '50% 50%'"
         loading="lazy"
         :src="person.imgSrc"
       ></q-img>
-      <div class="q-pb-none imm-person-card-content-wrapper">
+      <div class="q-pb-none content-wrapper">
         <q-card-section class="q-pb-xs">
           <div class="text-h6">
             {{ person.firstName }} {{ person.lastName }}
@@ -24,25 +23,25 @@
           <div class="text-subtitle2">{{ person.role }}</div>
         </q-card-section>
 
-        <q-card-section class="imm-person-card-content-description">
+        <q-card-section class="content-description">
           {{ person.description }}
         </q-card-section>
 
-        <q-separator dark v-show="person.phone !== '' || person.email !== ''" />
+        <q-separator dark v-show="person.phone || person.email" />
         <q-card-actions vertical class="q-pb-none q-pt-md">
           <q-btn
-            v-show="person.phone !== ''"
+            v-show="person.phone"
             unelevated
             class="q-mb-sm"
             :no-caps="true"
             align="left"
             type="a"
-            :href="'tel:' + person.phone"
+            :href="'tel:' + person.phone?.replaceAll(' ', '')"
             icon="fa-solid fa-phone"
             :label="person.phone"
           ></q-btn>
           <q-btn
-            v-show="person.email !== ''"
+            v-show="person.email"
             flat
             unelevated
             class="q-mb-sm imm-ml-0-important"

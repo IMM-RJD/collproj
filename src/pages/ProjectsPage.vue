@@ -9,8 +9,9 @@
           <q-video src="https://www.youtube.com/embed/etmYMG6CoTI"></q-video>
           <q-video src="https://www.youtube.com/embed/gRBVq0AJONA"></q-video>
           <div class="q-py-sm">
-            Im Rahmen des Semesterprojekts 2019 von Jessica Mans (sechstes
-            Semester) entstanden ist, trägt den Namen "KALI interiUS".<br />
+            Das Video, welches im Rahmen des Semesterprojekts 2019 von Jessica
+            Mans (sechstes Semester) entstanden ist, trägt den Namen "KALI
+            interiUS".<br />
             Kooperation mit Galerie Netzwerk, Ausstellung „Die Schönheit des
             Defekts“ des Künstlers Jenzzz (jenzzz.net).<br /><br />
             Vielen herzlichen Dank an dieser Stelle an Bettina Ghasempoor und
