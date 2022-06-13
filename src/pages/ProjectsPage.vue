@@ -32,7 +32,7 @@
             welches im Rahmen der Veranstaltung als Programmpunkt aufgeführt
             wurde. Lady Lightflow, die performative Lichtkünstlerin erarbeitete
             das Konzept und war für die Kostüme, die in liebevoller Handarbeit
-            entstanden, zuständig. Das Thema des Stücks war "panta rhei-alles
+            entstanden, zuständig. Das Thema des Stücks war "panta rhei - alles
             fließt". Es wurden die fünf Elemente Luft, Erde, Feuer, Wasser und
             der Spirit, der allem innewohnt, charakterisiert. Bachelorarbeit von
             Jessica Mans, Modedesign. <br />

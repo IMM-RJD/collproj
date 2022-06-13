@@ -15,7 +15,7 @@
 }
 
 .imm-event-link {
-  text-decoration: none;
+  -text-decoration: none;
   color: black;
   &:hover {
     text-decoration: underline;
@@ -32,6 +32,7 @@
     flex-direction: column;
     > .content-description {
       flex-grow: 1;
+      white-space: pre-line;
     }
   }
 }

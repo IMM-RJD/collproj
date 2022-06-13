@@ -18,7 +18,7 @@
       type="a"
       href="tel:015236374804"
       icon="fa-solid fa-phone"
-      label="015236374804"
+      label="0152 363 748 04"
     ></q-btn
     ><br />
     <q-btn
@@ -28,9 +28,9 @@
       class="q-mb-md"
       :no-caps="true"
       type="a"
-      href="mailto:jessica.mans@gmx.de"
+      href="mailto:kollektivmehrklang@gmail.com"
       icon="fa-solid fa-envelope"
-      label="jessica.mans@gmx.de"
+      label="kollektivmehrklang@gmail.com"
     ></q-btn>
   </q-page>
 </template>

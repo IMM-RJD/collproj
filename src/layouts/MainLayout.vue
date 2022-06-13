@@ -101,7 +101,8 @@
             size="1rem"
             padding="10px"
             icon="fa-brands fa-facebook-f"
-            to=""
+            href="https://www.facebook.com/kollektivmehrklang"
+            target="_blank"
           >
           </q-btn>
           <q-btn
@@ -110,7 +111,8 @@
             size="1rem"
             padding="10px"
             icon="fa-brands fa-instagram"
-            to=""
+            href="https://www.instagram.com/kollektiv_mehrklang"
+            target="_blank"
           >
           </q-btn>
           <q-btn

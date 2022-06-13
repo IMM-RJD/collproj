@@ -4,7 +4,7 @@
     <h4 class="q-my-lg">Kontakt</h4>
 
     <p class="q-mb-md">
-      Liebe Menschen, bei Interesse und Fragen sowie Kooperationsideen melden
+      Liebe Menschen, bei Interesse und Fragen sowie Kooperationsideen meldet
       euch gerne telefonisch oder per E-Mail.
     </p>
 
@@ -31,7 +31,7 @@ export default defineComponent({
         role: 'Organisatorin und performative Lichtkünstlerin',
         description: '',
         phone: '0152 363 748 04',
-        email: 'jessica.mans@gmx.de',
+        email: 'kollektivmehrklang@gmail.com',
       },
     ]);
     return { persons };
