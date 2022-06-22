@@ -1,5 +1,6 @@
 <template>
-  <q-page padding>
+  <q-img width="100%" loading="lazy" src="src/assets/team/team.jpg"></q-img>
+  <q-page padding class="q-mx-md">
     <!-- content -->
     <!-- <q-img
       rounded
@@ -8,14 +9,8 @@
       fit="cover"
       src="https://picsum.photos/1200/800"
     ></q-img> -->
-    <q-img
-      width="100%"
-      :img-style="{ borderRadius: '5px' }"
-      loading="lazy"
-      src="src/assets/team/team.jpg"
-    ></q-img>
 
-    <h4>Das Kollektiv Mehrklang…</h4>
+    <h4 class="q-my-lg">Das Kollektiv Mehrklang…</h4>
 
     <p>
       …ist ein Zusammenschluss kreativer Freigeister verschiedener Sparten aus

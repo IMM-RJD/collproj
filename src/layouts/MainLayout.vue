@@ -90,52 +90,49 @@
       <router-view />
     </q-page-container>
 
-    <q-footer class="bg-primary text-white">
-      <div>
-        <div
-          class="full-width row wrap justify-evenly items-start content-start q-py-md"
+    <q-footer class="bg-primary text-white q-py-xs">
+      <div
+        class="full-width row wrap justify-evenly items-start content-start q-py-xs"
+      >
+        <q-btn
+          flat
+          unelevated
+          size="1rem"
+          padding="10px"
+          icon="fa-brands fa-facebook-f"
+          href="https://www.facebook.com/kollektivmehrklang"
+          target="_blank"
         >
-          <q-btn
-            flat
-            unelevated
-            size="1rem"
-            padding="10px"
-            icon="fa-brands fa-facebook-f"
-            href="https://www.facebook.com/kollektivmehrklang"
-            target="_blank"
-          >
-          </q-btn>
-          <q-btn
-            flat
-            unelevated
-            size="1rem"
-            padding="10px"
-            icon="fa-brands fa-instagram"
-            href="https://www.instagram.com/kollektiv_mehrklang"
-            target="_blank"
-          >
-          </q-btn>
-          <q-btn
-            flat
-            unelevated
-            size="30px"
-            padding="0px"
-            dense
-            icon="img:src/assets/logo.jpg"
-            to="/"
-          >
-          </q-btn>
+        </q-btn>
+        <q-btn
+          flat
+          unelevated
+          size="1rem"
+          padding="10px"
+          icon="fa-brands fa-instagram"
+          href="https://www.instagram.com/kollektiv_mehrklang"
+          target="_blank"
+        >
+        </q-btn>
+        <q-btn
+          flat
+          unelevated
+          size="22px"
+          dense
+          icon="img:src/assets/logo.jpg"
+          to="/"
+        >
+        </q-btn>
 
-          <q-btn
-            flat
-            unelevated
-            size="1rem"
-            padding="10px"
-            icon="fa-brands fa-youtube"
-            to=""
-          >
-          </q-btn>
-        </div>
+        <q-btn
+          flat
+          unelevated
+          size="1rem"
+          padding="10px"
+          icon="fa-brands fa-youtube"
+          to=""
+        >
+        </q-btn>
       </div>
     </q-footer>
   </q-layout>

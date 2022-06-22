@@ -1,7 +1,7 @@
 <template>
-  <q-page padding>
+  <q-page padding class="q-mx-md">
     <!-- content -->
-    <h3>Bevorstehende Events</h3>
+    <h4 class="q-my-lg">Bevorstehende Events</h4>
     <div style="font-size: 18px">
       Projekt "Glücksbringer" vom 25.07. bis 04.09.2022 im Konzeptraum Palais
       Walderdorff Trier - Soziokulturelles Programm mit Workshops und Events.

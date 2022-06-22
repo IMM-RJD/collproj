@@ -1,7 +1,7 @@
 <template>
-  <q-page padding>
+  <q-page padding class="q-mx-md">
     <!-- content -->
-    <h3>Partner</h3>
+    <h4 class="q-my-lg">Partner</h4>
     <h6>Kunsthaus "Alte Druckerei" Trier</h6>
     <h6>Seniorenbüro Trier</h6>
   </q-page>
