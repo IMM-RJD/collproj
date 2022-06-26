@@ -1,5 +1,5 @@
 <template>
-  <!-- https://youtu.be/zas-tasp1ds?t=90 -->
+  <!-- Hello and welcome my dear dev friend to quasar https://youtu.be/zas-tasp1ds?t=90 -->
 
   <q-layout view="hHh lpR fFf">
     <q-header class="bg-primary text-white">
@@ -70,7 +70,7 @@
               <q-icon name="fa-solid fa-children" />
             </q-item-section>
 
-            <q-item-section> Partner </q-item-section>
+            <q-item-section> Partner & Förderer</q-item-section>
           </q-item>
 
           <q-separator />
@@ -117,13 +117,13 @@
         <q-btn
           flat
           unelevated
-          size="22px"
+          size="27px"
           dense
-          icon="img:src/assets/logo.jpg"
+          padding="0px"
+          icon="img:src/assets/logo.png"
           to="/"
         >
         </q-btn>
-
         <q-btn
           flat
           unelevated

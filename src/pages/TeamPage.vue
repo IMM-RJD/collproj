@@ -31,7 +31,7 @@ export default defineComponent({
         lastName: 'Mans',
         role: 'Organisatorin und performative Lichtkünstlerin',
         description:
-          'Als Head des Kollektivs sprudelt sie vor Ideen und ist ein begeisterungsfähiger Wirbelwind. Ihren Abschluss B. A. absolvierte sie mit dem Schwerpunkt Modedesign und verknüpft ihre Liebe zum Kostüm und Theater mit ihren Bühnenshows unter dem Künstlernamen Lady Lightflow. Sie war bereits zwei Mal mit unterschiedlichen Konzepten bei der Illuminale vertreten. Voller Tatendrang und Herzblut motiviert/begeistert sie die Außenwelt für neue Projekte. (www.ladylightflow.com) \n\n„Den Mutigen gehört die Welt.“',
+          'Als Head des Kollektivs sprudelt sie vor Ideen und ist ein begeisterungsfähiger Wirbelwind. Ihren Abschluss B. A. absolvierte sie mit dem Schwerpunkt Modedesign und verknüpft ihre Liebe zum Kostüm und Theater mit ihren Bühnenshows unter dem Künstlernamen Lady Lightflow. Sie war bereits zwei Mal mit unterschiedlichen Konzepten bei der Illuminale vertreten. Voller Tatendrang und Herzblut begeistert sie die Außenwelt für neue Projekte. (www.ladylightflow.com) \n\n„Den Mutigen gehört die Welt.“',
         phone: '0152 363 748 04',
         email: 'kollektivmehrklang@gmail.com',
       },
@@ -52,7 +52,7 @@ export default defineComponent({
         lastName: 'Groll',
         role: 'IT & Sound',
         description:
-          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Dasselbe wie jeden Abend, Pinky."',
+          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Be water, my friend."',
         email: 'real_jane_doe@gmx.de',
       },
       // {

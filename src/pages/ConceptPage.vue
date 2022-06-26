@@ -29,6 +29,8 @@
       Happenings und freuen uns auf eine wunderbare Reise mit euch.
     </p>
     <p>„Bewahre dir dein Glitzern, egal ob es andere blendet.“</p>
+
+    <q-img width="100%" loading="lazy" src="src/assets/logo.png"></q-img>
   </q-page>
 </template>
 

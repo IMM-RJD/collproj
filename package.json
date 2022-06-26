@@ -1,9 +1,9 @@
 {
-  "name": "collproj",
+  "name": "kollektivmehrklang",
   "version": "0.0.1",
-  "description": "a collectives page",
+  "description": "Das Kollektiv Mehrklang bietet ein breites Spektrum von interaktiven, interdisziplinären, kulturellen Projekten und Workshops an.",
   "productName": "kollektivmehrklang",
-  "author": "us",
+  "author": "RJD",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
