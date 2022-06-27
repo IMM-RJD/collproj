@@ -17,7 +17,7 @@
       Kunst und Sozialem. Wie ein Instrument seinen speziellen Klang hat, so ist
       es auch bei uns Menschen. Lässt man die unterschiedlichen Instrumente
       gemeinsam erklingen, entsteht eine einzigARTige Melodie. Unsere Melodie
-      steht für sozio-kulturelles Programm und interdisziplinäre Projekte.
+      steht für ein soziokulturelles Programm und interdisziplinäre Projekte.
     </p>
     <p>
       Liebe Menschen, wir bieten euch: interaktive, interdisziplinäre &
