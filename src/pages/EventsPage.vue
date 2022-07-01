@@ -35,16 +35,16 @@
         infinite
         class="bg-white shadow-1 rounded-borders"
       >
-        <q-carousel-slide :name="1">
+        <q-carousel-slide :name="1" class="imm-p-0-important">
           <q-img
-            width="1600px"
+            width="1633px"
             loading="lazy"
             src="src/assets/projects/gb/flyer_front.jpg"
           ></q-img>
         </q-carousel-slide>
-        <q-carousel-slide :name="2">
+        <q-carousel-slide :name="2" class="imm-p-0-important">
           <q-img
-            width="1600px"
+            width="1633px"
             loading="lazy"
             src="src/assets/projects/gb/flyer_back.jpg"
           ></q-img>
