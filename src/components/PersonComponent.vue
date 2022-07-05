@@ -1,3 +1,19 @@
+<style lang="scss">
+.imm-person-card {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  > .content-wrapper {
+    flex-grow: 10000;
+    display: flex;
+    flex-direction: column;
+    > .content-description {
+      flex-grow: 1;
+      white-space: pre-line;
+    }
+  }
+}
+</style>
 <template>
   <div
     class="q-pa-md fit row wrap justify-evenly items-stretch content-start q-gutter-lg"
