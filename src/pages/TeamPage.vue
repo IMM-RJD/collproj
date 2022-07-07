@@ -33,7 +33,7 @@ export default defineComponent({
         description:
           'Als Head des Kollektivs sprudelt sie vor Ideen und ist ein begeisterungsfähiger Wirbelwind. Ihren Abschluss B. A. absolvierte sie mit dem Schwerpunkt Modedesign und verknüpft ihre Liebe zum Kostüm und Theater mit ihren Bühnenshows unter dem Künstlernamen Lady Lightflow. Sie war bereits zwei Mal mit unterschiedlichen Konzepten bei der Illuminale vertreten. Voller Tatendrang und Herzblut begeistert sie die Außenwelt für neue Projekte. (www.ladylightflow.com) \n\n„Den Mutigen gehört die Welt.“',
         phone: '0152 363 748 04',
-        email: 'kollektivmehrklang@gmail.com',
+        email: 'anfragen@kollektivmehrklang.de',
       },
       {
         id: 1,

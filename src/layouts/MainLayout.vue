@@ -70,7 +70,7 @@
               <q-icon name="fa-solid fa-children" />
             </q-item-section>
 
-            <q-item-section> Partner & Förderer</q-item-section>
+            <q-item-section> Förderer & Partner</q-item-section>
           </q-item>
 
           <q-separator />
@@ -131,6 +131,7 @@
           padding="10px"
           icon="fa-brands fa-youtube"
           to=""
+          disable
         >
         </q-btn>
       </div>

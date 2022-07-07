@@ -28,9 +28,9 @@
       class="q-mb-md"
       :no-caps="true"
       type="a"
-      href="mailto:kollektivmehrklang@gmail.com"
+      href="mailto:anfragen@kollektivmehrklang.de"
       icon="fa-solid fa-envelope"
-      label="kollektivmehrklang@gmail.com"
+      label="anfragen@kollektivmehrklang.de"
     ></q-btn>
   </q-page>
 </template>

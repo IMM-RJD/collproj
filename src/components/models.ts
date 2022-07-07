@@ -9,3 +9,19 @@ export interface Person {
   phone?: string;
   email?: string;
 }
+export interface Event {
+  id: number;
+  imgSrc: string;
+  imgPosition?: string;
+  imgContainerWidth?: string;
+  title: string;
+  date: string;
+  link?: string;
+  linkText?: string;
+  place: string;
+  description: string;
+  phone?: string;
+  email?: string;
+  emailText?: string;
+  expanded: boolean;
+}

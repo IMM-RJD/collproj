@@ -31,7 +31,7 @@ export default defineComponent({
         role: 'Organisatorin und performative Lichtkünstlerin',
         description: '',
         phone: '0152 363 748 04',
-        email: 'kollektivmehrklang@gmail.com',
+        email: 'anfragen@kollektivmehrklang.de',
       },
     ]);
     return { persons };
