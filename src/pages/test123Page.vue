@@ -103,7 +103,6 @@ export default defineComponent({
   setup() {
     /**
      * TODO:
-     *  - anfragen@kollektivmehrklang.de ersetzen (pwyw)
      * - reise zu dir selbst eventcard um insta link erweitern (unten bei email)
      */
     const events = ref<Event[]>([

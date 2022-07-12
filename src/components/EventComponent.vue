@@ -12,11 +12,59 @@
 <template>
   <div class="row wrap justify-evenly items-start content-start q-gutter-lg">
     <q-card
+      :id="
+        event.title
+          .toLowerCase()
+          .replaceAll(' ', '')
+          .replaceAll('-', '')
+          .slice(0, 10)
+      "
       v-for="event in events"
       :key="event.id"
       class="bg-secondary text-white imm-event-card"
     >
       <div style="width: 100%">
+        <q-dialog
+          seamless
+          position="bottom"
+          v-model="clipAlert"
+          :auto-close="true"
+        >
+          <q-card style="box-shadow: none !important">
+            <q-linear-progress query color="secondary" />
+            <q-card-section>
+              <div class="text-h6">
+                Eventlink erfolgreich in die Zwischenablage kopiert.
+              </div>
+            </q-card-section>
+          </q-card>
+        </q-dialog>
+        <q-btn
+          style="position: absolute; top: 7px; right: 0px"
+          icon="share"
+          flat
+          @click="
+            copyToClipboard(
+              window.location.href.split('/events')[0] +
+                '/events#' +
+                event.title
+                  .toLowerCase()
+                  .replaceAll(' ', '')
+                  .replaceAll('-', '')
+                  .slice(0, 10)
+            )
+              .then(() => {
+                clipAlert = true;
+                window.setTimeout(function () {
+                  clipAlert = false;
+                }, 2000);
+              })
+              .catch(() => {
+                // fail
+              })
+          "
+        >
+        </q-btn>
         <q-img
           :width="event.imgContainerWidth || '162px'"
           height="250px"
@@ -122,8 +170,9 @@
 </template>
 
 <script lang="ts">
+import { copyToClipboard } from 'quasar';
 import { Event } from './models';
-import { defineComponent, PropType } from 'vue';
+import { defineComponent, PropType, ref } from 'vue';
 export default defineComponent({
   name: 'EventComponent',
   props: {
@@ -133,7 +182,7 @@ export default defineComponent({
     },
   },
   setup() {
-    return {};
+    return { copyToClipboard, clipAlert: ref(false), window };
   },
 });
 </script>

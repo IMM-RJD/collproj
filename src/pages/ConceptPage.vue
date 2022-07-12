@@ -31,11 +31,27 @@
     <p>„Bewahre dir dein Glitzern, egal ob es andere blendet.“</p>
 
     <q-img width="100%" loading="lazy" src="src/assets/logo.png"></q-img>
+    <q-btn
+      href="http://www.cornify.com"
+      icon="?"
+      @click="dothecorni"
+      flat
+      dense
+      size="xs"
+    ></q-btn>
   </q-page>
 </template>
 
 <script>
 export default {
-  // name: 'PageName',
+  setup() {
+    function dothecorni(e) {
+      e.preventDefault();
+      cornify_add();
+      return false;
+    }
+
+    return { dothecorni };
+  },
 };
 </script>

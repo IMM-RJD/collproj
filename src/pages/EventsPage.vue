@@ -89,6 +89,13 @@
       Lichtgestalten", je 3 Veranstaltungen pro Woche im Frankenturm Trier -
       Tanztheaterstück plus musikalisches Happening.
     </div>
+    <q-page-scroller
+      position="bottom-right"
+      :scroll-offset="2000"
+      :offset="[18, 18]"
+    >
+      <q-btn fab icon="keyboard_arrow_up" color="km-timeline" />
+    </q-page-scroller>
   </q-page>
 </template>
 
@@ -103,7 +110,6 @@ export default defineComponent({
   setup() {
     /**
      * TODO:
-     *  - anfragen@kollektivmehrklang.de ersetzen (pwyw)
      * - reise zu dir selbst eventcard um insta link erweitern (unten bei email)
      */
     const events = ref<Event[]>([
