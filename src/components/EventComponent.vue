@@ -40,6 +40,7 @@
           </q-card>
         </q-dialog>
         <q-btn
+          v-show="event.allowShare !== false"
           style="position: absolute; top: 7px; right: 0px"
           icon="share"
           flat
@@ -83,7 +84,7 @@
         <q-card-section class="q-pb-xs">
           <div class="text-h6">
             {{ event.title }} <br />
-            <span style="color: #ee6d56">{{ event.date }}</span>
+            <span style="color: #ee6d56">{{ event.dateText }}</span>
           </div>
         </q-card-section>
 

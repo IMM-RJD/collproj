@@ -75,7 +75,49 @@
         </template>
       </q-carousel>
     </q-dialog>
-    <event-component :events="events"></event-component>
+    <br />
+    <event-component
+      :events="
+        events.filter((event) => {
+          return event.past !== true;
+        })
+      "
+    ></event-component>
+    <div class="q-mt-lg" style="font-size: 18px">Vergangene Events</div>
+    <q-card-actions class="q-mb-xs">
+      <q-space />
+      <q-btn
+        color="km-timeline"
+        round
+        :icon="pastEvents ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
+        @click="pastEvents = !pastEvents"
+      />
+      <q-space />
+    </q-card-actions>
+    <q-slide-transition>
+      <div v-show="pastEvents">
+        <event-component
+          :events="
+            events.filter((event) => {
+              if (event.past) {
+                event.link = undefined;
+                event.allowShare = false;
+              }
+              return event.past === true;
+            })
+          "
+        ></event-component>
+        <q-card-actions class="q-mt-xs">
+          <q-space />
+          <q-btn
+            color="km-timeline"
+            round
+            :icon="pastEvents ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
+            @click="pastEvents = !pastEvents" />
+          <q-space
+        /></q-card-actions>
+      </div>
+    </q-slide-transition>
     <q-separator color="primary" inset spaced="20px" />
     <div style="font-size: 18px">
       <a
@@ -114,11 +156,12 @@ export default defineComponent({
      */
     const events = ref<Event[]>([
       {
+        past: true,
         id: 0,
         imgSrc:
           'src/assets/projects/gb/events/freiesmitaneindertanzenundmusizieren.jpg',
         title: 'FREIES MITEINANDER TANZEN UND MUSIZIEREN (von 3 bis 13 Jahren)',
-        date: 'MITTWOCH, 27. JULI 2022 VON 10:00 BIS 13:00',
+        dateText: 'MITTWOCH, 27. JULI 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189259',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -128,10 +171,11 @@ export default defineComponent({
         expanded: false,
       },
       {
+        past: true,
         id: 1,
         imgSrc: 'src/assets/projects/gb/events/derbewegtemensch.jpg',
         title: 'DER BEWEGTE MENSCH',
-        date: 'DONNERSTAG, 28. JULI 2022 VON 17:00 BIS 19:30',
+        dateText: 'DONNERSTAG, 28. JULI 2022 VON 17:00 BIS 19:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189260',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -141,10 +185,11 @@ export default defineComponent({
         expanded: false,
       },
       {
+        past: true,
         id: 2,
         imgSrc: 'src/assets/projects/gb/events/aeffchenyogafuerdiekleinen.jpg',
         title: 'ÄFFCHENYOGA FÜR DIE KLEINEN (von 6 bis 12 Jahren)',
-        date: 'FREITAG, 29. JULI 2022 VON 16:00 BIS 17:30',
+        dateText: 'FREITAG, 29. JULI 2022 VON 16:00 BIS 17:30',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Äffchenyoga',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -156,10 +201,11 @@ export default defineComponent({
         expanded: false,
       },
       {
+        past: true,
         id: 3,
         imgSrc: 'src/assets/projects/gb/events/alternativeliebeskonzepte.jpg',
         title: 'ALTERNATIVE LIEBESKONZEPTE (ab 14 Jahren)',
-        date: 'FREITAG, 29. JULI 2022 VON 18:30 BIS 20:30',
+        dateText: 'FREITAG, 29. JULI 2022 VON 18:30 BIS 20:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189261',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -172,7 +218,7 @@ export default defineComponent({
         id: 4,
         imgSrc: 'src/assets/projects/gb/events/duftreise.jpg',
         title: 'DUFTREISE - WIR MACHEN PEELING (ab 7 Jahren)',
-        date: 'MONTAG, 1. AUGUST 2022 VON 10:00 BIS 12:00',
+        dateText: 'MONTAG, 1. AUGUST 2022 VON 10:00 BIS 12:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189263',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -185,7 +231,7 @@ export default defineComponent({
         id: 5,
         imgSrc: 'src/assets/projects/gb/events/mobiles.jpg',
         title: 'WIR KREIEREN MOBILES (ab 7 Jahren)',
-        date: 'DIENSTAG, 2. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'DIENSTAG, 2. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189264',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -198,7 +244,7 @@ export default defineComponent({
         id: 6,
         imgSrc: 'src/assets/projects/gb/events/womencircle.jpg',
         title: 'FEMININE SPIRITS - WOMENCIRCLE',
-        date: 'MITTWOCH, 3. AUGUST 2022 VON 14:00 BIS 18:00',
+        dateText: 'MITTWOCH, 3. AUGUST 2022 VON 14:00 BIS 18:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189284',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -211,7 +257,7 @@ export default defineComponent({
         id: 7,
         imgSrc: 'src/assets/projects/gb/events/gewaltfreiekommunikation.jpg',
         title: 'GEWALTFREIE KOMMUNIKATION (ab 16 Jahren)',
-        date: 'DONNERSTAG, 4. AUGUST 2022 VON 13:00 BIS 16:30',
+        dateText: 'DONNERSTAG, 4. AUGUST 2022 VON 13:00 BIS 16:30',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Gewaltfreie Kommunikation',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -226,7 +272,7 @@ export default defineComponent({
         id: 8,
         imgSrc: 'src/assets/projects/gb/events/monotypie.jpg',
         title: 'MONOTYPIE - EINFACHE DRUCKTECHNIK (ab 13 Jahren)',
-        date: 'SAMSTAG, 6. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'SAMSTAG, 6. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189291',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -239,7 +285,7 @@ export default defineComponent({
         id: 9,
         imgSrc: 'src/assets/projects/gb/events/tanzdichfrei.jpg',
         title: 'DIE REISE ZU DIR SELBST - TANZ DICH FREI',
-        date: 'SONNTAG, 7. AUGUST 2022 VON 15:00 BIS 17:00',
+        dateText: 'SONNTAG, 7. AUGUST 2022 VON 15:00 BIS 17:00',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Die Reise zu dir selbst - tanz dich frei',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -254,7 +300,7 @@ export default defineComponent({
         id: 10,
         imgSrc: 'src/assets/projects/gb/events/kopfschmuck.jpg',
         title: 'WIR KREIEREN KOPFSCHMUCK (ab 7 Jahren)',
-        date: 'MONTAG, 8. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'MONTAG, 8. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189292',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -268,7 +314,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/duftreise_senioren.jpg',
         imgContainerWidth: '176px',
         title: 'DUFTREISE - WIR MACHEN PEELING (FÜR SENIOREN)',
-        date: 'DIENSTAG, 9. AUGUST 2022 VON 10:00 BIS 12:00',
+        dateText: 'DIENSTAG, 9. AUGUST 2022 VON 10:00 BIS 12:00',
         link: 'mailto:kontakt@seniorenbuero-trier.de?subject=Verbindliche Anmeldung - Duftreise - wir machen Peeling (Senioren)',
         linkText: 'Seniorenbüro - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -287,7 +333,7 @@ export default defineComponent({
         id: 12,
         imgSrc: 'src/assets/projects/gb/events/knotenglueck.jpg',
         title: 'KNOTENGLÜCK - MAKRAMEE KNÜPFEN (ab 16 Jahren)',
-        date: 'DIENSTAG, 9. AUGUST 2022 VON 17:30 BIS 20:30',
+        dateText: 'DIENSTAG, 9. AUGUST 2022 VON 17:30 BIS 20:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189293',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -301,7 +347,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/souvenirshop.jpg',
         title:
           'MEIN SOUVENIRSHOP - AUS ALT MACH NEU (ab 7 Jahren) | 10:00 - 13:00',
-        date: 'MITTWOCH, 10. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'MITTWOCH, 10. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189294',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -315,7 +361,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/souvenirshop.jpg',
         title:
           'MEIN SOUVENIRSHOP - AUS ALT MACH NEU (ab 7 Jahren) | 15:00 - 18:00',
-        date: 'MITTWOCH, 10. AUGUST 2022 VON 15:00 BIS 18:00',
+        dateText: 'MITTWOCH, 10. AUGUST 2022 VON 15:00 BIS 18:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189294',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -328,7 +374,7 @@ export default defineComponent({
         id: 15,
         imgSrc: 'src/assets/projects/gb/events/seniorenyoga.jpg',
         title: 'OLD BUT GOLD - SENIORENYOGA',
-        date: 'DONNERSTAG, 11. AUGUST 2022 VON 10:00 BIS 11:30',
+        dateText: 'DONNERSTAG, 11. AUGUST 2022 VON 10:00 BIS 11:30',
         link: 'mailto:kontakt@seniorenbuero-trier.de?subject=Verbindliche Anmeldung - Old but gold - Seniorenyoga',
         linkText: 'Seniorenbüro - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -347,7 +393,7 @@ export default defineComponent({
         id: 16,
         imgSrc: 'src/assets/projects/gb/events/cajon.jpg',
         title: 'CAJON WORKSHOP (ab 16 Jahren)',
-        date: 'DONNERSTAG, 11. AUGUST 2022 VON 14:30 BIS 16:30',
+        dateText: 'DONNERSTAG, 11. AUGUST 2022 VON 14:30 BIS 16:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189295',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -360,7 +406,7 @@ export default defineComponent({
         id: 17,
         imgSrc: 'src/assets/projects/gb/events/hanpan.jpg',
         title: 'HANPAN WORKSHOP (ab 16 Jahren)',
-        date: 'DONNERSTAG, 11. AUGUST 2022 VON 17:00 BIS 19:00',
+        dateText: 'DONNERSTAG, 11. AUGUST 2022 VON 17:00 BIS 19:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189296',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -373,7 +419,7 @@ export default defineComponent({
         id: 18,
         imgSrc: 'src/assets/projects/gb/events/konzertorientalpercussion.jpg',
         title: 'KONZERT - ORIENTAL PERCUSSION',
-        date: 'DONNERSTAG, 11. AUGUST 2022 VON 19:30 BIS 21:00',
+        dateText: 'DONNERSTAG, 11. AUGUST 2022 VON 19:30 BIS 21:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189297',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -386,7 +432,7 @@ export default defineComponent({
         id: 19,
         imgSrc: 'src/assets/projects/gb/events/knotenglueck_senioren.jpg',
         title: 'KNOTENGLÜCK - MAKRAMEE KNÜPFEN (SENIOREN)',
-        date: 'FREITAG, 12. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'FREITAG, 12. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'mailto:kontakt@seniorenbuero-trier.de?subject=Verbindliche Anmeldung - Kontenglück - Makramee knüpfen',
         linkText: 'Seniorenbüro - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -405,7 +451,7 @@ export default defineComponent({
         id: 20,
         imgSrc: 'src/assets/projects/gb/events/umgangmitemotionen.jpg',
         title: 'UMGANG MIT EMOTIONEN (ab 16 Jahren)',
-        date: 'FREITAG, 12. AUGUST 2022 VON 14:00 BIS 17:30',
+        dateText: 'FREITAG, 12. AUGUST 2022 VON 14:00 BIS 17:30',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Umgang mit Emotionen',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -421,7 +467,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/inklusion.jpg',
         title:
           'GEMEINSAM MUSIZIEREN UND SINGEN (ab 12 Jahren) (INKLUSIONSWORKSHOP)',
-        date: 'SAMSTAG, 13. AUGUST 2022 VON 16:00 BIS 19:00',
+        dateText: 'SAMSTAG, 13. AUGUST 2022 VON 16:00 BIS 19:00',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Gemeinsam musizieren und singen - (Inklusionsworkshop)',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -436,7 +482,7 @@ export default defineComponent({
         id: 22,
         imgSrc: 'src/assets/projects/gb/events/freiesmiteinandermalen.jpg',
         title: 'FREIES MITEINANDER MALEN (von 7 bis 13 Jahren)',
-        date: 'MONTAG, 15. AUGUST 2022 VON 10:00 BIS 13:00',
+        dateText: 'MONTAG, 15. AUGUST 2022 VON 10:00 BIS 13:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189298',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -450,7 +496,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/kinderspielenhoch.jpg',
         imgContainerWidth: '176px',
         title: 'FREIES MITEINANDER SPIELEN (von 7 bis 13 Jahren)',
-        date: 'DIENSTAG, 16. AUGUST 2022 VON 10:00 BIS 12:30',
+        dateText: 'DIENSTAG, 16. AUGUST 2022 VON 10:00 BIS 12:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189299',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -463,7 +509,7 @@ export default defineComponent({
         id: 24,
         imgSrc: 'src/assets/projects/gb/events/mutmacher.jpg',
         title: 'DER MUTMACHER – SELBSTMOTIVATION (ab 13 Jahren)',
-        date: 'MITTWOCH, 17. AUGUST 2022 VON 16:00 BIS 19:00',
+        dateText: 'MITTWOCH, 17. AUGUST 2022 VON 16:00 BIS 19:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189317',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -476,7 +522,7 @@ export default defineComponent({
         id: 25,
         imgSrc: 'src/assets/projects/gb/events/kreativität_senioren.jpg',
         title: 'KREATIVITÄT AUF NEUE ART ENTDECKEN (SENIOREN)',
-        date: 'DONNERSTAG, 18. AUGUST 2022 VON 10:00 BIS 12:00',
+        dateText: 'DONNERSTAG, 18. AUGUST 2022 VON 10:00 BIS 12:00',
         link: 'mailto:kontakt@seniorenbuero-trier.de?subject=Verbindliche Anmeldung - Kreativität auf neue Art entdecken',
         linkText: 'Seniorenbüro - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -497,7 +543,7 @@ export default defineComponent({
         imgContainerWidth: '176px',
         title:
           'REGENBOGENSUCHE - KREATIVES GESTALTEN UND SPIELEN (von 6 bis 10 Jahren)',
-        date: 'SAMSTAG, 20. AUGUST 2022 VON 11:00 BIS 12:30',
+        dateText: 'SAMSTAG, 20. AUGUST 2022 VON 11:00 BIS 12:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189318',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -510,11 +556,11 @@ export default defineComponent({
         id: 27,
         imgSrc: 'src/assets/projects/gb/events/tobimukke.jpg',
         title: 'ELEKTRONISCHE MUSIKPRODUKTION (ab 16 Jahren)',
-        date: 'DIENSTAG, 23. AUGUST 2022 VON 10:00 BIS 14:30',
+        dateText: 'DIENSTAG, 23. AUGUST 2022 VON 10:00 BIS 14:30',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189319',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
-          'Ob Pop, Indie oder HipHop. In vielen Musikrichtungen werden heutzutage Elemente aus elektronischer Musik verwendet. In diesem Workshop möchten wir euch in insgesamt 4 Stunden einige Geräte vorstellen, die ihr benötigt, um elektronische Musik zu erzeugen und euch notwendige Basics im Umgang mit diesen Geräten (Synthesizer, Drumcomputer, Musikproduktionsprogramm Ableton Live) vermitteln. Da erst am kommenden Tag ein Ableton Intensivkurs stattfindet wollen wir uns hier zum größten Teil auf das Arbeiten an Hardwaregeräten und dem zusammenstellen eines elektronischen Setups konzentrieren. Einige Basics in Ableton sollen jedoch vermittelt werden, weil sich damit viele Funktionen der elektronischen Musikproduktion am besten erklären lassen. Wer danach weiteres Interesse an Ableton hat kann gerne auch aufbauend an dem Abletonkurs von Adrian (siehe Veranstaltungen) teilnehmen. \n\n Der Kursleiter: \n Tobi, in Trier auch bekannt unter dem Künstlernamen „Whale Vs Elephant“, ist ein DJ und Musikproduzent. Er arbeitet se it ca. 10 Jahren mit Ableton Live und hat im Laufe der Zeit immer mehr Synthesizer und Drumcomputer in seine Produktionen mit eingebunden. Bevor es ihn nach Trier verschlagen hat, hat er eine Zeit lang in Berlin und Reykjavik gelebt und ist viel gereist. Mit seiner eigenen Musik ist er auf Festivals wie der Fusion, Iceland Airwaves oder dem größten Elektrofestival in Georgien, dem Gem Fest aufgetreten. Unterwegs hat er mit verschiedenen Musikern und Produzenten zusammengearbeitet und konnte so seine Erfahrungen in dem Bereich erweitern und festigen. Seit 2019 bietet er Workshops und Kurse in elektronischer Musikproduktion für Kinder, Jugendliche und Erwachsene an, in denen er Spass und Kreativität verbindet und seine Kursteilnehmer von den ersten Beats bis hin zu fertigen Songstrukturen begleitet. \n\n Themen: \n - Theoretische Einführung: Was ist elektronische Musik und was braucht man, um sie zu erzeugen. \n - Basiswissen über Ableton Live, Synthesizer und Drumcomputer: Ausprobieren und Kennenlernen der Geräte. \n - Wie baue ich ein Live- oder Studiosetup: Einbindung mehrerer Geräte ins Zusammenspiel \n - Erste Songstrukturen: Wie gehe ich einen Song an? \n Als Bonus gibt es im Anschluss ca. 1h elektronische Jamsession mit Sebastian vom Mehrklang Kollektiv. Wer möchte kann mit Sebastian und Tobi jammen und so seine gelernten neuen Fähigkeiten direkt umsetzen und austesten. Die Teilnahme an der Jamsession ist kostenlos. \n Um an dem Kurs teilnehmen zu können, braucht ihr keinerlei eigenes Equipment. Alles wird vor Ort da sein. \n\n Zielgruppe: \n Jugendliche ab 16 und Erwachsene jeden Alters, die…: \n - …sich für elektronische Musikproduktion interessieren aber noch nie etwas mit dem Thema zu tun hatten. \n - …sich eigentlich in einer anderen Musikrichtung zuhause fühlen aber elektronische Elemente in ihre Musik mit einfließen lassen wollen. \n - …sich schon etwas in das Thema eingearbeitet haben aber jetzt auf dem Schlauch stehen. \n - …Ableton, Drumcomputer oder Synthesizer zu Hause haben und sie besser verstehen und/oder in ein Setup einbinden wollen. \n\n' +
+          'Ob Pop, Indie oder HipHop. In vielen Musikrichtungen werden heutzutage Elemente aus elektronischer Musik verwendet. In diesem Workshop möchten wir euch in insgesamt 4 Stunden einige Geräte vorstellen, die ihr benötigt, um elektronische Musik zu erzeugen und euch notwendige Basics im Umgang mit diesen Geräten (Synthesizer, Drumcomputer, Musikproduktionsprogramm Ableton Live) vermitteln. Da erst am kommenden Tag ein Ableton Intensivkurs stattfindet wollen wir uns hier zum größten Teil auf das Arbeiten an Hardwaregeräten und dem zusammenstellen eines elektronischen Setups konzentrieren. Einige Basics in Ableton sollen jedoch vermittelt werden, weil sich damit viele Funktionen der elektronischen Musikproduktion am besten erklären lassen. Wer danach weiteres Interesse an Ableton hat kann gerne auch aufbauend an dem Abletonkurs von Adrian (siehe Veranstaltungen) teilnehmen.\n\n Max. 10 Teilnehmer:innen\n\n Der Kursleiter:\n Tobi, in Trier auch bekannt unter dem Künstlernamen „Whale Vs Elephant“, ist ein DJ und Musikproduzent. Er arbeitet seit ca. 10 Jahren mit Ableton Live und hat im Laufe der Zeit immer mehr Synthesizer und Drumcomputer in seine Produktionen mit eingebunden. Bevor es ihn nach Trier verschlagen hat, hat er eine Zeit lang in Berlin und Reykjavik gelebt und ist viel gereist. Mit seiner eigenen Musik ist er auf Festivals wie der Fusion, Iceland Airwaves oder dem größten Elektrofestival in Georgien, dem Gem Fest aufgetreten. Unterwegs hat er mit verschiedenen Musikern und Produzenten zusammengearbeitet und konnte so seine Erfahrungen in dem Bereich erweitern und festigen. Seit 2019 bietet er Workshops und Kurse in elektronischer Musikproduktion für Kinder, Jugendliche und Erwachsene an, in denen er Spass und Kreativität verbindet und seine Kursteilnehmer von den ersten Beats bis hin zu fertigen Songstrukturen begleitet.\n\n www.soundcloud.com/whalevselephant\n\n www.facebook.com/whalevselephantofficial\n\n Themen:\n - Theoretische Einführung: Was ist elektronische Musik und was braucht man, um sie zu erzeugen.\n - Basiswissen über Ableton Live, Synthesizer und Drumcomputer: Ausprobieren und Kennenlernen der Geräte.\n - Wie baue ich ein Live- oder Studiosetup: Einbindung mehrerer Geräte ins Zusammenspiel\n - Erste Songstrukturen: Wie gehe ich einen Song an?\n\n Als Bonus gibt es im Anschluss ca. 1h elektronische Jamsession mit Sebastian vom Mehrklang Kollektiv. Wer möchte kann mit Sebastian und Tobi jammen und so seine gelernten neuen Fähigkeiten direkt umsetzen und austesten. Die Teilnahme an der Jamsession ist kostenlos.\n\n Um an dem Kurs teilnehmen zu können, braucht ihr keinerlei eigenes Equipment. Alles wird vor Ort da sein.\n\n Zielgruppe:\n Jugendliche ab 16 und Erwachsene jeden Alters, die…:\n - …sich für elektronische Musikproduktion interessieren aber noch nie etwas mit dem Thema zu tun hatten.\n - …sich eigentlich in einer anderen Musikrichtung zuhause fühlen aber elektronische Elemente in ihre Musik mit einfließen lassen wollen.\n - …sich schon etwas in das Thema eingearbeitet haben aber jetzt auf dem Schlauch stehen.\n - …Ableton, Drumcomputer oder Synthesizer zu Hause haben und sie besser verstehen und/oder in ein Setup einbinden wollen.\n\n' +
           'Liebe Menschen: Wir haben uns entschieden, unsere Kurse und Events über Ticket Regional anzubieten. Deshalb kommen noch VVK-Gebühren hinzu. Vielen Dank für Euer Verständnis und Euren Support!\n\n' +
           'Wir danken unseren Förder:innen:\n KULTURSPEKTRUM\n Stadt Trier\n Kulturstiftung Sparkasse Trier\n Stiftung Rehkids\n',
         expanded: false,
@@ -524,7 +570,7 @@ export default defineComponent({
         imgSrc: 'src/assets/projects/gb/events/sebastianmukke.jpg',
         imgContainerWidth: '167px',
         title: 'WIR MACHEN MUKKE (ab 16 Jahren)',
-        date: 'MITTWOCH, 24. AUGUST 2022 VON 11:00 BIS 15:00',
+        dateText: 'MITTWOCH, 24. AUGUST 2022 VON 11:00 BIS 15:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189320',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -537,7 +583,7 @@ export default defineComponent({
         id: 29,
         imgSrc: 'src/assets/projects/gb/events/adrianmukke.jpg',
         title: 'ABLETON LIVE MUSIKPRODUKTION (ab 16 Jahren)',
-        date: 'MITTWOCH, 24. AUGUST 2022 VON 16:00 BIS 19:00',
+        dateText: 'MITTWOCH, 24. AUGUST 2022 VON 16:00 BIS 19:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189322',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -550,7 +596,7 @@ export default defineComponent({
         id: 30,
         imgSrc: 'src/assets/projects/gb/events/maxmukke.jpg',
         title: 'MODULAR MEETUP',
-        date: 'MITTWOCH, 24. AUGUST 2022 VON 20:00 BIS 23:00',
+        dateText: 'MITTWOCH, 24. AUGUST 2022 VON 20:00 BIS 23:00',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Modular Meetup',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -565,7 +611,7 @@ export default defineComponent({
         id: 31,
         imgSrc: 'src/assets/projects/gb/events/atmedichfrei.jpg',
         title: 'ATME DICH FREI',
-        date: 'DONNERSTAG, 25. AUGUST 2022 VON 17:00 BIS 19:00',
+        dateText: 'DONNERSTAG, 25. AUGUST 2022 VON 17:00 BIS 19:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189323',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -578,7 +624,7 @@ export default defineComponent({
         id: 32,
         imgSrc: 'src/assets/projects/gb/events/familienfreundlichesevent.jpg',
         title: 'MEHR GLÜCKSBRINGER',
-        date: 'SAMSTAG, 27. AUGUST 2022 VON 14:00 BIS 22:00',
+        dateText: 'SAMSTAG, 27. AUGUST 2022 VON 14:00 BIS 22:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189324',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -591,7 +637,7 @@ export default defineComponent({
         id: 33,
         imgSrc: 'src/assets/projects/gb/events/familienfreundlichesevent.jpg',
         title: 'MEHR GLÜCKSBRINGER',
-        date: 'SONNTAG, 28. AUGUST 2022 VON 14:00 BIS 20:00',
+        dateText: 'SONNTAG, 28. AUGUST 2022 VON 14:00 BIS 20:00',
         link: 'https://www.ticket-regional.de/events_info.php?eventID=189324',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
         description:
@@ -604,7 +650,7 @@ export default defineComponent({
         id: 34,
         imgSrc: 'src/assets/projects/gb/events/danceability.jpg',
         title: 'DANCEABILITY - INKLUSIVE CONTACT-IMPRO',
-        date: 'MITTWOCH, 31. AUGUST 2022 VON 09:30 BIS 12:30',
+        dateText: 'MITTWOCH, 31. AUGUST 2022 VON 09:30 BIS 12:30',
         link: 'mailto:anfragen@kollektivmehrklang.de?subject=Verbindliche Anmeldung - Danceability - inklusive contact-impro',
         linkText: '*PWYW* - per Email anmelden',
         place: 'Kulturspektrum, Domfreihof 1b, 54290 Trier',
@@ -621,6 +667,7 @@ export default defineComponent({
       slide: ref(1),
       fullscreen: ref(false),
       events,
+      pastEvents: ref(false),
     };
   },
 });

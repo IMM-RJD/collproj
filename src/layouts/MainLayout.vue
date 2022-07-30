@@ -1,7 +1,7 @@
 <template>
   <!-- Hello and welcome my dear dev friend to quasar https://youtu.be/zas-tasp1ds?t=90 -->
 
-  <q-layout view="hHh lpR fFf">
+  <q-layout view="hHh LpR fFf">
     <q-header class="bg-primary text-white">
       <q-toolbar class="q-py-md">
         <q-btn dense flat round icon="menu" @click="toggleLeftDrawer" />
