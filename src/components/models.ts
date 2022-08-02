@@ -15,7 +15,8 @@ export interface Event {
   imgPosition?: string;
   imgContainerWidth?: string;
   title: string;
-  dateText: string;
+  date: Date;
+  dateText?: string;
   link?: string;
   linkText?: string;
   place: string;
@@ -24,6 +25,5 @@ export interface Event {
   email?: string;
   emailText?: string;
   expanded: boolean;
-  past?: boolean;
   allowShare?: boolean;
 }
