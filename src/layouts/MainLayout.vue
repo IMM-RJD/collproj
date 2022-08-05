@@ -12,6 +12,7 @@
     </q-header>
 
     <q-drawer
+      class="km-background"
       show-if-above
       :mini="miniStateLeft"
       @mouseover="miniStateLeft = false"

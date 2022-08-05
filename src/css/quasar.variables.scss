@@ -29,3 +29,12 @@ $warning: #f2c037;
 .bg-km-timeline {
   background: #ee6d56 !important;
 }
+
+$km-background: #fafafa;
+
+body {
+  background: $km-background;
+}
+.km-background {
+  background: $km-background;
+}
