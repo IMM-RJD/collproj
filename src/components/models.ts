@@ -19,11 +19,12 @@ export interface Event {
   dateText?: string;
   link?: string;
   linkText?: string;
-  place: string;
-  description: string;
+  location: string;
+  description?: string;
   phone?: string;
   email?: string;
   emailText?: string;
-  expanded: boolean;
+  expanded?: boolean;
   allowShare?: boolean;
+  canceled?: boolean;
 }

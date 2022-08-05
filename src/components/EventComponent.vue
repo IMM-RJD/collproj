@@ -40,7 +40,7 @@
           </q-card>
         </q-dialog>
         <q-btn
-          v-show="event.allowShare !== false"
+          v-show="event.allowShare !== false && event.canceled !== true"
           style="position: absolute; top: 7px; right: 0px"
           icon="share"
           flat
@@ -80,7 +80,12 @@
           "
         ></q-img>
       </div>
-      <div class="q-pb-none content-wrapper">
+      <div v-show="event.canceled" class="q-pb-none content-wrapper">
+        <q-card-section class="q-pb-md">
+          <div class="text-h6">*** ENTFÄLLT ***</div>
+        </q-card-section>
+      </div>
+      <div v-show="event.canceled !== true" class="q-pb-none content-wrapper">
         <q-card-section class="q-pb-xs">
           <div class="text-h6">
             {{ event.title }} <br />
@@ -113,7 +118,7 @@
         <q-slide-transition>
           <div v-show="event.expanded">
             <q-card-section class="q-py-xs">
-              <div class="text-subtitle2">{{ event.place }}</div>
+              <div class="text-subtitle2">{{ event.location }}</div>
             </q-card-section>
 
             <q-card-section class="content-description">
