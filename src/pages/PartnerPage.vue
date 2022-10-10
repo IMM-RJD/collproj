@@ -13,7 +13,7 @@
         </a>
       </div>
       <div class="q-ma-md">
-        <a href="https://kulturspektrum-trier.de/" target="_blank">
+        <a href="https://www.kulturspektrum-trier.de/" target="_blank">
           <q-img
             width="200px"
             loading="lazy"
@@ -30,6 +30,16 @@
             width="200px"
             loading="lazy"
             src="src/assets/partner/kulturstiftungsparkassetrier.png"
+          ></q-img>
+        </a>
+      </div>
+      <div class="q-ma-md" style="background-color: #999a8f">
+        <a href="https://www.stiftung-rehkids.de" target="_blank">
+          <q-img
+            width="200px"
+            height="100px"
+            loading="lazy"
+            src="src/assets/partner/rehkids.png"
           ></q-img>
         </a>
       </div>

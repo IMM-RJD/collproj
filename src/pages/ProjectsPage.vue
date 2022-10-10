@@ -6,6 +6,80 @@
     <q-timeline color="km-timeline">
       <!-- <q-timeline-entry heading> Vergangene Projekte </q-timeline-entry> -->
       <q-timeline-entry
+        title="Glücksbringer: KULTURSPEKTRUM - Soziokulturelles Programm mit Workshops und Events."
+      >
+        <q-carousel
+          animated
+          v-model="slide"
+          v-model:fullscreen="fullscreen"
+          navigation
+          infinite
+          class="bg-white shadow-1 rounded-borders"
+        >
+          <q-carousel-slide :name="1" class="imm-p-0-important">
+            <q-img
+              width="1633px"
+              loading="lazy"
+              src="src/assets/projects/gb/flyer_front.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="2" class="imm-p-0-important">
+            <q-img
+              width="1633px"
+              loading="lazy"
+              src="src/assets/projects/gb/flyer_back.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="3" class="imm-p-0-important">
+            <q-img
+              loading="lazy"
+              src="src/assets/projects/gb/freiesmitaneindertanzenundmusizieren.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="4" class="imm-p-0-important">
+            <q-img
+              loading="lazy"
+              src="src/assets/projects/gb/gewaltfreiekommunikation.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="5" class="imm-p-0-important">
+            <q-img
+              loading="lazy"
+              src="src/assets/projects/gb/maxmukke.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="6" class="imm-p-0-important">
+            <video controls>
+              <source
+                src="src/assets/projects/gb/modularmeetup.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video element. Kindly update it
+              to latest version.
+            </video>
+          </q-carousel-slide>
+          <q-carousel-slide :name="7" class="imm-p-0-important">
+            <q-img
+              loading="lazy"
+              src="src/assets/projects/gb/familienfreundlichesevent.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <template v-slot:control>
+            <q-carousel-control position="bottom-right" :offset="[18, 18]">
+              <q-btn
+                push
+                round
+                dense
+                color="white"
+                text-color="primary"
+                :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
+                @click="fullscreen = !fullscreen"
+              />
+            </q-carousel-control>
+          </template>
+        </q-carousel>
+      </q-timeline-entry>
+      <q-timeline-entry
         title='Illuminale 2021 Trier: Tanztheaterstück mit Lady Lightflow "panta rhei-alles fließt"'
         subtitle=""
       >
@@ -75,8 +149,12 @@
   </q-page>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
+export default defineComponent({
   // name: 'PageName',
-};
+  setup() {
+    return { slide: ref(1), fullscreen: ref(false) };
+  },
+});
 </script>

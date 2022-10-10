@@ -19,7 +19,7 @@ export default defineComponent({
     const persons = ref<Person[]>([
       /**
        * TODO:
-       * - seo
+       * - seo / alt-tag fuer images
        * - social media links
        */
 

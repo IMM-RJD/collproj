@@ -191,4 +191,17 @@ export default defineComponent({
     return { copyToClipboard, clipAlert: ref(false), window };
   },
 });
+
+// <event-component
+//   :events="
+//     // past events
+//     events.filter((event) => {
+//       if (date.getDateDiff(event.date, new Date(), 'days') < 0) {
+//         event.link = undefined;
+//         event.allowShare = false;
+//       }
+//       return date.getDateDiff(event.date, new Date(), 'days') < 0;
+//     })
+//   "
+// ></event-component>
 </script>
