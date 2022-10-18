@@ -52,7 +52,7 @@
             width="200px"
             height="90px"
             loading="lazy"
-            src="src/assets/partner/taw.jpg"
+            src="src/assets/partner/taw.png"
           ></q-img>
         </a>
       </div>

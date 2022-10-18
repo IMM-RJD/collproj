@@ -37,6 +37,26 @@ export default defineComponent({
       },
       {
         id: 1,
+        imgSrc: 'src/assets/team/seb-gro.jpg',
+        firstName: 'Sebastian',
+        lastName: 'Groll',
+        role: 'IT & Sound',
+        description:
+          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Just at a different place in the rulial space."',
+        email: 'real_jane_doe@gmx.de',
+      },
+      {
+        id: 2,
+        imgSrc: 'src/assets/team/fran-leh.jpg',
+        imgPosition: '50% 0%',
+        firstName: 'Franziska',
+        lastName: 'Lehmann',
+        role: 'Studierende der Psychologie (B. Sc.), Sozialassistentin',
+        description:
+          'Franziska kommt ursprünglich aus Thüringen und durfte dort Erfahrungen in sozio-kulturellen und ökologischen Projekten sammeln. Neben ihrem Studium lässt sie sich für kreative Aktionen begeistern und träumt von Räumen, die achtsame Begegnung und herzlichen Austausch ermöglichen. \n\n„Es heißt, dass alles, was wir wirklich suchen, uns seinerseits schon seit Ewigkeiten sucht und dass es uns findet, wenn wir nur ein Weilchen innehalten können.“',
+      },
+      {
+        id: 3,
         imgSrc: 'src/assets/team/sam-pet.jpg',
         imgPosition: '50% 0%',
         firstName: 'Samira',
@@ -44,16 +64,6 @@ export default defineComponent({
         role: 'Studentin der Sozialpädagogik B. A., Schwerpunkt Kinder- und Jugendarbeit und soziale Gruppenarbeit',
         description:
           'Samira lässt mit ihrer mehrjährigen theoretischen und praktischen Erfahrung in sozialpädagogischer und kreativer Projektarbeit und ihrem kinderfreundlichen sowie empathischen Wesen die Augen und Herzen der Kinder mit Freude erblühen. Egal ob beim Modellierballons zaubern, Basteln, Malen, Kinderschminken oder interaktiven erlebnispädagogischen Rollenspielen: Für Jeden ist etwas dabei. Die soziale Gruppenarbeit und Kinderbetreuung unterschiedlicher Gruppenformen ist ihre Expertise. \n\n„Kinder sind keine Fässer, die gefüllt, sondern Feuer, die entzündet werden wollen.“',
-      },
-      {
-        id: 2,
-        imgSrc: 'src/assets/team/seb-gro.jpg',
-        firstName: 'Sebastian',
-        lastName: 'Groll',
-        role: 'IT & Sound',
-        description:
-          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Be water, my friend."',
-        email: 'real_jane_doe@gmx.de',
       },
       // {
       //   id: 3,
@@ -86,16 +96,6 @@ export default defineComponent({
         role: 'Grundschullehrerin, ausgebildeter 4-Elemente-Coach',
         description:
           'Achtsam und empathisch begleitet sie gerade ihre Viertklässler in Lernprozessen auf dem Weg zur weiterführenden Schule. Ihre Vision ist es, Mädchen und Frauen in ihre innewohnende Kraft zu bringen, um sich selbst zu erkennen und zu verwirklichen. Behilflich sind ihr dabei Elemente aus dem NLP, der Trance und dem Familienstellen. \n\n„Sei realistisch. Plane Wunder ein.“ ',
-      },
-      {
-        id: 6,
-        imgSrc: 'src/assets/team/fran-leh.jpg',
-        imgPosition: '50% 0%',
-        firstName: 'Franziska',
-        lastName: 'Lehmann',
-        role: 'Studierende der Psychologie (B. Sc.), Sozialassistentin',
-        description:
-          'Franziska kommt ursprünglich aus Thüringen und durfte dort Erfahrungen in sozio-kulturellen und ökologischen Projekten sammeln. Neben ihrem Studium lässt sie sich für kreative Aktionen begeistern und träumt von Räumen, die achtsame Begegnung und herzlichen Austausch ermöglichen. \n\n„Es heißt, dass alles, was wir wirklich suchen, uns seinerseits schon seit Ewigkeiten sucht und dass es uns findet, wenn wir nur ein Weilchen innehalten können.“',
       },
     ]);
     return { persons };

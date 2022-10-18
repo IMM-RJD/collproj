@@ -121,7 +121,7 @@
           size="27px"
           dense
           padding="0px"
-          icon="img:src/assets/logo.png"
+          icon="img:src/assets/logo_white.png"
           to="/"
         >
         </q-btn>

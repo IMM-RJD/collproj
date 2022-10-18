@@ -13,6 +13,7 @@
           v-model="slide"
           v-model:fullscreen="fullscreen"
           navigation
+          control-color="primary"
           infinite
           class="bg-white shadow-1 rounded-borders"
         >
@@ -64,13 +65,15 @@
               src="src/assets/projects/gb/familienfreundlichesevent.jpg"
             ></q-img>
           </q-carousel-slide>
+          <q-carousel-slide :name="8" class="imm-p-0-important">
+            <q-img loading="lazy" src="src/assets/projects/gb/logo.png"></q-img>
+          </q-carousel-slide>
           <template v-slot:control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
               <q-btn
                 push
                 round
                 dense
-                color="white"
                 text-color="primary"
                 :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
                 @click="fullscreen = !fullscreen"

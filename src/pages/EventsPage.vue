@@ -14,7 +14,7 @@
     <div style="font-size: 18px; margin-top: 10px; margin-bottom: 10px">
       <q-btn
         label="Visuelles anzeigen"
-        color="primary"
+        color="secondary"
         @click="flyer = true"
         style="margin-top: 10px; margin-bottom: 10px; margin-right: 20px"
       />
@@ -23,7 +23,7 @@
         color="primary"
         href="https://www.ticket-regional.de/kollektivmehrklang"
         target="_blank"
-        style="margin-top: 10px; margin-bottom: 10px"
+        style="float: right; margin-top: 10px; margin-bottom: 10px"
       />
     </div>
     <q-dialog v-model="flyer" transition-show="rotate" transition-hide="rotate">
@@ -54,35 +54,49 @@
           <q-img
             width="580px"
             loading="lazy"
-            src="src/assets/projects/uw/ll_mood.jpg"
+            src="src/assets/projects/uw/dj_liste.jpg"
           ></q-img>
         </q-carousel-slide>
         <q-carousel-slide :name="4" class="imm-p-0-important">
           <q-img
-            width="380px"
+            width="580px"
             loading="lazy"
-            src="src/assets/projects/uw/innen.jpg"
+            src="src/assets/projects/uw/ll_mood.jpg"
           ></q-img>
         </q-carousel-slide>
         <q-carousel-slide :name="5" class="imm-p-0-important">
           <q-img
-            width="380px"
+            width="400px"
             loading="lazy"
-            src="src/assets/projects/uw/aeste.jpg"
+            src="src/assets/projects/uw/innen.jpg"
           ></q-img>
         </q-carousel-slide>
         <q-carousel-slide :name="6" class="imm-p-0-important">
           <q-img
-            width="580px"
+            width="400px"
             loading="lazy"
-            src="src/assets/projects/uw/rotweis1.jpg"
+            src="src/assets/projects/uw/aeste.jpg"
           ></q-img>
         </q-carousel-slide>
         <q-carousel-slide :name="7" class="imm-p-0-important">
           <q-img
             width="580px"
             loading="lazy"
+            src="src/assets/projects/uw/rotweis1.jpg"
+          ></q-img>
+        </q-carousel-slide>
+        <q-carousel-slide :name="8" class="imm-p-0-important">
+          <q-img
+            width="580px"
+            loading="lazy"
             src="src/assets/projects/uw/rotweis2.jpg"
+          ></q-img>
+        </q-carousel-slide>
+        <q-carousel-slide :name="9" class="imm-p-0-important">
+          <q-img
+            width="580px"
+            loading="lazy"
+            src="src/assets/projects/uw/sebastian.jpg"
           ></q-img>
         </q-carousel-slide>
       </q-carousel>
@@ -98,6 +112,19 @@
       vom 28.10. bis 19.11.2022 mit dem Projekt "Schattenwelten und
       Lichtgestalten", je 3 Veranstaltungen pro Woche im Frankenturm Trier -
       Tanztheaterstück plus musikalisches Happening.
+    </div>
+    <q-separator class="q-my-md" />
+    <div style="font-size: 18px">
+      <a
+        href="https://www.trierer-unterwelten.de/"
+        target="blank"
+        class="imm-event-link"
+      >
+        Unterwelten-Festival
+      </a>
+      from 28.10. to 19.11.2022 with the project "Schattenwelten und
+      Lichtgestalten" ("Shadow worlds and light figures"), 3 Events per week in
+      the Frankenturm Trier - dance theater play plus musical happening.
     </div>
     <q-img
       class="q-my-md"
