@@ -24,3 +24,15 @@
     text-decoration: underline;
   }
 }
+
+.km-prim-sec-gradient {
+  position: relative;
+  left: calc(50% - 40px);
+  color: white;
+  background: rgb(109, 5, 5);
+  background: linear-gradient(
+    0deg,
+    rgba(109, 5, 5, 1) 0%,
+    rgba(199, 165, 131, 1) 100%
+  );
+}
