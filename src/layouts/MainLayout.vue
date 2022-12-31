@@ -50,6 +50,14 @@
             <q-item-section> Termine & Aktuelles </q-item-section>
           </q-item>
 
+          <q-item clickable v-ripple to="/gallery">
+            <q-item-section avatar>
+              <q-icon name="fa-solid fa-image" />
+            </q-item-section>
+
+            <q-item-section> Galerie </q-item-section>
+          </q-item>
+
           <q-item clickable v-ripple to="/projects">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-shield-virus" />
@@ -93,13 +101,13 @@
 
     <q-footer class="bg-primary text-white q-py-xs">
       <!-- <q-media-player type="audio" :sources="sources" dense /> -->
-      <audio controls style="width: 60%; height: 20px; margin: 10px 20% 0 20%">
+      <!-- <audio controls style="width: 60%; height: 20px; margin: 10px 20% 0 20%">
         <source
           src="https://kollektivmehrklang.de/src/assets/projects/uw/uw-webpageIntro.mp3"
           type="audio/mpeg"
         />
         Your browser does not support the audio element.
-      </audio>
+      </audio> -->
       <div
         class="full-width row wrap justify-evenly items-start content-start q-py-xs"
       >

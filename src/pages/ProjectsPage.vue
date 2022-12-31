@@ -120,8 +120,8 @@
           wo Schatten, da muss auch Licht sein! Es folgt der Wandel ins Licht
           mit Sängerin und mitreißender Lichtperformance von Lady Lightflow. Es
           folgt ein musikalischer Liveact elektronischer Art, ca. 2 Std. von
-          Soundkünstler:innen der Region, die das Spiel der Gegensätze zw. Licht
-          & Schatten, Realität & Fiktion sowie Diesseits & Jenseits
+          Soundkünstler:innen der Region, die das Spiel der Gegensätze zwischen
+          Licht & Schatten, Realität & Fiktion sowie Diesseits & Jenseits
           thematisieren. <br /><br />
           Kostüm und Styling: Lady Lace LATEX || Make-up Artist: Irene
           Lichtenwald || Sound: Sebastian Groll
