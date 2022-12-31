@@ -68,6 +68,18 @@
             icon="fa-solid fa-envelope"
             :label="person.email"
           ></q-btn>
+          <q-btn
+            v-show="person.homepage"
+            unelevated
+            class="q-mb-sm"
+            :no-caps="true"
+            align="left"
+            type="a"
+            :href="person.homepage"
+            target="_blank"
+            icon="fa-solid fa-share"
+            :label="person.homepageText || person.homepage"
+          ></q-btn>
         </q-card-actions>
       </div>
     </q-card>

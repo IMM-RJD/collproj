@@ -8,6 +8,8 @@ export interface Person {
   description: string;
   phone?: string;
   email?: string;
+  homepage?: string;
+  homepageText?: string;
 }
 export interface Event {
   id: number;
