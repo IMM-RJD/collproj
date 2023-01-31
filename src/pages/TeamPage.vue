@@ -66,6 +66,7 @@ export default defineComponent({
         role: 'Makeup-Artist',
         description:
           'Unsere Makeup-Zauberfrau hat schon viele Male ihre Pinsel geschwungen und bis zu fünf Darstellerinnen an einem Tag verwandelt. Bei den Trierer Unterwelten 2022 war sie mit von der Partie, sowie bei der Illuminale 2021. \n\n"If you look for the light, you can often find it. But if you look for the dark, that is all you will ever see."',
+        instagram: 'http_manray',
       },
       {
         id: 4,

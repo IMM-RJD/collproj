@@ -43,8 +43,17 @@
           {{ person.description }}
         </q-card-section>
 
-        <q-separator dark v-show="person.phone || person.email" />
-        <q-card-actions vertical class="q-pb-none q-pt-md">
+        <q-separator
+          dark
+          v-show="
+            person.phone || person.email || person.homepage || person.instagram
+          "
+        />
+        <q-card-actions
+          vertical
+          class="q-pb-none q-pt-md"
+          v-show="person.phone || person.email || person.homepage"
+        >
           <q-btn
             v-show="person.phone"
             unelevated
@@ -79,6 +88,18 @@
             target="_blank"
             icon="fa-solid fa-share"
             :label="person.homepageText || person.homepage"
+          ></q-btn>
+        </q-card-actions>
+        <q-card-actions v-show="person.instagram" align="left">
+          <q-btn
+            v-show="person.instagram"
+            unelevated
+            :no-caps="true"
+            align="left"
+            type="a"
+            :href="'https://www.instagram.com/' + person.instagram"
+            target="_blank"
+            icon="fa-brands fa-instagram"
           ></q-btn>
         </q-card-actions>
       </div>
