@@ -2,7 +2,7 @@
   <q-page padding class="q-mx-md">
     <!-- content -->
     <h4 class="q-my-lg">Heute ist nicht aller Tage, wir sehen uns wieder...</h4>
-    <h5>und planen schon fürs neue Jahr :)</h5>
+    <h5>und darauf freuen wir uns :)</h5>
 
     <q-page-scroller
       position="bottom-right"

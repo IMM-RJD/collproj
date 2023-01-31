@@ -59,6 +59,16 @@ export default defineComponent({
       },
       {
         id: 3,
+        imgSrc: 'src/assets/team/irene.jpeg',
+        imgPosition: '50% 40%',
+        firstName: 'Irene',
+        lastName: 'Lichtenwald',
+        role: 'Makeup-Artist',
+        description:
+          'Unsere Makeup-Zauberfrau hat schon viele Male ihre Pinsel geschwungen und bis zu fünf Darstellerinnen an einem Tag verwandelt. Bei den Trierer Unterwelten 2022 war sie mit von der Partie, sowie bei der Illuminale 2021. \n\n"If you look for the light, you can often find it. But if you look for the dark, that is all you will ever see."',
+      },
+      {
+        id: 4,
         imgSrc: 'src/assets/team/sam-pet.jpg',
         imgPosition: '50% 0%',
         firstName: 'Samira',
@@ -80,7 +90,7 @@ export default defineComponent({
       //   email: '',
       // },
       {
-        id: 4,
+        id: 5,
         imgSrc: 'src/assets/team/cla-sch.jpg',
         imgPosition: '50% 49%',
         firstName: 'Clara',
@@ -90,7 +100,7 @@ export default defineComponent({
           'Schon bei vielen Events in und um die Trierer Region konnte man die verzückenden Dekorationen von unserer Frau für die Bühnen- und Raumgestaltung bewundern. Sie belebt Stoffe und Naturmaterialien mit neuem Flair und schafft so neue Zauberwelten. \n\n"Der krumme Baum lebt sein Leben, der gerade Baum wird ein Brett."',
       },
       {
-        id: 5,
+        id: 6,
         imgSrc: 'src/assets/team/isa-mul.jpg',
         imgPosition: '50% 0%',
         firstName: 'Isabell',
