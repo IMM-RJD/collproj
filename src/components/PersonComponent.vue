@@ -90,16 +90,35 @@
             :label="person.homepageText || person.homepage"
           ></q-btn>
         </q-card-actions>
-        <q-card-actions v-show="person.instagram" align="left">
+        <q-card-actions
+          v-if="
+            person.facebook ||
+            person.instagram ||
+            person.youtube ||
+            person.soundcloud
+          "
+          align="evenly"
+        >
           <q-btn
-            v-show="person.instagram"
+            v-for="so in person.socialOrder?.replaceAll(' ', '').split(',')"
+            :key="so"
             unelevated
             :no-caps="true"
             align="left"
             type="a"
-            :href="'https://www.instagram.com/' + person.instagram"
+            :href="
+              so == 'facebook'
+                ? 'https://www.facebook.com/' + person.facebook
+                : so == 'instagram'
+                ? 'https://www.instagram.com/' + person.instagram
+                : so == 'youtube'
+                ? 'https://www.youtube.com/' + person.youtube
+                : so == 'soundcloud'
+                ? 'https://www.soundcloud.com/' + person.soundcloud
+                : ''
+            "
             target="_blank"
-            icon="fa-brands fa-instagram"
+            :icon="'fa-brands fa-' + so"
           ></q-btn>
         </q-card-actions>
       </div>

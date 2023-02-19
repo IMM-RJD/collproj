@@ -10,7 +10,11 @@ export interface Person {
   email?: string;
   homepage?: string;
   homepageText?: string;
+  facebook?: string;
   instagram?: string;
+  youtube?: string;
+  soundcloud?: string;
+  socialOrder?: string;
 }
 export interface Event {
   id: number;

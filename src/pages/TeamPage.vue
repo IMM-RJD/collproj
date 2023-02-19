@@ -16,6 +16,7 @@ export default defineComponent({
   name: 'TeamPage',
   components: { PersonComponent },
   setup() {
+    // socialOrderDefault ==> 'instagram, facebook, youtube, soundcloud';
     const persons = ref<Person[]>([
       /**
        * TODO:
@@ -36,6 +37,9 @@ export default defineComponent({
         email: 'anfragen@kollektivmehrklang.de',
         homepage: 'http://www.ladylightflow.com',
         homepageText: 'ladylightflow.com',
+        facebook: 'ladylightflow',
+        instagram: 'ladylacelatex',
+        socialOrder: 'instagram, facebook',
       },
       {
         id: 1,
@@ -46,6 +50,9 @@ export default defineComponent({
         description:
           'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Just at a different place in the rulial space."',
         email: 'real_jane_doe@gmx.de',
+        youtube: 'channel/UCf1CouiM7wRwDrROYltYDYA',
+        soundcloud: 'improvisingmusicmachines',
+        socialOrder: 'soundcloud, youtube',
       },
       {
         id: 2,
@@ -67,6 +74,7 @@ export default defineComponent({
         description:
           'Unsere Makeup-Zauberfrau hat schon viele Male ihre Pinsel geschwungen und bis zu fünf Darstellerinnen an einem Tag verwandelt. Bei den Trierer Unterwelten 2022 war sie mit von der Partie, sowie bei der Illuminale 2021. \n\n"If you look for the light, you can often find it. But if you look for the dark, that is all you will ever see."',
         instagram: 'http_manray',
+        socialOrder: 'instagram',
       },
       {
         id: 4,
