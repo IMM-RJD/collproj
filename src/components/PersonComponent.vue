@@ -3,6 +3,12 @@
   width: 300px;
   display: flex;
   flex-flow: column;
+  transition: all 0.2s;
+  &:hover {
+    transform: scale(0.98) translateZ(0) perspective(1px);
+    filter: blur(0px);
+    opacity: 1;
+  }
   > .content-wrapper {
     flex-grow: 10000;
     display: flex;
@@ -11,6 +17,12 @@
       flex-grow: 1;
       white-space: pre-line;
     }
+  }
+}
+@media (min-width: $breakpoint-md-min) {
+  .imm-person-card {
+    filter: blur(15px);
+    opacity: 0.6;
   }
 }
 </style>

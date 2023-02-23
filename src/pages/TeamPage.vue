@@ -16,12 +16,10 @@ export default defineComponent({
   name: 'TeamPage',
   components: { PersonComponent },
   setup() {
-    // socialOrderDefault ==> 'instagram, facebook, youtube, soundcloud';
     const persons = ref<Person[]>([
       /**
        * TODO:
        * - seo / alt-tag fuer images
-       * - social media links
        */
 
       {
@@ -48,7 +46,7 @@ export default defineComponent({
         lastName: 'Groll',
         role: 'IT & Sound',
         description:
-          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Just at a different place in the rulial space."',
+          'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Greatness from small beginnings - Ukulele ftw."',
         email: 'real_jane_doe@gmx.de',
         youtube: 'channel/UCf1CouiM7wRwDrROYltYDYA',
         soundcloud: 'improvisingmusicmachines',
