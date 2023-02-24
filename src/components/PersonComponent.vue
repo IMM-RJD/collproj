@@ -4,6 +4,21 @@
   display: flex;
   flex-flow: column;
   transition: all 0.2s;
+  > .content-wrapper {
+    flex-grow: 10000;
+    display: flex;
+    flex-direction: column;
+    > .content-description {
+      flex-grow: 1;
+      white-space: pre-line;
+    }
+  }
+}
+.imm-person-card-funky {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  transition: all 0.2s;
   &:hover {
     transform: scale(0.98) translateZ(0) perspective(1px);
     filter: blur(0px);
@@ -20,7 +35,7 @@
   }
 }
 @media (min-width: $breakpoint-md-min) {
-  .imm-person-card {
+  .imm-person-card-funky {
     filter: blur(15px);
     opacity: 0.6;
   }
@@ -33,7 +48,13 @@
     <q-card
       v-for="person in persons"
       :key="person.id"
-      class="bg-secondary text-white imm-person-card"
+      :class="
+        person.funkyStyles !== null
+          ? person.funkyStyles
+            ? 'bg-secondary text-white imm-person-card-funky'
+            : 'bg-secondary text-white imm-person-card'
+          : 'bg-secondary text-white imm-person-card'
+      "
     >
       <q-img
         width="100%"

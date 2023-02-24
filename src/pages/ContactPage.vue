@@ -26,6 +26,7 @@ export default defineComponent({
         id: 0,
         imgSrc: 'src/assets/team/jes-man.jpg',
         imgPosition: '50% 0%',
+        funkyStyles: false,
         firstName: 'Jessica',
         lastName: 'Mans',
         role: 'Organisatorin und performative Lichtkünstlerin',

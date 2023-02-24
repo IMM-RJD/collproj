@@ -2,6 +2,7 @@ export interface Person {
   id: number;
   imgSrc: string;
   imgPosition?: string;
+  funkyStyles?: boolean;
   firstName: string;
   lastName: string;
   role: string;
