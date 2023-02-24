@@ -19,6 +19,7 @@ export default defineComponent({
     const persons = ref<Person[]>([
       /**
        * TODO:
+       * - blur bei personComp ueber class deaktivieren (Jaezz bei /contact)
        * - seo / alt-tag fuer images
        */
 

@@ -1,5 +1,41 @@
 // app global css in SCSS form
 
+/**
+    Basic
+
+*/
+::selection {
+  color: $secondary;
+  background: $primary;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: $secondary;
+}
+
+body {
+  color: #444444;
+  background: $km-background;
+}
+.km-background {
+  background: $km-background;
+}
+
+.text-km-timeline {
+  color: $km-timeline !important;
+}
+.bg-km-timeline {
+  background: $km-timeline !important;
+}
+
+/**
+    Helper
+
+*/
 .imm-ml-0-important {
   margin-left: 0px !important;
 }
@@ -7,6 +43,21 @@
   padding: 0px !important;
 }
 
+.imm-sliderImgImprovMobExp {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: $breakpoint-md-min) {
+  .imm-sliderImgImprovMobExp {
+    width: 250%;
+    height: auto;
+  }
+}
+
+/**
+    App
+
+*/
 .imm-banner-logo {
   margin-left: 15px;
   width: 350px;

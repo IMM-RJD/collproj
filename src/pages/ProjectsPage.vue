@@ -4,55 +4,6 @@
     <h4 class="q-my-lg">Vergangene Projekte</h4>
     <!-- https://quasar.dev/style/color-palette#adding-your-own-colors -->
     <q-timeline color="km-timeline">
-      <!-- <q-timeline-entry heading> Vergangene Projekte </q-timeline-entry> -->
-
-      <!-- <q-timeline-entry
-        title="TESTESTEST Schattenwelten und Lichtgestalten - Choreografische Tanzperformance in eigens designtem Outfit [FRANKENTURM - Im Rahmen des Unterweltenfestivals 2022]"
-      >
-        <q-carousel
-          swipeable
-          animated
-          v-model="slideSL"
-          v-model:fullscreen="fullscreenSL"
-          thumbnails
-          infinite
-          class="secondary shadow-1 rounded-borders"
-        >
-          <q-carousel-slide
-            :name="1"
-            img-src="src/assets/projects/uw/frankenturm_innen_aussen.jpg"
-          ></q-carousel-slide>
-          <q-carousel-slide
-            :name="2"
-            img-src="src/assets/projects/uw/ll_mood.jpg"
-          ></q-carousel-slide>
-          <q-carousel-slide
-            :name="3"
-            img-src="src/assets/projects/uw/anzeige_ohneBild.jpg"
-          ></q-carousel-slide>
-          <q-carousel-slide
-            :name="4"
-            img-src="src/assets/projects/uw/rotweis1.jpg"
-          ></q-carousel-slide>
-          <q-carousel-slide
-            :name="5"
-            img-src="src/assets/projects/uw/aeste.jpg"
-          ></q-carousel-slide>
-          <template v-slot:control>
-            <q-carousel-control position="bottom-right" :offset="[18, 18]">
-              <q-btn
-                push
-                round
-                dense
-                text-color="primary"
-                :icon="fullscreenSL ? 'fullscreen_exit' : 'fullscreen'"
-                @click="fullscreenSL = !fullscreenSL"
-              />
-            </q-carousel-control>
-          </template>
-        </q-carousel>
-      </q-timeline-entry> -->
-
       <q-timeline-entry
         title="Schattenwelten und Lichtgestalten - Choreografische Tanzperformance [FRANKENTURM - Im Rahmen des Trierer Unterweltenfestivals 2022]"
       >
@@ -60,40 +11,47 @@
           animated
           v-model="slideSL"
           v-model:fullscreen="fullscreenSL"
-          navigation
-          control-color="primary"
+          arrows
+          control-type="regular"
+          control-color="secondary"
+          control-text-color="primary"
+          prev-icon="arrow_left"
+          next-icon="arrow_right"
           infinite
           class="secondary shadow-1 rounded-borders"
-          height="200px"
+          height="250px"
         >
           <q-carousel-slide :name="1" class="imm-p-0-important">
-            <div>
-              <q-img
-                loading="lazy"
-                src="src/assets/projects/uw/frankenturm_innen_aussen.jpg"
-              ></q-img>
-            </div>
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/uw/frankenturm_innen_aussen.jpg"
+            ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="2" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/uw/ll_mood.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="3" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/uw/anzeige_ohneBild.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="4" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/uw/rotweis1.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="5" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/uw/aeste.jpg"
             ></q-img>
@@ -102,9 +60,9 @@
           <template v-slot:control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
               <q-btn
-                push
                 round
                 dense
+                color="secondary"
                 text-color="primary"
                 :icon="fullscreenSL ? 'fullscreen_exit' : 'fullscreen'"
                 @click="fullscreenSL = !fullscreenSL"
@@ -134,40 +92,47 @@
           animated
           v-model="slide"
           v-model:fullscreen="fullscreen"
-          navigation
-          control-color="primary"
+          arrows
+          control-type="regular"
+          control-color="secondary"
+          control-text-color="primary"
+          prev-icon="arrow_left"
+          next-icon="arrow_right"
           infinite
           class="secondary shadow-1 rounded-borders"
-          height="200px"
+          height="250px"
         >
           <q-carousel-slide :name="1" class="imm-p-0-important">
             <q-img
-              width="1300px"
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/gb/flyer_front.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="2" class="imm-p-0-important">
             <q-img
-              width="1300px"
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/gb/flyer_back.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="3" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/gb/freiesmitaneindertanzenundmusizieren.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="4" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/gb/gewaltfreiekommunikation.jpg"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="5" class="imm-p-0-important">
             <q-img
+              class="imm-sliderImgImprovMobExp"
               loading="lazy"
               src="src/assets/projects/gb/maxmukke.jpg"
             ></q-img>
@@ -194,9 +159,9 @@
           <template v-slot:control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
               <q-btn
-                push
                 round
                 dense
+                color="secondary"
                 text-color="primary"
                 :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
                 @click="fullscreen = !fullscreen"
