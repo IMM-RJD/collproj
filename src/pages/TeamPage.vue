@@ -19,13 +19,15 @@ export default defineComponent({
     const persons = ref<Person[]>([
       /**
        * TODO:
-       * - blur bei personComp ueber class deaktivieren (Jaezz bei /contact)
-       * - seo / alt-tag fuer images
+       * - uebersetzung
+       * - abstraktion
+       * - buntes brett
        */
 
       {
         id: 0,
         imgSrc: 'src/assets/team/jes-man.jpg',
+        imgAlt: 'Kollektivkopf Jessica Mans',
         imgPosition: '50% 0%',
         funkyStyles: true,
         firstName: 'Jessica',

@@ -1,6 +1,7 @@
 export interface Person {
   id: number;
   imgSrc: string;
+  imgAlt?: string;
   imgPosition?: string;
   funkyStyles?: boolean;
   firstName: string;
