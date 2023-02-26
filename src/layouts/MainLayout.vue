@@ -12,21 +12,21 @@
     </q-header>
 
     <q-drawer
+      v-model="leftDrawerOpen"
       class="km-background"
       show-if-above
       :mini="miniStateLeft"
-      @mouseover="miniStateLeft = false"
-      @mouseout="miniStateLeft = true"
       :width="220"
       :breakpoint="500"
-      v-model="leftDrawerOpen"
       side="left"
       bordered
+      @mouseover="miniStateLeft = false"
+      @mouseout="miniStateLeft = true"
     >
       <!-- drawer content -->
       <q-scroll-area class="fit">
         <q-list padding>
-          <q-item clickable v-ripple to="/team">
+          <q-item v-ripple clickable to="/team">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-people-group" />
             </q-item-section>
@@ -34,7 +34,7 @@
             <q-item-section> Team </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/concept">
+          <q-item v-ripple clickable to="/concept">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-shield-heart" />
             </q-item-section>
@@ -42,7 +42,7 @@
             <q-item-section> Konzept </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/events">
+          <q-item v-ripple clickable to="/events">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-calendar-days" />
             </q-item-section>
@@ -50,7 +50,7 @@
             <q-item-section> Termine & Aktuelles </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/gallery">
+          <q-item v-ripple clickable to="/gallery">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-image" />
             </q-item-section>
@@ -58,7 +58,7 @@
             <q-item-section> Galerie </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/projects">
+          <q-item v-ripple clickable to="/projects">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-shield-virus" />
             </q-item-section>
@@ -66,7 +66,7 @@
             <q-item-section> Projekte </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/contact">
+          <q-item v-ripple clickable to="/contact">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-envelope" />
             </q-item-section>
@@ -74,7 +74,7 @@
             <q-item-section> Kontakt </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/partner">
+          <q-item v-ripple clickable to="/partner">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-children" />
             </q-item-section>
@@ -84,7 +84,7 @@
 
           <q-separator />
 
-          <q-item clickable v-ripple to="/impressum">
+          <q-item v-ripple clickable to="/impressum">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-child" />
             </q-item-section>
@@ -141,7 +141,7 @@
           to="/"
         >
         </q-btn>
-        <q-btn
+        <!-- <q-btn
           flat
           unelevated
           size="1rem"
@@ -150,7 +150,29 @@
           to=""
           disable
         >
-        </q-btn>
+        </q-btn> -->
+        <q-fab
+          outline
+          padding="12px"
+          color="secondary"
+          icon="fa-solid fa-earth-americas"
+          direction="up"
+        >
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'de' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/de.svg"
+            @click="$i18n.locale = 'de'"
+          />
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'en-US' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/us.svg"
+            @click="$i18n.locale = 'en-US'"
+          />
+        </q-fab>
       </div>
     </q-footer>
   </q-layout>

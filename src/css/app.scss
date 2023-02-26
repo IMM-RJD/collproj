@@ -42,6 +42,11 @@ body {
 .imm-p-0-important {
   padding: 0px !important;
 }
+.imm-hover-bg-primary-important {
+  &:hover {
+    background-color: $primary !important;
+  }
+}
 
 .imm-sliderImgImprovMobExp {
   width: 100%;

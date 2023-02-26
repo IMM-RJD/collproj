@@ -1,7 +1,7 @@
 <template>
   <q-page padding class="q-mx-md">
     <!-- content -->
-    <h4 class="q-my-lg">Unser Team</h4>
+    <h4 class="q-my-lg">{{ $t('ourTeam') }}</h4>
 
     <person-component :persons="persons"></person-component>
   </q-page>
@@ -20,6 +20,9 @@ export default defineComponent({
       /**
        * TODO:
        * - uebersetzung
+       * - wrap personComp in skeleton (+testing slow bandwidth)
+       * - diff font-size (acc)
+       * - themeing
        * - abstraktion
        * - buntes brett
        */

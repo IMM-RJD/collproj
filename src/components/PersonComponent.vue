@@ -1,35 +1,3 @@
-<style lang="scss">
-.imm-person-card {
-  width: 300px;
-  display: flex;
-  flex-flow: column;
-  > .content-wrapper {
-    flex-grow: 10000;
-    display: flex;
-    flex-direction: column;
-    > .content-description {
-      flex-grow: 1;
-      white-space: pre-line;
-    }
-  }
-}
-.funky {
-  transition: all 0.2s;
-  &:hover {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-@media (min-width: $breakpoint-md-min) {
-  .funky {
-    filter: blur(15px);
-    opacity: 0.6;
-    &:hover {
-      transform: scale(0.98) translateZ(0) perspective(1px);
-    }
-  }
-}
-</style>
 <template>
   <div
     class="q-pa-md fit row wrap justify-evenly items-stretch content-start q-gutter-lg"
@@ -67,15 +35,15 @@
         </q-card-section>
 
         <q-separator
-          dark
           v-show="
             person.phone || person.email || person.homepage || person.instagram
           "
+          dark
         />
         <q-card-actions
+          v-show="person.phone || person.email || person.homepage"
           vertical
           class="q-pb-none q-pt-md"
-          v-show="person.phone || person.email || person.homepage"
         >
           <q-btn
             v-show="person.phone"
@@ -148,7 +116,6 @@
     </q-card>
   </div>
 </template>
-
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
 import { Person } from './models';
@@ -165,3 +132,36 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss">
+.imm-person-card {
+  width: 300px;
+  display: flex;
+  flex-flow: column;
+  > .content-wrapper {
+    flex-grow: 10000;
+    display: flex;
+    flex-direction: column;
+    > .content-description {
+      flex-grow: 1;
+      white-space: pre-line;
+    }
+  }
+}
+.funky {
+  transition: all 0.2s;
+  &:hover {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@media (min-width: $breakpoint-md-min) {
+  .funky {
+    filter: blur(15px);
+    opacity: 0.6;
+    &:hover {
+      transform: scale(0.98) translateZ(0) perspective(1px);
+    }
+  }
+}
+</style>
