@@ -31,7 +31,7 @@
               <q-icon name="fa-solid fa-people-group" />
             </q-item-section>
 
-            <q-item-section> Team </q-item-section>
+            <q-item-section> {{ $t('Team') }} </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/concept">
@@ -39,7 +39,7 @@
               <q-icon name="fa-solid fa-shield-heart" />
             </q-item-section>
 
-            <q-item-section> Konzept </q-item-section>
+            <q-item-section> {{ $t('Concept') }} </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/events">
@@ -47,7 +47,9 @@
               <q-icon name="fa-solid fa-calendar-days" />
             </q-item-section>
 
-            <q-item-section> Termine & Aktuelles </q-item-section>
+            <q-item-section>
+              {{ $t('Current_upcoming_events') }}
+            </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/gallery">
@@ -55,7 +57,7 @@
               <q-icon name="fa-solid fa-image" />
             </q-item-section>
 
-            <q-item-section> Galerie </q-item-section>
+            <q-item-section> {{ $t('Gallery') }} </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/projects">
@@ -63,7 +65,7 @@
               <q-icon name="fa-solid fa-shield-virus" />
             </q-item-section>
 
-            <q-item-section> Projekte </q-item-section>
+            <q-item-section> {{ $t('Past_projects') }} </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/contact">
@@ -71,7 +73,7 @@
               <q-icon name="fa-solid fa-envelope" />
             </q-item-section>
 
-            <q-item-section> Kontakt </q-item-section>
+            <q-item-section> {{ $t('Contact') }} </q-item-section>
           </q-item>
 
           <q-item v-ripple clickable to="/partner">
@@ -79,7 +81,7 @@
               <q-icon name="fa-solid fa-children" />
             </q-item-section>
 
-            <q-item-section> Förderer & Partner</q-item-section>
+            <q-item-section> {{ $t('Sponsors_partner') }} </q-item-section>
           </q-item>
 
           <q-separator />
@@ -89,7 +91,7 @@
               <q-icon name="fa-solid fa-child" />
             </q-item-section>
 
-            <q-item-section> Impressum </q-item-section>
+            <q-item-section> {{ $t('Imprint') }} </q-item-section>
           </q-item>
         </q-list>
       </q-scroll-area>
@@ -141,16 +143,6 @@
           to="/"
         >
         </q-btn>
-        <!-- <q-btn
-          flat
-          unelevated
-          size="1rem"
-          padding="10px"
-          icon="fa-brands fa-youtube"
-          to=""
-          disable
-        >
-        </q-btn> -->
         <q-fab
           outline
           padding="12px"

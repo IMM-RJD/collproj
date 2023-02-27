@@ -1,7 +1,6 @@
 <template>
   <q-page padding class="q-mx-md">
-    <!-- content -->
-    <h3>Impressum</h3>
+    <h3>{{ $t('imprint_headline') }}</h3>
 
     <!-- <div class="q-mb-xs">Verein e.V.</div> -->
     <div class="q-mb-xs">Jessica Mans</div>

@@ -1,8 +1,8 @@
 <template>
   <q-page padding class="q-mx-md">
     <!-- content -->
-    <h4 class="q-my-lg">Heute ist nicht aller Tage, wir sehen uns wieder...</h4>
-    <h5>und darauf freuen wir uns :)</h5>
+    <h4 class="q-my-lg">{{ $t('event_headline') }}</h4>
+    <h5>{{ $t('event_subheadline') }}</h5>
 
     <q-page-scroller
       position="bottom-right"

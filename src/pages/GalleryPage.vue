@@ -1,18 +1,17 @@
 <template>
   <q-page padding class="q-mx-md">
-    <h4 class="q-my-lg">Einblicke</h4>
+    <h4 class="q-my-lg">{{ $t('gallery_headline') }}</h4>
     <h5>
-      Schattenwelten und Lichtgestalten - Choreografische Tanzperformance
-      [FRANKENTURM - Im Rahmen des Trierer Unterweltenfestivals 2022]
+      {{ $t('gallery_subheadline') }}
     </h5>
     <div
       class="q-pa-md fit row wrap justify-evenly items-stretch content-start q-gutter-lg"
     >
       <q-img
         v-for="imgsrc in uw_imgs"
+        :key="imgsrc"
         width="300px"
         style="max-height: 300px"
-        :key="imgsrc"
         :src="imgsrc"
         fit="contain"
         loading="lazy"

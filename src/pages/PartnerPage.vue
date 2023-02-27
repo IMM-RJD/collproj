@@ -1,6 +1,6 @@
 <template>
   <q-page padding class="q-mx-md">
-    <h4 class="q-my-lg">Förderer</h4>
+    <h4 class="q-my-lg">{{ $t('partner_sponsor') }}</h4>
 
     <div class="fit row wrap justify-around items-start content-start">
       <div class="q-ma-md">
@@ -44,7 +44,7 @@
         </a>
       </div>
     </div>
-    <h4 class="q-my-lg">Partner</h4>
+    <h4 class="q-my-lg">{{ $t('partner_partner') }}</h4>
     <div class="fit row wrap justify-around items-start content-start">
       <div class="q-ma-md">
         <a href="https://taw-trier.de/" target="_blank">

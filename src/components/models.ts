@@ -6,8 +6,8 @@ export interface Person {
   funkyStyles?: boolean;
   firstName: string;
   lastName: string;
-  role: string;
-  description: string;
+  role: { en: string; de: string };
+  description: { en: string; de: string };
   phone?: string;
   email?: string;
   homepage?: string;

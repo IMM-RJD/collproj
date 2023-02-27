@@ -1,12 +1,8 @@
 <template>
   <q-page padding class="q-mx-md">
-    <!-- content -->
-    <h4 class="q-my-lg">Kontakt</h4>
+    <h4 class="q-my-lg">{{ $t('contact_headline') }}</h4>
 
-    <p class="q-mb-md">
-      Liebe Menschen, bei Interesse und Fragen sowie Kooperationsideen meldet
-      euch gerne telefonisch oder per E-Mail.
-    </p>
+    <p class="q-mb-md">{{ $t('contact_p_first') }}</p>
 
     <person-component :persons="persons"></person-component>
   </q-page>
@@ -29,8 +25,11 @@ export default defineComponent({
         funkyStyles: false,
         firstName: 'Jessica',
         lastName: 'Mans',
-        role: 'Organisatorin und performative Lichtkünstlerin',
-        description: '',
+        role: {
+          de: 'Organisatorin und performative Lichtkünstlerin',
+          en: 'Organizer and performative light artist',
+        },
+        description: { de: '', en: '' },
         phone: '0152 363 748 04',
         email: 'anfragen@kollektivmehrklang.de',
       },

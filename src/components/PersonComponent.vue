@@ -27,11 +27,13 @@
           <div class="text-h6">
             {{ person.firstName }} {{ person.lastName }}
           </div>
-          <div class="text-subtitle2">{{ person.role }}</div>
+          <div class="text-subtitle2">
+            {{ getRole(person, $i18n.locale) }}
+          </div>
         </q-card-section>
 
         <q-card-section class="content-description">
-          {{ person.description }}
+          {{ getDescription(person, $i18n.locale) }}
         </q-card-section>
 
         <q-separator
@@ -119,6 +121,8 @@
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
 import { Person } from './models';
+import { useI18n } from 'vue-i18n';
+
 export default defineComponent({
   name: 'PersonComponent',
   props: {
@@ -129,6 +133,27 @@ export default defineComponent({
   },
   setup() {
     return {};
+  },
+  methods: {
+    getRole(person: Person, locale: string): string {
+      // check if role is a single property string or multilang-object
+      return typeof person.role === 'string'
+        ? person.role
+        : locale === 'en-US'
+        ? person.role.en
+        : locale === 'de'
+        ? person.role.de
+        : 'missing role';
+    },
+    getDescription(person: Person, locale: string): string {
+      return typeof person.description === 'string'
+        ? person.description
+        : locale === 'en-US'
+        ? person.description.en
+        : locale === 'de'
+        ? person.description.de
+        : 'missing description';
+    },
   },
 });
 </script>

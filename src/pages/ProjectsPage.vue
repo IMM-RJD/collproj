@@ -1,23 +1,20 @@
 <template>
   <q-page padding class="q-mx-md">
-    <!-- content -->
-    <h4 class="q-my-lg">Vergangene Projekte</h4>
-    <!-- https://quasar.dev/style/color-palette#adding-your-own-colors -->
+    <h4 class="q-my-lg">{{ $t('project_headline') }}</h4>
+
     <q-timeline color="km-timeline">
-      <q-timeline-entry
-        title="Schattenwelten und Lichtgestalten - Choreografische Tanzperformance [FRANKENTURM - Im Rahmen des Trierer Unterweltenfestivals 2022]"
-      >
+      <q-timeline-entry :title="$t('project_timeline_schattenwelten_title')">
         <q-carousel
-          animated
           v-model="slideSL"
           v-model:fullscreen="fullscreenSL"
+          animated
           arrows
+          infinite
           control-type="regular"
           control-color="secondary"
           control-text-color="primary"
           prev-icon="arrow_left"
           next-icon="arrow_right"
-          infinite
           class="secondary shadow-1 rounded-borders"
           height="250px"
         >
@@ -57,7 +54,7 @@
             ></q-img>
           </q-carousel-slide>
 
-          <template v-slot:control>
+          <template #control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
               <q-btn
                 round
@@ -71,27 +68,16 @@
           </template>
         </q-carousel>
         <div class="q-py-md">
-          Im realen Leben gibt es viele Gegensätze: Gut & Böse, Schatten &
-          Licht, warm & kalt. Ohne das Eine nicht das Andere. Die Veranstaltung
-          beginnt in einer dunklen Schattenwelt, der „Unterwelt“, hier leben
-          düstere Gestalten, die sich durch Tanz und Bewegung ausdrücken. Doch
-          wo Schatten, da muss auch Licht sein! Es folgt der Wandel ins Licht
-          mit Sängerin und mitreißender Lichtperformance von Lady Lightflow. Es
-          folgt ein musikalischer Liveact elektronischer Art, ca. 2 Std. von
-          Soundkünstler:innen der Region, die das Spiel der Gegensätze zwischen
-          Licht & Schatten, Realität & Fiktion sowie Diesseits & Jenseits
-          thematisieren. <br /><br />
-          Kostüm und Styling: Lady Lace LATEX || Make-up Artist: Irene
-          Lichtenwald || Sound: Sebastian Groll
+          {{ $t('project_timeline_schattenwelten_description_first') }}
+          <br /><br />
+          {{ $t('project_timeline_schattenwelten_description_second') }}
         </div>
       </q-timeline-entry>
-      <q-timeline-entry
-        title="Glücksbringer - Soziokulturelles Programm mit Workshops und Events [KULTURSPEKTRUM 2022]"
-      >
+      <q-timeline-entry :title="$t('project_timeline_gluecksbringer_title')">
         <q-carousel
-          animated
           v-model="slide"
           v-model:fullscreen="fullscreen"
+          animated
           arrows
           control-type="regular"
           control-color="secondary"
@@ -156,7 +142,7 @@
           <q-carousel-slide :name="8" class="imm-p-0-important">
             <q-img loading="lazy" src="src/assets/projects/gb/logo.png"></q-img>
           </q-carousel-slide>
-          <template v-slot:control>
+          <template #control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
               <q-btn
                 round
@@ -170,52 +156,31 @@
           </template>
         </q-carousel>
         <div class="q-py-md">
-          Das Kulturspektrum wird im Rahmen unseres Projekts einen Ort der
-          Vielfalt und Begegnung darstellen. Es werden soziokulturelle Workshops
-          angeboten, die interdisziplinäre, inklusive und interaktive Inhalte
-          vermitteln. Zudem ist ein zweitägiges, öffentliches Familienfest Teil
-          unseres Projekts. Hier werden verschiedene Programmpunkte für Groß und
-          Klein, Jung und Alt, Menschen mit und ohne Handicap angeboten. Das
-          Kulturspektrum soll zu einem „Glücksbringer“ für die Stadt Trier und
-          ihre Kultur werden. <br />
-          Das Kollektiv Mehrklang ist ein Zusammenschluss kreativer Köpfe
-          verschiedener Sparten aus Kunst und Sozialem. <br />Es geht uns um
-          Achtsamkeit, Austausch, Unterhaltung und Kreativität. Unser Fokus
-          liegt auf Vernetzung, Experimentierfreude und ganzheitlichem Lernen.
-          Diese vereinen wir mit den Elementen der Musik, der Bewegung, des
-          Spiels und der kreativen Gestaltung. <br />Wir freuen uns auf eine
-          wunderbare Reise mit euch!
+          {{ $t('project_timeline_gluecksbringer_description_first') }}
+          <br />
+          {{ $t('project_timeline_gluecksbringer_description_second') }}
+          <br />
+          {{ $t('project_timeline_gluecksbringer_description_third') }}
+          <br />
+          {{ $t('project_timeline_gluecksbringer_description_fourth') }}
         </div>
       </q-timeline-entry>
-      <q-timeline-entry
-        title='Illuminale - Tanztheaterstück mit Lady Lightflow "panta rhei-alles fließt" [TRIER 2021] '
-        subtitle=""
-      >
+      <q-timeline-entry :title="$t('project_timeline_panta_title')" subtitle="">
         <q-video
           :ratio="16 / 9"
           src="https://www.youtube.com/embed/oOBoDeAeCgs"
         ></q-video>
         <div class="q-py-md">
-          Für die Illuminale in Trier ist ein Tanztheaterstück entstanden,
-          welches im Rahmen der Veranstaltung als Programmpunkt aufgeführt
-          wurde. Lady Lightflow, die performative Lichtkünstlerin erarbeitete
-          das Konzept und war für die Kostüme, die in liebevoller Handarbeit
-          entstanden, zuständig. Das Thema des Stücks war "panta rhei - alles
-          fließt". Es wurden die fünf Elemente Luft, Erde, Feuer, Wasser und der
-          Spirit, der allem innewohnt, charakterisiert. Bachelorarbeit von
-          Jessica Mans, Modedesign. <br />
-          Passend zu den Kreationen zückte die Make-up Artistin Irene
-          Lichtenwald ihren Pinsel und verzauberte alle Gesichter.
+          {{ $t('project_timeline_panta_description_first') }} <br />
+          {{ $t('project_timeline_panta_description_second') }}
           <br /><br />
-          Vielen herzlichen Dank an dieser Stelle an Jan Hoffman, ttm und an
-          Kathrin Koutrakos, Museum Simeonstift.
+          {{ $t('project_timeline_panta_description_third') }}
           <br /><br />
-          Video/Schnitt/Musik: Lukas Busch, Quarantechno.de || Produktion:
-          Philipp Köhn, Quarantechno.de
+          {{ $t('project_timeline_panta_description_fourth') }}
         </div>
       </q-timeline-entry>
 
-      <q-timeline-entry title="KALI interiUS [TRIER 2019]" subtitle="">
+      <q-timeline-entry :title="$t('project_timeline_kali_title')" subtitle="">
         <q-video
           :ratio="16 / 9"
           src="https://www.youtube.com/embed/etmYMG6CoTI"
@@ -226,16 +191,13 @@
           src="https://www.youtube.com/embed/gRBVq0AJONA"
         ></q-video>
         <div class="q-py-md">
-          Das Video, welches im Rahmen des Semesterprojekts 2019 von Jessica
-          Mans (sechstes Semester) entstanden ist, trägt den Namen "KALI
-          interiUS".<br />
-          Kooperation mit Galerie Netzwerk, Ausstellung „Die Schönheit des
-          Defekts“ des Künstlers Jenzzz (jenzzz.net).<br /><br />
-          Vielen herzlichen Dank an dieser Stelle an Bettina Ghasempoor und Marc
-          Kalbusch aus der Galerie Netzwerk in Trier, deren Location wir als
-          Drehort nutzen durften.<br /><br />
-          Video/Schnitt/Produktion: Marius Jacob || Kostüm und Styling: Lady
-          Lace LATEX
+          {{ $t('project_timeline_kali_description_first') }}
+          <br />
+          {{ $t('project_timeline_kali_description_second') }}
+          <br /><br />
+          {{ $t('project_timeline_kali_description_third') }}
+          <br /><br />
+          {{ $t('project_timeline_kali_description_fourth') }}
         </div>
       </q-timeline-entry>
 
