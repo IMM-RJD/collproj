@@ -86,7 +86,7 @@
 
           <q-separator />
 
-          <q-item v-ripple clickable to="/impressum">
+          <q-item v-ripple clickable to="/imprint">
             <q-item-section avatar>
               <q-icon name="fa-solid fa-child" />
             </q-item-section>

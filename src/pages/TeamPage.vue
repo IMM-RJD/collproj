@@ -19,9 +19,8 @@ export default defineComponent({
     const persons = ref<Person[]>([
       /**
        * TODO:
-       * - uebersetzung
        * - wrap personComp in skeleton (+testing slow bandwidth)
-       * - diff font-size (acc)
+       * - diff font-size (acc) - alles in rem und dann einfach --calc mit einer variable
        * - themeing
        * - abstraktion
        * - buntes brett

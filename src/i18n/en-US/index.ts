@@ -35,7 +35,7 @@ export default {
   project_timeline_gluecksbringer_title:
     'Glücksbringer (Lucky Charm) - Sociocultural Program with Workshops and Events [KULTURSPEKTRUM 2022].',
   project_timeline_gluecksbringer_description_first:
-    'The Cultural Spectrum will be a place of diversity and encounter as part of our project. Socio-cultural workshops will be offered that will provide interdisciplinary, inclusive and interactive content. In addition, a two-day public family festival is part of our project. Here, different program points for big and small, young and old, people with and without handicap will be offered. The cultural spectrum is to become a "lucky charm" for the city of Trier and its culture.',
+    'The Kulturspektrum (Cultural Spectrum) will be a place of diversity and encounter as part of our project. Socio-cultural workshops will be offered that will provide interdisciplinary, inclusive and interactive content. In addition, a two-day public family festival is part of our project. Here, different program points for big and small, young and old, people with and without handicap will be offered. The cultural spectrum is to become a "lucky charm" for the city of Trier and its culture.',
   project_timeline_gluecksbringer_description_second:
     'The Mehrklang collective is an association of creative minds from various fields of art and social work.',
   project_timeline_gluecksbringer_description_third:
