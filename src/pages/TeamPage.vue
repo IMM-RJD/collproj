@@ -22,7 +22,6 @@ export default defineComponent({
        * - wrap personComp in skeleton (+testing slow bandwidth)
        * - diff font-size (acc) - alles in rem und dann einfach --calc mit einer variable
        * - themeing
-       * - abstraktion
        * - buntes brett
        */
 
@@ -64,7 +63,8 @@ export default defineComponent({
         email: 'real_jane_doe@gmx.de',
         youtube: 'channel/UCf1CouiM7wRwDrROYltYDYA',
         soundcloud: 'improvisingmusicmachines',
-        socialOrder: 'soundcloud, youtube',
+        github: 'IMM-RJD',
+        socialOrder: 'soundcloud, youtube, github',
       },
       {
         id: 2,
