@@ -35,9 +35,16 @@ export default defineComponent({
   setup() {
     return {
       uw_imgs: [
-        'src/assets/gallery/unterwelten22/1.jpeg',
-        'src/assets/gallery/unterwelten22/2.jpeg',
-        'src/assets/gallery/unterwelten22/3.jpeg',
+        'src/assets/gallery/unterwelten22/group_hor.jpeg',
+        'src/assets/gallery/unterwelten22/moni_oben.jpeg',
+        'src/assets/gallery/unterwelten22/moni_portrae.jpeg',
+        'src/assets/gallery/unterwelten22/moni_pose.jpeg',
+        'src/assets/gallery/unterwelten22/group_ver.jpeg',
+        'src/assets/gallery/unterwelten22/franzi_pose.jpeg',
+        'src/assets/gallery/unterwelten22/franzi_vorne.jpeg',
+        // 'src/assets/gallery/unterwelten22/franzi_oben.jpeg',
+        'src/assets/gallery/unterwelten22/jess_kopf.jpeg',
+        'src/assets/gallery/unterwelten22/jess_ganz.jpeg',
       ],
     };
   },
