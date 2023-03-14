@@ -8,6 +8,7 @@ export default {
   Contact: 'Kontakt',
   Sponsors_partner: 'Förderer & Partner',
   Imprint: 'Impressum',
+  Mehr_klang: 'Mehr_klang',
   // team page
   team_headline: 'Unser Team',
   // concept page
@@ -70,4 +71,8 @@ export default {
   partner_partner: 'Partner',
   // imprint
   imprint_headline: 'Impressum',
+  // music / mehr klang
+  music_headline: 'Mehr_klang',
+  music_recommendation: '(🌸ºั⌣ºั)',
+  music_shuffle: 'mischeln',
 };
