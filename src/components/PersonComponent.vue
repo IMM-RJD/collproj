@@ -6,11 +6,10 @@
       v-for="person in persons"
       :key="person.id"
       :class="
-        person.funkyStyles !== undefined
-          ? person.funkyStyles
-            ? 'bg-secondary text-white imm-person-card funky'
-            : 'bg-secondary text-white imm-person-card'
-          : 'bg-secondary text-white imm-person-card'
+        'bg-secondary text-white imm-person-card ' +
+        (person.funkyStyles !== undefined && person.funkyStyles
+          ? 'imm-funky-blur '
+          : '')
       "
     >
       <q-img
@@ -180,22 +179,6 @@ export default defineComponent({
     > .content-description {
       flex-grow: 1;
       white-space: pre-line;
-    }
-  }
-}
-.funky {
-  transition: all 0.2s;
-  &:hover {
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-@media (min-width: $breakpoint-md-min) {
-  .funky {
-    filter: blur(15px);
-    opacity: 0.6;
-    &:hover {
-      transform: scale(0.98) translateZ(0) perspective(1px);
     }
   }
 }

@@ -1,8 +1,7 @@
 // app global css in SCSS form
-
 /**
-    Basic
 
+    Basic
 */
 ::selection {
   color: $secondary;
@@ -33,8 +32,8 @@ body {
 }
 
 /**
-    Helper
 
+    Helper
 */
 .imm-ml-0-important {
   margin-left: 0px !important;
@@ -60,8 +59,35 @@ body {
 }
 
 /**
-    App
 
+    Funky styles
+*/
+.imm-funky-blur {
+  transition: all 0.2s;
+  &:hover {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  &:hover.imm-person-card {
+    transform: scale(0.98) translateZ(0) perspective(1px);
+  }
+}
+@media (min-width: $breakpoint-md-min) {
+  .imm-funky-blur {
+    filter: blur(5px);
+    opacity: 0.6;
+  }
+}
+.imm-funky-corner-crop-lb {
+  // small crop
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 36px 100%, 0px calc(102% - 50px));
+  // big crop
+  // clip-path: polygon(0 0, 100% 0, 100% 100%, 50px 100%, 0 calc(100% - 50px));
+}
+
+/**
+
+    App
 */
 .imm-banner-logo {
   margin-left: 15px;

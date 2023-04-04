@@ -38,3 +38,31 @@ export interface Event {
   allowShare?: boolean;
   canceled?: boolean;
 }
+export interface Shoutout {
+  id: number;
+  imgSrc: string;
+  imgAlt?: string;
+  imgClass?: string;
+  imgPosition?: string;
+  imgFit?: any;
+  imgWrapBgColor?: string;
+  funkyStyles?: boolean;
+  bgColor: string;
+  title: { en: string; de: string };
+  subtitle?: { en: string; de: string };
+  expanded?: boolean;
+  introVideo?: string;
+  description: { en: string; de: string };
+  readmore?: string;
+  phone?: string;
+  email?: string;
+  homepage?: string;
+  homepageText?: string;
+  facebook?: string;
+  instagram?: string;
+  youtube?: string;
+  soundcloud?: string;
+  github?: string;
+  twitter?: string;
+  socialOrder?: string;
+}

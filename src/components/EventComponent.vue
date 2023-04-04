@@ -1,17 +1,7 @@
-<style lang="scss">
-.imm-event-card {
-  width: 100%;
-  max-width: 300px;
-  > .content-wrapper {
-    div > .content-description {
-      white-space: pre-line;
-    }
-  }
-}
-</style>
 <template>
   <div class="row wrap justify-evenly items-start content-start q-gutter-lg">
     <q-card
+      v-for="event in events"
       :id="
         event.title
           .toLowerCase()
@@ -19,15 +9,14 @@
           .replaceAll('-', '')
           .slice(0, 10)
       "
-      v-for="event in events"
       :key="event.id"
       class="bg-secondary text-white imm-event-card"
     >
       <div style="width: 100%">
         <q-dialog
+          v-model="clipAlert"
           seamless
           position="bottom"
-          v-model="clipAlert"
           :auto-close="true"
         >
           <q-card style="box-shadow: none !important">
@@ -93,7 +82,7 @@
           </div>
         </q-card-section>
 
-        <q-card-actions class="q-pt-none" v-show="event.link">
+        <q-card-actions v-show="event.link" class="q-pt-none">
           <q-space />
           <q-btn
             :label="event.linkText || 'zum Ticketverkauf'"
@@ -125,11 +114,11 @@
               {{ event.description }}
             </q-card-section>
 
-            <q-separator dark v-show="event.phone || event.email" />
+            <q-separator v-show="event.phone || event.email" dark />
             <q-card-actions
+              v-show="event.phone || event.email"
               vertical
               class="q-pb-none q-pt-md"
-              v-show="event.phone || event.email"
             >
               <q-btn
                 v-show="event.phone"
@@ -174,7 +163,6 @@
     </q-card>
   </div>
 </template>
-
 <script lang="ts">
 import { copyToClipboard } from 'quasar';
 import { Event } from './models';
@@ -205,3 +193,15 @@ export default defineComponent({
 //   "
 // ></event-component>
 </script>
+
+<style lang="scss">
+.imm-event-card {
+  width: 100%;
+  max-width: 300px;
+  > .content-wrapper {
+    div > .content-description {
+      white-space: pre-line;
+    }
+  }
+}
+</style>

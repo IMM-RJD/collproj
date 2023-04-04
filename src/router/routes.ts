@@ -5,7 +5,7 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', redirect: '/music' },
+      { path: '', redirect: '/events' },
       { path: 'team', component: () => import('pages/TeamPage.vue') },
       { path: 'concept', component: () => import('pages/ConceptPage.vue') },
       { path: 'events', component: () => import('pages/EventsPage.vue') },
@@ -16,6 +16,10 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'imprint',
         component: () => import('src/pages/ImprintPage.vue'),
+      },
+      {
+        path: 'bulletinboard',
+        component: () => import('src/pages/BulletinBoardPage.vue'),
       },
       { path: 'music', component: () => import('src/pages/MusicPage.vue') },
       { path: 'test123', component: () => import('pages/test123Page.vue') },

@@ -1,4 +1,6 @@
 export default {
+  // app
+  readmore: 'read more',
   // main nav
   Team: 'Team',
   Concept: 'Concept',
@@ -8,6 +10,7 @@ export default {
   Contact: 'Contact',
   Sponsors_partner: 'Sponsors & Partners',
   Imprint: 'Imprint',
+  BulletinBoard: 'Bulletin Board',
   Mehr_klang: 'Mehr_klang',
   // team page
   team_headline: 'Our team',
@@ -19,8 +22,11 @@ export default {
     'Dear people, we offer you: interactive, interdisciplinary & cultural projects that are about exchange, entertainment and creativity. Our focus is on networking, experimentation and holistic learning. We combine these with the elements of music, play and creative design. We encourage our fellow human beings to experience with all their senses. We offer workshops and various happenings and look forward to a wonderful journey with you.',
   concept_p_third: '"Keep your sparkle, no matter if it blinds others."',
   // event page
-  event_headline: "We'll be back...",
-  event_subheadline: "and we're looking forward to it :)",
+  event_headline:
+    "...is it already later, the cookie monster asked? Jep, finally it's later!",
+  event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
+  event_event1_description:
+    'We are very happy to be a part of this festival and offer various happenings for all senses. Whether you want to create a mobile or would like to be enchanted with imaginative make-up - feel free to come to our collective area :) From nightfall we will take you on a wondrous journey with light and performances.',
   // gallery
   gallery_headline: 'Take a glimpse',
   gallery_subheadline:
@@ -71,6 +77,9 @@ export default {
   partner_partner: 'Partner',
   // imprint
   imprint_headline: 'Imprint',
+  // bulletinboard
+  bulletinboard_headline: 'Our Bulletin Board',
+  bulletinboard_description: 'did you know...?',
   // music / mehr klang
   music_headline: "Mehr_klang {'|'} More_sound",
   music_recommendation: '(🌸ºั⌣ºั)',

@@ -1,13 +1,17 @@
+// Ä, Ö  Ü  ä, ö  ü „ “
 export default {
+  // app
+  readmore: 'Weiterlesen',
   // main nav
   Team: 'Team',
   Concept: 'Konzept',
   Current_upcoming_events: 'Termine & Aktuelles',
-  Gallery: 'Galerie',
+  Gallery: 'Einblicke',
   Past_projects: 'Rückspiegel',
   Contact: 'Kontakt',
   Sponsors_partner: 'Förderer & Partner',
   Imprint: 'Impressum',
+  BulletinBoard: 'Zum Bunten Brett',
   Mehr_klang: 'Mehr_klang',
   // team page
   team_headline: 'Unser Team',
@@ -19,8 +23,14 @@ export default {
     'Liebe Menschen, wir bieten euch: interaktive, interdisziplinäre & kulturelle Projekte, in denen es um Austausch, Unterhaltung und Kreativität geht. Unser Fokus liegt auf Vernetzung, Experimentierfreude und ganzheitlichem Lernen. Diese vereinen wir mit den Elementen der Musik, des Spiels und der kreativen Gestaltung. Wir regen unsere Mitmenschen an, mit allen Sinnen zu erfahren. Wir bieten Workshops und verschiedene Happenings und freuen uns auf eine wunderbare Reise mit euch.',
   concept_p_third: '„Bewahre dir dein Glitzern, egal ob es andere blendet.“',
   // event page
-  event_headline: 'Heute ist nicht aller Tage, wir sehen uns wieder...',
-  event_subheadline: 'und darauf freuen wir uns :)',
+  event_headline:
+    '„...ist jetzt schon später?“, fragte das Krümelmonster. „Jep, endlich ist es später!“',
+  event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
+  event_event1_description:
+    'Wir freuen uns sehr, ein Teil dieses Festivals sein zu dürfen und bieten verschiedene Happenings für alle Sinne an. Ob ihr ein Mobile kreieren wollt oder Lust habt, euch mit phantasievollem Makeup verzaubern zu lassen - kommt gern zu unserer Kollektivarea :) Ab Einbruch der Dunkelheit nehmen wir euch mit auf eine wundersame Reise mit Licht und Performances.',
+  event_event2_title: 'Tanz der Götter 10.6-',
+  event_event2_description:
+    'Tanz der Götter noch mit reinhaun, da sind wir ja auch mit am Start, 10.6',
   // gallery
   gallery_headline: 'Einblicke',
   gallery_subheadline:
@@ -71,6 +81,10 @@ export default {
   partner_partner: 'Partner',
   // imprint
   imprint_headline: 'Impressum',
+  // bulletinboard
+  bulletinboard_headline: 'Unser Buntes Brett',
+  bulletinboard_description:
+    'zeigt kunterbunt verschiedenes aus einer kunterbunten Welt.',
   // music / mehr klang
   music_headline: 'Mehr_klang',
   music_recommendation: '(🌸ºั⌣ºั)',
