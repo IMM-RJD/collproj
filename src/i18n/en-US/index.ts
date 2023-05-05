@@ -27,6 +27,9 @@ export default {
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
   event_event1_description:
     'We are very happy to be a part of this festival and offer various happenings for all senses. Whether you want to create a mobile or would like to be enchanted with imaginative make-up - feel free to come to our collective area :) From nightfall we will take you on a wondrous journey with light and performances.',
+  event_event2_title: 'DANCE OF THE GODS 10th of June 2023',
+  event_event2_description:
+    'Lovers of the Universe a.s.b.l. proudly presents “DANCE OF THE GODS” - a unique event that transcends everything you have ever experienced. Be ready to dive deep in the world of our ancestral heritage of Greek, Nordic, Egyptian and Hindu Mythology in a one day festival. Expect epic children’s games, great musical performances from all over the world, theatrical improvisation, a divine electro set and incredible breathtaking surprises. Bring your offerings and we promise you divine sacrificial ceremonies. A feast of the Gods like you never seen.',
   // gallery
   gallery_headline: 'Take a glimpse',
   gallery_subheadline:

@@ -28,9 +28,9 @@ export default {
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
   event_event1_description:
     'Wir freuen uns sehr, ein Teil dieses Festivals sein zu dürfen und bieten verschiedene Happenings für alle Sinne an. Ob ihr ein Mobile kreieren wollt oder Lust habt, euch mit phantasievollem Makeup verzaubern zu lassen - kommt gern zu unserer Kollektivarea :) Ab Einbruch der Dunkelheit nehmen wir euch mit auf eine wundersame Reise mit Licht und Performances.',
-  event_event2_title: 'Tanz der Götter 10.6-',
+  event_event2_title: "DANCE OF THE GODS {'|'} TANZ DER GÖTTER 10.06",
   event_event2_description:
-    'Tanz der Götter noch mit reinhaun, da sind wir ja auch mit am Start, 10.6',
+    'Lovers of the Universe a.s.b.l. präsentiert stolz "TANZ DER GÖTTER" - ein einzigartiges Ereignis, das alles übertrifft, was Sie je erlebt haben. Seien Sie bereit, in einem eintägigen Festival tief in die Welt unseres angestammten Erbes der griechischen, nordischen, ägyptischen und hinduistischen Mythologie einzutauchen. Freuen Sie sich auf epische Kinderspiele, großartige musikalische Darbietungen aus der ganzen Welt, theatralische Improvisationen, ein göttliches Elektro-Set und unglaubliche, atemberaubende Überraschungen. Bringt eure Opfergaben mit und wir versprechen euch göttliche Opferzeremonien. Ein Fest der Götter, wie ihr es noch nie gesehen habt.',
   // gallery
   gallery_headline: 'Einblicke',
   gallery_subheadline:

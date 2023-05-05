@@ -22,7 +22,6 @@ export default defineComponent({
        * - wrap personComp in skeleton (+testing slow bandwidth)
        * - diff font-size (acc) - alles in rem und dann einfach --calc mit einer variable
        * - themeing
-       * - buntes brett
        */
 
       {
@@ -57,7 +56,7 @@ export default defineComponent({
         lastName: 'Groll',
         role: { de: 'IT & Sound', en: 'IT & Sound' },
         description: {
-          de: 'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pfelge der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetie. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Greatness from small beginnings - Ukulele ftw."',
+          de: 'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pflege der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetier. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Greatness from small beginnings - Ukulele ftw."',
           en: 'Tech-savvy, audiophile and enthusiastic, he supports the collective in word and deed. The maintenance of the website, the mixing of sets and electronic live performances are his main tasks. He also enjoys getting involved in a wide variety of tasks in many different ways. \n\n "Greatness from small beginnings - Ukulele ftw."',
         },
         email: 'real_jane_doe@gmx.de',
@@ -99,6 +98,22 @@ export default defineComponent({
       },
       {
         id: 4,
+        imgSrc: 'src/assets/team/monika.jpeg',
+        imgPosition: '50% 40%',
+        funkyStyles: true,
+        firstName: 'Monika ',
+        lastName: 'Tapiador',
+        role: { de: 'Model und Darstellerin', en: 'Model and performer' },
+        description: {
+          de: 'Mit ihrer langjährigen Erfahrung als nebenberufliches Fotomodell so wie in den Bereichen Schauspiel, Theater und Tanz bringt sie sich sowohl konstruktiv über Skript und Choreo, als auch performativ ein - mit dem Ziel, das Kollektiv Geschichten erzählen zu lassen. \nFür die Trierer Unterwelten 2022 war sie mit 15 Auftritten fester Bestandteil des Mehrklang Tanztheater-Ensembles. \n\n "Durch das Spiel wird die Phantasie zur erlebten Wirklichkeit. Für den Spielenden ein weiteres Leben - für den Betrachter eine Illusion von der er sich mitreißen lassen kann.“',
+          en: 'With her many years of experience as a part-time model as well as in the fields of acting, theater and dance, she contributes constructively via script and choreo as well as performatively - with the goal of letting the collective tell stories. \n For the Trier Underworlds 2022, she was an integral part of the Mehrklang Tanztheater ensemble with 15 performances. \n\n "Through play, fantasy becomes experienced reality. For the performer, another life - for the viewer, an illusion to be carried away by."',
+        },
+        email: 'booking@monika-tapiador.com',
+        instagram: 'monikatapiador',
+        socialOrder: 'instagram',
+      },
+      {
+        id: 5,
         imgSrc: 'src/assets/team/sam-pet.jpg',
         imgPosition: '50% 0%',
         funkyStyles: true,
@@ -129,7 +144,7 @@ export default defineComponent({
       //   email: '',
       // },
       {
-        id: 5,
+        id: 6,
         imgSrc: 'src/assets/team/cla-sch.jpg',
         imgPosition: '50% 49%',
         funkyStyles: true,
@@ -145,7 +160,7 @@ export default defineComponent({
         },
       },
       {
-        id: 6,
+        id: 7,
         imgSrc: 'src/assets/team/isa-mul.jpg',
         imgPosition: '50% 0%',
         funkyStyles: true,

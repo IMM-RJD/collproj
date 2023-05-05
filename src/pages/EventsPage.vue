@@ -8,11 +8,25 @@
       {{ $t('event_event1_description') }}
     </p>
 
-    <!-- <h5 class="q-mb-md">{{ $t('event_event2_title') }}</h5>
-    <p>
+    <h5 style="color: #d46643" class="q-mb-md">
+      {{ $t('event_event2_title') }}
+    </h5>
+    <q-video src="https://www.youtube.com/embed/gwcd96MDOnM"></q-video>
+    <p class="q-mt-sm">
       {{ $t('event_event2_description') }}
-    </p> -->
-
+    </p>
+    <q-btn
+      flat
+      icon="fa-solid fa-share"
+      type="a"
+      style="color: #d46643"
+      :no-caps="true"
+      align="left"
+      target="_blank"
+      href="https://www.loversoftheuniverse.com/danceofthegods"
+      label="visit DANCE OF THE GODS"
+    ></q-btn>
+    <div style="height: 50px; width: 100%"></div>
     <q-page-scroller
       position="bottom-right"
       :scroll-offset="2000"
