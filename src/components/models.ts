@@ -53,16 +53,19 @@ export interface Shoutout {
   expanded?: boolean;
   introVideo?: string;
   description: { en: string; de: string };
-  readmore?: string;
+  readmore?: { en: string; de: string };
   phone?: string;
   email?: string;
   homepage?: string;
   homepageText?: string;
+  homepageIconOnly?: boolean;
   facebook?: string;
   instagram?: string;
   youtube?: string;
   soundcloud?: string;
   github?: string;
   twitter?: string;
+  reddit?: string;
+  tiktok?: string;
   socialOrder?: string;
 }

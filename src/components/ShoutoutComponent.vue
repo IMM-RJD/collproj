@@ -26,8 +26,8 @@
         :src="shoutout.imgSrc"
         :alt="shoutout.imgAlt || getTitle(shoutout, $i18n.locale)"
       ></q-img>
-      <div class="q-pa-xs q-pb-none content-wrapper">
-        <q-card-section>
+      <div class="q-pb-none content-wrapper">
+        <q-card-section class="q-pa-lg">
           <div class="text-h6 q-pb-xs">
             {{ getTitle(shoutout, $i18n.locale) }}
           </div>
@@ -36,7 +36,7 @@
           </div>
         </q-card-section>
 
-        <q-card-actions class="q-py-none">
+        <q-card-actions class="q-py-none q-pb-lg">
           <q-space />
           <q-btn
             color="secondary"
@@ -51,25 +51,27 @@
         </q-card-actions>
         <q-slide-transition>
           <div v-show="shoutout.expanded">
-            <q-card-section class="content-description">
-              <div v-show="shoutout.introVideo" class="q-my-md q-mx-xs">
+            <q-card-section v-show="shoutout.introVideo" class="q-pa-none">
+              <div class="q-pb-lg">
                 <q-video
+                  class="content-video"
                   :ratio="16 / 9"
                   :src="createEmbeded(shoutout.introVideo || '')"
-                />
-              </div>
+                /></div
+            ></q-card-section>
+            <q-card-section class="content-description q-px-lg q-py-none">
               {{ getDescription(shoutout, $i18n.locale) }}
               <br />
               <q-btn
                 v-show="shoutout.readmore"
                 flat
                 unelevated
-                class="q-mt-xs"
+                class="q-mt-sm"
                 :no-caps="true"
                 align="left"
                 type="a"
                 target="_blank"
-                :href="shoutout.readmore"
+                :href="getReadmore(shoutout, $i18n.locale)"
                 icon-right="keyboard_arrow_right"
                 :label="$t('readmore')"
               ></q-btn>
@@ -85,14 +87,17 @@
                 shoutout.youtube ||
                 shoutout.soundcloud ||
                 shoutout.github ||
-                shoutout.twitter
+                shoutout.twitter ||
+                shoutout.reddit ||
+                shoutout.tiktok
               "
+              class="q-my-md"
               dark
             />
             <q-card-actions
               v-show="shoutout.phone || shoutout.email"
               vertical
-              class="q-pb-none q-pt-md"
+              class="q-pb-xs q-pt-none q-px-lg"
             >
               <q-btn
                 v-show="shoutout.phone"
@@ -129,12 +134,15 @@
             shoutout.youtube ||
             shoutout.soundcloud ||
             shoutout.github ||
-            shoutout.twitter
+            shoutout.twitter ||
+            shoutout.reddit ||
+            shoutout.tiktok
           "
           align="evenly"
+          class="q-px-lg q-pt-none"
         >
           <q-btn
-            v-show="shoutout.homepage"
+            v-show="shoutout.homepage && shoutout.homepageIconOnly !== true"
             unelevated
             class="q-my-sm"
             :no-caps="true"
@@ -144,6 +152,17 @@
             target="_blank"
             icon="fa-solid fa-share"
             :label="shoutout.homepageText || shoutout.homepage"
+          ></q-btn>
+          <q-btn
+            v-show="shoutout.homepage && shoutout.homepageIconOnly === true"
+            unelevated
+            class="q-my-sm"
+            :no-caps="true"
+            align="left"
+            type="a"
+            :href="shoutout.homepage"
+            target="_blank"
+            icon="fa-solid fa-home"
           ></q-btn>
           <q-btn
             v-for="so in shoutout.socialOrder?.replaceAll(' ', '').split(',')"
@@ -165,6 +184,10 @@
                 ? 'https://www.github.com/' + shoutout.github
                 : so == 'twitter'
                 ? 'https://twitter.com/' + shoutout.twitter
+                : so == 'reddit'
+                ? 'https://www.reddit.com/r/' + shoutout.reddit
+                : so == 'tiktok'
+                ? 'https://tiktok.com/' + shoutout.tiktok
                 : ''
             "
             target="_blank"
@@ -216,6 +239,16 @@ export default defineComponent({
         ? shoutout.description.de
         : 'missing description';
     },
+    getReadmore(shoutout: Shoutout, locale: string): string {
+      return (
+        '' +
+        (locale === 'en-US'
+          ? shoutout.readmore?.en
+          : locale === 'de'
+          ? shoutout.readmore?.de
+          : 'missing readmore')
+      );
+    },
     createEmbeded: function (str: string): string {
       return str
         .replace('watch?v=', 'embed/')
@@ -229,6 +262,7 @@ export default defineComponent({
 <style lang="scss">
 .imm-shoutout-card {
   width: 400px;
+  // height: fit-content;
   display: flex;
   flex-flow: column;
   border-radius: 0 10px 10px 0px !important;
