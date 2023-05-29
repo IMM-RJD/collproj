@@ -1,6 +1,8 @@
 export default {
   // app
   readmore: 'read more',
+  visitHomepage: 'visit homepage',
+  visitEvent: 'visit event',
   // main nav
   Team: 'Team',
   Concept: 'Concept',
@@ -24,6 +26,8 @@ export default {
   // event page
   event_headline:
     "...is it already later, the cookie monster asked? Jep, finally it's later!",
+  event_udinegeht_description:
+    'Light art performance on the theme "Undine geht" at Galerie Netzwerk on 12.5.2023 at 7 pm.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
   event_event1_description:
     'We are very happy to be a part of this festival and offer various happenings for all senses. Whether you want to create a mobile or would like to be enchanted with imaginative make-up - feel free to come to our collective area :) From nightfall we will take you on a wondrous journey with light and performances.',

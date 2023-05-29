@@ -2,6 +2,8 @@
 export default {
   // app
   readmore: 'Weiterlesen',
+  visitHomepage: 'zur Webseite',
+  visitEvent: 'zum Event',
   // main nav
   Team: 'Team',
   Concept: 'Konzept',
@@ -25,6 +27,8 @@ export default {
   // event page
   event_headline:
     '„...ist jetzt schon später?“, fragte das Krümelmonster. „Jep, endlich ist es später!“',
+  event_udinegeht_description:
+    'Lichtkunst-Performance zum Thema "Undine geht" in der Galerie Netzwerk am 12.5.2023 um 19 Uhr.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',
   event_event1_description:
     'Wir freuen uns sehr, ein Teil dieses Festivals sein zu dürfen und bieten verschiedene Happenings für alle Sinne an. Ob ihr ein Mobile kreieren wollt oder Lust habt, euch mit phantasievollem Makeup verzaubern zu lassen - kommt gern zu unserer Kollektivarea :) Ab Einbruch der Dunkelheit nehmen wir euch mit auf eine wundersame Reise mit Licht und Performances.',

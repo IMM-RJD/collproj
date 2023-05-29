@@ -89,7 +89,8 @@
                 shoutout.github ||
                 shoutout.twitter ||
                 shoutout.reddit ||
-                shoutout.tiktok
+                shoutout.tiktok ||
+                shoutout.pinterest
               "
               class="q-my-md"
               dark
@@ -136,7 +137,8 @@
             shoutout.github ||
             shoutout.twitter ||
             shoutout.reddit ||
-            shoutout.tiktok
+            shoutout.tiktok ||
+            shoutout.pinterest
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -188,6 +190,8 @@
                 ? 'https://www.reddit.com/r/' + shoutout.reddit
                 : so == 'tiktok'
                 ? 'https://tiktok.com/' + shoutout.tiktok
+                : so == 'pinterest'
+                ? 'https://pinterest.com/' + shoutout.pinterest
                 : ''
             "
             target="_blank"
@@ -274,6 +278,9 @@ export default defineComponent({
     flex-grow: 10000;
     display: flex;
     flex-direction: column;
+    > div > div.text-subtitle2 {
+      white-space: pre-line;
+    }
     > div > .content-description {
       flex-grow: 1;
       white-space: pre-line;
