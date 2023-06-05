@@ -56,8 +56,8 @@ export default defineComponent({
         lastName: 'Groll',
         role: { de: 'IT & Sound', en: 'IT & Sound' },
         description: {
-          de: 'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pflege der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetier. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Greatness from small beginnings - Ukulele ftw."',
-          en: 'Tech-savvy, audiophile and enthusiastic, he supports the collective in word and deed. The maintenance of the website, the mixing of sets and electronic live performances are his main tasks. He also enjoys getting involved in a wide variety of tasks in many different ways. \n\n "Greatness from small beginnings - Ukulele ftw."',
+          de: 'Technikaffin, audiophil und begeisterungsfähig unterstützt er das Kollektiv durch Rat und Tat. Die Pflege der Webseite, das Abmixen von Sets sowie elektronische Live-Performances sind dabei sein Hauptmetier. Mit Freude bringt er sich auch auf vielfältige Art und Weise in die unterschiedlichsten Aufgaben ein. \n\n"Es ist meistens ein guter Tag zum tanzen."',
+          en: 'Tech-savvy, audiophile and enthusiastic, he supports the collective in word and deed. The maintenance of the website, the mixing of sets and electronic live performances are his main tasks. He also enjoys getting involved in a wide variety of tasks in many different ways. \n\n "It is usually a good day for dancing."',
         },
         email: 'real_jane_doe@gmx.de',
         youtube: 'channel/UCf1CouiM7wRwDrROYltYDYA',

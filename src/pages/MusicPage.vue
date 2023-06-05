@@ -36,6 +36,7 @@ export default defineComponent({
         this.createEmbeded([
           'https://www.youtube.com/playlist?list=OLAK5uy_nH99tyjJtLp-Fk1gFjhWLf51cGPSjIE0E',
           'https://www.youtube.com/watch?v=t_dP9Jp5Yo4',
+          'https://www.youtube.com/watch?v=TLYYVSFVVJU',
           'https://www.youtube.com/watch?v=d020m8_PMGU',
           'https://www.youtube.com/watch?v=t8HNHFFZPhU',
           'https://www.youtube.com/watch?v=UYqRE8WRSog',
