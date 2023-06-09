@@ -17,6 +17,7 @@ export interface Person {
   youtube?: string;
   soundcloud?: string;
   github?: string;
+  bandcamp?: string;
   socialOrder?: string;
 }
 export interface Event {

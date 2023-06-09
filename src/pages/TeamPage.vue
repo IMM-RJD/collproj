@@ -63,7 +63,9 @@ export default defineComponent({
         youtube: 'channel/UCf1CouiM7wRwDrROYltYDYA',
         soundcloud: 'improvisingmusicmachines',
         github: 'IMM-RJD',
-        socialOrder: 'soundcloud, youtube, github',
+        bandcamp: 'immmusic3',
+        instagram: 'imm_radio.feurgerson1337',
+        socialOrder: 'soundcloud, youtube, github, bandcamp, instagram',
       },
       {
         id: 2,

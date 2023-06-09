@@ -44,7 +44,8 @@
             person.instagram ||
             person.youtube ||
             person.soundcloud ||
-            person.github
+            person.github ||
+            person.bandcamp
           "
           dark
         />
@@ -95,7 +96,8 @@
             person.instagram ||
             person.youtube ||
             person.soundcloud ||
-            person.github
+            person.github ||
+            person.bandcamp
           "
           align="evenly"
         >
@@ -117,6 +119,8 @@
                 ? 'https://www.soundcloud.com/' + person.soundcloud
                 : so == 'github'
                 ? 'https://www.github.com/' + person.github
+                : so == 'bandcamp'
+                ? 'https://' + person.bandcamp + '.bandcamp.com/'
                 : ''
             "
             target="_blank"
