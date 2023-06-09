@@ -332,6 +332,40 @@ export default defineComponent({
         youtube: '@nagerit5165',
         socialOrder: 'twitter, facebook, youtube',
       },
+      {
+        id: 9,
+        imgSrc: 'src/assets/partner/galerie-netzwerk.jpg',
+        imgClass: '',
+        imgPosition: 'none',
+        imgFit: 'fill',
+        imgWrapBgColor: 'white',
+        funkyStyles: true,
+        bgColor: '#c7a583',
+        title: {
+          de: 'Galerie Netzwerk',
+          en: 'Galerie Netzwerk',
+        },
+        subtitle: {
+          de: 'Kämpfen Sie für die Dinge, die Ihnen wichtig sind, aber tun Sie es auf eine Weise, die andere dazu bringt, sich Ihnen anzuschließen.',
+          en: 'Fight for the things that are important to you, but do it in a way that makes others want to join you.',
+        },
+        // introVideo:
+        //   'https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz',
+        description: {
+          de: 'In der Trierer Innenstadt, mitten in der Fußgängerzone, können seit über einem Jahr Besucher wie Einheimische einen Ort entdecken, der sie mit auf Reisen nimmt. Die monatlich wechselnden Ausstellungen werden von sehr unterschiedlichen Künstlern, kreativen Menschen und ihren persönlichen Interaktionen getragen - solch eine Galerie zu führen ist eine Herzensangelegenheit.',
+          en: 'In downtown Trier, in the middle of the pedestrian zone, visitors and locals alike have been able to discover a place that takes them on a journey for over a year. The monthly changing exhibitions are supported by very different artists, creative people and their personal interactions - running such a gallery is a matter of the heart.',
+        },
+        readmore: {
+          de: 'https://www.galerie-netzwerk.de/philosophie-der-galerie/',
+          en: 'https://www.galerie-netzwerk.de/philosophie-der-galerie/',
+        },
+        phone: '01578 3678 038',
+        homepage: 'https://www.galerie-netzwerk.de/',
+        homepageText: 'homepage',
+        instagram: 'galerienetzwerk',
+        facebook: 'galerienetzwerk',
+        socialOrder: 'instagram, facebook',
+      },
     ]);
     // TODO:
     // fairphone

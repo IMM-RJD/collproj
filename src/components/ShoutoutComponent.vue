@@ -76,56 +76,55 @@
                 :label="$t('readmore')"
               ></q-btn>
             </q-card-section>
-
-            <q-separator
-              v-show="
-                shoutout.phone ||
-                shoutout.email ||
-                shoutout.homepage ||
-                shoutout.facebook ||
-                shoutout.instagram ||
-                shoutout.youtube ||
-                shoutout.soundcloud ||
-                shoutout.github ||
-                shoutout.twitter ||
-                shoutout.reddit ||
-                shoutout.tiktok ||
-                shoutout.pinterest
-              "
-              class="q-my-md"
-              dark
-            />
-            <q-card-actions
-              v-show="shoutout.phone || shoutout.email"
-              vertical
-              class="q-pb-xs q-pt-none q-px-lg"
-            >
-              <q-btn
-                v-show="shoutout.phone"
-                unelevated
-                class="q-mb-sm"
-                :no-caps="true"
-                align="left"
-                type="a"
-                :href="'tel:' + shoutout.phone?.replaceAll(' ', '')"
-                icon="fa-solid fa-phone"
-                :label="shoutout.phone"
-              ></q-btn>
-              <q-btn
-                v-show="shoutout.email"
-                flat
-                unelevated
-                class="q-mb-sm imm-ml-0-important"
-                :no-caps="true"
-                align="left"
-                type="a"
-                :href="'mailto:' + shoutout.email"
-                icon="fa-solid fa-envelope"
-                :label="shoutout.email"
-              ></q-btn
-            ></q-card-actions>
           </div>
         </q-slide-transition>
+        <q-separator
+          v-show="
+            shoutout.phone ||
+            shoutout.email ||
+            shoutout.homepage ||
+            shoutout.facebook ||
+            shoutout.instagram ||
+            shoutout.youtube ||
+            shoutout.soundcloud ||
+            shoutout.github ||
+            shoutout.twitter ||
+            shoutout.reddit ||
+            shoutout.tiktok ||
+            shoutout.pinterest
+          "
+          class="q-my-md"
+          dark
+        />
+        <q-card-actions
+          v-show="shoutout.phone || shoutout.email"
+          vertical
+          class="q-pb-xs q-pt-none q-px-lg"
+        >
+          <q-btn
+            v-show="shoutout.phone"
+            unelevated
+            class="q-mb-sm"
+            :no-caps="true"
+            align="left"
+            type="a"
+            :href="'tel:' + shoutout.phone?.replaceAll(' ', '')"
+            icon="fa-solid fa-phone"
+            :label="shoutout.phone"
+          ></q-btn>
+          <q-btn
+            v-show="shoutout.email"
+            flat
+            unelevated
+            class="q-mb-sm imm-ml-0-important"
+            :no-caps="true"
+            align="left"
+            type="a"
+            :href="'mailto:' + shoutout.email"
+            icon="fa-solid fa-envelope"
+            :label="shoutout.email"
+          ></q-btn
+        ></q-card-actions>
 
         <q-card-actions
           v-if="
