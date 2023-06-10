@@ -4,6 +4,7 @@ export default {
   readmore: 'Weiterlesen',
   visitHomepage: 'zur Webseite',
   visitEvent: 'zum Event',
+  shuffle: 'mischeln',
   // main nav
   Team: 'Team',
   Concept: 'Konzept',
@@ -92,5 +93,4 @@ export default {
   // music / mehr klang
   music_headline: 'Mehr_klang',
   music_recommendation: '(🌸ºั⌣ºั)',
-  music_shuffle: 'mischeln',
 };

@@ -3,6 +3,7 @@ export default {
   readmore: 'read more',
   visitHomepage: 'visit homepage',
   visitEvent: 'visit event',
+  shuffle: 'shuffle',
   // main nav
   Team: 'Team',
   Concept: 'Concept',
@@ -90,5 +91,4 @@ export default {
   // music / mehr klang
   music_headline: "Mehr_klang {'|'} More_sound",
   music_recommendation: '(🌸ºั⌣ºั)',
-  music_shuffle: 'shuffle',
 };

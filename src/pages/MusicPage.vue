@@ -9,7 +9,7 @@
         class="float-right"
         color="primary"
         text-color="secondary"
-        :label="$t('music_shuffle')"
+        :label="$t('shuffle')"
         icon="shuffle"
         @click="($event) => (links_recom = randomize(links_recom))"
       />
