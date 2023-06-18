@@ -375,6 +375,41 @@ export default defineComponent({
           facebook: 'galerienetzwerk',
           socialOrder: 'instagram, facebook',
         },
+        {
+          id: 10,
+          imgSrc: 'src/assets/bulletinboard/bemyeyes/bemyeyes.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'fill',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Be My Eyes',
+            en: 'Be My Eyes',
+          },
+          subtitle: {
+            de: '„Be My Eyes“ verbindet Menschen, die sehende Unterstützung benötigen, mit Freiwilligen und Unternehmen per Live-Video auf der ganzen Welt.',
+            en: '"Be My Eyes" connects people needing sighted support with volunteers and companies through live video around the world.',
+          },
+          // introVideo: {
+          //   'https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz',
+          // },
+          description: {
+            de: '„Be My Eyes“ ist eine kostenlose App, mit der Sie im Handumdrehen Videounterstützung erhalten. Jeden Tag stellen sehende Freiwillige und Fachleute ihre Augen zur Verfügung, um große und kleine Aufgaben zu lösen und blinden und sehbehinderten Menschen ein unabhängigeres Leben zu ermöglichen.',
+            en: '"Be My Eyes" is a free app for receiving video support at a moment’s notice. Every day, sighted volunteers and professionals lend their eyes to solve tasks big and small to assist blind and low-vision people lead more independent lives.',
+          },
+          homepage: 'https://www.bemyeyes.com/',
+          homepageText: 'homepage',
+          facebook: 'bemyeyesapp',
+          twitter: 'bemyeyes',
+          linkedin: 'https://dk.linkedin.com/company/be-my-eyes',
+          instagram: 'bemyeyesapp',
+          youtube: '@bemyeyes',
+          tiktok: '@bemyeyesapp',
+          socialOrder:
+            'facebook, twitter, linkedin, instagram, youtube, tiktok',
+        },
       ]),
     };
   },

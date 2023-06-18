@@ -69,5 +69,6 @@ export interface Shoutout {
   reddit?: string;
   tiktok?: string;
   pinterest?: string;
+  linkedin?: string;
   socialOrder?: string;
 }
