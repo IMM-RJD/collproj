@@ -410,6 +410,37 @@ export default defineComponent({
           socialOrder:
             'facebook, twitter, linkedin, instagram, youtube, tiktok',
         },
+        {
+          id: 11,
+          imgSrc: 'src/assets/bulletinboard/algorave/algorave.jpg',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'fill',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Algorave',
+            en: 'Algorave',
+          },
+          subtitle: {
+            de: 'Ein Algorave (von "Algorithmus" und "Rave") ist eine Veranstaltung, bei der zu Musik getanzt wird, die von Algorithmen generiert wird, oft unter Verwendung von Live-Coding-Techniken.',
+            en: 'An algorave (from an algorithm and rave) is an event where people dance to music generated from algorithms, often using live coding techniques.',
+          },
+          introVideo: 'https://www.youtube.com/watch?v=RPiyEUWPhxU',
+          description: {
+            de: 'Algoraves kann eine Reihe von Stilen umfassen, einschließlich einer komplexen Form von Minimal Techno, und die Bewegung wurde als Treffpunkt von Hacker-Philosophie, Geek-Kultur und Clubbing beschrieben. (Übersetztung des englischen Wikipediaeintrag)',
+            en: 'Algoraves can include a range of styles, including a complex form of minimal techno, and the movement has been described as a meeting point of hacker philosophy, geek culture, and clubbing.',
+          },
+          readmore: {
+            de: 'https://www.vice.com/de/article/rjq8nx/algorave-ist-die-zukunft-der-dance-musik-wenn-du-ein-nerd-bist',
+            en: 'https://en.wikipedia.org/wiki/Algorave',
+          },
+          homepage: 'https://algorave.com/',
+          homepageText: '"homepage"',
+          github: 'tidalcycles/Tidal',
+          socialOrder: 'github',
+        },
       ]),
     };
   },
@@ -419,7 +450,6 @@ export default defineComponent({
   // die ofenmacher?
   // startnext?
   // malala fund?
-  // be my eyes
   methods: {
     randomize: function (obj: Array<string>): Array<string> {
       return obj.sort(function () {
