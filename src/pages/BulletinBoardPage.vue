@@ -12,7 +12,7 @@
         text-color="secondary"
         :label="$t('shuffle')"
         icon="shuffle"
-        @click="($event) => (shoutouts = randomize(shoutouts))"
+        @click="() => (shoutouts = randomize(shoutouts))"
       />
     </div>
 
@@ -38,7 +38,7 @@ export default defineComponent({
   components: { ShoutoutComponent },
   data() {
     return {
-      shoutouts: this.randomize([
+      shoutouts: ref<Shoutout[]>([
         {
           id: 0,
           imgSrc: 'src/assets/bulletinboard/worldcommunitygrid/wcg-logo.png',
@@ -392,9 +392,8 @@ export default defineComponent({
             de: '„Be My Eyes“ verbindet Menschen, die sehende Unterstützung benötigen, mit Freiwilligen und Unternehmen per Live-Video auf der ganzen Welt.',
             en: '"Be My Eyes" connects people needing sighted support with volunteers and companies through live video around the world.',
           },
-          // introVideo: {
-          //   'https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz',
-          // },
+          introVideo:
+            'https://www.youtube.com/playlist?list=PLPw5IThuM1zBkGmQTA0IBLmQd9vvhs1b2',
           description: {
             de: '„Be My Eyes“ ist eine kostenlose App, mit der Sie im Handumdrehen Videounterstützung erhalten. Jeden Tag stellen sehende Freiwillige und Fachleute ihre Augen zur Verfügung, um große und kleine Aufgaben zu lösen und blinden und sehbehinderten Menschen ein unabhängigeres Leben zu ermöglichen.',
             en: '"Be My Eyes" is a free app for receiving video support at a moment’s notice. Every day, sighted volunteers and professionals lend their eyes to solve tasks big and small to assist blind and low-vision people lead more independent lives.',
@@ -415,7 +414,7 @@ export default defineComponent({
           imgSrc: 'src/assets/bulletinboard/algorave/algorave.jpg',
           imgClass: '',
           imgPosition: 'none',
-          imgFit: 'fill',
+          imgFit: '',
           imgWrapBgColor: 'white',
           funkyStyles: true,
           bgColor: '#c7a583',
@@ -437,9 +436,44 @@ export default defineComponent({
             en: 'https://en.wikipedia.org/wiki/Algorave',
           },
           homepage: 'https://algorave.com/',
-          homepageText: '"homepage"',
+          homepageText: 'homepage',
           github: 'tidalcycles/Tidal',
           socialOrder: 'github',
+        },
+        {
+          id: 12,
+          imgSrc: 'src/assets/bulletinboard/germanzero/germanzero.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: '',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'GermanZero',
+            en: 'GermanZero',
+          },
+          subtitle: {
+            de: 'Als Klimaschutzorganisation arbeiten wir für eine Welt, in der zukünftige Generationen ein gutes Leben führen können. Das bedeutet, die Erderwärmung auf 1,5 Grad zu begrenzen. Dafür muss Deutschland bis 2035 klimaneutral werden. Wir zeigen, wie das geht.',
+            en: 'As a climate protection organization, we work for a world in which future generations can lead a good life. That means limiting global warming to 1.5 degrees. To achieve this, Germany must become climate neutral by 2035. We show how this can be done.',
+          },
+          introVideo: 'https://www.youtube.com/watch?v=WqJdlmkYEoo',
+          description: {
+            de: 'Das 1,5-Grad-Gesetzespaket ist unser Angebot an die Bundesregierung. Es enthält einen Maßnahmenkatalog, der ganz konkret die Lösungen beschreibt, mit denen jeder Sektor bis 2035 klimaneutral werden kann. Damit diese Maßnahmen auch rechtswirksam umgesetzt werden können, präsentieren wir für einen Großteil unserer Vorschläge auch fertig ausformulierte Gesetzesentwürfe.',
+            en: 'The 1.5-degree legislative package is our offer to the German government. It contains a catalog of measures that very specifically describes the solutions with which each sector can become climate-neutral by 2035. To ensure that these measures can also be implemented with legal effect, we also present ready-formulated draft laws for a large part of our proposals.',
+          },
+          readmore: {
+            de: 'https://germanzero.de/downloads',
+            en: 'https://germanzero.de/downloads',
+          },
+          homepage: 'https://germanzero.de/',
+          homepageText: 'homepage',
+          facebook: 'GermanZero.NGO',
+          twitter: '_germanzero',
+          youtube: '@GermanZero',
+          linkedin: 'https://www.linkedin.com/company/germanzero/',
+          instagram: '_GermanZero',
+          socialOrder: 'facebook, twitter, youtube, linkedin, instagram',
         },
       ]),
     };
@@ -451,7 +485,7 @@ export default defineComponent({
   // startnext?
   // malala fund?
   methods: {
-    randomize: function (obj: Array<string>): Array<string> {
+    randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {
         return 0.5 - Math.random();
       });
