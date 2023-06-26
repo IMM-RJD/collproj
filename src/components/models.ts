@@ -52,8 +52,8 @@ export interface Shoutout {
   title: { en: string; de: string };
   subtitle?: { en: string; de: string };
   expanded?: boolean;
-  introVideo?: string;
-  description: { en: string; de: string };
+  introVideo?: { en: string; de: string };
+  description?: { en: string; de: string };
   readmore?: { en: string; de: string };
   phone?: string;
   email?: string;

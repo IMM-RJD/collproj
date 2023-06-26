@@ -56,17 +56,17 @@
                 <q-video
                   class="content-video"
                   :ratio="16 / 9"
-                  :src="createEmbeded(shoutout.introVideo || '')"
+                  :src="createEmbeded(getIntrovideo(shoutout, $i18n.locale))"
                 /></div
             ></q-card-section>
             <q-card-section class="content-description q-px-lg q-py-none">
               {{ getDescription(shoutout, $i18n.locale) }}
-              <br />
+              <br v-if="shoutout.description != null" />
               <q-btn
                 v-show="shoutout.readmore"
                 flat
                 unelevated
-                class="q-mt-sm"
+                :class="shoutout.description != null ? 'q-mt-sm' : 'q-mb-md'"
                 :no-caps="true"
                 align="left"
                 type="a"
@@ -239,12 +239,25 @@ export default defineComponent({
           : 'missing subtitle')
       );
     },
+    getIntrovideo(shoutout: Shoutout, locale: string): string {
+      return (
+        '' +
+        (locale === 'en-US'
+          ? shoutout.introVideo?.en
+          : locale === 'de'
+          ? shoutout.introVideo?.de
+          : 'missing subtitle')
+      );
+    },
     getDescription(shoutout: Shoutout, locale: string): string {
-      return locale === 'en-US'
-        ? shoutout.description.en
-        : locale === 'de'
-        ? shoutout.description.de
-        : 'missing description';
+      return shoutout.description == null
+        ? ''
+        : '' +
+            (locale === 'en-US'
+              ? shoutout.description?.en
+              : locale === 'de'
+              ? shoutout.description?.de
+              : 'missing description');
     },
     getReadmore(shoutout: Shoutout, locale: string): string {
       return (
