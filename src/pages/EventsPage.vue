@@ -3,7 +3,7 @@
     <!-- content -->
     <h4 class="q-my-lg">{{ $t('event_headline') }}</h4>
 
-    <h5 style="color: #d46643" class="q-mb-md">
+    <!-- <h5 style="color: #d46643" class="q-mb-md">
       {{ $t('event_event2_title') }}
     </h5>
     <q-video src="https://www.youtube.com/embed/gwcd96MDOnM"></q-video>
@@ -20,7 +20,7 @@
       target="_blank"
       href="https://www.loversoftheuniverse.com/danceofthegods"
       :label="$t('visitHomepage')"
-    ></q-btn>
+    ></q-btn> -->
     <div style="height: 50px; width: 100%"></div>
     <q-page-scroller
       position="bottom-right"

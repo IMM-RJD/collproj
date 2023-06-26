@@ -230,14 +230,15 @@ export default defineComponent({
         : 'missing title';
     },
     getSubtitle(shoutout: Shoutout, locale: string): string {
-      return (
-        '' +
-        (locale === 'en-US'
-          ? shoutout.subtitle?.en
-          : locale === 'de'
-          ? shoutout.subtitle?.de
-          : 'missing subtitle')
-      );
+      return shoutout.subtitle == null
+        ? ''
+        : '' +
+            ('' +
+              (locale === 'en-US'
+                ? shoutout.subtitle?.en
+                : locale === 'de'
+                ? shoutout.subtitle?.de
+                : 'missing subtitle'));
     },
     getIntrovideo(shoutout: Shoutout, locale: string): string {
       return (
@@ -260,14 +261,15 @@ export default defineComponent({
               : 'missing description');
     },
     getReadmore(shoutout: Shoutout, locale: string): string {
-      return (
-        '' +
-        (locale === 'en-US'
-          ? shoutout.readmore?.en
-          : locale === 'de'
-          ? shoutout.readmore?.de
-          : 'missing readmore')
-      );
+      return shoutout.readmore == null
+        ? ''
+        : '' +
+            ('' +
+              (locale === 'en-US'
+                ? shoutout.readmore?.en
+                : locale === 'de'
+                ? shoutout.readmore?.de
+                : 'missing readmore'));
     },
     createEmbeded: function (str: string): string {
       return str

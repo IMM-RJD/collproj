@@ -26,8 +26,9 @@ export default {
     'Liebe Menschen, wir bieten euch: interaktive, interdisziplinäre & kulturelle Projekte, in denen es um Austausch, Unterhaltung und Kreativität geht. Unser Fokus liegt auf Vernetzung, Experimentierfreude und ganzheitlichem Lernen. Diese vereinen wir mit den Elementen der Musik, des Spiels und der kreativen Gestaltung. Wir regen unsere Mitmenschen an, mit allen Sinnen zu erfahren. Wir bieten Workshops und verschiedene Happenings und freuen uns auf eine wunderbare Reise mit euch.',
   concept_p_third: '„Bewahre dir dein Glitzern, egal ob es andere blendet.“',
   // event page
-  event_headline:
-    '„...ist jetzt schon später?“, fragte das Krümelmonster. „Jep, endlich ist es später!“',
+  // event_headline:
+  //   '„...ist jetzt schon später?“, fragte das Krümelmonster. „Jep, endlich ist es später!“',
+  event_headline: 'zzzZZZzzz (vorerst)',
   event_udinegeht_description:
     'Lichtkunst-Performance zum Thema "Undine geht" in der Galerie Netzwerk am 12.5.2023 um 19 Uhr.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',

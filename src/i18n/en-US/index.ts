@@ -25,8 +25,9 @@ export default {
     'Dear people, we offer you: interactive, interdisciplinary & cultural projects that are about exchange, entertainment and creativity. Our focus is on networking, experimentation and holistic learning. We combine these with the elements of music, play and creative design. We encourage our fellow human beings to experience with all their senses. We offer workshops and various happenings and look forward to a wonderful journey with you.',
   concept_p_third: '"Keep your sparkle, no matter if it blinds others."',
   // event page
-  event_headline:
-    "...is it already later, the cookie monster asked? Jep, finally it's later!",
+  // event_headline:
+  //   "...is it already later, the cookie monster asked? Jep, finally it's later!",
+  event_headline: 'zzzZZZzzz (for now)',
   event_udinegeht_description:
     'Light art performance on the theme "Undine geht" at Galerie Netzwerk on 12.5.2023 at 7 pm.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',

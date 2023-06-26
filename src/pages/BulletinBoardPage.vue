@@ -547,6 +547,9 @@ export default defineComponent({
             de: 'https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html',
             en: 'https://www.bbk.bund.de/EN/International-Visitors/international-visitors_node.html',
           },
+          homepage:
+            'https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html',
+          homepageText: 'homepage',
           twitter: 'bbk_bund',
           youtube: '@BBKBund',
           socialOrder: 'twitter, youtube',
