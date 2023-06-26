@@ -522,6 +522,35 @@ export default defineComponent({
             en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zD_-Kdl1Lz6DJf04RycqVrP',
           },
         },
+        {
+          id: 13,
+          imgSrc: 'src/assets/bulletinboard/nina/nina.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'scale-down',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Warn-App NINA',
+            en: 'Warning App NINA',
+          },
+          subtitle: {
+            de: 'Mit der Notfall-Informations- und Nachrichten-App des Bundes, kurz Warn-App NINA, erhalten Sie wichtige Warnmeldungen des Bevölkerungsschutzes.',
+            en: 'Emergency information sources for international visitors in Germany.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z',
+          },
+          readmore: {
+            de: 'https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html',
+            en: 'https://www.bbk.bund.de/EN/International-Visitors/international-visitors_node.html',
+          },
+          twitter: 'bbk_bund',
+          youtube: '@BBKBund',
+          socialOrder: 'twitter, youtube',
+        },
       ]),
     };
   },
