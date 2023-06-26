@@ -528,7 +528,7 @@ export default defineComponent({
           imgClass: '',
           imgPosition: 'none',
           imgFit: 'scale-down',
-          imgWrapBgColor: 'white',
+          imgWrapBgColor: '#F5F5F5',
           funkyStyles: true,
           bgColor: '#c7a583',
           title: {
