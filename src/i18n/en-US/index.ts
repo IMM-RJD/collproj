@@ -41,8 +41,12 @@ export default {
     'Schattenwelten und Lichtgestalten (Realm of the shades and light figures) - Choreographic dance performance [FRANKENTURM - As part of the "Trierer Unterweltenfestival 2022"]',
   // project
   project_headline: 'Past Projects',
+  project_timeline_losheim_title:
+    'LosLosLosheim - Thematic Light Art Performance & Workshop [Losheim 2023]',
+  project_timeline_losheim_description_first:
+    "Contributors: Monika Tapiador {'|'}{'|'} Franziska Lehmann {'|'}{'|'} Jessica Mans {'|'}{'|'} Sebastian Groll {'|'}{'|'} Nora",
   project_timeline_udine_title:
-    'Lady Lightflow - Light Art Performance "Undine geht" [Galerie Netzwerk 2023]',
+    '"Undine geht" - Lady Lightflow - Light Art Performance [Galerie Netzwerk 2023]',
   project_timeline_udine_description_first: 'Lady Lightflow',
   project_timeline_udine_description_second:
     'Light art performance on the theme "Undine geht" at the vernissage at Galerie Netzwerk on 12.5.2023.',

@@ -46,8 +46,12 @@ export default {
   // project_timeline_udine_description_first: '',
   // project_timeline_udine_description_second: '',
   // project_timeline_udine_description_third: '',
+  project_timeline_losheim_title:
+    'LosLosLosheim - Thematische Lichtkunst-Performance & Workshop [Losheim 2023]',
+  project_timeline_losheim_description_first:
+    "Mitwirkende: Monika Tapiador {'|'}{'|'} Franziska Lehmann {'|'}{'|'} Jessica Mans {'|'}{'|'} Sebastian Groll {'|'}{'|'} Nora",
   project_timeline_udine_title:
-    'Lady Lightflow - Lichtkunst-Performance "Undine geht" [Galerie Netzwerk 2023]',
+    '"Undine geht" - Lady Lightflow - Lichtkunst-Performance [Galerie Netzwerk 2023]',
   project_timeline_udine_description_first: 'Lady Lightflow',
   project_timeline_udine_description_second:
     'Lichtkunst-Performance zum Thema "Undine geht" auf der Vernissage in der Galerie Netzwerk am 12.5.2023.',
