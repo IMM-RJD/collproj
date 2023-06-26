@@ -55,6 +55,56 @@
     </div> -->
 
     <q-timeline color="km-timeline">
+      <q-timeline-entry :title="$t('project_timeline_udine_title')">
+        <q-carousel
+          v-model="slideUdine"
+          v-model:fullscreen="fullscreenUdine"
+          animated
+          arrows
+          infinite
+          control-type="regular"
+          control-color="secondary"
+          control-text-color="primary"
+          prev-icon="arrow_left"
+          next-icon="arrow_right"
+          class="secondary shadow-1 rounded-borders"
+          height="250px"
+        >
+          <q-carousel-slide :name="1" class="imm-p-0-important">
+            <video controls>
+              <source
+                src="src/assets/projects/udine/udine_geht.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support the video element. Kindly update it
+              to latest version.
+            </video>
+          </q-carousel-slide>
+
+          <template #control>
+            <q-carousel-control position="bottom-right" :offset="[18, 18]">
+              <q-btn
+                round
+                dense
+                color="secondary"
+                text-color="primary"
+                :icon="fullscreenUdine ? 'fullscreen_exit' : 'fullscreen'"
+                @click="fullscreenUdine = !fullscreenUdine"
+              />
+            </q-carousel-control>
+          </template>
+        </q-carousel>
+        <div class="q-py-md">
+          {{ $t('project_timeline_udine_description_first') }}
+          <br />
+          {{ $t('project_timeline_udine_description_second') }}
+          <br /><br />
+          {{ $t('project_timeline_udine_description_third') }}
+          <a href="https://soundcloud.com/r_meinrich" target="_blank"
+            >Roland Meinrich</a
+          >
+        </div>
+      </q-timeline-entry>
       <q-timeline-entry :title="$t('project_timeline_schattenwelten_title')">
         <q-carousel
           v-model="slideSL"
@@ -288,9 +338,11 @@ export default defineComponent({
   setup() {
     return {
       slide: ref(1),
-      slideSL: ref(1),
       fullscreen: ref(false),
+      slideSL: ref(1),
       fullscreenSL: ref(false),
+      slideUdine: ref(1),
+      fullscreenUdine: ref(false),
     };
   },
 });

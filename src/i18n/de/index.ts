@@ -42,6 +42,17 @@ export default {
     'Schattenwelten und Lichtgestalten - Choreografische Tanzperformance [FRANKENTURM - Im Rahmen des Trierer Unterweltenfestivals 2022]',
   // project
   project_headline: 'Vergangene Projekte',
+  // project_timeline_udine_title: '',
+  // project_timeline_udine_description_first: '',
+  // project_timeline_udine_description_second: '',
+  // project_timeline_udine_description_third: '',
+  project_timeline_udine_title:
+    'Lady Lightflow - Lichtkunst-Performance "Undine geht" [Galerie Netzwerk 2023]',
+  project_timeline_udine_description_first: 'Lady Lightflow',
+  project_timeline_udine_description_second:
+    'Lichtkunst-Performance zum Thema "Undine geht" auf der Vernissage in der Galerie Netzwerk am 12.5.2023.',
+  project_timeline_udine_description_third:
+    "Kostüm und Styling: Lady Lace LATEX {'|'}{'|'} Make-up Artist: Irene Lichtenwald {'|'}{'|'} Performance: Lady Lightflow {'|'}{'|'} Sound: ",
   project_timeline_schattenwelten_title:
     'Schattenwelten und Lichtgestalten - Choreografische Tanzperformance [FRANKENTURM - Im Rahmen des Trierer Unterweltenfestivals 2022]',
   project_timeline_schattenwelten_description_first:
