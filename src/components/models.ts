@@ -70,5 +70,6 @@ export interface Shoutout {
   tiktok?: string;
   pinterest?: string;
   linkedin?: string;
+  xing?: string;
   socialOrder?: string;
 }

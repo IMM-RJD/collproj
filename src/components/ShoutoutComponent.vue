@@ -92,7 +92,8 @@
             shoutout.reddit ||
             shoutout.tiktok ||
             shoutout.pinterest ||
-            shoutout.linkedin
+            shoutout.linkedin ||
+            shoutout.xing
           "
           class="q-my-md"
           dark
@@ -139,7 +140,8 @@
             shoutout.reddit ||
             shoutout.tiktok ||
             shoutout.pinterest ||
-            shoutout.linkedin
+            shoutout.linkedin ||
+            shoutout.xing
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -195,6 +197,8 @@
                 ? 'https://pinterest.com/' + shoutout.pinterest
                 : so == 'linkedin'
                 ? shoutout.linkedin
+                : so == 'xing'
+                ? shoutout.xing
                 : ''
             "
             target="_blank"

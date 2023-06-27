@@ -523,43 +523,49 @@ export default defineComponent({
           },
         },
         {
-          id: 13,
-          imgSrc: 'src/assets/bulletinboard/nina/nina.png',
+          id: 14,
+          imgSrc: 'src/assets/bulletinboard/glsbank/glsbank.png',
           imgClass: '',
           imgPosition: 'none',
-          imgFit: 'scale-down',
-          imgWrapBgColor: '#F5F5F5',
+          imgFit: 'contain',
+          imgWrapBgColor: '#FFFFFF',
           funkyStyles: true,
           bgColor: '#c7a583',
           title: {
-            de: 'Warn-App NINA',
-            en: 'Warning App NINA',
+            de: 'GLS Bank',
+            en: 'GLS Bank',
           },
           subtitle: {
-            de: 'Mit der Notfall-Informations- und Nachrichten-App des Bundes, kurz Warn-App NINA, erhalten Sie wichtige Warnmeldungen des Bevölkerungsschutzes.',
-            en: 'Emergency information sources for international visitors in Germany.',
+            de: 'Mit unserem nachhaltigen Bankgeschäft setzen wir zukunftsweisende Maßstäbe für verantwortungsvolles Wirtschaften und für gesellschaftlichen Wandel – seit 1974.',
+            en: 'With our sustainable banking business, we have been setting future-oriented standards for responsible business and social change - since 1974.',
           },
           introVideo: {
-            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z',
-            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z',
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBSyl9Ujs6Edy-1cnrsl8Ls',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBSyl9Ujs6Edy-1cnrsl8Ls',
+          },
+          description: {
+            de: 'Unser Nachhaltigkeitsverständnis stellt die Menschen in den Mittelpunkt. Von unserer guten Zukunft haben wir konkrete Bilder, die wir gemeinsam mit Ihnen verwirklichen möchten und messen laufend nach, wie Ihr Geld wirkt - "Bei uns gibt es keine Boni für Beratung, keine Spekulation, keine abstrakten Finanzprodukte" und "Mit über 30.000 finanzierten Unternehmen zeigen wir, wie eine sozial-ökologische Wirtschaft möglich ist".',
+            en: 'Our understanding of sustainability puts people at the center. We have concrete images of our good future that we would like to realize together with you and continuously measure how your money is working - "With us, there are no bonuses for advice, no speculation, no abstract financial products" and "With over 30,000 financed companies, we show how a social-ecological economy is possible".',
           },
           readmore: {
-            de: 'https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html',
-            en: 'https://www.bbk.bund.de/EN/International-Visitors/international-visitors_node.html',
+            de: 'https://www.gls.de/privatkunden/warum-gls-bank/',
+            en: 'https://www.gls.de/privatkunden/warum-gls-bank/',
           },
-          homepage:
-            'https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html',
+          homepage: 'https://www.gls.de/',
           homepageText: 'homepage',
-          twitter: 'bbk_bund',
-          youtube: '@BBKBund',
-          socialOrder: 'twitter, youtube',
+          facebook: 'glsbank',
+          twitter: 'glsbank',
+          youtube: '@glsbank',
+          instagram: 'glsbank',
+          linkedin: 'https://www.linkedin.com/company/glsbank/',
+          xing: 'https://www.xing.com/pages/glsbank',
+          socialOrder: 'facebook, twitter, youtube, instagram, linkedin, xing',
         },
       ]),
     };
   },
   // TODO:
   // fairphone
-  // GLS BANK
   // die ofenmacher?
   // startnext?
   // malala fund?
