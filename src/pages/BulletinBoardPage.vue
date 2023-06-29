@@ -601,6 +601,37 @@ export default defineComponent({
           soundcloud: 'bytefm',
           socialOrder: 'facebook, twitter, instagram, youtube, soundcloud',
         },
+        {
+          id: 16,
+          imgSrc: 'src/assets/bulletinboard/bayern2/bayern2.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'cover',
+          imgWrapBgColor: '#000000',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Bayern 2',
+            en: 'Bayern 2',
+          },
+          subtitle: {
+            de: 'ist das zweite Hörfunkprogramm des Bayerischen Rundfunks. Es sendet ein kultur- und informationsorientiertes Vollprogramm mit einem breiten Musikspektrum in verschiedenen Sparten.',
+            en: 'is the second radio program of Bayerischer Rundfunk. It broadcasts a culture- and information-oriented full program with a broad spectrum of music in various genres.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/watch?v=GyS9CutV12I',
+            en: 'https://www.youtube.com/watch?v=GyS9CutV12I',
+          },
+          readmore: {
+            de: 'https://de.wikipedia.org/wiki/Bayern_2',
+            en: 'https://de.wikipedia.org/wiki/Bayern_2',
+          },
+          homepage: 'https://www.br.de/radio/bayern2/index.html',
+          homepageText: 'homepage',
+          instagram: 'bayern2',
+          facebook: 'bayern2',
+          socialOrder: 'instagram, facebook',
+        },
       ]),
     };
   },
