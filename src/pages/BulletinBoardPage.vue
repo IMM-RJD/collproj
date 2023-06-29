@@ -16,7 +16,9 @@
       />
     </div>
 
-    <shoutout-component :shoutouts="shoutouts"></shoutout-component>
+    <shoutout-component
+      :shoutouts="reverseByID(shoutouts)"
+    ></shoutout-component>
 
     <q-page-scroller
       position="bottom-right"
@@ -561,6 +563,44 @@ export default defineComponent({
           xing: 'https://www.xing.com/pages/glsbank',
           socialOrder: 'facebook, twitter, youtube, instagram, linkedin, xing',
         },
+        {
+          id: 15,
+          imgSrc: 'src/assets/bulletinboard/bytefm/bytefm.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#000000',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'ByteFM',
+            en: 'ByteFM',
+          },
+          subtitle: {
+            de: 'ist moderiertes Musikradio – ohne computergenerierte Musikrotation. Aus dem Hamburger Medienbunker versorgen wir Euch rund um die Uhr mit guter Musik, Interviews und Hintergrundinformationen über Szenen, Bands, Entwicklungen und Zusammenhänge. Und das alles ohne Werbespots.',
+            en: 'is moderated music radio - without computer-generated music rotation. From the Hamburg media bunker we provide you with good music, interviews and background information about scenes, bands, developments and contexts around the clock. And all that without commercials.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBNQRt7vXPj4_ijLJNptW8T',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBNQRt7vXPj4_ijLJNptW8T',
+          },
+          description: {
+            de: 'Wir versorgen Euch mit guter Musik, alt und neu: Indie, Techno, Pop, Rock, Singer/Songwriter, Elektronik, Synth-Pop, Jazz, HipHop, Beats, Krautrock, Dream-Pop, Dubstep, Folk, Shoegaze. Auch klassische Musik gibt es bei uns im Programm, französische Chansons und Afrobeat. \n ByteFM sendet rund um die Uhr im Web und in Hamburg über UKW, auf den Frequenzen 91,7 und 104,0 MHz. \n ByteFM wurde vielfach ausgezeichnet, unter anderem mit den folgenden Preisen: \n Grimme Online Award 2009 \n Lead Award 2008 und 2015 \n Hamburger Musikpreis HANS \n Rocco-Clein-Preis für Musikjournalismus \n Deutschland - Land der Ideen',
+            en: 'We provide you with good music, old and new: indie, techno, pop, rock, singer/songwriter, electronic, synth-pop, jazz, hip-hop, beats, krautrock, dream-pop, dubstep, folk, shoegaze. We also have classical music in our program, French chansons and Afrobeat. \n ByteFM broadcasts around the clock on the web and in Hamburg via FM, on the frequencies 91.7 and 104.0 MHz. \n ByteFM has received many awards, including the following: \n Grimme Online Award 2009 \n Lead Award 2008 und 2015 \n Hamburger Musikpreis HANS \n Rocco-Clein-Preis für Musikjournalismus \n Deutschland - Land der Ideen',
+          },
+          readmore: {
+            de: 'https://www.byte.fm/ueber-uns/',
+            en: 'https://www.byte.fm/ueber-uns/',
+          },
+          homepage: 'https://www.byte.fm/',
+          homepageText: 'homepage',
+          facebook: 'bytefm',
+          twitter: 'ByteFM',
+          instagram: 'bytefm',
+          youtube: '@ByteFMTV',
+          soundcloud: 'bytefm',
+          socialOrder: 'facebook, twitter, instagram, youtube, soundcloud',
+        },
       ]),
     };
   },
@@ -574,6 +614,11 @@ export default defineComponent({
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {
         return 0.5 - Math.random();
+      });
+    },
+    reverseByID: function (obj: Array<Shoutout>): Array<Shoutout> {
+      return obj.sort(function (a, b) {
+        return b.id - a.id;
       });
     },
   },
