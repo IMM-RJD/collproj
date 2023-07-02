@@ -3,6 +3,30 @@
     <!-- content -->
     <h4 class="q-my-lg">{{ $t('event_headline') }}</h4>
 
+    <q-btn
+      :label="$t('Team')"
+      to="/team"
+      icon="fa-solid fa-people-group"
+      color="primary"
+      class="q-py-md"
+    />
+    <q-space class="q-py-md"></q-space>
+    <q-btn
+      :label="$t('BulletinBoard')"
+      to="/bulletinboard"
+      icon="fa-solid fa-people-group"
+      color="secondary"
+      class="q-py-md"
+    />
+    <q-space class="q-py-md"></q-space>
+    <q-btn
+      :label="$t('Mehr_klang')"
+      to="/music"
+      icon="fa-solid fa-people-group"
+      color="primary"
+      class="q-py-md"
+    />
+
     <!-- <h5 style="color: #d46643" class="q-mb-md">
       {{ $t('event_event2_title') }}
     </h5>

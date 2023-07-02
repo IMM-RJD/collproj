@@ -632,6 +632,40 @@ export default defineComponent({
           facebook: 'bayern2',
           socialOrder: 'instagram, facebook',
         },
+        {
+          id: 17,
+          imgSrc: 'src/assets/bulletinboard/everynoise/everynoise.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'cover',
+          imgWrapBgColor: '#000000',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'everynoise.com',
+            en: 'everynoise.com',
+          },
+          subtitle: {
+            de: 'ist ein fortlaufender Versuch, ein algorithmisch generiertes, der Lesbarkeit angepasstes Streudiagramm des musikalischen Genre-Raums zu erstellen.',
+            en: 'is an ongoing attempt at an algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space.',
+          },
+          description: {
+            de: 'Sie basiert auf Daten, die von Spotify für 6.244 Genre-Unterscheidungen erfasst und analysiert wurden. Die Kalibrierung ist unscharf, aber im Allgemeinen ist "unten" organischer, "oben" mechanischer und elektrischer; "links" ist dichter und atmosphärischer, "rechts" ist stacheliger und bounciger.',
+            en: 'It is based on data tracked and analyzed for 6,244 genre-shaped distinctions by Spotify. The calibration is fuzzy, but in general down is more organic, up is more mechanical and electric; left is denser and more atmospheric, right is spikier and bouncier.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/watch?v=1-xR9vuupX4',
+            en: 'https://www.youtube.com/watch?v=1-xR9vuupX4',
+          },
+          readmore: {
+            de: 'https://everynoise.com/#otherthings',
+            en: 'https://everynoise.com/#otherthings',
+          },
+          homepage: 'https://everynoise.com/',
+          homepageText: 'homepage',
+          twitter: 'everynoise',
+          socialOrder: 'twitter',
+        },
       ]),
     };
   },
