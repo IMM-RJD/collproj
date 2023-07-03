@@ -606,7 +606,7 @@ export default defineComponent({
           imgSrc: 'src/assets/bulletinboard/bayern2/bayern2.png',
           imgClass: '',
           imgPosition: 'none',
-          imgFit: 'cover',
+          imgFit: 'fill',
           imgWrapBgColor: '#000000',
           funkyStyles: true,
           bgColor: '#c7a583',
@@ -682,9 +682,11 @@ export default defineComponent({
       });
     },
     reverseByID: function (obj: Array<Shoutout>): Array<Shoutout> {
-      return obj.sort(function (a, b) {
-        return b.id - a.id;
-      });
+      let revObj = [];
+      for (let i = obj.length - 1; i > 0; i--) {
+        revObj[revObj.length] = obj[i];
+      }
+      return revObj;
     },
   },
 });
