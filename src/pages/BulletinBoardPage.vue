@@ -666,6 +666,42 @@ export default defineComponent({
           twitter: 'everynoise',
           socialOrder: 'twitter',
         },
+        {
+          id: 18,
+          imgSrc:
+            'src/assets/bulletinboard/dieofenmacherev/dieofenmacherev.png',
+          imgClass: 'q-px-md',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#FFFFFF',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Die Ofenmacher e.V.',
+            en: 'Die Ofenmacher e.V.',
+          },
+          subtitle: {
+            de: 'Der Zweck des Vereins Die Ofenmacher e.V. ist die Verbreitung rauchfreier Küchenöfen in ländlichen Haushalten, vor allem in Entwicklungsländern. Unsere Arbeitsgebiete sind zur Zeit Nepal, Äthiopien und Kenia. In Nepal haben wir angefangen und die ersten Projekte begonnen.',
+            en: 'The purpose of the association Die Ofenmacher e.V. is the spread of smoke-free kitchen stoves in rural households, especially in developing countries. Our working areas are currently Nepal, Ethiopia and Kenya. In Nepal we have started and launched the first projects.',
+          },
+          description: {
+            de: 'Das Problem des Kochens am offenen Feuer mit all seinen negativen Folgen ist weltweit verbreitet. Wir halten uns daher in der Satzung die Möglichkeit offen, in verschiedenen Ländern tätig zu werden.\n\n Alle Spenden werden zu 100 Prozent direkt an die Projekte weitergeleitet und gemäß ihrem Verwendungszweck eingesetzt. Verwaltungs- und andere Nebenkosten werden durch die Jahresbeiträge der Mitglieder und spezielle Spenden abgedeckt.\n\n Der Verein wurde im Jahr 2010 gegründet, Sitz des Vereins ist München.',
+            en: 'The problem of cooking over an open fire with all its negative consequences is widespread throughout the world. We therefore keep open in our statutes the possibility of working in different countries.\n\n All donations are forwarded 100 percent directly to the projects and used according to their intended purpose. Administrative and other ancillary costs are covered by the annual membership fees and special donations.\n\n The association was founded in 2010 and its headquarters are in Munich.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zDVX7PrFeiKIis2kGMft6fZ',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zDVX7PrFeiKIis2kGMft6fZ',
+          },
+          readmore: {
+            de: 'https://ofenmacher.org/willkommen/ueber-uns/verein/',
+            en: 'https://ofenmacher.org/willkommen/ueber-uns/verein/',
+          },
+          homepage: 'https://ofenmacher.org/',
+          homepageText: 'homepage',
+          facebook: 'ofenmacher',
+          youtube: '@ofenmacher-ev',
+          socialOrder: 'facebook, youtube',
+        },
       ]),
     };
   },
@@ -683,7 +719,7 @@ export default defineComponent({
     },
     reverseByID: function (obj: Array<Shoutout>): Array<Shoutout> {
       let revObj = [];
-      for (let i = obj.length - 1; i > 0; i--) {
+      for (let i = obj.length - 1; i >= 0; i--) {
         revObj[revObj.length] = obj[i];
       }
       return revObj;
