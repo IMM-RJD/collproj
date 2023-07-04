@@ -14,7 +14,7 @@
     <q-btn
       :label="$t('BulletinBoard')"
       to="/bulletinboard"
-      icon="fa-solid fa-people-group"
+      icon="fa-solid fa-globe"
       color="secondary"
       class="q-py-md"
     />
@@ -22,7 +22,7 @@
     <q-btn
       :label="$t('Mehr_klang')"
       to="/music"
-      icon="fa-solid fa-people-group"
+      icon="fa-solid fa-music"
       color="primary"
       class="q-py-md"
     />

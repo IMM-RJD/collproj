@@ -702,12 +702,49 @@ export default defineComponent({
           youtube: '@ofenmacher-ev',
           socialOrder: 'facebook, youtube',
         },
+        {
+          id: 19,
+          imgSrc:
+            'src/assets/bulletinboard/deutschlandradio/deutschlandradio.png',
+          imgClass: 'q-px-md',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#FFFFFF',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Deutschlandradio',
+            en: 'Deutschlandradio',
+          },
+          subtitle: {
+            de: 'Das Deutschlandradio ist eine Rundfunkanstalt in Deutschland, die drei bundesweite Hörfunkprogramme produziert: Deutschlandfunk, Deutschlandfunk Kultur und Deutschlandfunk Nova.',
+            en: 'Deutschlandradio is a broadcasting organization in Germany that produces three nationwide radio programs: Deutschlandfunk, Deutschlandfunk Kultur and Deutschlandfunk Nova.',
+          },
+          description: {
+            de: 'An welchen Leitlinien richten wir unsere journalistische Arbeit aus? In unserem „Journalistischen Selbstverständnis“ finden Sie gebündelt, was für alle festen und freien Journalisten des Hauses aus den geltenden Gesetzen und berufsständischen Kodizes sowie aus den hausinternen arbeits- und honorarvertraglichen Bedingungen folgt (ohne in der Neufassung eigene neue Regelungen zu treffen).',
+            en: 'What guidelines do we follow in our journalistic work? In our "Journalistic Self-Image," you will find a summary of what follows for all of the company\'s permanent and freelance journalists from the applicable laws and professional codes, as well as from the company\'s internal terms and conditions of employment and remuneration agreements (without making any new provisions of our own in the new version).',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/watch?v=H2mPM3rTU80',
+            en: 'https://www.youtube.com/watch?v=H2mPM3rTU80',
+          },
+          readmore: {
+            de: 'https://www.deutschlandradio.de/transparenz-100.html',
+            en: 'https://www.deutschlandradio.de/transparenz-100.html',
+          },
+          homepage: 'https://www.deutschlandradio.de/',
+          homepageText: 'homepage',
+          facebook: 'deutschlandfunk',
+          twitter: 'DLF',
+          instagram: 'deutschlandfunk',
+          youtube: '@dradiowissen',
+          socialOrder: 'facebook, twitter, instagram, youtube',
+        },
       ]),
     };
   },
   // TODO:
   // fairphone
-  // die ofenmacher?
   // startnext?
   // malala fund?
   // wetalk?
