@@ -57,7 +57,7 @@ export interface Shoutout {
   readmore?: { en: string; de: string };
   phone?: string;
   email?: string;
-  homepage?: string;
+  homepage?: { en: string; de: string };
   homepageText?: string;
   homepageIconOnly?: boolean;
   facebook?: string;
@@ -71,5 +71,6 @@ export interface Shoutout {
   pinterest?: string;
   linkedin?: string;
   xing?: string;
+  twitch?: string;
   socialOrder?: string;
 }

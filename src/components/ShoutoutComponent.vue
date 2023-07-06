@@ -93,7 +93,8 @@
             shoutout.tiktok ||
             shoutout.pinterest ||
             shoutout.linkedin ||
-            shoutout.xing
+            shoutout.xing ||
+            shoutout.twitch
           "
           class="q-my-md"
           dark
@@ -141,7 +142,8 @@
             shoutout.tiktok ||
             shoutout.pinterest ||
             shoutout.linkedin ||
-            shoutout.xing
+            shoutout.xing ||
+            shoutout.twitch
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -153,10 +155,12 @@
             :no-caps="true"
             align="left"
             type="a"
-            :href="shoutout.homepage"
+            :href="getHomepage(shoutout, $i18n.locale)"
             target="_blank"
             icon="fa-solid fa-share"
-            :label="shoutout.homepageText || shoutout.homepage"
+            :label="
+              shoutout.homepageText || getHomepage(shoutout, $i18n.locale)
+            "
           ></q-btn>
           <q-btn
             v-show="shoutout.homepage && shoutout.homepageIconOnly === true"
@@ -165,7 +169,7 @@
             :no-caps="true"
             align="left"
             type="a"
-            :href="shoutout.homepage"
+            :href="getHomepage(shoutout, $i18n.locale)"
             target="_blank"
             icon="fa-solid fa-home"
           ></q-btn>
@@ -199,6 +203,8 @@
                 ? shoutout.linkedin
                 : so == 'xing'
                 ? shoutout.xing
+                : so == 'twitch'
+                ? 'https://twitch.com/' + shoutout.twitch
                 : ''
             "
             target="_blank"
@@ -237,12 +243,11 @@ export default defineComponent({
       return shoutout.subtitle == null
         ? ''
         : '' +
-            ('' +
-              (locale === 'en-US'
-                ? shoutout.subtitle?.en
-                : locale === 'de'
-                ? shoutout.subtitle?.de
-                : 'missing subtitle'));
+            (locale === 'en-US'
+              ? shoutout.subtitle?.en
+              : locale === 'de'
+              ? shoutout.subtitle?.de
+              : 'missing subtitle');
     },
     getIntrovideo(shoutout: Shoutout, locale: string): string {
       return (
@@ -268,12 +273,21 @@ export default defineComponent({
       return shoutout.readmore == null
         ? ''
         : '' +
-            ('' +
-              (locale === 'en-US'
-                ? shoutout.readmore?.en
-                : locale === 'de'
-                ? shoutout.readmore?.de
-                : 'missing readmore'));
+            (locale === 'en-US'
+              ? shoutout.readmore?.en
+              : locale === 'de'
+              ? shoutout.readmore?.de
+              : 'missing readmore');
+    },
+    getHomepage(shoutout: Shoutout, locale: string): string {
+      return shoutout.homepage == null
+        ? ''
+        : '' +
+            (locale === 'en-US'
+              ? shoutout.homepage?.en
+              : locale === 'de'
+              ? shoutout.homepage?.de
+              : 'missing homepage');
     },
     createEmbeded: function (str: string): string {
       return str
