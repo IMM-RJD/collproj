@@ -72,5 +72,6 @@ export interface Shoutout {
   linkedin?: string;
   xing?: string;
   twitch?: string;
+  podcast?: string;
   socialOrder?: string;
 }

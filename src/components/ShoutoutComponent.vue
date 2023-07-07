@@ -94,7 +94,8 @@
             shoutout.pinterest ||
             shoutout.linkedin ||
             shoutout.xing ||
-            shoutout.twitch
+            shoutout.twitch ||
+            shoutout.podcast
           "
           class="q-my-md"
           dark
@@ -143,7 +144,8 @@
             shoutout.pinterest ||
             shoutout.linkedin ||
             shoutout.xing ||
-            shoutout.twitch
+            shoutout.twitch ||
+            shoutout.podcast
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -205,10 +207,12 @@
                 ? shoutout.xing
                 : so == 'twitch'
                 ? 'https://twitch.com/' + shoutout.twitch
+                : so == 'podcast'
+                ? shoutout.podcast
                 : ''
             "
             target="_blank"
-            :icon="'fa-brands fa-' + so"
+            :icon="so == 'podcast' ? 'fa-solid fa-' + so : 'fa-brands fa-' + so"
           ></q-btn>
         </q-card-actions>
       </div>
