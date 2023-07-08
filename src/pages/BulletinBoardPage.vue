@@ -869,6 +869,45 @@ export default defineComponent({
           // socialOrder: 'twitter, podcast, facebook, linkedin, instagram, youtube',
           socialOrder: 'podcast, facebook, linkedin, instagram, youtube',
         },
+        {
+          id: 22,
+          imgSrc:
+            'src/assets/bulletinboard/internetarchive/internetarchive.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#FFFFFF',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Internet Archive',
+            en: 'Internet Archive',
+          },
+          subtitle: {
+            de: 'ist eine gemeinnützige Bibliothek mit Millionen von kostenlosen Büchern, Filmen, Software, Musik, Websites und vielem mehr.',
+            en: 'is a non-profit library of millions of free books, movies, software, music, websites, and more.',
+          },
+          description: {
+            de: 'Wie eine Papierbibliothek bieten wir Forschern, Historikern, Wissenschaftlern, Menschen mit Druckschwierigkeiten und der breiten Öffentlichkeit kostenlosen Zugang. Unsere Aufgabe ist es, den universellen Zugang zu allem Wissen zu ermöglichen.\n\n Wir begannen 1996 mit der Archivierung des Internets selbst, einem Medium, das sich gerade erst zu verbreiten begann. Wie die Zeitungen waren auch die im Internet veröffentlichten Inhalte vergänglich - aber im Gegensatz zu den Zeitungen speicherte sie niemand. Heute können wir über die Wayback Machine auf mehr als 26 Jahre Webgeschichte zugreifen und arbeiten im Rahmen unseres Archive-It-Programms mit über 1.000 Bibliotheken und anderen Partnern zusammen, um wichtige Webseiten zu identifizieren.',
+            en: 'Like a paper library, we provide free access to researchers, historians, scholars, people with print disabilities, and the general public. Our mission is to provide Universal Access to All Knowledge.\n\n We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 26+ years of web history accessible through the Wayback Machine and we work with 1,000+ library and other partners through our Archive-It program to identify important web pages.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zB7nkmXgX_109aqL1-8k1tV',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zB7nkmXgX_109aqL1-8k1tV',
+          },
+          readmore: {
+            de: 'https://archive.org/about/',
+            en: 'https://archive.org/about/',
+          },
+          homepage: {
+            de: 'https://archive.org/',
+            en: 'https://archive.org/',
+          },
+          homepageText: 'homepage',
+          twitter: 'internetarchive',
+          facebook: 'internetnetarchive',
+          socialOrder: 'twitter, facebook',
+        },
       ]),
     };
   },
