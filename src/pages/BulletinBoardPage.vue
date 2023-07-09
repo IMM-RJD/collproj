@@ -908,6 +908,43 @@ export default defineComponent({
           facebook: 'internetnetarchive',
           socialOrder: 'twitter, facebook',
         },
+        {
+          id: 23,
+          imgSrc: 'src/assets/bulletinboard/ask_jesus/ask_jesus.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'fill',
+          imgWrapBgColor: '#FFFFFF',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'AI Jesus',
+            en: 'AI Jesus',
+          },
+          subtitle: {
+            de: 'Ich bin hier, um Ihre Fragen 24/7 zu beantworten. Ob Sie spirituellen Rat suchen, einen Freund oder einfach jemanden zum Reden brauchen, ich bin für Sie da.',
+            en: "I’m here to answer your questions 24/7. Whether you're seeking spiritual guidance, looking for a friend, or simply want someone to talk to, I'm here for you.",
+          },
+          description: {
+            de: 'Tech-Driven Philanthropy - Die Singularity Group ist eine Gruppe von engagierten und ehrgeizigen ehrenamtlichen Aktivisten, die an innovativen Projekten arbeiten, um die Welt wirklich zu verändern.',
+            en: 'Tech-Driven Philanthropy - The Singularity Group is a group of driven and ambitious volunteer activists working on innovative projects to make a real difference in the world.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/watch?v=-JOaZsF1qls',
+            en: 'https://www.youtube.com/watch?v=-JOaZsF1qls',
+          },
+          readmore: {
+            de: 'https://singularitygroup.net/',
+            en: 'https://singularitygroup.net/',
+          },
+          homepage: {
+            de: 'https://customaisolutions.io/',
+            en: 'https://customaisolutions.io/',
+          },
+          homepageText: 'homepage',
+          twitch: 'ask_jesus',
+          socialOrder: 'twitch',
+        },
       ]),
     };
   },
