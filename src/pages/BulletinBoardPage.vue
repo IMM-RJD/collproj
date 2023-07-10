@@ -117,7 +117,7 @@ export default defineComponent({
           homepageText: 'homepage',
           facebook: 'MeinGrundeinkommen',
           twitter: 'meinbge',
-          instagram: 'meinbge',
+          instagram: { en: 'meinbge', de: 'meinbge' },
           youtube: '@MeinGrundeinkommenOfficial',
           socialOrder: 'facebook, twitter, instagram, youtube',
         },
@@ -158,7 +158,7 @@ export default defineComponent({
           facebook: 'sharethemeal',
           twitter: 'ShareTheMealorg',
           youtube: '@SharethemealOrg',
-          instagram: 'sharethemeal',
+          instagram: { en: 'sharethemeal', de: 'sharethemeal' },
           socialOrder: 'facebook, twitter, youtube, instagram',
         },
         {
@@ -193,7 +193,7 @@ export default defineComponent({
           homepageIconOnly: true,
           // homepageText: 'homepage',
           reddit: 'TeamTrees',
-          instagram: 'teamtrees',
+          instagram: { en: 'teamtrees', de: 'teamtrees' },
           twitter: 'teamtreesofficl',
           facebook: 'teamtreesofficial',
           tiktok: '@teamtreesofficial',
@@ -232,7 +232,7 @@ export default defineComponent({
           homepageIconOnly: true,
           // homepageText: 'homepage',
           facebook: 'TeamSeas',
-          instagram: 'teamseas',
+          instagram: { en: 'teamseas', de: 'teamseas' },
           twitter: 'teamseas',
           reddit: 'teamseas',
           tiktok: '@teamseas',
@@ -295,7 +295,7 @@ export default defineComponent({
           homepageText: 'homepage',
           github: 'signalapp',
           twitter: 'signalapp',
-          instagram: 'signal_app',
+          instagram: { en: 'signal_app', de: 'signal_app' },
           socialOrder: 'github, twitter, instagram',
         },
         {
@@ -332,7 +332,7 @@ export default defineComponent({
           homepageText: 'homepage',
           github: 'FarmBot',
           youtube: '@farmbot',
-          instagram: 'farm.bot',
+          instagram: { en: 'farm.bot', de: 'farm.bot' },
           facebook: 'FarmBot.io',
           twitter: 'farmbotio',
           tiktok: '@farm.bot',
@@ -410,7 +410,7 @@ export default defineComponent({
             de: 'https://www.galerie-netzwerk.de/',
           },
           homepageText: 'homepage',
-          instagram: 'galerienetzwerk',
+          instagram: { en: 'galerienetzwerk', de: 'galerienetzwerk' },
           facebook: 'galerienetzwerk',
           socialOrder: 'instagram, facebook',
         },
@@ -447,7 +447,7 @@ export default defineComponent({
           facebook: 'bemyeyesapp',
           twitter: 'bemyeyes',
           linkedin: 'https://dk.linkedin.com/company/be-my-eyes',
-          instagram: 'bemyeyesapp',
+          instagram: { en: 'bemyeyesapp', de: 'bemyeyesapp' },
           youtube: '@bemyeyes',
           tiktok: '@bemyeyesapp',
           socialOrder:
@@ -528,7 +528,7 @@ export default defineComponent({
           twitter: '_germanzero',
           youtube: '@GermanZero',
           linkedin: 'https://www.linkedin.com/company/germanzero/',
-          instagram: '_GermanZero',
+          instagram: { en: '_GermanZero', de: '_GermanZero' },
           socialOrder: 'facebook, twitter, youtube, linkedin, instagram',
         },
         {
@@ -591,7 +591,7 @@ export default defineComponent({
           facebook: 'glsbank',
           twitter: 'glsbank',
           youtube: '@glsbank',
-          instagram: 'glsbank',
+          instagram: { en: 'glsbank', de: 'glsbank' },
           linkedin: 'https://www.linkedin.com/company/glsbank/',
           xing: 'https://www.xing.com/pages/glsbank',
           socialOrder: 'facebook, twitter, youtube, instagram, linkedin, xing',
@@ -629,7 +629,7 @@ export default defineComponent({
           homepageText: 'homepage',
           facebook: 'bytefm',
           twitter: 'ByteFM',
-          instagram: 'bytefm',
+          instagram: { en: 'bytefm', de: 'bytefm' },
           youtube: '@ByteFMTV',
           soundcloud: 'bytefm',
           socialOrder: 'facebook, twitter, instagram, youtube, soundcloud',
@@ -664,7 +664,7 @@ export default defineComponent({
             de: 'https://www.br.de/radio/bayern2/index.html',
           },
           homepageText: 'homepage',
-          instagram: 'bayern2',
+          instagram: { en: 'bayern2', de: 'bayern2' },
           facebook: 'bayern2',
           socialOrder: 'instagram, facebook',
         },
@@ -781,7 +781,7 @@ export default defineComponent({
           homepageText: 'homepage',
           facebook: 'deutschlandfunk',
           twitter: 'DLF',
-          instagram: 'deutschlandfunk',
+          instagram: { en: 'deutschlandfunk', de: 'deutschlandfunk' },
           youtube: '@dradiowissen',
           socialOrder: 'facebook, twitter, instagram, youtube',
         },
@@ -820,7 +820,7 @@ export default defineComponent({
           },
           homepageText: 'homepage',
           facebook: 'vivaconagua',
-          instagram: 'vivaconagua',
+          instagram: { en: 'vivaconagua', de: 'vivaconagua' },
           twitter: 'VivaconAgua',
           youtube: '@VivaconAguadeSanktPaulieV',
           twitch: 'viva_con_agua',
@@ -864,7 +864,7 @@ export default defineComponent({
           podcast: 'https://www.startnext.com/hilfe/podcast.html',
           facebook: 'startnext',
           linkedin: 'https://linkedin.com/company/startnext',
-          instagram: 'startnext',
+          instagram: { en: 'startnext', de: 'startnext' },
           youtube: '@startnext',
           // socialOrder: 'twitter, podcast, facebook, linkedin, instagram, youtube',
           socialOrder: 'podcast, facebook, linkedin, instagram, youtube',
@@ -945,6 +945,47 @@ export default defineComponent({
           twitch: 'ask_jesus',
           socialOrder: 'twitch',
         },
+        {
+          id: 24,
+          imgSrc: 'src/assets/bulletinboard/toogoodtogo/toogoodtogo.png',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#01615F',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Too Good To Go',
+            en: 'Too Good To Go',
+          },
+          subtitle: {
+            de: 'Das Wegwerfen von Lebensmitteln ist ein Problem, bei dem wir alle Teil der Lösung sein können. Mit Hilfe unserer App kannst du unverkaufte Lebensmittel aus deinen Lieblingsgeschäften und -restaurants retten.',
+            en: "I’m here to answer your questions 24/7. Whether you're seeking spiritual guidance, looking for a friend, or simply want someone to talk to, I'm here for you.",
+          },
+          description: {
+            de: 'Über uns, Bildermaterial und unser Beitrag zur Lebensmittelrettung.',
+            en: 'About us, our imagery, and what we’re doing to fight food waste.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zCybxs23gTdb4TMld_bUF4N',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zCybxs23gTdb4TMld_bUF4N',
+          },
+          readmore: {
+            de: 'https://www.toogoodtogo.com/de/press',
+            en: 'https://www.toogoodtogo.com/en-us/press',
+          },
+          homepage: {
+            de: 'https://www.toogoodtogo.com/de',
+            en: 'https://www.toogoodtogo.com/?noredirects=true',
+          },
+          homepageText: 'homepage',
+          twitter: 'toogoodtogo',
+          youtube: '@TooGoodToGoINT',
+          linkedin: 'https://www.linkedin.com/company/too-good-to-go/',
+          instagram: { en: 'toogoodtogo.usa', de: 'toogoodtogo.de' },
+          facebook: 'toogoodtogoGermany',
+          socialOrder: 'twitter, youtube, linkedin, instagram, facebook',
+        },
       ]),
     };
   },
@@ -953,6 +994,10 @@ export default defineComponent({
   // startnext?
   // malala fund?
   // wetalk?
+  // https://80000hours.org/
+  // brilliant.org ?
+  // foodsharing
+  // MIT Free Open Online Course
   methods: {
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {

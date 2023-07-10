@@ -61,7 +61,7 @@ export interface Shoutout {
   homepageText?: string;
   homepageIconOnly?: boolean;
   facebook?: string;
-  instagram?: string;
+  instagram?: { en: string; de: string };
   youtube?: string;
   soundcloud?: string;
   github?: string;

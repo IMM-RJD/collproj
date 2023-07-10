@@ -186,7 +186,8 @@
               so == 'facebook'
                 ? 'https://www.facebook.com/' + shoutout.facebook
                 : so == 'instagram'
-                ? 'https://www.instagram.com/' + shoutout.instagram
+                ? 'https://www.instagram.com/' +
+                  getInstagram(shoutout, $i18n.locale)
                 : so == 'youtube'
                 ? 'https://www.youtube.com/' + shoutout.youtube
                 : so == 'soundcloud'
@@ -292,6 +293,16 @@ export default defineComponent({
               : locale === 'de'
               ? shoutout.homepage?.de
               : 'missing homepage');
+    },
+    getInstagram(shoutout: Shoutout, locale: string): string {
+      return shoutout.instagram == null
+        ? ''
+        : '' +
+            (locale === 'en-US'
+              ? shoutout.instagram?.en
+              : locale === 'de'
+              ? shoutout.instagram?.de
+              : 'missing instagram');
     },
     createEmbeded: function (str: string): string {
       return str
