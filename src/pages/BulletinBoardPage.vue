@@ -986,6 +986,49 @@ export default defineComponent({
           facebook: 'toogoodtogoGermany',
           socialOrder: 'twitter, youtube, linkedin, instagram, facebook',
         },
+        {
+          id: 25,
+          imgSrc: 'src/assets/bulletinboard/foodsharing/foodsharing.png',
+          imgClass: 'q-px-md',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'foodsharing',
+            en: 'foodsharing',
+          },
+          subtitle: {
+            de: 'Unser langfristiges Ziel ist es, die Verschwendung von genießbaren Lebensmitteln zu beenden. Darum werden wir vor Ort aktiv: Wir retten Lebensmittel in privaten Haushalten sowie von Betrieben, stehen im Dialog mit der Politik und tragen unsere Vision in die Welt hinaus.',
+            en: 'Our long-term goal is to end the waste of edible food. That is why we are active on the ground: we save food in private households as well as from businesses, engage in dialog with politicians, and take our vision out into the world.',
+          },
+          description: {
+            de: 'Auf der Karte findest du Fairteiler, das sind Regale oder Kühlschränke an denen du Lebensmittel kostenfrei abholen oder vorbeibringen kannst.\n\n Außerdem gibt es Essenskörbe - hiermit kannst du deine eigenen überschüssigen Lebensmittel anbieten und Lebensmittel bei anderen abholen.',
+            en: 'On the map you will find fair dividers, which are shelves or refrigerators where you can pick up or drop off food for free. \n\n There are also food baskets - you can offer your own surplus food and pick up food from others.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBP9kGv0dyS_UZ7_HiwiFv_',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBP9kGv0dyS_UZ7_HiwiFv_',
+          },
+          readmore: {
+            de: 'https://foodsharing.de/karte',
+            en: 'https://foodsharing.de/karte',
+          },
+          homepage: {
+            de: 'https://foodsharing.de/',
+            en: 'https://foodsharing.de/',
+          },
+          homepageText: 'homepage',
+          twitter: 'FoodsharingDE',
+          facebook: 'foodsharing.de',
+          instagram: { en: 'foodsharing_de', de: 'foodsharing_de' },
+          linkedin: 'https://www.linkedin.com/company/foodsharingde',
+          youtube: '@foodsharingtv',
+          tiktok: '@foodsharing.de',
+          socialOrder:
+            'twitter, facebook, instagram, linkedin, youtube, tiktok',
+        },
       ]),
     };
   },
@@ -996,7 +1039,6 @@ export default defineComponent({
   // wetalk?
   // https://80000hours.org/
   // brilliant.org ?
-  // foodsharing
   // MIT Free Open Online Course
   methods: {
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
