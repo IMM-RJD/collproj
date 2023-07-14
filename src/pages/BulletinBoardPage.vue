@@ -1029,17 +1029,63 @@ export default defineComponent({
           socialOrder:
             'twitter, facebook, instagram, linkedin, youtube, tiktok',
         },
+        {
+          id: 26,
+          imgSrc:
+            'src/assets/bulletinboard/telefonseelsorge/telefonseelsorge.jpg',
+          imgClass: 'q-px-md',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: 'white',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'TelefonSeelsorge®',
+            en: 'TelefonSeelsorge®',
+          },
+          subtitle: {
+            de: 'Jeder braucht mal Hilfe.',
+            en: 'Everyone needs help sometimes.',
+          },
+          description: {
+            de: 'Wir sind ein Netzwerk von 104 Stellen in Deutschland. In diesen Stellen arbeiten fast 300 festangestellte Mitarbeiterinnen und Mitarbeitern und über 7.700 ausgebildete Ehrenamtliche mit ganz unterschiedlichen Lebens- und Berufskompetenzen.\n\n Hinter dem Namen stehen die beiden großen Kirchen in Deutschland als Träger der Telefonseelsorge. Unser Dachverband heißt seit Janur 2022 TelefonSeelsorge® Deutschland e.V. In ihm sind nicht nur die TelefonSeelsorge-Stellen, sondern auch deutschlandweit siebzehn Offene Tür-Stellen als Vor-Ort-Beratung vertreten.',
+            en: 'We are a network of 104 agencies in Germany. These centers employ almost 300 permanent staff and more than 7,700 trained volunteers with a wide range of life and professional skills.\n\n Behind the name are the two major churches in Germany as the sponsors of the TelefonSeelsorge. Our umbrella organization has been called TelefonSeelsorge® Deutschland e.V. since January 2022. It includes not only the TelefonSeelsorge-centers, but also seventeen open Tür centers throughout Germany that provide on-site counseling.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBLc16zUfNo9RupH7co021h',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBLc16zUfNo9RupH7co021h',
+          },
+          readmore: {
+            de: 'https://www.telefonseelsorge.de/ueber-uns/',
+            en: 'https://www.telefonseelsorge.de/ueber-uns/',
+          },
+          homepage: {
+            de: 'https://www.telefonseelsorge.de/',
+            en: 'https://www.telefonseelsorge.de/',
+          },
+          homepageText: 'homepage',
+          phone: '0800.1110111',
+          facebook: 'telefonseelsorgedeutschland',
+          linkedin:
+            'https://de.linkedin.com/company/telefonseelsorge-deutschland',
+          youtube: '@TelefonSeelsorgeDeutschland',
+          socialOrder: 'facebook, linkedin, youtube',
+        },
       ]),
     };
   },
   // TODO:
   // fairphone
-  // startnext?
   // malala fund?
   // wetalk?
   // https://80000hours.org/
   // brilliant.org ?
+  // nebula streaming?
   // MIT Free Open Online Course
+  // in a nutshell
+  // leap
+  // https://www.wren.co/
+  // krisenkompass?
   methods: {
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {
