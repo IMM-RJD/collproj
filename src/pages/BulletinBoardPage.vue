@@ -1071,6 +1071,46 @@ export default defineComponent({
           youtube: '@TelefonSeelsorgeDeutschland',
           socialOrder: 'facebook, linkedin, youtube',
         },
+        {
+          id: 27,
+          imgSrc: 'src/assets/bulletinboard/quasar/quasar.png',
+          imgClass: 'q-pa-md',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#050A14',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Quasar',
+            en: 'Quasar',
+          },
+          subtitle: {
+            de: 'Das unternehmenstaugliche, plattformübergreifende VueJs-Framework.',
+            en: 'The enterprise-ready cross-platform VueJs framework.',
+          },
+          description: {
+            de: 'Quasar ist ein MIT-lizenziertes Open-Source-Framework auf Basis von Vue.js, das es Ihnen als Webentwickler ermöglicht, schnell responsive++ Websites/Apps in vielen Varianten zu erstellen:\n\n SPAs -- SSR (+ optionale PWA-Client-Übernahme) -- PWAs (Progressive Web App) -- BEX (Browser Extension) -- Mobile Apps (Android, iOS, ...) über Cordova oder Capacitor -- Multiplattform-Desktop-Apps (mit Electron) \n\n Das Motto von Quasar lautet: einmal Code schreiben und diesen gleichzeitig als Website, Mobile App und/oder Electron App bereitstellen. Ja, eine Codebasis für alle, die Ihnen dabei hilft, eine App in Rekordzeit zu entwickeln, indem Sie eine hochmoderne CLI verwenden und von den bewährten, blitzschnellen Quasar-Webkomponenten unterstützt werden.',
+            en: 'Quasar is an MIT licensed open-source Vue.js based framework, which allows you as a web developer to quickly create responsive++ websites/apps in many flavours:\n\n SPAs -- SSR (+ optional PWA client takeover) -- PWAs (Progressive Web App) -- BEX (Browser Extension) -- Mobile Apps (Android, iOS, …) through Cordova or Capacitor -- Multi-platform Desktop Apps (using Electron) \n\n Quasar’s motto is: write code once and simultaneously deploy it as a website, a Mobile App and/or an Electron App. Yes, one codebase for all of them, helping you develop an app in record time by using a state-of-the-art CLI and backed by best-practice, blazing fast Quasar web components.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAHFNfyarm_BcQR7dk0gwmt',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zAHFNfyarm_BcQR7dk0gwmt',
+          },
+          readmore: {
+            de: 'https://quasar.dev/introduction-to-quasar',
+            en: 'https://quasar.dev/introduction-to-quasar',
+          },
+          homepage: {
+            de: 'https://quasar.dev/',
+            en: 'https://quasar.dev/',
+          },
+          homepageText: 'homepage',
+          github: 'QuasarFramework',
+          discord: 'https://chat.quasar.dev/',
+          twitter: 'quasarframework',
+          facebook: 'QuasarFramework',
+          socialOrder: 'github, discord, twitter, facebook',
+        },
       ]),
     };
   },
@@ -1086,6 +1126,7 @@ export default defineComponent({
   // leap
   // https://www.wren.co/
   // krisenkompass?
+  // able gamer foundation
   methods: {
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {

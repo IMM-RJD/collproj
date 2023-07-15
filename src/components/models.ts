@@ -73,5 +73,6 @@ export interface Shoutout {
   xing?: string;
   twitch?: string;
   podcast?: string;
+  discord?: string;
   socialOrder?: string;
 }

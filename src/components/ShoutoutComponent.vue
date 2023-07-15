@@ -95,7 +95,8 @@
             shoutout.linkedin ||
             shoutout.xing ||
             shoutout.twitch ||
-            shoutout.podcast
+            shoutout.podcast ||
+            shoutout.discord
           "
           class="q-my-md"
           dark
@@ -145,7 +146,8 @@
             shoutout.linkedin ||
             shoutout.xing ||
             shoutout.twitch ||
-            shoutout.podcast
+            shoutout.podcast ||
+            shoutout.discord
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -210,6 +212,8 @@
                 ? 'https://twitch.com/' + shoutout.twitch
                 : so == 'podcast'
                 ? shoutout.podcast
+                : so == 'discord'
+                ? shoutout.discord
                 : ''
             "
             target="_blank"
