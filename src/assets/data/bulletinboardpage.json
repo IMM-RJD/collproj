@@ -1,0 +1,1130 @@
+[
+  {
+    "id": 0,
+    "imgSrc": "src/assets/bulletinboard/worldcommunitygrid/wcg-logo.png",
+    "imgClass": "q-py-md",
+    "imgPosition": "50% 0%",
+    "imgFit": "contain",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "World Community Grid",
+      "en": "World Community Grid"
+    },
+    "subtitle": {
+      "de": "ermöglicht es jedem, der einen Computer oder ein Android-Gerät besitzt, seine ungenutzte Rechenleistung zu spenden, um die wissenschaftliche Spitzenforschung zu Themen wie Gesundheit, Armut und Nachhaltigkeit voranzutreiben.",
+      "en": "enables anyone with a computer or Android device to donate their unused computing power to advance cutting-edge scientific research on topics related to health, poverty and sustainability."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=P5QU_99oF5k",
+      "en": "https://www.youtube.com/watch?v=P5QU_99oF5k"
+    },
+    "description": {
+      "de": "Durch die Beiträge von Freiwilligen aus aller Welt hat World Community Grid bisher 31 Forschungsprojekte unterstützt, darunter die Suche nach wirksameren Behandlungsmethoden für Krebs, HIV/AIDS und wenig erforschte Tropenkrankheiten. Andere Projekte befassen sich mit der Suche nach kostengünstigen Wasserfiltersystemen und neuen Materialien zur effizienten Nutzung von Sonnenenergie.",
+      "en": "Through the contributions of volunteers all over the globe, World Community Grid has supported 31 research projects to date, including searches for more effective treatments for cancer, HIV/AIDS and under-researched tropical diseases. Other projects are looking for low-cost water filtration systems and new materials for capturing solar energy efficiently."
+    },
+    "readmore": {
+      "de": "https://www.worldcommunitygrid.org/about/about.s",
+      "en": "https://www.worldcommunitygrid.org/about/about.s"
+    },
+    "homepage": {
+      "en": "https://www.worldcommunitygrid.org/",
+      "de": "https://www.worldcommunitygrid.org/"
+    },
+    "homepageText": "homepage",
+    "facebook": "worldcommunitygrid.org",
+    "youtube": "@worldcommunitygrid7090",
+    "twitter": "WCGrid",
+    "socialOrder": "twitter, facebook, youtube"
+  },
+  {
+    "id": 1,
+    "imgSrc": "src/assets/bulletinboard/meingrundeinkommen/mein_grundeinkommen.jpg",
+    "imgClass": "",
+    "imgPosition": "50% 0%",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Mein Grundeinkommen",
+      "en": "Mein Grundeinkommen"
+    },
+    "subtitle": {
+      "de": "Wir wollen wissen, was Grundeinkommen mit Menschen macht. Darum probieren wir es einfach aus und sammeln per Crowdfunding Geld. Immer wenn 12.000 Euro zusammenkommen, verlosen wir das Geld als Bedingungsloses Grundeinkommen: Ein Jahr lang monatlich 1.000 Euro. Ohne Bedingungen. Für alle.",
+      "en": "We want to know what basic income does to people. That's why we're simply trying it out and collecting money via crowdfunding. Whenever 12,000 euros are collected, we give the money away as an unconditional basic income: 1,000 euros a month for a year. No strings attached. For everyone."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBXmebZfLLNdPQEk6qY14ga",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBXmebZfLLNdPQEk6qY14ga"
+    },
+    "description": {
+      "de": "Auf den ersten Blick ist die Wirkung des Grundeinkommens eher langweilig. Was kann man schon mit Geld machen? Ausgeben, verschenken, sparen oder investieren. Aber unser achtjähriger Praxistest zeigt: Es geht gar nicht so sehr ums Geld, sondern um die Bedingungslosigkeit. \n\n Es ist eine völlig neue Erfahrung für fast alle Gewinner*innen, von fremden Menschen Geld ganz ohne Bedingungen zu erhalten. Dieser Akt suggeriert ihnen: Wir glauben an dich, probier dich aus, zeig was du kannst. Wenn es schiefgeht, macht das nichts. Dann probierst du es nächsten Monat einfach wieder. Das ermutigt und gibt Selbstvertrauen.",
+      "en": "At first glance, the effect of basic income is rather boring. What can you do with money? Spend it, give it away, save it or invest it. But our eight-year practical test shows: It's not so much about money, but about unconditionality. \n\n It is a completely new experience for almost all winners to receive money from strangers without any conditions. This act suggests to them: We believe in you, try yourself, show what you can do. If it goes wrong, it doesn't matter. Then you just try again next month. This encourages and gives self-confidence."
+    },
+    "readmore": {
+      "de": "https://www.mein-grundeinkommen.de/erkenntnisse/wie-wirkt-es",
+      "en": "https://www.mein-grundeinkommen.de/erkenntnisse/wie-wirkt-es"
+    },
+    "homepage": {
+      "en": "https://www.mein-grundeinkommen.de/",
+      "de": "https://www.mein-grundeinkommen.de/"
+    },
+    "homepageText": "homepage",
+    "facebook": "MeinGrundeinkommen",
+    "twitter": "meinbge",
+    "instagram": { "en": "meinbge", "de": "meinbge" },
+    "youtube": "@MeinGrundeinkommenOfficial",
+    "socialOrder": "facebook, twitter, instagram, youtube"
+  },
+  {
+    "id": 2,
+    "imgSrc": "src/assets/bulletinboard/sharethemeal/sharethemeal.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "ShareTheMeal",
+      "en": "ShareTheMeal"
+    },
+    "subtitle": {
+      "de": "Mit nur wenigen Klicks auf deinem Handy kannst du für eine bedürftige Person spenden und das UN World Food Programme wird die Mahlzeiten liefern. Hilf uns, den Hunger zu beenden, indem du die ShareTheMeal-App noch heute herunterlädst.",
+      "en": "With just a few taps on your phone you can donate to someone in need and the United Nations World Food Programme will deliver the meals. Help us end hunger by downloading the ShareTheMeal app today."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCKewGjMM9FIgbvMmeTolCy",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCKewGjMM9FIgbvMmeTolCy"
+    },
+    "description": {
+      "de": "Sebastian Stricker und Bernhard Kowatsch arbeiten beide für das UN World Food Programme (WFP). Die früheren Unternehmensberater haben ShareTheMeal während eines Sabbaticals gegründet und mit der Unterstützung vieler freiwilliger und unersetzlicher Helfer entwickelt. Inzwischen ist ShareTheMeal ein Innovationsprojekt des WFP. Das Team sitzt in Berlin. (siehe Abschnitt \"Wie ist die Idee von ShareTheMeal entstanden?\")",
+      "en": "Sebastian Stricker and Bernhard Kowatsch founded ShareTheMeal in April 2014 in Berlin during a sabbatical. A large number of voluntary supporters were essential to the further development of ShareTheMeal. ShareTheMeal is now an innovation project within WFP. The team is located in Berlin, Germany. (see section \"Where did the idea for ShareTheMeal originate from?\")"
+    },
+    "readmore": {
+      "de": "https://sharethemeal.org/faq",
+      "en": "https://sharethemeal.org/faq"
+    },
+    "homepage": {
+      "en": "https://sharethemeal.org/",
+      "de": "https://sharethemeal.org/"
+    },
+    "homepageText": "homepage",
+    "facebook": "sharethemeal",
+    "twitter": "ShareTheMealorg",
+    "youtube": "@SharethemealOrg",
+    "instagram": { "en": "sharethemeal", "de": "sharethemeal" },
+    "socialOrder": "facebook, twitter, youtube, instagram"
+  },
+  {
+    "id": 3,
+    "imgSrc": "src/assets/bulletinboard/teamtrees/teamtrees.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "#TEAMTREES",
+      "en": "#TEAMTREES"
+    },
+    "subtitle": {
+      "de": "SCHLIESSEN SIE SICH DER BEWEGUNG AN! Das Team wächst jeden Tag und erzielt Erfolge für den Planeten. Pflanzen Sie mit uns und verfolgen Sie unsere Fortschritte!",
+      "en": "JOIN THE MOVEMENT! The team is growing every day and scoring wins for the planet. Plant with us and track our progress!"
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDxRe6ay38cPPShCyBkZ07-",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDxRe6ay38cPPShCyBkZ07-"
+    },
+    "description": {
+      "de": "2019 forderte das Internet MrBeast auf, 20 Millionen Dollar zu sammeln, um 20 Millionen Bäume zu pflanzen. Mit der Hilfe des ehemaligen NASA-Ingenieurs Mark Rober, Hunderten von anderen YouTube-Autoren und euch allen haben wir es geschafft, über 24 Millionen Dollar zu sammeln und mehr als 1 Milliarde organische Videoaufrufe zu generieren. Jetzt, wo Millionen von Bäumen in der Erde stehen und Pflanzprojekte auf der ganzen Welt laufen, sorgt #TeamTrees für eine grünere Zukunft. (siehe FAQ \"How did #TeamTrees® get started?\")",
+      "en": "In 2019, the internet challenged MrBeast to raise $20M to plant 20M trees. With the help of ex-NASA engineer Mark Rober, hundreds of other YouTube creators, and all of you, we absolutely crushed it—raising over $24M and generating more than 1B organic video views. Now with millions of trees in the ground and planting projects underway around the world, #TeamTrees is growing a greener future. (see faq \"How did #TeamTrees® get started?\")"
+    },
+    "homepage": {
+      "en": "https://teamtrees.org/",
+      "de": "https://teamtrees.org/"
+    },
+    "homepageIconOnly": true,
+    "reddit": "TeamTrees",
+    "instagram": { "en": "teamtrees", "de": "teamtrees" },
+    "twitter": "teamtreesofficl",
+    "facebook": "teamtreesofficial",
+    "tiktok": "@teamtreesofficial",
+    "youtube": "@teamtrees",
+    "socialOrder": "reddit, instagram, twitter, facebook, tiktok, youtube"
+  },
+  {
+    "id": 4,
+    "imgSrc": "src/assets/bulletinboard/teamseas/TEAMSEAS.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "#TEAMSEAS",
+      "en": "#TEAMSEAS"
+    },
+    "subtitle": {
+      "de": "#TeamSeas ist eine globale Kampagne, mit der 30 Millionen Dollar gesammelt werden sollen, um 30 Millionen Pfund Plastik und Müll aus unseren Ozeanen, Flüssen und Stränden zu entfernen. Es ist auch die zweite Welle der größten von Künstlern geleiteten Spendenkampagne, die es je im Internet gab: #TeamTrees. \n(siehe FAQ \"WHAT IS #TEAMSEAS?\")",
+      "en": "#TeamSeas is a global campaign to raise $30M to remove 30M pounds of plastic and trash from our ocean, rivers and beaches. It’s also the second wave of the largest creator-led fundraising campaign to ever hit the internet: #TeamTrees. \n(see faq \"WHAT IS #TEAMSEAS?\")"
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAhadHw2QzKgJvSV5tw6Uo2",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAhadHw2QzKgJvSV5tw6Uo2"
+    },
+    "description": {
+      "de": "Jeder einzelne Dollar, den #TeamSeas für die 30 Millionen Dollar sammelt, wird für unabhängig verifizierte Pfunde an Müll verwendet, die von Stränden, Flüssen oder dem Meer entfernt wurden. Wenn Sie spenden, gehen die Gelder direkt an die beiden gemeinnützigen Organisationen Ocean Conservancy und The Ocean Cleanup. Sie teilen sich die Gelder 50/50, und das Geld wird freigegeben, wenn der Müll entfernt und überprüft wurde: 1 Dollar für ein Pfund. Jede gemeinnützige Organisation ist für die Erreichung ihrer Hälfte des Ziels verantwortlich. (siehe FAQ \"WHAT HAPPENS TO THE MONEY?\")",
+      "en": "Every single dollar #TeamSeas raises toward the $30M will go to independently verified pounds of trash that have been removed from beaches, rivers or the ocean. When you donate, the funds go directly to the two not-for-profit organizations, Ocean Conservancy and The Ocean Cleanup. They split the funds 50/50 and the money will be released when the trash is removed and verified: $1, one pound. Each non-profit is responsible for delivering on their half of the goal. (see faq \"WHAT HAPPENS TO THE MONEY?\")"
+    },
+    "homepage": {
+      "en": "https://teamseas.org/",
+      "de": "https://teamseas.org/"
+    },
+    "homepageIconOnly": true,
+    "facebook": "TeamSeas",
+    "instagram": { "en": "teamseas", "de": "teamseas" },
+    "twitter": "teamseas",
+    "reddit": "teamseas",
+    "tiktok": "@teamseas",
+    "youtube": "@teamseas",
+    "socialOrder": "facebook, instagram, twitter, reddit, tiktok, youtube"
+  },
+  {
+    "id": 5,
+    "imgSrc": "src/assets/bulletinboard/dailyart/dailyart.webp",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "DailyArt",
+      "en": "DailyArt"
+    },
+    "subtitle": {
+      "de": "Erhalten Sie jeden Tag ein Kunstwerk mit einer kurzen Geschichte dazu und erkunden Sie unseren umfangreichen Katalog mit mehr als 3800 Kunstwerken, 1200 Künstlern und 600 Museen und Galerien.",
+      "en": "Every day get a one piece of fine art with a short story about it, and explore our vast catalogue of more than 3800 artworks, 1200 artists, 600 museums and galleries."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=h-SY0Q97mNQ",
+      "en": "https://www.youtube.com/watch?v=h-SY0Q97mNQ"
+    },
+    "description": {
+      "de": "Kunstgeschichte ist eine erstaunliche Sache. Wir möchten, dass sie populär ist und von der breiten Masse verstanden wird. In den Museen und Galerien findet man oft schwierige (und langweilige) Beschreibungen der Kunstwerke, die weder informativ noch lehrreich sind. Mit DailyArt wollen wir kunstgeschichtliche Geschichten auf die interessanteste und verständlichste Weise vermitteln.",
+      "en": "Art history is an amazing thing. We want it to be popular and understood among masses. Often in the museums and galleries you can find difficult (and boring) descriptions of the artworks, which are nor informative, nor educative. With DailyArt we want to share art history stories in the most interesting and digestible way."
+    },
+    "homepage": {
+      "en": "https://www.getdailyart.com/",
+      "de": "https://www.getdailyart.com/"
+    },
+    "homepageText": "homepage"
+  },
+  {
+    "id": 6,
+    "imgSrc": "src/assets/bulletinboard/signal/signal.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Signal",
+      "en": "Signal"
+    },
+    "subtitle": {
+      "de": "Sag Hallo zu einer neuen Messaging-Erfahrung: ein ungewohnter Fokus auf Privatsphäre, zusammen mit all den Funktionen, die du gewohnt bist.",
+      "en": "Say \"hello\" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect."
+    },
+    "description": {
+      "de": "Fortschrittlichste Ende-zu-Ende-Verschlüsselung (auf Basis des quelloffenen Signal Protocol) macht deine Unterhaltungen sicher. Weder wir noch irgendjemand sonst können deine Nachrichten lesen oder deinen Telefonaten zuhören. Vertraulichkeit ist kein optionaler Modus – sie ist ausnahmslos in alle Funktionen von Signal integriert. Für jede Nachricht, jeden Anruf, jederzeit.",
+      "en": "State-of-the-art end-to-end encryption (powered by the open source Signal Protocol) keeps your conversations secure. We can't read your messages or listen to your calls, and no one else can either. Privacy isn’t an optional mode — it’s just the way that Signal works. Every message, every call, every time."
+    },
+    "homepage": { "en": "https://signal.org/", "de": "https://signal.org/" },
+    "homepageText": "homepage",
+    "github": "signalapp",
+    "twitter": "signalapp",
+    "instagram": { "en": "signal_app", "de": "signal_app" },
+    "socialOrder": "github, twitter, instagram"
+  },
+  {
+    "id": 7,
+    "imgSrc": "src/assets/bulletinboard/farmbot/FarmBot_Logo_White_on_Brown.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "FarmBot",
+      "en": "FarmBot"
+    },
+    "subtitle": {
+      "de": "FarmBot ist zu 100% Open-Source. Unser kleines Unternehmen wurde 2016 gegründet und umfasst inzwischen Mitglieder in Kalifornien, Oregon, Illinois, Kanada und Belgien. Bis heute haben wir mehr als 1.000 FarmBot-Bausätze an Kunden in über 65 Ländern ausgeliefert, was dem Projekt eine wirklich globale Reichweite verleiht.",
+      "en": "FarmBot is 100% Open-Source. Founded in 2016, our small company has grown to include members in California, Oregon, Illinois, Canada, and Belgium. To date, we've shipped more than 1,000 FarmBot kits to customers in over 65 countries, giving this project a truly global reach."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBvHmKuBsy0b3f3gv_TTvdP",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBvHmKuBsy0b3f3gv_TTvdP"
+    },
+    "description": {
+      "de": "Obwohl wir die Entwicklung von DIY-Builds unterstützen, beachten Sie bitte, dass wir als Unternehmen nicht in der Lage sind, Ressourcen für die Fehlerbehebung bei Installationen bereitzustellen, die nicht als komplettes FarmBot-Kit in unserem Online-Shop erworben wurden. Obwohl wir ein 100%iges Open-Source-Unternehmen sind, liegt der technische Support für DIY-Builds außerhalb des Rahmens unseres Open-Source-Mandats.",
+      "en": "While we encourage the development of DIY builds, please note that as a company we are not able to dedicate resources to helping troubleshoot installations that were not purchased as a full FarmBot kit from our online store. Although we are a 100% open source company, technical support for DIY builds is beyond the scope of our open source mandate."
+    },
+    "readmore": {
+      "de": "https://farm.bot/pages/open-source",
+      "en": "https://farm.bot/pages/open-source"
+    },
+    "homepage": { "en": "https://farm.bot/", "de": "https://farm.bot/" },
+    "homepageText": "homepage",
+    "github": "FarmBot",
+    "youtube": "@farmbot",
+    "instagram": { "en": "farm.bot", "de": "farm.bot" },
+    "facebook": "FarmBot.io",
+    "twitter": "farmbotio",
+    "tiktok": "@farm.bot",
+    "pinterest": "getfarmbot",
+    "socialOrder": "github, youtube, instagram, facebook, twitter, tiktok, pinterest"
+  },
+  {
+    "id": 8,
+    "imgSrc": "src/assets/bulletinboard/nagerit/faire_maus.jpg",
+    "imgClass": "q-py-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Nager IT",
+      "en": "Nager IT"
+    },
+    "subtitle": {
+      "de": "Dem scheinbar unerreichbaren Ziel einer Computermaus ohne jegliche Ausbeutung nähern wir uns Schritt für Schritt, nach dem Motto »Am Fairsten → Fairer → Fair«. \n(siehe \"Das Projekt\" -> \"Der Weg dorthin\")",
+      "en": "It seems impossible to create a mouse which is definitely free of all exploitation in its product chain in one go, so we are approaching our goal step by step. \n(see \"The Project\" -> \"How to reach this\")"
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz"
+    },
+    "description": {
+      "de": "Wie alle kleineren Elektronikprodzuenten stehen wir vor dem Problem, dass es uns bei unserem geringen Produktionsvolumen nicht möglich ist, nur faire Rohstoffe in unserer Maus zu verwenden. Die Lieferkette ist zu lang, zu komplex, zu sehr von großen, konservativen Technikunternehmen bestimmt. Als Ausgleich unterstützen wir nun, auch rückwirkend, ein lokales Netzwerk in Indonesien, die sich seit Jahrzehnten ernsthaft für einen verträglichen Zinnabbau einsetzt, u.a. indem sie Menschenrechte in den betroffenen Regionen vor Gericht erstreitet. \n(siehe \"Sind die Metalle in der Fairen Maus auch fair gewonnen?\")",
+      "en": "Our mouse is going to be by far the most sustainable IT product currently available on the market, and we know we can't stress that enough when marketing it. While we can't completely rule out exploitation for now due to the centralised structure of the supply chain, the degree of exploitative labour with our mouse has been, compared to its \"fellow\" anyway, significantly reduced. Therefore, while not entirely fair, this mouse can be rightfully called considerably sustainable. It is by far the fairest alternative and should therefore be preferred to other mice at any rate. It ist also important to see that the project of NAGER IT is a dynamic one: The aim to produce a completely fair computer mouse will not be kept sight of. Further efforts, to create a fairer and fairer production process for the mouse will be made transaparent and will be accessible on demand or publicly. \n(see \"If an entirely fair mouse isn't possible, does a partly fair mouse actually stand a chance of getting marketed?\")"
+    },
+    "readmore": {
+      "de": "https://www.nager-it.de/informationen/faq",
+      "en": "https://www.nager-it.de/en/informationen/faq"
+    },
+    "homepage": {
+      "en": "https://www.nager-it.de/",
+      "de": "https://www.nager-it.de/"
+    },
+    "homepageText": "homepage",
+    "twitter": "NagerIT",
+    "facebook": "people/nager-it/100064707307591/",
+    "youtube": "@nagerit5165",
+    "socialOrder": "twitter, facebook, youtube"
+  },
+  {
+    "id": 9,
+    "imgSrc": "src/assets/partner/galerie-netzwerk.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Galerie Netzwerk",
+      "en": "Galerie Netzwerk"
+    },
+    "subtitle": {
+      "de": "Kämpfen Sie für die Dinge, die Ihnen wichtig sind, aber tun Sie es auf eine Weise, die andere dazu bringt, sich Ihnen anzuschließen.",
+      "en": "Fight for the things that are important to you, but do it in a way that makes others want to join you."
+    },
+    "description": {
+      "de": "In der Trierer Innenstadt, mitten in der Fußgängerzone, können seit über einem Jahr Besucher wie Einheimische einen Ort entdecken, der sie mit auf Reisen nimmt. Die monatlich wechselnden Ausstellungen werden von sehr unterschiedlichen Künstlern, kreativen Menschen und ihren persönlichen Interaktionen getragen - solch eine Galerie zu führen ist eine Herzensangelegenheit.",
+      "en": "In downtown Trier, in the middle of the pedestrian zone, visitors and locals alike have been able to discover a place that takes them on a journey for over a year. The monthly changing exhibitions are supported by very different artists, creative people and their personal interactions - running such a gallery is a matter of the heart."
+    },
+    "readmore": {
+      "de": "https://www.galerie-netzwerk.de/philosophie-der-galerie/",
+      "en": "https://www.galerie-netzwerk.de/philosophie-der-galerie/"
+    },
+    "phone": "01578 3678 038",
+    "homepage": {
+      "en": "https://www.galerie-netzwerk.de/",
+      "de": "https://www.galerie-netzwerk.de/"
+    },
+    "homepageText": "homepage",
+    "instagram": { "en": "galerienetzwerk", "de": "galerienetzwerk" },
+    "facebook": "galerienetzwerk",
+    "socialOrder": "instagram, facebook"
+  },
+  {
+    "id": 10,
+    "imgSrc": "src/assets/bulletinboard/bemyeyes/bemyeyes.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Be My Eyes",
+      "en": "Be My Eyes"
+    },
+    "subtitle": {
+      "de": "„Be My Eyes“ verbindet Menschen, die sehende Unterstützung benötigen, mit Freiwilligen und Unternehmen per Live-Video auf der ganzen Welt.",
+      "en": "\"Be My Eyes\" connects people needing sighted support with volunteers and companies through live video around the world."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBkGmQTA0IBLmQd9vvhs1b2",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBkGmQTA0IBLmQd9vvhs1b2"
+    },
+    "description": {
+      "de": "„Be My Eyes“ ist eine kostenlose App, mit der Sie im Handumdrehen Videounterstützung erhalten. Jeden Tag stellen sehende Freiwillige und Fachleute ihre Augen zur Verfügung, um große und kleine Aufgaben zu lösen und blinden und sehbehinderten Menschen ein unabhängigeres Leben zu ermöglichen.",
+      "en": "\"Be My Eyes\" is a free app for receiving video support at a moment’s notice. Every day, sighted volunteers and professionals lend their eyes to solve tasks big and small to assist blind and low-vision people lead more independent lives."
+    },
+    "homepage": {
+      "en": "https://www.bemyeyes.com/",
+      "de": "https://www.bemyeyes.com/"
+    },
+    "homepageText": "homepage",
+    "facebook": "bemyeyesapp",
+    "twitter": "bemyeyes",
+    "linkedin": "https://dk.linkedin.com/company/be-my-eyes",
+    "instagram": { "en": "bemyeyesapp", "de": "bemyeyesapp" },
+    "youtube": "@bemyeyes",
+    "tiktok": "@bemyeyesapp",
+    "socialOrder": "facebook, twitter, linkedin, instagram, youtube, tiktok"
+  },
+  {
+    "id": 11,
+    "imgSrc": "src/assets/bulletinboard/algorave/algorave.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Algorave",
+      "en": "Algorave"
+    },
+    "subtitle": {
+      "de": "Ein Algorave (von \"Algorithmus\" und \"Rave\") ist eine Veranstaltung, bei der zu Musik getanzt wird, die von Algorithmen generiert wird, oft unter Verwendung von Live-Coding-Techniken.",
+      "en": "An algorave (from an algorithm and rave) is an event where people dance to music generated from algorithms, often using live coding techniques."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=RPiyEUWPhxU",
+      "en": "https://www.youtube.com/watch?v=RPiyEUWPhxU"
+    },
+    "description": {
+      "de": "Algoraves kann eine Reihe von Stilen umfassen, einschließlich einer komplexen Form von Minimal Techno, und die Bewegung wurde als Treffpunkt von Hacker-Philosophie, Geek-Kultur und Clubbing beschrieben. (Übersetztung des englischen Wikipediaeintrag)",
+      "en": "Algoraves can include a range of styles, including a complex form of minimal techno, and the movement has been described as a meeting point of hacker philosophy, geek culture, and clubbing."
+    },
+    "readmore": {
+      "de": "https://www.vice.com/de/article/rjq8nx/algorave-ist-die-zukunft-der-dance-musik-wenn-du-ein-nerd-bist",
+      "en": "https://en.wikipedia.org/wiki/Algorave"
+    },
+    "homepage": {
+      "en": "https://algorave.com/",
+      "de": "https://algorave.com/"
+    },
+    "homepageText": "homepage",
+    "github": "tidalcycles/Tidal",
+    "socialOrder": "github"
+  },
+  {
+    "id": 12,
+    "imgSrc": "src/assets/bulletinboard/germanzero/germanzero.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "GermanZero",
+      "en": "GermanZero"
+    },
+    "subtitle": {
+      "de": "Als Klimaschutzorganisation arbeiten wir für eine Welt, in der zukünftige Generationen ein gutes Leben führen können. Das bedeutet, die Erderwärmung auf 1,5 Grad zu begrenzen. Dafür muss Deutschland bis 2035 klimaneutral werden. Wir zeigen, wie das geht.",
+      "en": "As a climate protection organization, we work for a world in which future generations can lead a good life. That means limiting global warming to 1.5 degrees. To achieve this, Germany must become climate neutral by 2035. We show how this can be done."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=WqJdlmkYEoo",
+      "en": "https://www.youtube.com/watch?v=WqJdlmkYEoo"
+    },
+    "description": {
+      "de": "Das 1,5-Grad-Gesetzespaket ist unser Angebot an die Bundesregierung. Es enthält einen Maßnahmenkatalog, der ganz konkret die Lösungen beschreibt, mit denen jeder Sektor bis 2035 klimaneutral werden kann. Damit diese Maßnahmen auch rechtswirksam umgesetzt werden können, präsentieren wir für einen Großteil unserer Vorschläge auch fertig ausformulierte Gesetzesentwürfe.",
+      "en": "The 1.5-degree legislative package is our offer to the German government. It contains a catalog of measures that very specifically describes the solutions with which each sector can become climate-neutral by 2035. To ensure that these measures can also be implemented with legal effect, we also present ready-formulated draft laws for a large part of our proposals."
+    },
+    "readmore": {
+      "de": "https://germanzero.de/downloads",
+      "en": "https://germanzero.de/downloads"
+    },
+    "homepage": {
+      "en": "https://germanzero.de/",
+      "de": "https://germanzero.de/"
+    },
+    "homepageText": "homepage",
+    "facebook": "GermanZero.NGO",
+    "twitter": "_germanzero",
+    "youtube": "@GermanZero",
+    "linkedin": "https://www.linkedin.com/company/germanzero/",
+    "instagram": { "en": "_GermanZero", "de": "_GermanZero" },
+    "socialOrder": "facebook, twitter, youtube, linkedin, instagram"
+  },
+  {
+    "id": 13,
+    "imgSrc": "src/assets/bulletinboard/spielefuerkinder/joystick.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "scale-down",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Spiele fuer Kinder",
+      "en": "Games for Kids"
+    },
+    "subtitle": {
+      "de": "& andere.",
+      "en": "& others."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDSZtyXdi2hFLXRYoAGU2ZF",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zD_-Kdl1Lz6DJf04RycqVrP"
+    },
+    "readmore": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDSZtyXdi2hFLXRYoAGU2ZF",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zD_-Kdl1Lz6DJf04RycqVrP"
+    }
+  },
+  {
+    "id": 14,
+    "imgSrc": "src/assets/bulletinboard/glsbank/glsbank.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "GLS Bank",
+      "en": "GLS Bank"
+    },
+    "subtitle": {
+      "de": "Mit unserem nachhaltigen Bankgeschäft setzen wir zukunftsweisende Maßstäbe für verantwortungsvolles Wirtschaften und für gesellschaftlichen Wandel – seit 1974.",
+      "en": "With our sustainable banking business, we have been setting future-oriented standards for responsible business and social change - since 1974."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBSyl9Ujs6Edy-1cnrsl8Ls",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBSyl9Ujs6Edy-1cnrsl8Ls"
+    },
+    "description": {
+      "de": "Unser Nachhaltigkeitsverständnis stellt die Menschen in den Mittelpunkt. Von unserer guten Zukunft haben wir konkrete Bilder, die wir gemeinsam mit Ihnen verwirklichen möchten und messen laufend nach, wie Ihr Geld wirkt - \"Bei uns gibt es keine Boni für Beratung, keine Spekulation, keine abstrakten Finanzprodukte\" und \"Mit über 30.000 finanzierten Unternehmen zeigen wir, wie eine sozial-ökologische Wirtschaft möglich ist\".",
+      "en": "Our understanding of sustainability puts people at the center. We have concrete images of our good future that we would like to realize together with you and continuously measure how your money is working - \"With us, there are no bonuses for advice, no speculation, no abstract financial products\" and \"With over 30,000 financed companies, we show how a social-ecological economy is possible\"."
+    },
+    "readmore": {
+      "de": "https://www.gls.de/privatkunden/warum-gls-bank/",
+      "en": "https://www.gls.de/privatkunden/warum-gls-bank/"
+    },
+    "homepage": { "en": "https://www.gls.de/", "de": "https://www.gls.de/" },
+    "homepageText": "homepage",
+    "facebook": "glsbank",
+    "twitter": "glsbank",
+    "youtube": "@glsbank",
+    "instagram": { "en": "glsbank", "de": "glsbank" },
+    "linkedin": "https://www.linkedin.com/company/glsbank/",
+    "xing": "https://www.xing.com/pages/glsbank",
+    "socialOrder": "facebook, twitter, youtube, instagram, linkedin, xing"
+  },
+  {
+    "id": 15,
+    "imgSrc": "src/assets/bulletinboard/bytefm/bytefm.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "ByteFM",
+      "en": "ByteFM"
+    },
+    "subtitle": {
+      "de": "ist moderiertes Musikradio – ohne computergenerierte Musikrotation. Aus dem Hamburger Medienbunker versorgen wir Euch rund um die Uhr mit guter Musik, Interviews und Hintergrundinformationen über Szenen, Bands, Entwicklungen und Zusammenhänge. Und das alles ohne Werbespots.",
+      "en": "is moderated music radio - without computer-generated music rotation. From the Hamburg media bunker we provide you with good music, interviews and background information about scenes, bands, developments and contexts around the clock. And all that without commercials."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBNQRt7vXPj4_ijLJNptW8T",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBNQRt7vXPj4_ijLJNptW8T"
+    },
+    "description": {
+      "de": "Wir versorgen Euch mit guter Musik, alt und neu: Indie, Techno, Pop, Rock, Singer/Songwriter, Elektronik, Synth-Pop, Jazz, HipHop, Beats, Krautrock, Dream-Pop, Dubstep, Folk, Shoegaze. Auch klassische Musik gibt es bei uns im Programm, französische Chansons und Afrobeat. \n ByteFM sendet rund um die Uhr im Web und in Hamburg über UKW, auf den Frequenzen 91,7 und 104,0 MHz. \n ByteFM wurde vielfach ausgezeichnet, unter anderem mit den folgenden Preisen: \n Grimme Online Award 2009 \n Lead Award 2008 und 2015 \n Hamburger Musikpreis HANS \n Rocco-Clein-Preis für Musikjournalismus \n Deutschland - Land der Ideen",
+      "en": "We provide you with good music, old and new: indie, techno, pop, rock, singer/songwriter, electronic, synth-pop, jazz, hip-hop, beats, krautrock, dream-pop, dubstep, folk, shoegaze. We also have classical music in our program, French chansons and Afrobeat. \n ByteFM broadcasts around the clock on the web and in Hamburg via FM, on the frequencies 91.7 and 104.0 MHz. \n ByteFM has received many awards, including the following: \n Grimme Online Award 2009 \n Lead Award 2008 und 2015 \n Hamburger Musikpreis HANS \n Rocco-Clein-Preis für Musikjournalismus \n Deutschland - Land der Ideen"
+    },
+    "readmore": {
+      "de": "https://www.byte.fm/ueber-uns/",
+      "en": "https://www.byte.fm/ueber-uns/"
+    },
+    "homepage": { "en": "https://www.byte.fm/", "de": "https://www.byte.fm/" },
+    "homepageText": "homepage",
+    "facebook": "bytefm",
+    "twitter": "ByteFM",
+    "instagram": { "en": "bytefm", "de": "bytefm" },
+    "youtube": "@ByteFMTV",
+    "soundcloud": "bytefm",
+    "socialOrder": "facebook, twitter, instagram, youtube, soundcloud"
+  },
+  {
+    "id": 16,
+    "imgSrc": "src/assets/bulletinboard/bayern2/bayern2.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Bayern 2",
+      "en": "Bayern 2"
+    },
+    "subtitle": {
+      "de": "ist das zweite Hörfunkprogramm des Bayerischen Rundfunks. Es sendet ein kultur- und informationsorientiertes Vollprogramm mit einem breiten Musikspektrum in verschiedenen Sparten.",
+      "en": "is the second radio program of Bayerischer Rundfunk. It broadcasts a culture- and information-oriented full program with a broad spectrum of music in various genres."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=GyS9CutV12I",
+      "en": "https://www.youtube.com/watch?v=GyS9CutV12I"
+    },
+    "readmore": {
+      "de": "https://de.wikipedia.org/wiki/Bayern_2",
+      "en": "https://de.wikipedia.org/wiki/Bayern_2"
+    },
+    "homepage": {
+      "en": "https://www.br.de/radio/bayern2/index.html",
+      "de": "https://www.br.de/radio/bayern2/index.html"
+    },
+    "homepageText": "homepage",
+    "instagram": { "en": "bayern2", "de": "bayern2" },
+    "facebook": "bayern2",
+    "socialOrder": "instagram, facebook"
+  },
+  {
+    "id": 17,
+    "imgSrc": "src/assets/bulletinboard/everynoise/everynoise.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "everynoise.com",
+      "en": "everynoise.com"
+    },
+    "subtitle": {
+      "de": "ist ein fortlaufender Versuch, ein algorithmisch generiertes, der Lesbarkeit angepasstes Streudiagramm des musikalischen Genre-Raums zu erstellen.",
+      "en": "is an ongoing attempt at an algorithmically-generated, readability-adjusted scatter-plot of the musical genre-space."
+    },
+    "description": {
+      "de": "Sie basiert auf Daten, die von Spotify für 6.244 Genre-Unterscheidungen erfasst und analysiert wurden. Die Kalibrierung ist unscharf, aber im Allgemeinen ist \"unten\" organischer, \"oben\" mechanischer und elektrischer; \"links\" ist dichter und atmosphärischer, \"rechts\" ist stacheliger und bounciger.",
+      "en": "It is based on data tracked and analyzed for 6,244 genre-shaped distinctions by Spotify. The calibration is fuzzy, but in general down is more organic, up is more mechanical and electric; left is denser and more atmospheric, right is spikier and bouncier."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=1-xR9vuupX4",
+      "en": "https://www.youtube.com/watch?v=1-xR9vuupX4"
+    },
+    "readmore": {
+      "de": "https://everynoise.com/#otherthings",
+      "en": "https://everynoise.com/#otherthings"
+    },
+    "homepage": {
+      "en": "https://everynoise.com/",
+      "de": "https://everynoise.com/"
+    },
+    "homepageText": "homepage",
+    "twitter": "everynoise",
+    "socialOrder": "twitter"
+  },
+  {
+    "id": 18,
+    "imgSrc": "src/assets/bulletinboard/dieofenmacherev/dieofenmacherev.png",
+    "imgClass": "q-px-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Die Ofenmacher e.V.",
+      "en": "Die Ofenmacher e.V."
+    },
+    "subtitle": {
+      "de": "Der Zweck des Vereins Die Ofenmacher e.V. ist die Verbreitung rauchfreier Küchenöfen in ländlichen Haushalten, vor allem in Entwicklungsländern. Unsere Arbeitsgebiete sind zur Zeit Nepal, Äthiopien und Kenia. In Nepal haben wir angefangen und die ersten Projekte begonnen.",
+      "en": "The purpose of the association Die Ofenmacher e.V. is the spread of smoke-free kitchen stoves in rural households, especially in developing countries. Our working areas are currently Nepal, Ethiopia and Kenya. In Nepal we have started and launched the first projects."
+    },
+    "description": {
+      "de": "Das Problem des Kochens am offenen Feuer mit all seinen negativen Folgen ist weltweit verbreitet. Wir halten uns daher in der Satzung die Möglichkeit offen, in verschiedenen Ländern tätig zu werden.\n\n Alle Spenden werden zu 100 Prozent direkt an die Projekte weitergeleitet und gemäß ihrem Verwendungszweck eingesetzt. Verwaltungs- und andere Nebenkosten werden durch die Jahresbeiträge der Mitglieder und spezielle Spenden abgedeckt.\n\n Der Verein wurde im Jahr 2010 gegründet, Sitz des Vereins ist München.",
+      "en": "The problem of cooking over an open fire with all its negative consequences is widespread throughout the world. We therefore keep open in our statutes the possibility of working in different countries.\n\n All donations are forwarded 100 percent directly to the projects and used according to their intended purpose. Administrative and other ancillary costs are covered by the annual membership fees and special donations.\n\n The association was founded in 2010 and its headquarters are in Munich."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDVX7PrFeiKIis2kGMft6fZ",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDVX7PrFeiKIis2kGMft6fZ"
+    },
+    "readmore": {
+      "de": "https://ofenmacher.org/willkommen/ueber-uns/verein/",
+      "en": "https://ofenmacher.org/willkommen/ueber-uns/verein/"
+    },
+    "homepage": {
+      "en": "https://ofenmacher.org/",
+      "de": "https://ofenmacher.org/"
+    },
+    "homepageText": "homepage",
+    "facebook": "ofenmacher",
+    "youtube": "@ofenmacher-ev",
+    "socialOrder": "facebook, youtube"
+  },
+  {
+    "id": 19,
+    "imgSrc": "src/assets/bulletinboard/deutschlandradio/deutschlandradio.png",
+    "imgClass": "q-px-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Deutschlandradio",
+      "en": "Deutschlandradio"
+    },
+    "subtitle": {
+      "de": "Das Deutschlandradio ist eine Rundfunkanstalt in Deutschland, die drei bundesweite Hörfunkprogramme produziert: Deutschlandfunk, Deutschlandfunk Kultur und Deutschlandfunk Nova.",
+      "en": "Deutschlandradio is a broadcasting organization in Germany that produces three nationwide radio programs: Deutschlandfunk, Deutschlandfunk Kultur and Deutschlandfunk Nova."
+    },
+    "description": {
+      "de": "An welchen Leitlinien richten wir unsere journalistische Arbeit aus? In unserem „Journalistischen Selbstverständnis“ finden Sie gebündelt, was für alle festen und freien Journalisten des Hauses aus den geltenden Gesetzen und berufsständischen Kodizes sowie aus den hausinternen arbeits- und honorarvertraglichen Bedingungen folgt (ohne in der Neufassung eigene neue Regelungen zu treffen).",
+      "en": "What guidelines do we follow in our journalistic work? In our \"Journalistic Self-Image,\" you will find a summary of what follows for all of the company's permanent and freelance journalists from the applicable laws and professional codes, as well as from the company's internal terms and conditions of employment and remuneration agreements (without making any new provisions of our own in the new version)."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zANvpJV2HB8da6_HSVjoAZ1",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zANvpJV2HB8da6_HSVjoAZ1"
+    },
+    "readmore": {
+      "de": "https://www.deutschlandradio.de/transparenz-100.html",
+      "en": "https://www.deutschlandradio.de/transparenz-100.html"
+    },
+    "homepage": {
+      "en": "https://www.deutschlandradio.de/",
+      "de": "https://www.deutschlandradio.de/"
+    },
+    "homepageText": "homepage",
+    "facebook": "deutschlandfunk",
+    "twitter": "DLF",
+    "instagram": { "en": "deutschlandfunk", "de": "deutschlandfunk" },
+    "youtube": "@dradiowissen",
+    "socialOrder": "facebook, twitter, instagram, youtube"
+  },
+  {
+    "id": 20,
+    "imgSrc": "src/assets/bulletinboard/viva_con_agua/viva_con_agua.png",
+    "imgClass": "q-px-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#008FC3",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Viva con Agua de Sankt Pauli",
+      "en": "Viva con Agua de Sankt Pauli"
+    },
+    "subtitle": {
+      "de": "unterstützt Wasserprojekte mit der Vision “WASSER FÜR ALLE – ALLE FÜR WASSER!”.",
+      "en": "promotes access to clean drinking water, sanitation and hygiene. We rely on activism and use the universal languages of music, sport and art for our work and our national and international projects. Help us support the vision “Water for all – All for water” because water is life."
+    },
+    "description": {
+      "de": "Eure Spenden – unsere Verantwortung! Als gemeinnütziger Verein ist für uns Transparenz selbstverständlich. \n\n Zudem betreiben wir Impact Investments im WASH-Sektor, wie beispielsweise bei SPOUTS Water Filters in Uganda. Die mit Abstand größte Fördersumme unserer Projektmittel geht an gemeinsame WASH-Projekte mit unserer langjährigen Partnerorganisation Welthungerhilfe. Durch Drittmittelförderungen seitens institutioneller Geber*innen kann unsere Partnerorganisation Welthungerhilfe die Fördersumme von Viva con Agua in vielen Projekten im Durchschnitt um den Faktor 4 vergrößern.",
+      "en": "Your donations - our responsibility! As a non-profit organization, transparency is a matter of course for us. \n\n We also make impact investments in the WASH sector, such as SPOUTS Water Filters in Uganda. By far the largest amount of our project funds goes to joint WASH projects with our long-standing partner organization Welthungerhilfe. Through third-party funding from institutional donors, our partner organization Welthungerhilfe is able to increase Viva con Agua's funding in many projects by a factor of 4 on average."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDutGsgMJL-bkrdoBCcB7gI",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDutGsgMJL-bkrdoBCcB7gI"
+    },
+    "readmore": {
+      "de": "https://www.vivaconagua.org/transparenz/",
+      "en": "https://www.vivaconagua.org/en/transparency/"
+    },
+    "homepage": {
+      "en": "https://www.vivaconagua.org/en/",
+      "de": "https://www.vivaconagua.org/"
+    },
+    "homepageText": "homepage",
+    "facebook": "vivaconagua",
+    "instagram": { "en": "vivaconagua", "de": "vivaconagua" },
+    "twitter": "VivaconAgua",
+    "youtube": "@VivaconAguadeSanktPaulieV",
+    "twitch": "viva_con_agua",
+    "socialOrder": "facebook, instagram, twitter, youtube, twitch"
+  },
+  {
+    "id": 21,
+    "imgSrc": "src/assets/bulletinboard/startnext/startnext.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Startnext",
+      "en": "Startnext"
+    },
+    "subtitle": {
+      "de": "Crowdfunding für Kultur, Kreatives, Aktivismus, Soziales Unternehmertum und Hilfsaktionen.",
+      "en": "Crowdfunding for Culture, Creative, Activism, Social Entrepreneurship and Aid Campaigns."
+    },
+    "description": {
+      "de": "Die Idee hinter Startnext ist einfach: Viele Menschen (crowd) finanzieren (fund) gemeinsam eine Idee, ein Projekt oder ein Unternehmen. Die Starter:innen legen ein Startnext Projekt an und beschreiben ihre Idee in einem Video, mit Bildern und Texten. Sie legen ein Startlevel, eine Laufzeit für die Finanzierungsphase und Dankeschöns für die Unterstützer:innen fest. Alle, die möchten, dass die Idee Wirklichkeit wird oder bleibt, unterstützen das Projekt während der Finanzierungsphase mit einem freien Betrag oder bestellen ein Dankeschön.",
+      "en": "The idea behind Startnext is simple: Many people (crowd) finance (fund) together an idea, a project or a company. The starters create a Startnext project and describe their idea in a video, with pictures and text. They define a start level, a duration for the funding phase and rewards for the supporters. All those who want the idea to become or remain reality support the project during the funding phase with a free amount or with an order of a reward."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDm0vbPPTx2LphfsAj0skT2",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDm0vbPPTx2LphfsAj0skT2"
+    },
+    "readmore": {
+      "de": "https://www.startnext.com/info/startnext.html?newLanguage=de",
+      "en": "https://www.startnext.com/about/startnext.html?newLanguage=en"
+    },
+    "homepage": {
+      "de": "https://www.startnext.com/home.html?newLanguage=de",
+      "en": "https://www.startnext.com/home.html?newLanguage=en"
+    },
+    "homepageText": "homepage",
+    "podcast": "https://www.startnext.com/hilfe/podcast.html",
+    "facebook": "startnext",
+    "linkedin": "https://linkedin.com/company/startnext",
+    "instagram": { "en": "startnext", "de": "startnext" },
+    "youtube": "@startnext",
+    "socialOrder": "podcast, facebook, linkedin, instagram, youtube"
+  },
+  {
+    "id": 22,
+    "imgSrc": "src/assets/bulletinboard/internetarchive/internetarchive.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Internet Archive",
+      "en": "Internet Archive"
+    },
+    "subtitle": {
+      "de": "ist eine gemeinnützige Bibliothek mit Millionen von kostenlosen Büchern, Filmen, Software, Musik, Websites und vielem mehr.",
+      "en": "is a non-profit library of millions of free books, movies, software, music, websites, and more."
+    },
+    "description": {
+      "de": "Wie eine Papierbibliothek bieten wir Forschern, Historikern, Wissenschaftlern, Menschen mit Druckschwierigkeiten und der breiten Öffentlichkeit kostenlosen Zugang. Unsere Aufgabe ist es, den universellen Zugang zu allem Wissen zu ermöglichen.\n\n Wir begannen 1996 mit der Archivierung des Internets selbst, einem Medium, das sich gerade erst zu verbreiten begann. Wie die Zeitungen waren auch die im Internet veröffentlichten Inhalte vergänglich - aber im Gegensatz zu den Zeitungen speicherte sie niemand. Heute können wir über die Wayback Machine auf mehr als 26 Jahre Webgeschichte zugreifen und arbeiten im Rahmen unseres Archive-It-Programms mit über 1.000 Bibliotheken und anderen Partnern zusammen, um wichtige Webseiten zu identifizieren.",
+      "en": "Like a paper library, we provide free access to researchers, historians, scholars, people with print disabilities, and the general public. Our mission is to provide Universal Access to All Knowledge.\n\n We began in 1996 by archiving the Internet itself, a medium that was just beginning to grow in use. Like newspapers, the content published on the web was ephemeral - but unlike newspapers, no one was saving it. Today we have 26+ years of web history accessible through the Wayback Machine and we work with 1,000+ library and other partners through our Archive-It program to identify important web pages."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zB7nkmXgX_109aqL1-8k1tV",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zB7nkmXgX_109aqL1-8k1tV"
+    },
+    "readmore": {
+      "de": "https://archive.org/about/",
+      "en": "https://archive.org/about/"
+    },
+    "homepage": {
+      "de": "https://archive.org/",
+      "en": "https://archive.org/"
+    },
+    "homepageText": "homepage",
+    "twitter": "internetarchive",
+    "facebook": "internetnetarchive",
+    "socialOrder": "twitter, facebook"
+  },
+  {
+    "id": 23,
+    "imgSrc": "src/assets/bulletinboard/ask_jesus/ask_jesus.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "AI Jesus",
+      "en": "AI Jesus"
+    },
+    "subtitle": {
+      "de": "Ich bin hier, um Ihre Fragen 24/7 zu beantworten. Ob Sie spirituellen Rat suchen, einen Freund oder einfach jemanden zum Reden brauchen, ich bin für Sie da.",
+      "en": "I’m here to answer your questions 24/7. Whether you're seeking spiritual guidance, looking for a friend, or simply want someone to talk to, I'm here for you."
+    },
+    "description": {
+      "de": "Tech-Driven Philanthropy - Die Singularity Group ist eine Gruppe von engagierten und ehrgeizigen ehrenamtlichen Aktivisten, die an innovativen Projekten arbeiten, um die Welt wirklich zu verändern.",
+      "en": "Tech-Driven Philanthropy - The Singularity Group is a group of driven and ambitious volunteer activists working on innovative projects to make a real difference in the world."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=-JOaZsF1qls",
+      "en": "https://www.youtube.com/watch?v=-JOaZsF1qls"
+    },
+    "readmore": {
+      "de": "https://singularitygroup.net/",
+      "en": "https://singularitygroup.net/"
+    },
+    "homepage": {
+      "de": "https://customaisolutions.io/",
+      "en": "https://customaisolutions.io/"
+    },
+    "homepageText": "homepage",
+    "twitch": "ask_jesus",
+    "socialOrder": "twitch"
+  },
+  {
+    "id": 24,
+    "imgSrc": "src/assets/bulletinboard/toogoodtogo/toogoodtogo.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#01615F",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Too Good To Go",
+      "en": "Too Good To Go"
+    },
+    "subtitle": {
+      "de": "Das Wegwerfen von Lebensmitteln ist ein Problem, bei dem wir alle Teil der Lösung sein können. Mit Hilfe unserer App kannst du unverkaufte Lebensmittel aus deinen Lieblingsgeschäften und -restaurants retten.",
+      "en": "The throwing away of food is a problem where we can all be part of the solution. With the help of our app, you can rescue unsold food from your favorite stores and restaurants."
+    },
+    "description": {
+      "de": "Über uns, Bildermaterial und unser Beitrag zur Lebensmittelrettung.",
+      "en": "About us, our imagery, and what we’re doing to fight food waste."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCybxs23gTdb4TMld_bUF4N",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCybxs23gTdb4TMld_bUF4N"
+    },
+    "readmore": {
+      "de": "https://www.toogoodtogo.com/de/press",
+      "en": "https://www.toogoodtogo.com/en-us/press"
+    },
+    "homepage": {
+      "de": "https://www.toogoodtogo.com/de",
+      "en": "https://www.toogoodtogo.com/?noredirects=true"
+    },
+    "homepageText": "homepage",
+    "twitter": "toogoodtogo",
+    "youtube": "@TooGoodToGoINT",
+    "linkedin": "https://www.linkedin.com/company/too-good-to-go/",
+    "instagram": { "en": "toogoodtogo.usa", "de": "toogoodtogo.de" },
+    "facebook": "toogoodtogoGermany",
+    "socialOrder": "twitter, youtube, linkedin, instagram, facebook"
+  },
+  {
+    "id": 25,
+    "imgSrc": "src/assets/bulletinboard/foodsharing/foodsharing.png",
+    "imgClass": "q-px-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "foodsharing",
+      "en": "foodsharing"
+    },
+    "subtitle": {
+      "de": "Unser langfristiges Ziel ist es, die Verschwendung von genießbaren Lebensmitteln zu beenden. Darum werden wir vor Ort aktiv: Wir retten Lebensmittel in privaten Haushalten sowie von Betrieben, stehen im Dialog mit der Politik und tragen unsere Vision in die Welt hinaus.",
+      "en": "Our long-term goal is to end the waste of edible food. That is why we are active on the ground: we save food in private households as well as from businesses, engage in dialog with politicians, and take our vision out into the world."
+    },
+    "description": {
+      "de": "Auf der Karte findest du Fairteiler, das sind Regale oder Kühlschränke an denen du Lebensmittel kostenfrei abholen oder vorbeibringen kannst.\n\n Außerdem gibt es Essenskörbe - hiermit kannst du deine eigenen überschüssigen Lebensmittel anbieten und Lebensmittel bei anderen abholen.",
+      "en": "On the map you will find fair dividers, which are shelves or refrigerators where you can pick up or drop off food for free. \n\n There are also food baskets - you can offer your own surplus food and pick up food from others."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBP9kGv0dyS_UZ7_HiwiFv_",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBP9kGv0dyS_UZ7_HiwiFv_"
+    },
+    "readmore": {
+      "de": "https://foodsharing.de/karte",
+      "en": "https://foodsharing.de/karte"
+    },
+    "homepage": {
+      "de": "https://foodsharing.de/",
+      "en": "https://foodsharing.de/"
+    },
+    "homepageText": "homepage",
+    "twitter": "FoodsharingDE",
+    "facebook": "foodsharing.de",
+    "instagram": { "en": "foodsharing_de", "de": "foodsharing_de" },
+    "linkedin": "https://www.linkedin.com/company/foodsharingde",
+    "youtube": "@foodsharingtv",
+    "tiktok": "@foodsharing.de",
+    "socialOrder": "twitter, facebook, instagram, linkedin, youtube, tiktok"
+  },
+  {
+    "id": 26,
+    "imgSrc": "src/assets/bulletinboard/telefonseelsorge/telefonseelsorge.jpg",
+    "imgClass": "q-px-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "white",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "TelefonSeelsorge®",
+      "en": "TelefonSeelsorge®"
+    },
+    "subtitle": {
+      "de": "Jeder braucht mal Hilfe.",
+      "en": "Everyone needs help sometimes."
+    },
+    "description": {
+      "de": "Wir sind ein Netzwerk von 104 Stellen in Deutschland. In diesen Stellen arbeiten fast 300 festangestellte Mitarbeiterinnen und Mitarbeitern und über 7.700 ausgebildete Ehrenamtliche mit ganz unterschiedlichen Lebens- und Berufskompetenzen.\n\n Hinter dem Namen stehen die beiden großen Kirchen in Deutschland als Träger der Telefonseelsorge. Unser Dachverband heißt seit Janur 2022 TelefonSeelsorge® Deutschland e.V. In ihm sind nicht nur die TelefonSeelsorge-Stellen, sondern auch deutschlandweit siebzehn Offene Tür-Stellen als Vor-Ort-Beratung vertreten.",
+      "en": "We are a network of 104 agencies in Germany. These centers employ almost 300 permanent staff and more than 7,700 trained volunteers with a wide range of life and professional skills.\n\n Behind the name are the two major churches in Germany as the sponsors of the TelefonSeelsorge. Our umbrella organization has been called TelefonSeelsorge® Deutschland e.V. since January 2022. It includes not only the TelefonSeelsorge-centers, but also seventeen 'offene Tür' centers throughout Germany that provide on-site counseling."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBLc16zUfNo9RupH7co021h",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBLc16zUfNo9RupH7co021h"
+    },
+    "readmore": {
+      "de": "https://www.telefonseelsorge.de/ueber-uns/",
+      "en": "https://www.telefonseelsorge.de/ueber-uns/"
+    },
+    "homepage": {
+      "de": "https://www.telefonseelsorge.de/",
+      "en": "https://www.telefonseelsorge.de/"
+    },
+    "homepageText": "homepage",
+    "phone": "0800.1110111",
+    "facebook": "telefonseelsorgedeutschland",
+    "linkedin": "https://de.linkedin.com/company/telefonseelsorge-deutschland",
+    "youtube": "@TelefonSeelsorgeDeutschland",
+    "socialOrder": "facebook, linkedin, youtube"
+  },
+  {
+    "id": 27,
+    "imgSrc": "src/assets/bulletinboard/quasar/quasar.png",
+    "imgClass": "q-pa-md",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#050A14",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Quasar",
+      "en": "Quasar"
+    },
+    "subtitle": {
+      "de": "Das unternehmenstaugliche, plattformübergreifende VueJs-Framework.",
+      "en": "The enterprise-ready cross-platform VueJs framework."
+    },
+    "description": {
+      "de": "Quasar ist ein MIT-lizenziertes Open-Source-Framework auf Basis von Vue.js, das es Ihnen als Webentwickler ermöglicht, schnell responsive++ Websites/Apps in vielen Varianten zu erstellen:\n\n SPAs -- SSR (+ optionale PWA-Client-Übernahme) -- PWAs (Progressive Web App) -- BEX (Browser Extension) -- Mobile Apps (Android, iOS, ...) über Cordova oder Capacitor -- Multiplattform-Desktop-Apps (mit Electron) \n\n Das Motto von Quasar lautet: einmal Code schreiben und diesen gleichzeitig als Website, Mobile App und/oder Electron App bereitstellen. Ja, eine Codebasis für alle, die Ihnen dabei hilft, eine App in Rekordzeit zu entwickeln, indem Sie eine hochmoderne CLI verwenden und von den bewährten, blitzschnellen Quasar-Webkomponenten unterstützt werden.",
+      "en": "Quasar is an MIT licensed open-source Vue.js based framework, which allows you as a web developer to quickly create responsive++ websites/apps in many flavours:\n\n SPAs -- SSR (+ optional PWA client takeover) -- PWAs (Progressive Web App) -- BEX (Browser Extension) -- Mobile Apps (Android, iOS, …) through Cordova or Capacitor -- Multi-platform Desktop Apps (using Electron) \n\n Quasar’s motto is: write code once and simultaneously deploy it as a website, a Mobile App and/or an Electron App. Yes, one codebase for all of them, helping you develop an app in record time by using a state-of-the-art CLI and backed by best-practice, blazing fast Quasar web components."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAHFNfyarm_BcQR7dk0gwmt",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAHFNfyarm_BcQR7dk0gwmt"
+    },
+    "readmore": {
+      "de": "https://quasar.dev/introduction-to-quasar",
+      "en": "https://quasar.dev/introduction-to-quasar"
+    },
+    "homepage": {
+      "de": "https://quasar.dev/",
+      "en": "https://quasar.dev/"
+    },
+    "homepageText": "homepage",
+    "github": "QuasarFramework",
+    "discord": "https://chat.quasar.dev/",
+    "twitter": "quasarframework",
+    "facebook": "QuasarFramework",
+    "socialOrder": "github, discord, twitter, facebook"
+  },
+  {
+    "id": 28,
+    "imgSrc": "src/assets/bulletinboard/ai/ai.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Künstliche Intelligenz",
+      "en": "Artificial Intelligence"
+    },
+    "subtitle": {
+      "de": "Eine bunte Playlist zum Thema.",
+      "en": "A playlist around that theme."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-"
+    }
+  },
+  {
+    "id": 29,
+    "imgSrc": "src/assets/bulletinboard/kurzgesagt/kurzgesagt.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "#050A14",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Dinge Erklärt – Kurzgesagt",
+      "en": "Kurzgesagt – In a Nutshell"
+    },
+    "subtitle": {
+      "de": "Wir erstellen wunderschöne Videos, um unsere Leidenschaft für Wissen zu teilen. Qualität ist uns wichtiger als Quantität, immer. Nichts im Universum ist langweilig, wenn man eine gute Geschichte erzählt.",
+      "en": "We create beautiful videos to share our passion for knowledge. We value quality over quantity, always. Nothing in the universe is boring if you tell a good story."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBz_dM6DWtEpGrMaRBhzEr8",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCBlNcj_VAkzogN-JXcWddV"
+    },
+    "description": {
+      "de": "Sie synchronisieren ihre Videos auch in die folgenden Sprachen: Spanisch, Französisch, Portugiesisch, Arabisch, Hindi, Japanisch und Koreanisch. Die Schaltfläche \"Weiterlesen\" führt zu einer Youtube-Playlist, die ein Video für jede dieser Sprachen enthält.",
+      "en": "They also dub their videos into the following languages: Spanish, French, Portuguese, Arabic, Hindi, Japanese and Korean. The 'read more' button points to a youtube playlist containing a video for each one of them."
+    },
+    "readmore": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCTepd5ET5PX3-an4d14j_B",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCTepd5ET5PX3-an4d14j_B"
+    },
+    "homepage": {
+      "de": "https://kurzgesagt.org/",
+      "en": "https://kurzgesagt.org/"
+    },
+    "homepageText": "homepage",
+    "twitter": "Kurz_Gesagt",
+    "facebook": "Kurzgesagt",
+    "instagram": { "en": "kurzgesagt", "de": "kurzgesagt" },
+    "patreon": "Kurzgesagt",
+    "reddit": "kurzgesagt",
+    "discord": "https://discord.com/invite/kurzgesagt",
+    "tiktok": "@kurz_gesagt",
+    "soundcloud": "epicmountain",
+    "bandcamp": "https://epicmountainmusic.bandcamp.com/",
+    "spotify": "https://open.spotify.com/artist/7meq0SFt3BxWzjbt5EVBbT",
+    "shopify": {
+      "en": "https://shop-us.kurzgesagt.org/",
+      "de": "https://shop-eu.kurzgesagt.org/"
+    },
+    "socialOrder": "twitter, facebook, instagram, patreon, reddit, discord, tiktok, soundcloud, bandcamp, spotify, shopify"
+  }
+]
