@@ -96,7 +96,12 @@
             shoutout.xing ||
             shoutout.twitch ||
             shoutout.podcast ||
-            shoutout.discord
+            shoutout.discord ||
+            shoutout.patreon ||
+            shoutout.bandcamp ||
+            shoutout.spotify ||
+            shoutout.shop ||
+            shoutout.shopify
           "
           class="q-my-md"
           dark
@@ -147,7 +152,12 @@
             shoutout.xing ||
             shoutout.twitch ||
             shoutout.podcast ||
-            shoutout.discord
+            shoutout.discord ||
+            shoutout.patreon ||
+            shoutout.bandcamp ||
+            shoutout.spotify ||
+            shoutout.shop ||
+            shoutout.shopify
           "
           align="evenly"
           class="q-px-lg q-pt-none"
@@ -214,10 +224,24 @@
                 ? shoutout.podcast
                 : so == 'discord'
                 ? shoutout.discord
+                : so == 'patreon'
+                ? 'https://www.patreon.com/' + shoutout.patreon
+                : so == 'bandcamp'
+                ? shoutout.bandcamp
+                : so == 'spotify'
+                ? shoutout.spotify
+                : so == 'shop'
+                ? getShop(shoutout, $i18n.locale)
+                : so == 'shopify'
+                ? getShopify(shoutout, $i18n.locale)
                 : ''
             "
             target="_blank"
-            :icon="so == 'podcast' ? 'fa-solid fa-' + so : 'fa-brands fa-' + so"
+            :icon="
+              so == 'podcast' || so == 'shop'
+                ? 'fa-solid fa-' + so
+                : 'fa-brands fa-' + so
+            "
           ></q-btn>
         </q-card-actions>
       </div>
@@ -265,7 +289,7 @@ export default defineComponent({
           ? shoutout.introVideo?.en
           : locale === 'de'
           ? shoutout.introVideo?.de
-          : 'missing subtitle')
+          : 'missing introvideo')
       );
     },
     getDescription(shoutout: Shoutout, locale: string): string {
@@ -307,6 +331,26 @@ export default defineComponent({
               : locale === 'de'
               ? shoutout.instagram?.de
               : 'missing instagram');
+    },
+    getShop(shoutout: Shoutout, locale: string): string {
+      return shoutout.shop == null
+        ? ''
+        : '' +
+            (locale === 'en-US'
+              ? shoutout.shop?.en
+              : locale === 'de'
+              ? shoutout.shop?.de
+              : 'missing shop');
+    },
+    getShopify(shoutout: Shoutout, locale: string): string {
+      return shoutout.shopify == null
+        ? ''
+        : '' +
+            (locale === 'en-US'
+              ? shoutout.shopify?.en
+              : locale === 'de'
+              ? shoutout.shopify?.de
+              : 'missing shopify');
     },
     createEmbeded: function (str: string): string {
       return str

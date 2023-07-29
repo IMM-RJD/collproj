@@ -74,5 +74,10 @@ export interface Shoutout {
   twitch?: string;
   podcast?: string;
   discord?: string;
+  patreon?: string;
+  bandcamp?: string;
+  spotify?: string;
+  shop?: { en: string; de: string };
+  shopify?: { en: string; de: string };
   socialOrder?: string;
 }
