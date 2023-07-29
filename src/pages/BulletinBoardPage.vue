@@ -1112,12 +1112,12 @@ export default defineComponent({
           socialOrder: 'github, discord, twitter, facebook',
         },
         {
-          id: 27,
+          id: 28,
           imgSrc: 'src/assets/bulletinboard/ai/ai.jpg',
           imgClass: '',
           imgPosition: 'none',
           imgFit: 'contain',
-          imgWrapBgColor: '#050A14',
+          imgWrapBgColor: '#000000',
           funkyStyles: true,
           bgColor: '#c7a583',
           title: {
@@ -1133,6 +1133,57 @@ export default defineComponent({
             en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-',
           },
         },
+        {
+          id: 29,
+          imgSrc: 'src/assets/bulletinboard/kurzgesagt/kurzgesagt.jpg',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'cover',
+          imgWrapBgColor: '#050A14',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Dinge Erklärt – Kurzgesagt',
+            en: 'Kurzgesagt – In a Nutshell',
+          },
+          subtitle: {
+            de: 'Wir erstellen wunderschöne Videos, um unsere Leidenschaft für Wissen zu teilen. Qualität ist uns wichtiger als Quantität, immer. Nichts im Universum ist langweilig, wenn man eine gute Geschichte erzählt.',
+            en: 'We create beautiful videos to share our passion for knowledge. We value quality over quantity, always. Nothing in the universe is boring if you tell a good story.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zBz_dM6DWtEpGrMaRBhzEr8',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zCBlNcj_VAkzogN-JXcWddV',
+          },
+          description: {
+            de: 'Sie synchronisieren ihre Videos auch in die folgenden Sprachen: Spanisch, Französisch, Portugiesisch, Arabisch, Hindi, Japanisch und Koreanisch. Die Schaltfläche "Weiterlesen" führt zu einer Youtube-Playlist, die ein Video für jede dieser Sprachen enthält.',
+            en: "They also dub their videos into the following languages: Spanish, French, Portuguese, Arabic, Hindi, Japanese and Korean. The 'read more' button points to a youtube playlist containing a video for each one of them.",
+          },
+          readmore: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zCTepd5ET5PX3-an4d14j_B',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zCTepd5ET5PX3-an4d14j_B',
+          },
+          homepage: {
+            de: 'https://kurzgesagt.org/',
+            en: 'https://kurzgesagt.org/',
+          },
+          homepageText: 'homepage',
+          twitter: 'Kurz_Gesagt',
+          facebook: 'Kurzgesagt',
+          instagram: { en: 'kurzgesagt', de: 'kurzgesagt' },
+          patreon: 'Kurzgesagt',
+          reddit: 'kurzgesagt',
+          discord: 'https://discord.com/invite/kurzgesagt',
+          tiktok: '@kurz_gesagt',
+          soundcloud: 'epicmountain',
+          bandcamp: 'https://epicmountainmusic.bandcamp.com/',
+          spotify: 'https://open.spotify.com/artist/7meq0SFt3BxWzjbt5EVBbT',
+          shopify: {
+            en: 'https://shop-us.kurzgesagt.org/',
+            de: 'https://shop-eu.kurzgesagt.org/',
+          },
+          socialOrder:
+            'twitter, facebook, instagram, patreon, reddit, discord, tiktok, soundcloud, bandcamp, spotify, shopify',
+        },
       ]),
     };
   },
@@ -1144,7 +1195,6 @@ export default defineComponent({
   // brilliant.org ?
   // nebula streaming?
   // MIT Free Open Online Course
-  // in a nutshell
   // leap
   // https://www.wren.co/
   // able gamer foundation
