@@ -767,8 +767,8 @@ export default defineComponent({
             en: 'What guidelines do we follow in our journalistic work? In our "Journalistic Self-Image," you will find a summary of what follows for all of the company\'s permanent and freelance journalists from the applicable laws and professional codes, as well as from the company\'s internal terms and conditions of employment and remuneration agreements (without making any new provisions of our own in the new version).',
           },
           introVideo: {
-            de: 'https://www.youtube.com/watch?v=H2mPM3rTU80',
-            en: 'https://www.youtube.com/watch?v=H2mPM3rTU80',
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zANvpJV2HB8da6_HSVjoAZ1',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zANvpJV2HB8da6_HSVjoAZ1',
           },
           readmore: {
             de: 'https://www.deutschlandradio.de/transparenz-100.html',
@@ -1111,6 +1111,28 @@ export default defineComponent({
           facebook: 'QuasarFramework',
           socialOrder: 'github, discord, twitter, facebook',
         },
+        {
+          id: 27,
+          imgSrc: 'src/assets/bulletinboard/ai/ai.jpg',
+          imgClass: '',
+          imgPosition: 'none',
+          imgFit: 'contain',
+          imgWrapBgColor: '#050A14',
+          funkyStyles: true,
+          bgColor: '#c7a583',
+          title: {
+            de: 'Künstliche Intelligenz',
+            en: 'Artificial Intelligence',
+          },
+          subtitle: {
+            de: 'Eine bunte Playlist zum Thema.',
+            en: 'A playlist around that theme.',
+          },
+          introVideo: {
+            de: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-',
+            en: 'https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-',
+          },
+        },
       ]),
     };
   },
@@ -1125,8 +1147,8 @@ export default defineComponent({
   // in a nutshell
   // leap
   // https://www.wren.co/
-  // krisenkompass?
   // able gamer foundation
+  // https://www.openphilanthropy.org/?
   methods: {
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {
