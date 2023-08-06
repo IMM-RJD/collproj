@@ -1075,7 +1075,9 @@
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-"
-    }
+    },
+    "youtube": "playlist?list=PLPw5IThuM1zC8OksDXSe7DT9BU_ih0eQ-",
+    "socialOrder": "youtube"
   },
   {
     "id": 29,
@@ -1126,5 +1128,41 @@
       "de": "https://shop-eu.kurzgesagt.org/"
     },
     "socialOrder": "twitter, facebook, instagram, patreon, reddit, discord, tiktok, soundcloud, bandcamp, spotify, shopify"
+  },
+  {
+    "id": 30,
+    "imgSrc": "src/assets/bulletinboard/paleontologizing/paleontologizing.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Paläontologisieren",
+      "en": "Paleontologizing "
+    },
+    "subtitle": {
+      "de": "Ich bin ein Dinosaurierpaläontologe und Wissenschaftskommunikator und streame jetzt jeden Wochentag auf Twitch! Erleben Sie live die neuesten paläontologischen Nachrichten, Diskussionen über Fossilien und Fragen und Antworten sowie gute Musik und entspannte Stimmung.",
+      "en": "I'm a dinosaur paleontologist and science communicator, now streaming every weekday on Twitch! Join me live for the latest paleontology news, fossil discussion and Q&A, plus good tunes and chill vibes. If you appreciate science, you'll feel right at home in this community."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDdVugKSnfSB1_YxQqrHCar",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDdVugKSnfSB1_YxQqrHCar"
+    },
+    "description": {
+      "de": "Erleben Sie bei paläontologischen und archäologischen Ausgrabungen den Nervenkitzel der Entdeckungen hautnah. Ancient Odysseys® hat den ganzen Globus abgesucht und arbeitet direkt mit Forschern zusammen, um Ihnen paläontologische, archäologische und paläoanthropologische Ausgrabungen für einen einmaligen Urlaub anzubieten. Jede dieser Ausgrabungen ist ein echtes wissenschaftliches Unterfangen, bei dem Sie als ultimativer \"Bürgerwissenschaftler\" direkt an der Seite professioneller Forscher arbeiten werden.",
+      "en": "Experience the thrill of discovery firsthand on paleontology and archaeology digs. Ancient Odysseys® has searched the globe, working directly with researchers to offer you paleontology, archaeology and paleoanthropology digs for a once-in-a-lifetime vacation. Each is a true scientific endeavor where you’ll be working on-site, right alongside professional researchers as the ultimate \"citizen scientist.\""
+    },
+    "readmore": {
+      "de": "https://www.ancientodysseys.com/",
+      "en": "https://www.ancientodysseys.com/"
+    },
+    "twitch": "paleontologizing",
+    "twitter": "@Paleontologizin",
+    "instagram": { "en": "paleontologizing", "de": "paleontologizing" },
+    "tiktok": "@paleontologizing",
+    "patreon": "Paleontologizing",
+    "socialOrder": "twitch, twitter, instagram, tiktok, patreon"
   }
 ]

@@ -34,8 +34,26 @@
 import { Shoutout } from 'components/models';
 import ShoutoutComponent from 'components/ShoutoutComponent.vue';
 import { defineComponent, ref } from 'vue';
-const shoutoutData = (await import('src/assets/data/bulletinboardpage.json'))
-  .default;
+import shoutoutData from 'src/assets/data/bulletinboardpage.json';
+// =============
+// const shoutoutData: Shoutout[] = (await import('src/assets/data/bulletinboardpage.json'))
+//   .default;
+// =============
+// let shoutoutData: Shoutout[];
+// const loadShoutoutData = async () => {
+//   shoutoutData = (await import('src/assets/data/bulletinboardpage.json'))
+//     .default;
+// };
+// loadShoutoutData();
+// =============
+// let shoutoutData: Shoutout[];
+// import('src/assets/data/bulletinboardpage.json')
+//   .then((data) => {
+//     shoutoutData = data;
+//   })
+//   .catch(() => {
+//     console.log('failed loading bbp data');
+//   });
 
 // TODO:
 // fairphone
