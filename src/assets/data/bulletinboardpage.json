@@ -1164,5 +1164,44 @@
     "tiktok": "@paleontologizing",
     "patreon": "Paleontologizing",
     "socialOrder": "twitch, twitter, instagram, tiktok, patreon"
+  },
+  {
+    "id": 31,
+    "imgSrc": "src/assets/bulletinboard/eyewire/eyewire.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Eyewire",
+      "en": "Eyewire"
+    },
+    "subtitle": {
+      "de": "ein Spiel zur digitalen Abbildung des Gehirns (/ bzw. von Neuronen der Netzhaut einer Maus).",
+      "en": "a game to map the brain."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCWKVrUw4jUscCEjwPcZuuQ",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCWKVrUw4jUscCEjwPcZuuQ"
+    },
+    "description": {
+      "de": "Wir freuen uns, Ihnen heute mitteilen zu können, dass die erste wissenschaftliche Entdeckung von EyeWire in Nature veröffentlicht wurde! Warum ist das wichtig? Diese Entdeckung wäre ohne Sie nicht möglich gewesen! Gemeinsam haben Bürgerwissenschaftler und Gamer einen bedeutenden Beitrag zur Neurowissenschaft geleistet: Wir haben einen der Mechanismen aufgedeckt, die der Fähigkeit von Säugetieren zugrunde liegen, zu erkennen, dass sich etwas, das sie sehen, in eine bestimmte Richtung bewegt. Neurowissenschaftler nennen dies Richtungsselektivität. Obwohl diese Eigenschaft einfach klingt, war ihr Mechanismus unklar, seit die Richtungsselektivität vor mehr als 50 Jahren erstmals entdeckt wurde.",
+      "en": "Today we are excited to share that EyeWire’s first scientific discovery has been published in Nature! Why does it matter? This discovery would not have been possible without you! Together, citizen scientists and gamers have made a significant contribution to neuroscience: we’ve uncovered one of the mechanisms that underlies a mammal’s ability to tell that something it sees is moving in a specific direction. Neuroscientists call this direction selectivity. Although this property sounds simple, its mechanism has been unclear since direction selectivity was first discovered more than 50 years ago."
+    },
+    "readmore": {
+      "de": "https://blog.eyewire.org/eyewires-first-scientific-discovery-and-nature-paper/",
+      "en": "https://blog.eyewire.org/eyewires-first-scientific-discovery-and-nature-paper/"
+    },
+    "homepage": {
+      "de": "https://eyewire.org/",
+      "en": "https://eyewire.org/"
+    },
+    "homepageText": "homepage",
+    "youtube": "@EyewireOrg",
+    "twitter": "@eye_wire",
+    "facebook": "eyewire.org",
+    "socialOrder": "youtube, twitter, facebook"
   }
 ]

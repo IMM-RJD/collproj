@@ -45,7 +45,7 @@ export interface Shoutout {
   imgAlt?: string;
   imgClass?: string;
   imgPosition?: string;
-  imgFit?: any;
+  imgFit?: string;
   imgWrapBgColor?: string;
   funkyStyles?: boolean;
   bgColor: string;
