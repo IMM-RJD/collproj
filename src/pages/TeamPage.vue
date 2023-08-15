@@ -65,7 +65,7 @@ export default defineComponent({
         github: 'IMM-RJD',
         bandcamp: 'immmusic3',
         instagram: 'imm_radio.feurgerson1337',
-        socialOrder: 'soundcloud, youtube, github, bandcamp, instagram',
+        socialOrder: 'youtube, soundcloud, github, bandcamp, instagram',
       },
       {
         id: 2,

@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="q-pa-md fit row wrap justify-evenly items-stretch content-start q-gutter-lg"
-  >
+  <div class="q-pa-xs fit row wrap justify-evenly items-stretch content-start">
     <q-card
       v-for="shoutout in shoutouts"
       :key="shoutout.id"
@@ -365,6 +363,7 @@ export default defineComponent({
 <style lang="scss">
 .imm-shoutout-card {
   width: 400px;
+  margin-bottom: 2rem;
   // height: fit-content;
   display: flex;
   flex-flow: column;

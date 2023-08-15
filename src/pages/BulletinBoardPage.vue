@@ -5,16 +5,15 @@
     <h5>
       {{ $t('bulletinboard_description') }}
     </h5>
-    <div class="q-mb-md">
-      <q-btn
-        class="float-right"
-        color="primary"
-        text-color="secondary"
-        :label="$t('shuffle')"
-        icon="shuffle"
-        @click="() => (shoutouts = randomize(shoutouts))"
-      />
-    </div>
+
+    <q-btn
+      class="float-right q-mb-lg"
+      color="primary"
+      text-color="secondary"
+      :label="$t('shuffle')"
+      icon="shuffle"
+      @click="() => (shoutouts = randomize(shoutouts))"
+    />
 
     <shoutout-component
       :shoutouts="reverseByID(shoutouts)"

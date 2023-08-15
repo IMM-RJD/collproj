@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="q-pa-md fit row wrap justify-evenly items-stretch content-start q-gutter-lg"
-  >
+  <div class="q-pa-xs fit row wrap justify-evenly items-stretch content-start">
     <q-card
       v-for="person in persons"
       :key="person.id"
@@ -173,7 +171,8 @@ export default defineComponent({
 
 <style lang="scss">
 .imm-person-card {
-  width: 300px;
+  width: 400px;
+  margin-bottom: 2rem;
   display: flex;
   flex-flow: column;
   > .content-wrapper {
