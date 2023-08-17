@@ -56,6 +56,7 @@ export default defineComponent({
           'https://www.youtube.com/watch?v=vqRWMDv0r78',
           //////// sebastians musik ////////
           'https://www.youtube.com/watch?v=h25INlZxmwQ',
+          'https://www.youtube.com/watch?v=9SzKl38nWQk',
           // my music - imm_radio
           'https://www.youtube.com/playlist?list=PLPw5IThuM1zC4voWF4hVlfzE5-Llz1ULN',
           // music i like - imm_radio

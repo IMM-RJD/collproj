@@ -1159,11 +1159,12 @@
       "en": "https://www.ancientodysseys.com/"
     },
     "twitch": "paleontologizing",
+    "youtube": "@paleontologizing",
     "twitter": "@Paleontologizin",
     "instagram": { "en": "paleontologizing", "de": "paleontologizing" },
     "tiktok": "@paleontologizing",
     "patreon": "Paleontologizing",
-    "socialOrder": "twitch, twitter, instagram, tiktok, patreon"
+    "socialOrder": "twitch, youtube, twitter, instagram, tiktok, patreon"
   },
   {
     "id": 31,
@@ -1203,5 +1204,44 @@
     "twitter": "@eye_wire",
     "facebook": "eyewire.org",
     "socialOrder": "youtube, twitter, facebook"
+  },
+  {
+    "id": 32,
+    "imgSrc": "src/assets/bulletinboard/theoryofchange/theoryofchange.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "",
+    "imgWrapBgColor": "",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Theory of Change",
+      "en": "Theory of Change"
+    },
+    "subtitle": {
+      "de": "Der Campact-Podcast für progressive Politik.",
+      "en": "The Campact podcast for progressive politics."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDTVBu8ODq3eljbwd2eRW16",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDTVBu8ODq3eljbwd2eRW16"
+    },
+    "description": {
+      "de": "Für alle, die Politik nicht nur verstehen, sondern verändern wollen: Katrin Beushausen und Antonia Becher planen bei Campact Kampagnen - und blicken hier auf aktuelle politische Ereignisse. Gemeinsam mit Gästen diskutieren sie: Wie können wir uns einmischen - für mehr Gerechtigkeit, lebendige Demokratie und einen intakten Planeten?",
+      "en": "For everyone who not only want to understand politics, but also wants to change it: Katrin Beushausen and Antonia Becher plan campaigns at Campact - and look at current political events here. Together with guests, they discuss: How can we get involved - for more justice, living democracy and an intact planet?"
+    },
+    "readmore": {
+      "de": "https://theoryofchange.podigee.io/",
+      "en": "https://theoryofchange.podigee.io/"
+    },
+    "homepage": {
+      "de": "https://blog.campact.de/",
+      "en": "https://blog.campact.de/"
+    },
+    "homepageText": "homepage",
+    "podcast": "https://theoryofchange.podigee.io/",
+    "soundcloud": "campacttheoryofchange",
+    "spotify": "https://open.spotify.com/show/7lsA7kDew2ssdvnu99An6K",
+    "socialOrder": "podcast, soundcloud, spotify"
   }
 ]
