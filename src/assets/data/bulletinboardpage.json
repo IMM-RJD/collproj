@@ -1243,5 +1243,33 @@
     "soundcloud": "campacttheoryofchange",
     "spotify": "https://open.spotify.com/show/7lsA7kDew2ssdvnu99An6K",
     "socialOrder": "podcast, soundcloud, spotify"
+  },
+  {
+    "id": 33,
+    "imgSrc": "src/assets/bulletinboard/meditation/meditation.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "",
+    "imgWrapBgColor": "",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Achtsamkeit & Co",
+      "en": "Meditation & more"
+    },
+    "subtitle": {
+      "de": "Eine bunte Playlist zum Thema.",
+      "en": "A playlist around that theme."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zACr3FKMI__NskiTg4ob42m",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA3DOpgv_Ucw3rLucPGcu3c"
+    },
+    "readmore": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zACr3FKMI__NskiTg4ob42m",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA3DOpgv_Ucw3rLucPGcu3c"
+    },
+    "youtube": "playlist?list=PLPw5IThuM1zC53wJrC7LEp9qg_5i9rGTi",
+    "socialOrder": "youtube"
   }
 ]
