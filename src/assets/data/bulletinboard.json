@@ -1271,5 +1271,45 @@
     },
     "youtube": "playlist?list=PLPw5IThuM1zC53wJrC7LEp9qg_5i9rGTi",
     "socialOrder": "youtube"
+  },
+  {
+    "id": 34,
+    "imgSrc": "src/assets/bulletinboard/nasaclimate/nasaclimate.jpg",
+    "imgClass": "q-py-md",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "black",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "NASA Climate",
+      "en": "NASA Climate"
+    },
+    "subtitle": {
+      "de": "Globaler Klimawandel - Vitalwerte des Planeten.",
+      "en": "Global Climate Change - Vital Signs of the Planet"
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAp_-kbd5SyGVjWQ6EFuCbP",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAp_-kbd5SyGVjWQ6EFuCbP"
+    },
+    "description": {
+      "de": "ist eine erstklassige Quelle für genaue und aktuelle Nachrichten und Informationen über das sich verändernde Klima der Erde, zusammen mit aktuellen Daten und Visualisierungen. \n\n Die NASA-Website Climate Kids erzählt die Geschichte unseres sich verändernden Planeten mit den Augen der NASA-Missionen, die die Erde untersuchen. Die Website richtet sich an Kinder ab 8 Jahren und ist voll von Spielen, Aktivitäten und Artikeln, die die Klimawissenschaft zugänglich und ansprechend machen.",
+      "en": "is a premiere resource for accurate and timely news and information about Earth's changing climate, along with current data and visualizations. \n\n NASA's Climate Kids website tells the story of our changing planet through the eyes of the NASA missions studying Earth. Targeting kids ages 8 and up, the site is full of games, activities and articles that make climate science accessible and engaging."
+    },
+    "readmore": {
+      "de": "https://climatekids.nasa.gov/",
+      "en": "https://climatekids.nasa.gov/"
+    },
+    "homepage": {
+      "de": "https://climate.nasa.gov/",
+      "en": "https://climate.nasa.gov/"
+    },
+    "homepageText": "homepage",
+    "twitter": "@NASAClimate",
+    "facebook": "NASAClimateChange",
+    "instagram": { "en": "nasaclimatechange", "de": "nasaclimatechange" },
+    "youtube": "@nasaclimatechange",
+    "socialOrder": "twitter, facebook, instagram, youtube"
   }
 ]
