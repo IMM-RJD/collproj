@@ -8,6 +8,29 @@
         <a class="imm-banner-logo" href="/"
           ><img src="src/assets/name.jpg" alt=""
         /></a>
+        <q-fab
+          outline
+          style="position: fixed; right: 15px"
+          padding="12px"
+          color="secondary"
+          icon="fa-solid fa-earth-americas"
+          direction="down"
+        >
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'de' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/de.svg"
+            @click="$i18n.locale = 'de'"
+          />
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'en-US' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/us.svg"
+            @click="$i18n.locale = 'en-US'"
+          />
+        </q-fab>
       </q-toolbar>
     </q-header>
 
@@ -152,6 +175,16 @@
         <q-btn
           flat
           unelevated
+          size="1rem"
+          padding="10px"
+          icon="fa-brands fa-youtube"
+          href="https://www.youtube.com/@KollektivMehrklang"
+          target="_blank"
+        >
+        </q-btn>
+        <q-btn
+          flat
+          unelevated
           size="27px"
           dense
           padding="0px"
@@ -159,28 +192,6 @@
           to="/"
         >
         </q-btn>
-        <q-fab
-          outline
-          padding="12px"
-          color="secondary"
-          icon="fa-solid fa-earth-americas"
-          direction="up"
-        >
-          <q-fab-action
-            padding="13px"
-            :color="$i18n.locale === 'de' ? 'primary' : 'secondary'"
-            class="imm-hover-bg-primary-important"
-            icon="img:src/assets/icons/de.svg"
-            @click="$i18n.locale = 'de'"
-          />
-          <q-fab-action
-            padding="13px"
-            :color="$i18n.locale === 'en-US' ? 'primary' : 'secondary'"
-            class="imm-hover-bg-primary-important"
-            icon="img:src/assets/icons/us.svg"
-            @click="$i18n.locale = 'en-US'"
-          />
-        </q-fab>
       </div>
     </q-footer>
   </q-layout>

@@ -33,7 +33,7 @@
 import { Shoutout } from 'components/models';
 import ShoutoutComponent from 'components/ShoutoutComponent.vue';
 import { defineComponent, ref } from 'vue';
-import shoutoutData from 'src/assets/data/bulletinboardpage.json';
+import shoutoutData from 'src/assets/data/bulletinboard.json';
 // =============
 // const shoutoutData: Shoutout[] = (await import('src/assets/data/bulletinboardpage.json'))
 //   .default;
@@ -66,6 +66,12 @@ import shoutoutData from 'src/assets/data/bulletinboardpage.json';
 // https://www.wren.co/
 // able gamer foundation
 // https://www.openphilanthropy.org/?
+/**
+ * TODO:
+ * - wrap personComp in skeleton (+testing slow bandwidth)
+ * - diff font-size (acc) - alles in rem und dann einfach --calc mit einer variable
+ * - themeing
+ */
 
 export default defineComponent({
   name: 'BulletinBoardPage',
