@@ -141,6 +141,7 @@
             class="row justify-evenly items-start content-start q-py-xs"
           >
             <q-fab-action
+              type="btn"
               flat
               unelevated
               class="imm-bg-secondary imm-hover-bg-primary-important"
@@ -151,6 +152,7 @@
             >
             </q-fab-action>
             <q-fab-action
+              type="btn"
               flat
               unelevated
               class="imm-bg-secondary imm-hover-bg-primary-important"
@@ -161,6 +163,7 @@
             >
             </q-fab-action>
             <q-fab-action
+              type="btn"
               flat
               unelevated
               class="imm-bg-secondary imm-hover-bg-primary-important"
