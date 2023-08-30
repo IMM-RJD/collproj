@@ -131,6 +131,7 @@
       >
         <q-fab
           outline
+          style="scale: 0.95"
           padding="12px"
           color="secondary"
           icon="fa fa-share-alt"
@@ -187,6 +188,7 @@
         </q-btn>
         <q-fab
           outline
+          style="scale: 0.95"
           padding="12px"
           color="secondary"
           icon="fa-solid fa-earth-americas"
