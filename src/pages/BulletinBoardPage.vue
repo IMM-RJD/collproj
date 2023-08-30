@@ -55,6 +55,8 @@ import shoutoutData from 'src/assets/data/bulletinboard.json';
 //   });
 
 // TODO:
+// langswitch on mobile
+//
 // fairphone
 // malala fund?
 // wetalk?

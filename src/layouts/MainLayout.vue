@@ -8,29 +8,6 @@
         <a class="imm-banner-logo" href="/"
           ><img src="src/assets/name.jpg" alt=""
         /></a>
-        <q-fab
-          outline
-          style="position: fixed; right: 15px"
-          padding="12px"
-          color="secondary"
-          icon="fa-solid fa-earth-americas"
-          direction="down"
-        >
-          <q-fab-action
-            padding="13px"
-            :color="$i18n.locale === 'de' ? 'primary' : 'secondary'"
-            class="imm-hover-bg-primary-important"
-            icon="img:src/assets/icons/de.svg"
-            @click="$i18n.locale = 'de'"
-          />
-          <q-fab-action
-            padding="13px"
-            :color="$i18n.locale === 'en-US' ? 'primary' : 'secondary'"
-            class="imm-hover-bg-primary-important"
-            icon="img:src/assets/icons/us.svg"
-            @click="$i18n.locale = 'en-US'"
-          />
-        </q-fab>
       </q-toolbar>
     </q-header>
 
@@ -152,36 +129,49 @@
       <div
         class="full-width row wrap justify-evenly items-start content-start q-py-xs"
       >
-        <q-btn
-          flat
-          unelevated
-          size="1rem"
-          padding="10px"
-          icon="fa-brands fa-facebook-f"
-          href="https://www.facebook.com/kollektivmehrklang"
-          target="_blank"
+        <q-fab
+          outline
+          padding="12px"
+          color="secondary"
+          icon="fa fa-share-alt"
+          direction="up"
         >
-        </q-btn>
-        <q-btn
-          flat
-          unelevated
-          size="1rem"
-          padding="10px"
-          icon="fa-brands fa-instagram"
-          href="https://www.instagram.com/kollektiv_mehrklang"
-          target="_blank"
-        >
-        </q-btn>
-        <q-btn
-          flat
-          unelevated
-          size="1rem"
-          padding="10px"
-          icon="fa-brands fa-youtube"
-          href="https://www.youtube.com/@KollektivMehrklang"
-          target="_blank"
-        >
-        </q-btn>
+          <div
+            style="width: 150px"
+            class="row justify-evenly items-start content-start q-py-xs"
+          >
+            <q-fab-action
+              flat
+              unelevated
+              class="imm-bg-secondary imm-hover-bg-primary-important"
+              padding="13px"
+              icon="fa-brands fa-facebook-f"
+              href="https://www.facebook.com/kollektivmehrklang"
+              target="_blank"
+            >
+            </q-fab-action>
+            <q-fab-action
+              flat
+              unelevated
+              class="imm-bg-secondary imm-hover-bg-primary-important"
+              padding="13px"
+              icon="fa-brands fa-instagram"
+              href="https://www.instagram.com/kollektiv_mehrklang"
+              target="_blank"
+            >
+            </q-fab-action>
+            <q-fab-action
+              flat
+              unelevated
+              class="imm-bg-secondary imm-hover-bg-primary-important"
+              padding="13px"
+              icon="fa-brands fa-youtube"
+              href="https://www.youtube.com/@KollektivMehrklang"
+              target="_blank"
+            >
+            </q-fab-action>
+          </div>
+        </q-fab>
         <q-btn
           flat
           unelevated
@@ -192,6 +182,28 @@
           to="/"
         >
         </q-btn>
+        <q-fab
+          outline
+          padding="12px"
+          color="secondary"
+          icon="fa-solid fa-earth-americas"
+          direction="up"
+        >
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'de' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/de.svg"
+            @click="$i18n.locale = 'de'"
+          />
+          <q-fab-action
+            padding="13px"
+            :color="$i18n.locale === 'en-US' ? 'primary' : 'secondary'"
+            class="imm-hover-bg-primary-important"
+            icon="img:src/assets/icons/us.svg"
+            @click="$i18n.locale = 'en-US'"
+          />
+        </q-fab>
       </div>
     </q-footer>
   </q-layout>
