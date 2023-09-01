@@ -1333,12 +1333,53 @@
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAd8EdUzhZXM1UhTbFWc14z"
     },
-    "readmore": {
+    "homepage": {
       "de": "https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/warn-app-nina_node.html",
       "en": "https://www.bbk.bund.de/EN/International-Visitors/international-visitors_node.html"
     },
+    "homepageText": "homepage",
     "twitter": "bbk_bund",
     "youtube": "@BBKBund",
-    "socialOrder": "twitter, youtube"
+    "linkedin": "https://de.linkedin.com/company/bundesamt-fuer-bevoelkerungsschutz-und-katastrophenhilfe-bbk",
+    "socialOrder": "twitter, youtube, linkedin"
+  },
+  {
+    "id": 35,
+    "imgSrc": "src/assets/bulletinboard/buildacell/buildacell.png",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "scale-down",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Build-A-Cell",
+      "en": "Build-A-Cell"
+    },
+    "subtitle": {
+      "de": "Offene Zusammenarbeit zur Unterstützung der Wissenschaft und Technik beim Bau synthetischer Zellen.",
+      "en": "Open collaboration supporting the science and engineering of building synthetic cells."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCfY9ue4-jjbV5CO1RUtVcI",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCfY9ue4-jjbV5CO1RUtVcI"
+    },
+    "description": {
+      "de": "Diese Aufgabe ist zu groß für ein einzelnes Team. Das derzeitige Paradigma von Gruppen von Wissenschaftlern und Ingenieuren, die allein oder innerhalb einer kleinen Gemeinschaft arbeiten, hat noch nicht zur Verwirklichung einer vollständigen synthetischen Zelle geführt. Wir glauben, dass ein anderer Ansatz erforderlich ist, der auf breiten und tiefen Netzwerken der Zusammenarbeit aufbaut und bei dem die Komplexität auf der Ebene kontrolliert wird, auf der sie entsteht. Wir lassen uns von den Open-Source-Gemeinschaften inspirieren, die die Revolution in der Computertechnologie vorangetrieben haben: ein Basar der Kreativität, der durch robuste Werkzeuge für Kommunikation, Zusammenarbeit und Wiederverwendung erleichtert wird und Systeme von unglaublicher Raffinesse hervorbringt, während Hobbyisten und Unternehmen gleichermaßen in die Lage versetzt werden, ihre Ziele leichter zu verwirklichen. Wie Ritchie und Thompson beim Aufbau von UNIX hoffen wir, dass Build-A-Cell einen Nexus bilden wird, um den sich eine Gemeinschaft bilden kann, um ein ebenso anspruchsvolles wie wichtiges Ziel zu erreichen.",
+      "en": "This task is too large for any one team. The current paradigm of groups of scientists and engineers working alone or within a small community has not realized an entire engineered cell. We believe a different approach is required, built on wide and deep networks of collaboration, and where complexity is controlled at the level at which it is created. We take inspiration from the open source communities which have powered the revolution in computer technology; a bazaar of creativity, facilitated by robust tools for communication, collaboration, and reuse, producing systems of incredible sophistication while empowering hobbyists and corporations alike to more easily realise their goals. Like Ritchie and Thompson building UNIX, we hope that Build-A-Cell will provide a nexus “around which a community could form” to realise a goal as challenging as it is important."
+    },
+    "readmore": {
+      "de": "https://www.buildacell.org/101",
+      "en": "https://www.buildacell.org/101"
+    },
+    "homepage": {
+      "de": "https://www.buildacell.org/",
+      "en": "https://www.buildacell.org/"
+    },
+    "homepageText": "homepage",
+    "twitter": "@buildacell",
+    "github": "BuildACell",
+    "youtube": "@build-a-cell2765",
+    "socialOrder": "twitter, github, youtube"
   }
 ]
