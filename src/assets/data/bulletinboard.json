@@ -1344,7 +1344,7 @@
     "socialOrder": "twitter, youtube, linkedin"
   },
   {
-    "id": 35,
+    "id": 36,
     "imgSrc": "src/assets/bulletinboard/buildacell/buildacell.png",
     "imgClass": "",
     "imgPosition": "none",
@@ -1381,5 +1381,47 @@
     "github": "BuildACell",
     "youtube": "@build-a-cell2765",
     "socialOrder": "twitter, github, youtube"
+  },
+  {
+    "id": 37,
+    "imgSrc": "src/assets/bulletinboard/80000hours/80000hours.png",
+    "imgClass": "q-py-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "80,000 hours",
+      "en": "80,000 hours"
+    },
+    "subtitle": {
+      "de": "In Ihrem Berufsleben haben Sie 80.000 Stunden Zeit. Das ist Ihre beste Gelegenheit, die Welt positiv zu beeinflussen. Wenn Sie das Privileg haben, Ihre Karriere für das Gute nutzen zu können, aber nicht wissen, wie, dann kann Ihnen unser Karriereführer helfen.",
+      "en": "You have 80,000 hours in your career. This makes it your best opportunity to have a positive impact on the world. If you’re fortunate enough to be able to use your career for good, but aren’t sure how, our career guide can help you."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCKN6rWGaD8218M-97RUo3U",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCKN6rWGaD8218M-97RUo3U"
+    },
+    "description": {
+      "de": "80.000 Hours stellt Recherchen und Unterstützung zur Verfügung, um Studenten und Hochschulabsolventen dabei zu helfen, Karrieren zu ergreifen, die die dringendsten Probleme der Welt effektiv angehen. Wir sind eine von Y Combinator unterstützte Non-Profit-Organisation, die durch philanthropische Spenden finanziert wird, und alles, was wir anbieten, ist kostenlos.",
+      "en": "80,000 Hours provides research and support to help students and recent graduates switch into careers that effectively tackle the world’s most pressing problems. We’re a Y Combinator-backed nonprofit funded by philanthropic donations, and everything we provide is free."
+    },
+    "readmore": {
+      "de": "https://80000hours.org/about/#what-do-we-do",
+      "en": "https://80000hours.org/about/#what-do-we-do"
+    },
+    "homepage": {
+      "de": "https://80000hours.org/",
+      "en": "https://80000hours.org/"
+    },
+    "homepageText": "homepage",
+    "twitter": "@80000hours",
+    "instagram": { "en": "80000hoursofficial", "de": "80000hoursofficial" },
+    "linkedin": "https://www.linkedin.com/groups/5057625/",
+    "facebook": "80000Hours",
+    "tiktok": "@80000hours",
+    "youtube": "@eightythousandhours",
+    "socialOrder": "twitter, instagram, linkedin, facebook, tiktok, youtube"
   }
 ]
