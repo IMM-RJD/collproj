@@ -1423,5 +1423,47 @@
     "tiktok": "@80000hours",
     "youtube": "@eightythousandhours",
     "socialOrder": "twitter, instagram, linkedin, facebook, tiktok, youtube"
+  },
+  {
+    "id": 38,
+    "imgSrc": "src/assets/bulletinboard/eterna/eterna.png",
+    "imgClass": "q-py-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#144676",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Eterna",
+      "en": "Eterna"
+    },
+    "subtitle": {
+      "de": "ist ein Online-Spiel, das jeden dazu einlädt, die medizinische Forschung voranzutreiben. Sie spielen, indem Sie Puzzles mit RNAs lösen, winzigen Molekülen, die das Herzstück jeder Zelle sind.",
+      "en": "is an online game that invites everyone to help advance medical research. You play by solving puzzles using RNAs, tiny molecules at the heart of every cell."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDXhPB4D1LzrTUVgG9pNGj6",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDXhPB4D1LzrTUVgG9pNGj6"
+    },
+    "description": {
+      "de": "RNAs sind winzige Moleküle in den Zellen jedes Lebewesens. Sie kopieren Informationen von der DNA und nutzen sie, um Dinge in der Zelle zu bewirken.\n\n Eterna-Spieler haben gezeigt, dass sie sowohl Supercomputer als auch Forschungsteams beim Entwurf neuer RNAs schlagen können. Gemeinsam können Spieler und Forscher neue Lösungen finden, neue Medikamente erfinden und die Geheimnisse der RNA enträtseln.",
+      "en": "RNAs are tiny molecules in the cells of every living thing. They copy information from DNA and use it to make things happen in the cell.\n\n Eterna players have shown that they can beat supercomputers as well as research teams in designing new RNAs. Working together, players and researchers can find novel solutions, invent new medicines, and unravel the secrets of RNA."
+    },
+    "readmore": {
+      "de": "https://eternagame.org/about",
+      "en": "https://eternagame.org/about"
+    },
+    "homepage": {
+      "de": "https://eternagame.org/",
+      "en": "https://eternagame.org/"
+    },
+    "homepageText": "homepage",
+    "twitter": "@eternagame",
+    "facebook": "eternathegame",
+    "instagram": { "en": "eternagame", "de": "eternagame" },
+    "youtube": "@eternagame",
+    "twitch": "eternagame",
+    "github": "eternagame",
+    "socialOrder": "twitter, facebook, instagram, youtube, twitch, github"
   }
 ]
