@@ -11,7 +11,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/cli": "^2.2.2",
+    "@quasar/cli": "^2.2.3",
     "@quasar/extras": "^1.16.4",
     "@quasar/icongenie": "^3.1.1",
     "@quasar/quasar-ui-qmediaplayer": "^2.0.0-beta.6",
