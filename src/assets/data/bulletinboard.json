@@ -1465,5 +1465,36 @@
     "twitch": "eternagame",
     "github": "eternagame",
     "socialOrder": "twitter, facebook, instagram, youtube, twitch, github"
+  },
+  {
+    "id": 39,
+    "imgSrc": "src/assets/bulletinboard/nothilfe/nothilfe.png",
+    "imgClass": "q-py-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Trierer Nothilfe e. V.",
+      "en": "Trierer Nothilfe e. V."
+    },
+    "subtitle": {
+      "de": "Auf unseren Seiten finden Sie Informationen zu den Aufgaben, Zielen, die Arbeitsweise und den Förderprojekten der Trierer Nothilfe. Hier stellen wir auch unseren Nothilfeladen, den Second Hand Shop der Trier Nothilfe vor.",
+      "en": "On our pages you will find information about the tasks, goals, working methods and support projects of Trier Nothilfe. Here we also present our Nothilfeladen, the second hand store of Trier Nothilfe."
+    },
+    "description": {
+      "de": "Die ca. 35 MitarbeiterInnen arbeiten im Wechsel ehrenamtlich im Laden, holen Sachen ab, sortieren, ordnen alles, was gebracht oder abgeholt wird.\n\n Die gespendete Kleidung,  Haushaltsgegenstände, Geräte oder Möbel können in unserem Laden gegen einen Anerkennungsbeitrag erworben werden. Mit diese Einnahmen finanzieren wir einen großen Teil unserer sozialen Projekte.\n\n Besuchen Sie uns doch mal in unserem Nothilfeladen! Unser Kramladen ist für Jedermann — Jung und Alt — Arm und Reich.\n\n Thebäerstraße 24 54292 Trier\n Öffnungszeiten:\n Montag bis Freitag von 10:00 bis 18:00 Uhr\n Samstag 10:00 – 13:00 Uhr.",
+      "en": "The approximately 35 employees work in the store on a rotating basis as volunteers, picking up things, sorting, arranging everything that is brought or picked up.\n\n The donated clothing, household items, appliances or furniture can be purchased in our store for a recognition fee. With this income we finance a large part of our social projects.\n\n Visit us in our Nothilfeladen! Our store is for everyone - young and old - rich and poor.\n\n Thebäerstraße 24 54292 Trier\n Opening hours:\n Monday to Friday from 10:00 to 18:00\n Saturday 10:00 - 13:00."
+    },
+    "readmore": {
+      "de": "https://trierer-nothilfe.de/unser-nothilfeladen/",
+      "en": "https://trierer-nothilfe.de/unser-nothilfeladen/"
+    },
+    "homepage": {
+      "de": "https://trierer-nothilfe.de/",
+      "en": "https://trierer-nothilfe.de/"
+    },
+    "homepageText": "homepage"
   }
 ]
