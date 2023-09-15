@@ -55,12 +55,10 @@ import shoutoutData from 'src/assets/data/bulletinboard.json';
 //   });
 
 // TODO:
-// langswitch on mobile
-//
 // fairphone
 // malala fund?
 // wetalk?
-// https://80000hours.org/
+// https://www.keychange.eu/ | https://www.reeperbahnfestival.com/de/keychange
 // brilliant.org ?
 // nebula streaming?
 // MIT Free Open Online Course

@@ -1496,5 +1496,44 @@
       "en": "https://trierer-nothilfe.de/"
     },
     "homepageText": "homepage"
+  },
+  {
+    "id": 40,
+    "imgSrc": "src/assets/bulletinboard/waldzustandserhebung/waldzustandserhebung.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Waldzustandserhebung",
+      "en": "Waldzustandserhebung"
+    },
+    "subtitle": {
+      "de": "In jährlichen Stichprobenerhebungen wird der Kronenzustand deutscher Wälder bewertet. Dadurch können Veränderungen und Risiken erkannt und wichtige Entscheidungen zum Schutz des Waldes getroffen werden.",
+      "en": "The crown condition of German forests is assessed in annual sample surveys. This allows changes and risks to be identified and important decisions to protect the forest to be made."
+    },
+    "description": {
+      "de": "Die bundesweite Waldzustandserhebung wird seit 1984 jährlich von den Ländern auf einem systematischen Netz von Stichproben durchgeführt. Das Bundesergebnis wird aus den von den Ländern bereitgestellten Rohdaten am Institut für Waldökosysteme des Johann Heinrich von Thünen-Instituts, Bundesforschungsinstitut für Ländliche Räume, Wald und Fischerei, berechnet.",
+      "en": "The nationwide forest condition survey has been conducted annually by the states on a systematic network of samples since 1984. The federal result is calculated from the raw data provided by the states at the Institute of Forest Ecosystems of the Johann Heinrich von Thünen Institute, Federal Research Institute for Rural Areas, Forests and Fisheries."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/watch?v=cArz95QXEh0",
+      "en": "https://www.youtube.com/watch?v=cArz95QXEh0"
+    },
+    "readmore": {
+      "de": "https://wo-apps.thuenen.de/apps/wze/",
+      "en": "https://wo-apps.thuenen.de/apps/wze/"
+    },
+    "homepage": {
+      "de": "https://www.bmel.de/DE/themen/wald/wald-in-deutschland/waldzustandserhebung.html",
+      "en": "https://www.bmel.de/DE/themen/wald/wald-in-deutschland/waldzustandserhebung.html"
+    },
+    "homepageText": "homepage",
+    "twitter": "@bmel",
+    "instagram": { "en": "lebensministerium", "de": "lebensministerium" },
+    "youtube": "@bmel_bund",
+    "socialOrder": "twitter, instagram, youtube"
   }
 ]
