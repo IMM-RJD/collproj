@@ -54,6 +54,8 @@ export interface Shoutout {
   subtitle?: { en: string; de: string };
   expanded?: boolean;
   introVideo?: { en: string; de: string };
+  // introCarousel?: object;
+  introCarousel?: object;
   description?: { en: string; de: string };
   readmore?: { en: string; de: string };
   phone?: string;

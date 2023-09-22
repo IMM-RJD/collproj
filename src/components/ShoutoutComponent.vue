@@ -57,6 +57,31 @@
                   :src="createEmbeded(getIntrovideo(shoutout, $i18n.locale))"
                 /></div
             ></q-card-section>
+            <q-card-section v-show="shoutout.introCarousel" class="q-pa-none">
+              <div class="q-pb-lg">
+                <q-carousel
+                  v-model="introCarouselSlide"
+                  animated
+                  arrows
+                  infinite
+                  control-type="regular"
+                  control-color="secondary"
+                  control-text-color="primary"
+                  prev-icon="arrow_left"
+                  next-icon="arrow_right"
+                  height="250px"
+                >
+                  <q-carousel-slide
+                    v-for="(
+                      introCarouselImgSrc, index
+                    ) in shoutout.introCarousel"
+                    :key="index"
+                    :name="index + 1"
+                    :img-src="introCarouselImgSrc"
+                  />
+                </q-carousel>
+              </div>
+            </q-card-section>
             <q-card-section class="content-description q-px-lg q-py-none">
               {{ getDescription(shoutout, $i18n.locale) }}
               <br v-if="shoutout.description != null" />
@@ -247,7 +272,7 @@
   </div>
 </template>
 <script lang="ts">
-import { defineComponent, PropType } from 'vue';
+import { defineComponent, PropType, ref } from 'vue';
 import { Shoutout } from './models';
 import { useI18n } from 'vue-i18n';
 
@@ -260,7 +285,9 @@ export default defineComponent({
     },
   },
   setup() {
-    return {};
+    return {
+      introCarouselSlide: ref(1),
+    };
   },
   methods: {
     getTitle(shoutout: Shoutout, locale: string): string {
