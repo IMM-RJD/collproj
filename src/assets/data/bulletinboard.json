@@ -1535,5 +1535,40 @@
     "instagram": { "en": "lebensministerium", "de": "lebensministerium" },
     "youtube": "@bmel_bund",
     "socialOrder": "twitter, instagram, youtube"
+  },
+  {
+    "id": 41,
+    "imgSrc": "src/assets/bulletinboard/tutata/tutata.png",
+    "imgClass": "q-pa-xs",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "TUTATA",
+      "en": "TUTATA"
+    },
+    "subtitle": {
+      "de": "Jedes aufgetragene TUTATA soll seine/seinen Träger/in und die Welt um sie/ihn herum ein wenig besonderer machen und wenigstens einen Mitmenschen zu einem Lächeln, Schmunzeln oder Grübeln rühren.",
+      "en": "Each applied TUTATA is intended to make its wearer and the world around him/her a little more special and to move at least one fellow human being to a smile, smirk or ponder."
+    },
+    "description": {
+      "de": "TUTATAs werden von kreativen Köpfen mit mächtig viel Liebe entworfen und haben den hohen Anspruch, ganz besonders und sehr sonderbar zu sein.\n TUTATAs entsprechen den Spielzeugnormen EN 71-1 und EN 71-2 und sind ab 3 Jahren für jedes Alter geeignet.\n TUTATAs sind wasserbeständig und halten sich erfahrungsgemäß bei korrekter Anwendung ca. 1-4 Tage auf der Haut.\n\n In den Sommermonaten ist unser Tattoo „Vielfalt“ auch im Queergarten in Trier erhältlich. Wir freuen uns sehr, mit diesem Tattoo ein klein wenig zu einem bunteren Miteinander beitragen zu dürfen.",
+      "en": "TUTATAs are designed by creative minds with mighty love and have the high claim to be very special and very strange.\n TUTATAs comply with the toy standards EN 71-1 and EN 71-2 and are suitable for all ages from 3 years.\n TUTATAs are water resistant and according to experience they keep on the skin for about 1-4 days if used correctly.\n\n During the summer months, our tattoo \"Vielfalt\" (\"Diversity\") is also available in the Queergarten in Trier. We are very happy to be able to contribute a little bit to a more colorful togetherness with this tattoo."
+    },
+    "readmore": {
+      "de": "https://www.tutata.de/faq/",
+      "en": "https://www.tutata.de/faq/"
+    },
+    "homepage": {
+      "de": "https://www.tutata.de/",
+      "en": "https://www.tutata.de/"
+    },
+    "homepageText": "homepage",
+    "instagram": { "en": "TUTATATATTOOS", "de": "TUTATATATTOOS" },
+    "facebook": "TUTATATATTOOS",
+    "pinterest": "TUTATATATOOS",
+    "socialOrder": "instagram, facebook, pinterest"
   }
 ]
