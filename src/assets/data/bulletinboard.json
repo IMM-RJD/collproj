@@ -1577,5 +1577,40 @@
     "facebook": "TUTATATATTOOS",
     "pinterest": "TUTATATATOOS",
     "socialOrder": "instagram, facebook, pinterest"
+  },
+  {
+    "id": 42,
+    "imgSrc": "src/assets/bulletinboard/quantummoves/quantummoves.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "cover",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Quantum Moves 2",
+      "en": "Quantum Moves 2"
+    },
+    "subtitle": {
+      "de": "ist ein gamifiziertes Bürgerwissenschaftsprojekt im Bereich der Quantenphysik und der Hybridintelligenz.",
+      "en": "is a gamified citizen science project in the field of quantum physics and hybrid-intelligence."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR"
+    },
+    "description": {
+      "de": "Die Idee des Spiels ist ganz einfach: Bei jedem Spielzug simulieren die Mausbewegungen die Bewegung von Laserstrahlen, die in Quantenlabors zur Kontrolle und zum Transfer von Atomen verwendet werden. Jedes Spiel erzeugt eine Lösung, die auf unserer Seite als Daten erscheint, die die Bewegung des Laserstrahls und die Qualität der Lösung beschreiben. Die Herausforderungen im Spiel basieren auf modernsten Forschungsproblemen im Bereich des Quantencomputings und der Quantenmaterie-Wellen-Optik.",
+      "en": "The idea of the game is quite simple: in every gameplay, the mouse movements simulate the movement of laser beams used in quantum labs to control and transfer atoms. Every gameplay creates a solution which appears on our end as data describing the movement of the laser beam and quality of the solution. The challenges in the game are based on cutting-edge research problems in quantum computing and quantum matter-wave optics."
+    },
+    "readmore": {
+      "de": "https://www.scienceathome.org/games/quantum-moves-2/about-quantum-moves-2/",
+      "en": "https://www.scienceathome.org/games/quantum-moves-2/about-quantum-moves-2/"
+    },
+    "homepage": {
+      "de": "https://www.scienceathome.org/games/quantum-moves-2/",
+      "en": "https://www.scienceathome.org/games/quantum-moves-2/"
+    },
+    "homepageText": "homepage"
   }
 ]
