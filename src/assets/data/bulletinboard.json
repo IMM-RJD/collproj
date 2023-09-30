@@ -1612,5 +1612,40 @@
       "en": "https://www.scienceathome.org/games/quantum-moves-2/"
     },
     "homepageText": "homepage"
+  },
+  {
+    "id": 43,
+    "imgSrc": "src/assets/bulletinboard/wolframtones/wolframtones.jpg",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "WolframTones",
+      "en": "WolframTones"
+    },
+    "subtitle": {
+      "de": "Ein Experiment in einer neuen Art von Musik - ermöglicht durch die Wolfram Language und A New Kind of Science. Jeder Klick erzeugt eine neue regelbasierte Komposition.",
+      "en": "An Experiment in a New Kind of Music - made possible by the Wolfram Language and A New Kind of Science. Every click creates a new rule-based composition."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAZLKg5K4O_2pF_7dS947eJ",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAZLKg5K4O_2pF_7dS947eJ"
+    },
+    "description": {
+      "de": "WolframTones basiert auf einer zentralen Entdeckung von Stephen Wolframs A New Kind of Science: dass im Computeruniversum selbst extrem einfache Regeln oder Programme ein Verhalten von großer Komplexität erzeugen können. Wolfram fand den ersten Beweis für diese überraschende Tatsache in seinen Experimenten in den frühen 1980er Jahren mit Systemen, die als eindimensionale zelluläre Automaten bekannt sind (heute oft Wolfram-Automaten genannt). WolframTones basiert auf genau diesen Systemen.",
+      "en": "WolframTones is based on a core discovery of Stephen Wolfram's A New Kind of Science: that in the computational universe, even extremely simple rules or programs can give behavior of great complexity. Wolfram first found evidence of this surprising fact in his experiments in the early 1980s on systems known as one-dimensional cellular automata (now often called Wolfram automata). WolframTones is based on these very same types of systems."
+    },
+    "readmore": {
+      "de": "https://tones.wolfram.com/about/how-it-works",
+      "en": "https://tones.wolfram.com/about/how-it-works"
+    },
+    "homepage": {
+      "de": "https://tones.wolfram.com/",
+      "en": "https://tones.wolfram.com/"
+    },
+    "homepageText": "homepage"
   }
 ]
