@@ -121,3 +121,8 @@ body {
     rgba(199, 165, 131, 1) 100%
   );
 }
+
+.snow-wrapper {
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
