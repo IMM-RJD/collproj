@@ -1,5 +1,5 @@
 <template>
-  <q-page padding class="q-mx-md snow-wrapper">
+  <q-page padding class="q-px-md snow-wrapper">
     <!-- snowfall -->
     <div>
       <div class="snow"></div>
@@ -205,7 +205,19 @@
     </div>
 
     <!-- content -->
-    <h4 class="q-my-lg">{{ $t('event_headline') }}</h4>
+    <div
+      class="q-pa-md fit row wrap justify-evenly items-stretch content-start"
+    >
+      <q-img
+        src="src/assets/events/artvent.jpeg"
+        fit="contain"
+        loading="lazy"
+        width="90%"
+        class="rounded-borders"
+      ></q-img>
+    </div>
+
+    <!-- <h4 class="q-my-lg">{{ $t('event_headline') }}</h4> -->
 
     <!-- <q-btn
       :label="$t('Team')"
