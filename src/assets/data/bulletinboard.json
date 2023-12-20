@@ -1651,5 +1651,36 @@
       "en": "https://tones.wolfram.com/"
     },
     "homepageText": "homepage"
+  },
+  {
+    "id": 44,
+    "imgSrc": "src/assets/bulletinboard/nidonas/nidonas.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "NiDonas.com",
+      "en": "NiDonas.com"
+    },
+    "subtitle": {
+      "de": "Hier bekommst du digitale Güter für das, was es Dir wert ist. Stöber gerne in unserem Katalog und zeig deine Wertschätzung =D.",
+      "en": "Here you can get digital goods for what they are worth to you. Feel free to browse through our catalog and show your appreciation =D."
+    },
+    "description": {
+      "de": "Wenn Du unsere Vision teilst und Nidonas unterstützen möchtest, schreib uns gerne eine Nachricht. Du möchtest Deine Inhalte auf Nidonas anbieten? Nimm gerne Kontakt mit uns auf, dann klären wir die Details. \n\n Besuche gerne unseren Katalog. Ist etwas Interessantes für dich dabei? \n\n Schön, dass Du da bist! Lass uns gemeinsam die Welt verändern!",
+      "en": "If you share our vision and would like to support Nidonas, please send us a message. Would you like to offer your content on Nidonas? Get in touch with us and we'll work out the details. \n\n Please visit our catalog. Is there something interesting for you? \n\n  Great that you're here! Let's change the world together!"
+    },
+    "readmore": {
+      "de": "https://nidonas.com/goods",
+      "en": "https://nidonas.com/goods"
+    },
+    "homepage": {
+      "de": "https://nidonas.com",
+      "en": "https://nidonas.com"
+    },
+    "homepageText": "homepage"
   }
 ]
