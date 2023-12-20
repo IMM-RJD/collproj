@@ -1682,5 +1682,36 @@
       "en": "https://nidonas.com"
     },
     "homepageText": "homepage"
+  },
+  {
+    "id": 45,
+    "imgSrc": "src/assets/bulletinboard/repaircafetrier/Repair-Cafe-Trier.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Repair Café Trier",
+      "en": "Repair Café Trier"
+    },
+    "subtitle": {
+      "de": "Jeden letzten Samstag im Monat (außer im Dezember) 11–15 Uhr im Mergener Hof (Rindertanzstraße 4, 54290 Trier).",
+      "en": "Every last Saturday of the month (except in December) 11 am - 3 pm at Mergener Hof (Rindertanzstraße 4, 54290 Trier)."
+    },
+    "description": {
+      "de": "Im Jahr 2009 wurde die Idee des Repair Cafés in Amsterdam geboren und breitet sich seither weiter aus. Immer mehr Menschen möchten die Philosophie des Reparierens wiederbeleben. Auch die vier Trierer Vereine Lokale Agenda 21 Trier, Transition Trier, Mergener Hof und Maschinendeck e.V. haben sich zusammen getan und organisieren in Trier seit Oktober 2013 ein Repair Café.",
+      "en": "The idea of the Repair Café was born in Amsterdam in 2009 and has been spreading ever since. More and more people want to revive the philosophy of repairing. The four Trier associations Lokale Agenda 21 Trier, Transition Trier, Mergener Hof and Maschinendeck e.V. have also joined forces and have been organizing a Repair Café in Trier since October 2013."
+    },
+    "readmore": {
+      "de": "https://repaircafe-trier.de/was-ist-das/",
+      "en": "https://repaircafe-trier.de/was-ist-das/"
+    },
+    "homepage": {
+      "de": "https://repaircafe-trier.de",
+      "en": "https://repaircafe-trier.de"
+    },
+    "homepageText": "homepage"
   }
 ]
