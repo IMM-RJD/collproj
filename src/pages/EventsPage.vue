@@ -204,20 +204,9 @@
       <div class="snow"></div>
     </div>
 
-    <!-- content -->
-    <div
-      class="q-pa-md fit row wrap justify-evenly items-stretch content-start"
-    >
-      <q-img
-        src="src/assets/events/artvent.jpeg"
-        fit="contain"
-        loading="lazy"
-        width="90%"
-        class="rounded-borders"
-      ></q-img>
-    </div>
-
-    <!-- <h4 class="q-my-lg">{{ $t('event_headline') }}</h4> -->
+    <h4 class="q-my-lg q-ml-md" style="color: white">
+      {{ $t('event_headline') }}
+    </h4>
 
     <!-- <q-btn
       :label="$t('Team')"

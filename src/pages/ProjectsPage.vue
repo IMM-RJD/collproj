@@ -80,6 +80,20 @@
               to latest version.
             </video>
           </q-carousel-slide>
+          <q-carousel-slide :name="2" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/losheim/JGWLLL_Artists_Rij7-VAK3-KollektivMehrklang.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="3" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/losheim/JGWLLL_Artists_Story_KollektivMehrklang.jpg"
+            ></q-img>
+          </q-carousel-slide>
 
           <template #control>
             <q-carousel-control position="bottom-right" :offset="[18, 18]">
@@ -122,6 +136,20 @@
               Your browser does not support the video element. Kindly update it
               to latest version.
             </video>
+          </q-carousel-slide>
+          <q-carousel-slide :name="2" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/udine/udine0.jpeg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="3" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/udine/udine1.jpeg"
+            ></q-img>
           </q-carousel-slide>
 
           <template #control>
