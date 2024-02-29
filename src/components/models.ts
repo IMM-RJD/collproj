@@ -67,6 +67,7 @@ export interface Shoutout {
   instagram?: { en: string; de: string };
   youtube?: string;
   soundcloud?: string;
+  mixcloud?: string;
   github?: string;
   twitter?: string;
   reddit?: string;

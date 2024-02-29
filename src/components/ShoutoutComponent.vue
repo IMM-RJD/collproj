@@ -166,6 +166,7 @@
             shoutout.instagram ||
             shoutout.youtube ||
             shoutout.soundcloud ||
+            shoutout.mixcloud ||
             shoutout.github ||
             shoutout.twitter ||
             shoutout.reddit ||
@@ -227,6 +228,8 @@
                 ? 'https://www.youtube.com/' + shoutout.youtube
                 : so == 'soundcloud'
                 ? 'https://www.soundcloud.com/' + shoutout.soundcloud
+                : so == 'mixcloud'
+                ? 'https://www.mixcloud.com/' + shoutout.mixcloud
                 : so == 'github'
                 ? 'https://www.github.com/' + shoutout.github
                 : so == 'twitter'

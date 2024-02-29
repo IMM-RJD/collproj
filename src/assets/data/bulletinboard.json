@@ -1719,5 +1719,46 @@
     "homepageText": "homepage",
     "facebook": "repaircafetrier",
     "socialOrder": "facebook"
+  },
+  {
+    "id": 46,
+    "imgSrc": "src/assets/bulletinboard/noodsradio/noodsradio.jpg",
+    "imgClass": "",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "black",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Noods Radio",
+      "en": "Noods Radio"
+    },
+    "subtitle": {
+      "de": "Noods Radio ist ein unabhängiger Radiosender, der von Stokes Croft in Bristol aus sendet.",
+      "en": "Noods Radio is an independent radio station broadcasting from Bristol's Stokes Croft."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBd3r95Kyj7vbnINxLWv2VE",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBd3r95Kyj7vbnINxLWv2VE"
+    },
+    "description": {
+      "de": "Der 2015 gegründete Sender, der aus den sonntäglichen Musiksessions hervorging, hat sich zu einem Zuhause für Gesichter aus aller Welt entwickelt. Schalten Sie ein mit offenen Ohren für tägliche Shows von unseren Außenseitern, Tänzern, Sammlern und Selektoren. \n\n Keine Playlists, keine Werbung, nur die Menschen.",
+      "en": "Founded in 2015 and born from Sunday morning music sessions, the station has grown to become the home of faces from around the globe. Tune in with open ears for daily shows from our misfits, dancers, collectors and selectors. \n\n No playlists, no ads, just the people."
+    },
+    "readmore": {
+      "de": "https://noodsradio.com/info",
+      "en": "https://noodsradio.com/info"
+    },
+    "homepage": {
+      "en": "https://noodsradio.com/",
+      "de": "https://noodsradio.com/"
+    },
+    "homepageText": "homepage",
+    "facebook": "noodsradio",
+    "twitter": "noodsradio",
+    "instagram": { "en": "noodsradio", "de": "noodsradio" },
+    "mixcloud": "NoodsRadio",
+    "bandcamp": "https://noodsradio.bandcamp.com/",
+    "socialOrder": "facebook, twitter, instagram, mixcloud, bandcamp"
   }
 ]
