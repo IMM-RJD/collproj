@@ -1760,5 +1760,45 @@
     "mixcloud": "NoodsRadio",
     "bandcamp": "https://noodsradio.bandcamp.com/",
     "socialOrder": "facebook, twitter, instagram, mixcloud, bandcamp"
+  },
+  {
+    "id": 47,
+    "imgSrc": "src/assets/bulletinboard/leapdeutschland/leapdeutschland.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "#E6E6E6",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Law Enforcement Against Prohibition Deutschland e.V.",
+      "en": "Law Enforcement Against Prohibition Deutschland e.V."
+    },
+    "subtitle": {
+      "de": "LEAP ist ein bundesweites und globales Netzwerk, das auf die schädlichen Folgen der Drogenprohibition und des „Krieges gegen die Drogen” aufmerksam machen und legale Alternativen zur repressiven Drogenpolitik aufzeigen möchte.",
+      "en": "LEAP is a nationwide and global network that aims to draw attention to the harmful consequences of drug prohibition and the \"war on drugs\" and to highlight legal alternatives to repressive drug policies."
+    },
+    "introVideo": {
+      "de": "https://youtu.be/HBtZpH1HAog",
+      "en": "https://youtu.be/HBtZpH1HAog"
+    },
+    "description": {
+      "de": "LEAP (Law Enforcement Against Prohibition) wurde am 16. März 2002 in den USA als gemeinnützige Organisation gegründet. Mittlerweile ist LEAP eine weltweit agierende Organisation mit etwa 150.000 Unterstützern in 120 Ländern. \n\nIn Deutschland wurde LEAP 2015 in Berlin gegründet, arbeitet aber eigenständig und steht im Austausch mit anderen Organisationen.",
+      "en": "LEAP (Law Enforcement Against Prohibition) was founded in the USA on 16 March 2002 as a non-profit organization. LEAP is now a global organization with around 150,000 supporters in 120 countries. \n\nIn Germany, LEAP was founded in Berlin in 2015, but works independently and is in contact with other organizations."
+    },
+    "readmore": {
+      "de": "https://leap-deutschland.de/uber-uns/",
+      "en": "https://leap-deutschland.de/uber-uns/"
+    },
+    "homepage": {
+      "en": "https://leap-deutschland.de/",
+      "de": "https://leap-deutschland.de/"
+    },
+    "homepageText": "homepage",
+    "facebook": "leapdeutschland",
+    "twitter": "leapdeutschland",
+    "instagram": { "en": "leap_de", "de": "leap_de" },
+    "youtube": "@lawenforcementagainstprohi6006",
+    "socialOrder": "facebook, twitter, instagram, youtube"
   }
 ]
