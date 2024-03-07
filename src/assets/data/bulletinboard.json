@@ -1800,5 +1800,45 @@
     "instagram": { "en": "leap_de", "de": "leap_de" },
     "youtube": "@lawenforcementagainstprohi6006",
     "socialOrder": "facebook, twitter, instagram, youtube"
+  },
+  {
+    "id": 48,
+    "imgSrc": "src/assets/bulletinboard/foldit/foldit.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "fill",
+    "imgWrapBgColor": "#373737",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "Foldit",
+      "en": "Foldit"
+    },
+    "subtitle": {
+      "de": "Foldit ist ein revolutionäres Crowdsourcing-Computerspiel zur Proteinfaltung, das es Ihnen ermöglicht, einen Beitrag zu fortschrittlicher Forschung über die menschliche Gesundheit, modernstes Bio-Engineering und die inneren Abläufe der Biologie zu leisten.",
+      "en": "Foldit is a revolutionary crowdsourcing protein folding computer game enabling you to contribute to advanced research on human health, cutting-edge bioengineering, and the inner workings of biology."
+    },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDwDkwVnf6wP2imJGI033-H",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDwDkwVnf6wP2imJGI033-H"
+    },
+    "description": {
+      "de": "Foldit kann kostenlos gespielt werden und ist nicht gewinnorientiert. Entdeckungen, die im Spiel gemacht werden, werden in von Experten begutachteten Forschungszeitschriften veröffentlicht und Foldit-Spieler werden immer für ihre Beiträge genannt. \n\nJede Woche veröffentlichen die Foldit-Wissenschaftler neue Rätsel, die sich mit den neuesten Problemen der Proteinfaltung befassen. Lesen Sie weiter, um mehr über die laufende Forschung im Bereich des Proteindesigns zur Behandlung von Krankheiten, des Designs kleiner Moleküle zur Entwicklung neuer Arzneimittel und der Lösung von Proteinstrukturen zur Kartierung der Moleküle, die die Biologie steuern, zu erfahren.",
+      "en": "Foldit is free to play and not-for-profit. Discoveries made in the game are published in peer-reviewed research journals and Foldit players are always credited for their contributions. \n\nEvery week, Foldit scientists post new puzzles focused on the latest problems in protein folding. Read on to learn about ongoing research in protein design to treat diseases, small molecule design to invent new drug compounds, and protein structure solving to map the molecules that drive biology."
+    },
+    "readmore": {
+      "de": "https://fold.it/about_foldit",
+      "en": "https://fold.it/about_foldit"
+    },
+    "homepage": {
+      "en": "https://fold.it/",
+      "de": "https://fold.it/"
+    },
+    "homepageText": "homepage",
+    "facebook": "folditgame",
+    "youtube": "@UWfoldit",
+    "twitter": "Foldit",
+    "discord": "https://discord.gg/3vfxkFWJ",
+    "socialOrder": "facebook, youtube, twitter, discord"
   }
 ]
