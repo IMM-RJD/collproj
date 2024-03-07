@@ -11,17 +11,17 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
-    "@quasar/cli": "^2.3.0",
+    "@quasar/cli": "^2.4.0",
     "@quasar/extras": "^1.16.9",
     "@quasar/icongenie": "^3.1.1",
     "@quasar/quasar-ui-qmediaplayer": "^2.0.0-beta.6",
-    "quasar": "^2.14.1",
+    "quasar": "^2.14.6",
     "vue": "^3.2.37",
     "vue-i18n": "^9.3.0-beta.16",
     "vue-router": "^4.0.16"
   },
   "devDependencies": {
-    "@quasar/app-vite": "^1.7.0",
+    "@quasar/app-vite": "^1.7.4",
     "@types/node": "^12.20.55",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
