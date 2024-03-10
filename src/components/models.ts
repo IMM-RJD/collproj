@@ -52,7 +52,7 @@ export interface Shoutout {
   bgColor: string;
   title: { en: string; de: string };
   subtitle?: { en: string; de: string };
-  filter: { citizenscience?: boolean };
+  filter: { citizenscience?: boolean; visibility: string };
   expanded?: boolean;
   introVideo?: { en: string; de: string };
   // introCarousel?: object;

@@ -22,7 +22,7 @@
       @update:model-value="
         (val, evt) => {
           shoutoutFilter[0].citizenscience = modelCitizenscience;
-          shoutouts = filterShoutout(shoutoutFilter);
+          filterShoutout(shoutouts, shoutoutFilter);
         }
       "
     />
@@ -99,22 +99,26 @@ export default defineComponent({
     };
   },
   methods: {
-    filterShoutout: function (filter: Array<ShoutoutFilter>) {
-      let shoutouts = shoutoutData;
-      if (filter[0].citizenscience == false) {
-        return shoutouts;
-      } else {
-        let newShoutouts = [];
-        for (let i = 0; i < shoutouts.length; i++) {
-          if (
-            filter[0].citizenscience == true &&
-            shoutouts[i].filter?.citizenscience !== undefined &&
-            shoutouts[i].filter?.citizenscience !== false
-          ) {
-            newShoutouts.push(shoutouts[i]);
-          }
+    filterShoutout: function (
+      shoutouts: Array<Shoutout>,
+      filter: Array<ShoutoutFilter>
+    ) {
+      for (let i = 0; i < shoutouts.length; i++) {
+        // no filter
+        if (filter[0].citizenscience == false) {
+          shoutouts[i].filter.visibility = 'visible';
+          continue;
         }
-        return newShoutouts;
+        // filter
+        else if (
+          filter[0].citizenscience == true &&
+          shoutouts[i].filter?.citizenscience !== undefined &&
+          shoutouts[i].filter?.citizenscience !== false
+        ) {
+          shoutouts[i].filter.visibility = 'visible';
+        } else {
+          shoutouts[i].filter.visibility = 'hidden';
+        }
       }
     },
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {

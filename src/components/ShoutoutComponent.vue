@@ -9,7 +9,8 @@
         'text-white imm-shoutout-card ' +
         (shoutout.funkyStyles !== undefined && shoutout.funkyStyles
           ? 'imm-funky-corner-crop-lb '
-          : '')
+          : '') +
+        shoutout.filter.visibility
       "
       :style="'background-color:' + shoutout.bgColor"
     >
