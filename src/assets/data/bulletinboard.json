@@ -16,6 +16,7 @@
       "de": "ermöglicht es jedem, der einen Computer oder ein Android-Gerät besitzt, seine ungenutzte Rechenleistung zu spenden, um die wissenschaftliche Spitzenforschung zu Themen wie Gesundheit, Armut und Nachhaltigkeit voranzutreiben.",
       "en": "enables anyone with a computer or Android device to donate their unused computing power to advance cutting-edge scientific research on topics related to health, poverty and sustainability."
     },
+    "filter": { "citizenscience": true },
     "introVideo": {
       "de": "https://www.youtube.com/watch?v=P5QU_99oF5k",
       "en": "https://www.youtube.com/watch?v=P5QU_99oF5k"
@@ -608,8 +609,8 @@
       "en": "is the second radio program of Bayerischer Rundfunk. It broadcasts a culture- and information-oriented full program with a broad spectrum of music in various genres."
     },
     "introVideo": {
-      "de": "https://www.youtube.com/watch?v=GyS9CutV12I",
-      "en": "https://www.youtube.com/watch?v=GyS9CutV12I"
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6G8hDhmcio43tuTZzeXnI",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6G8hDhmcio43tuTZzeXnI"
     },
     "readmore": {
       "de": "https://de.wikipedia.org/wiki/Bayern_2",
@@ -1187,6 +1188,7 @@
       "de": "ein Spiel zur digitalen Abbildung des Gehirns (/ bzw. von Neuronen der Netzhaut einer Maus).",
       "en": "a game to map the brain."
     },
+    "filter": { "citizenscience": true },
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCWKVrUw4jUscCEjwPcZuuQ",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCWKVrUw4jUscCEjwPcZuuQ"
@@ -1445,6 +1447,7 @@
       "de": "ist ein Online-Spiel, das jeden dazu einlädt, die medizinische Forschung voranzutreiben. Sie spielen, indem Sie Puzzles mit RNAs lösen, winzigen Molekülen, die das Herzstück jeder Zelle sind.",
       "en": "is an online game that invites everyone to help advance medical research. You play by solving puzzles using RNAs, tiny molecules at the heart of every cell."
     },
+    "filter": { "citizenscience": true },
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDXhPB4D1LzrTUVgG9pNGj6",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDXhPB4D1LzrTUVgG9pNGj6"
@@ -1603,6 +1606,7 @@
       "de": "ist ein gamifiziertes Bürgerwissenschaftsprojekt im Bereich der Quantenphysik und der Hybridintelligenz.",
       "en": "is a gamified citizen science project in the field of quantum physics and hybrid-intelligence."
     },
+    "filter": { "citizenscience": true },
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR"
@@ -1775,7 +1779,7 @@
       "en": "Law Enforcement Against Prohibition Deutschland e.V."
     },
     "subtitle": {
-      "de": "LEAP ist ein bundesweites und globales Netzwerk, das auf die schädlichen Folgen der Drogenprohibition und des „Krieges gegen die Drogen” aufmerksam machen und legale Alternativen zur repressiven Drogenpolitik aufzeigen möchte.",
+      "de": "LEAP (Gesetzeshüter gegen Prohibition) ist ein bundesweites und globales Netzwerk, das auf die schädlichen Folgen der Drogenprohibition und des „Krieges gegen die Drogen” aufmerksam machen und legale Alternativen zur repressiven Drogenpolitik aufzeigen möchte.",
       "en": "LEAP is a nationwide and global network that aims to draw attention to the harmful consequences of drug prohibition and the \"war on drugs\" and to highlight legal alternatives to repressive drug policies."
     },
     "introVideo": {
@@ -1818,6 +1822,7 @@
       "de": "Foldit ist ein revolutionäres Crowdsourcing-Computerspiel zur Proteinfaltung, das es Ihnen ermöglicht, einen Beitrag zu fortschrittlicher Forschung über die menschliche Gesundheit, modernstes Bio-Engineering und die inneren Abläufe der Biologie zu leisten.",
       "en": "Foldit is a revolutionary crowdsourcing protein folding computer game enabling you to contribute to advanced research on human health, cutting-edge bioengineering, and the inner workings of biology."
     },
+    "filter": { "citizenscience": true },
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDwDkwVnf6wP2imJGI033-H",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDwDkwVnf6wP2imJGI033-H"

@@ -12,7 +12,19 @@
       text-color="secondary"
       :label="$t('shuffle')"
       icon="shuffle"
-      @click="() => (shoutouts = randomize(shoutouts))"
+      @click="() => randomize(shoutouts)"
+    />
+    <q-toggle
+      v-model="modelCitizenscience"
+      class="q-mb-lg"
+      :label="$t('citizenscience')"
+      left-label
+      @update:model-value="
+        (val, evt) => {
+          shoutoutFilter[0].citizenscience = modelCitizenscience;
+          shoutouts = filterShoutout(shoutoutFilter);
+        }
+      "
     />
 
     <shoutout-component
@@ -30,7 +42,7 @@
 </template>
 
 <script lang="ts">
-import { Shoutout } from 'components/models';
+import { Shoutout, ShoutoutFilter } from 'components/models';
 import ShoutoutComponent from 'components/ShoutoutComponent.vue';
 import { defineComponent, ref } from 'vue';
 import shoutoutData from 'src/assets/data/bulletinboard.json';
@@ -62,7 +74,6 @@ import shoutoutData from 'src/assets/data/bulletinboard.json';
 // brilliant.org ?
 // nebula streaming?
 // MIT Free Open Online Course
-// leap
 // https://www.wren.co/
 // able gamer foundation
 // https://www.openphilanthropy.org/?
@@ -76,12 +87,36 @@ import shoutoutData from 'src/assets/data/bulletinboard.json';
 export default defineComponent({
   name: 'BulletinBoardPage',
   components: { ShoutoutComponent },
+  setup() {
+    return {
+      modelCitizenscience: ref(false),
+    };
+  },
   data() {
     return {
       shoutouts: ref<Shoutout[]>(shoutoutData),
+      shoutoutFilter: ref<ShoutoutFilter[]>([{ citizenscience: false }]),
     };
   },
   methods: {
+    filterShoutout: function (filter: Array<ShoutoutFilter>) {
+      let shoutouts = shoutoutData;
+      if (filter[0].citizenscience == false) {
+        return shoutouts;
+      } else {
+        let newShoutouts = [];
+        for (let i = 0; i < shoutouts.length; i++) {
+          if (
+            filter[0].citizenscience == true &&
+            shoutouts[i].filter?.citizenscience !== undefined &&
+            shoutouts[i].filter?.citizenscience !== false
+          ) {
+            newShoutouts.push(shoutouts[i]);
+          }
+        }
+        return newShoutouts;
+      }
+    },
     randomize: function (obj: Array<Shoutout>): Array<Shoutout> {
       return obj.sort(function () {
         return 0.5 - Math.random();
