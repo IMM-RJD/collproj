@@ -1813,7 +1813,7 @@
     "imgSrc": "src/assets/bulletinboard/leapdeutschland/leapdeutschland.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
-    "imgFit": "fill",
+    "imgFit": "contain",
     "imgWrapBgColor": "#E6E6E6",
     "funkyStyles": true,
     "bgColor": "#c7a583",
@@ -1854,7 +1854,7 @@
     "imgSrc": "src/assets/bulletinboard/foldit/foldit.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
-    "imgFit": "fill",
+    "imgFit": "contain",
     "imgWrapBgColor": "#373737",
     "funkyStyles": true,
     "bgColor": "#c7a583",
@@ -1889,5 +1889,46 @@
     "twitter": "Foldit",
     "discord": "https://discord.gg/3vfxkFWJ",
     "socialOrder": "facebook, youtube, twitter, discord"
+  },
+  {
+    "id": 49,
+    "imgSrc": "src/assets/bulletinboard/abgeordnetenwatchde/abgeordnetenwatchde.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#F3EFE6",
+    "funkyStyles": true,
+    "bgColor": "#c7a583",
+    "title": {
+      "de": "abgeordnetenwatch.de",
+      "en": "abgeordnetenwatch.de"
+    },
+    "subtitle": {
+      "de": "abgeordnetenwatch.de ist der direkte Draht von Bürger:innen zu ihren Abgeordneten und Kandidierenden. „Bürger:innen fragen – Politiker:innen antworten“ ist der Kern des Portals.",
+      "en": "abgeordnetenwatch.de is the direct line from citizens to their MPs and candidates. \"Citizens ask - politicians answer\" is the core of the portal."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDE8nJdlrZuOrzqgU_gjABL",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDE8nJdlrZuOrzqgU_gjABL"
+    },
+    "description": {
+      "de": "Mit unserem Frageportal schaffen wir einen öffentlichen Dialog und Transparenz. Dabei sorgen wir für eine Verbindlichkeit in den Aussagen der Politiker:innen, da ihre Positionen auch Jahre später noch nachlesbar sind. Um eine Begegnung auf Augenhöhe zu ermöglichen, werden alle Fragen und Antworten von unseren Moderator:innen gegengelesen und mit unserem Moderations-Codex abgeglichen. Daneben werden auf abgeordnetenwatch.de das Abstimmungsverhalten und die Ausschussmitgliedschaften der Abgeordneten sowie ihre Nebentätigkeiten öffentlich.",
+      "en": "With our question portal, we create public dialog and transparency. In doing so, we ensure that the politicians' statements are binding, as their positions can still be read years later. In order to enable an encounter at eye level, all questions and answers are proofread by our moderators and compared with our moderation codex. In addition, the voting behavior and committee memberships of MPs as well as their sideline activities are made public on abordnetenwatch.de."
+    },
+    "readmore": {
+      "de": "https://www.abgeordnetenwatch.de/was-wir-wollen-was-wir-machen",
+      "en": "https://www.abgeordnetenwatch.de/was-wir-wollen-was-wir-machen"
+    },
+    "homepage": {
+      "en": "https://www.abgeordnetenwatch.de/",
+      "de": "https://www.abgeordnetenwatch.de/"
+    },
+    "homepageText": "homepage",
+    "facebook": "abgeordnetenwatch.de",
+    "twitter": "a_watch",
+    "youtube": "@abgeordnetenwatchDE",
+    "instagram": { "en": "abgeordnetenwatch", "de": "abgeordnetenwatch" },
+    "socialOrder": "facebook, twitter, youtube, instagram"
   }
 ]
