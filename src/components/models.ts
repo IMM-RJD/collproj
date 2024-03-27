@@ -87,6 +87,7 @@ export interface Shoutout {
   socialOrder?: string;
 }
 
-export interface ShoutoutFilter {
+export interface FilterShoutout {
+  text: string;
   citizenscience: boolean;
 }

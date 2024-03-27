@@ -14,18 +14,49 @@
       icon="shuffle"
       @click="() => randomize(shoutouts)"
     />
-    <q-toggle
-      v-model="modelCitizenscience"
-      class="q-mb-lg"
-      :label="$t('citizenscience')"
-      left-label
-      @update:model-value="
-        (val, evt) => {
-          shoutoutFilter[0].citizenscience = modelCitizenscience;
-          filterShoutout(shoutouts, shoutoutFilter);
-        }
-      "
+
+    <q-btn
+      color="secondary"
+      round
+      dense
+      :icon="filterExpanded ? 'keyboard_arrow_up' : 'keyboard_arrow_down'"
+      @click="filterExpanded = !filterExpanded"
     />
+    <q-slide-transition class="q-mb-lg">
+      <div v-show="filterExpanded">
+        <q-toggle
+          v-model="modelFCitizenscience"
+          class="q-pt-md"
+          :label="$t('citizenscience')"
+          left-label
+          @update:model-value="
+            (val, evt) => {
+              filterShoutout[0].citizenscience = modelFCitizenscience;
+              filter(shoutouts, filterShoutout, $i18n.locale);
+            }
+          "
+        />
+        <q-input
+          v-model="modelFSearch"
+          class="q-pt-none q-pb-lg"
+          debounce="300"
+          clearable
+          clear-icon="close"
+          @update:model-value="
+            (value) => {
+              if (value === null) {
+                modelFSearch = '';
+              }
+              filterShoutout[0].text = modelFSearch;
+              filter(shoutouts, filterShoutout, $i18n.locale);
+            }
+          "
+        >
+          <template #append>
+            <q-icon class="q-ml-xs" name="search" />
+          </template>
+        </q-input></div
+    ></q-slide-transition>
 
     <shoutout-component
       :shoutouts="reverseByID(shoutouts)"
@@ -42,10 +73,11 @@
 </template>
 
 <script lang="ts">
-import { Shoutout, ShoutoutFilter } from 'components/models';
+import { Shoutout, FilterShoutout } from 'components/models';
 import ShoutoutComponent from 'components/ShoutoutComponent.vue';
 import { defineComponent, ref } from 'vue';
 import shoutoutData from 'src/assets/data/bulletinboard.json';
+import { useI18n } from 'vue-i18n';
 // =============
 // const shoutoutData: Shoutout[] = (await import('src/assets/data/bulletinboardpage.json'))
 //   .default;
@@ -89,31 +121,56 @@ export default defineComponent({
   components: { ShoutoutComponent },
   setup() {
     return {
-      modelCitizenscience: ref(false),
+      modelFCitizenscience: ref(false),
+      modelFSearch: ref(''),
+      filterExpanded: ref(false),
     };
   },
   data() {
     return {
       shoutouts: ref<Shoutout[]>(shoutoutData),
-      shoutoutFilter: ref<ShoutoutFilter[]>([{ citizenscience: false }]),
+      filterShoutout: ref<FilterShoutout[]>([
+        { text: '', citizenscience: false },
+      ]),
     };
   },
   methods: {
-    filterShoutout: function (
+    filter: function (
       shoutouts: Array<Shoutout>,
-      filter: Array<ShoutoutFilter>
+      filterShoutout: Array<FilterShoutout>,
+      locale: string
     ) {
+      let getTitle = function (shoutout: Shoutout, locale: string): string {
+        return locale === 'en-US'
+          ? shoutout.title.en
+          : locale === 'de'
+          ? shoutout.title.de
+          : 'missing title';
+      };
       for (let i = 0; i < shoutouts.length; i++) {
         // no filter
-        if (filter[0].citizenscience == false) {
+        if (
+          filterShoutout[0].citizenscience == false &&
+          filterShoutout[0].text == ''
+        ) {
           shoutouts[i].filter.visibility = 'visible';
           continue;
         }
-        // filter
+        //// filter
+        // citizenscience
         else if (
-          filter[0].citizenscience == true &&
+          filterShoutout[0].citizenscience == true &&
           shoutouts[i].filter?.citizenscience !== undefined &&
           shoutouts[i].filter?.citizenscience !== false
+        ) {
+          shoutouts[i].filter.visibility = 'visible';
+        } // search
+        else if (
+          filterShoutout[0].text !== '' &&
+          // case insensitive
+          getTitle(shoutouts[i], locale)
+            .toLocaleLowerCase()
+            .indexOf(filterShoutout[0].text.toLocaleLowerCase()) >= 0
         ) {
           shoutouts[i].filter.visibility = 'visible';
         } else {
