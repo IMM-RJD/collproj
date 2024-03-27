@@ -7,7 +7,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "World Community Grid",
       "en": "World Community Grid"
@@ -47,7 +47,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Mein Grundeinkommen",
       "en": "Mein Grundeinkommen"
@@ -88,7 +88,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "ShareTheMeal",
       "en": "ShareTheMeal"
@@ -129,7 +129,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "#TEAMTREES",
       "en": "#TEAMTREES"
@@ -168,7 +168,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "#TEAMSEAS",
       "en": "#TEAMSEAS"
@@ -207,7 +207,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "DailyArt",
       "en": "DailyArt"
@@ -239,7 +239,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Signal",
       "en": "Signal"
@@ -268,7 +268,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "FarmBot",
       "en": "FarmBot"
@@ -309,7 +309,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Nager IT",
       "en": "Nager IT"
@@ -349,7 +349,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Galerie Netzwerk",
       "en": "Galerie Netzwerk"
@@ -389,7 +389,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Be My Eyes",
       "en": "Be My Eyes"
@@ -428,7 +428,7 @@
     "imgFit": "",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Algorave",
       "en": "Algorave"
@@ -466,7 +466,7 @@
     "imgFit": "",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "GermanZero",
       "en": "GermanZero"
@@ -508,7 +508,7 @@
     "imgFit": "scale-down",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Spiele fuer Kinder",
       "en": "Games for Kids"
@@ -535,7 +535,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "GLS Bank",
       "en": "GLS Bank"
@@ -575,7 +575,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#000000",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "ByteFM",
       "en": "ByteFM"
@@ -614,7 +614,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "#000000",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Bayern 2",
       "en": "Bayern 2"
@@ -649,7 +649,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "#000000",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "everynoise.com",
       "en": "everynoise.com"
@@ -687,7 +687,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Die Ofenmacher e.V.",
       "en": "Die Ofenmacher e.V."
@@ -726,7 +726,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Deutschlandradio",
       "en": "Deutschlandradio"
@@ -767,7 +767,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#008FC3",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Viva con Agua de Sankt Pauli",
       "en": "Viva con Agua de Sankt Pauli"
@@ -809,7 +809,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "#000000",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Startnext",
       "en": "Startnext"
@@ -851,7 +851,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Internet Archive",
       "en": "Internet Archive"
@@ -890,7 +890,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "AI Jesus",
       "en": "AI Jesus"
@@ -928,7 +928,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#01615F",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Too Good To Go",
       "en": "Too Good To Go"
@@ -970,7 +970,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "foodsharing",
       "en": "foodsharing"
@@ -1013,7 +1013,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "white",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "TelefonSeelsorge®",
       "en": "TelefonSeelsorge®"
@@ -1054,7 +1054,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#050A14",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Quasar",
       "en": "Quasar"
@@ -1095,7 +1095,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#000000",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Künstliche Intelligenz",
       "en": "Artificial Intelligence"
@@ -1120,7 +1120,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "#050A14",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Dinge Erklärt – Kurzgesagt",
       "en": "Kurzgesagt – In a Nutshell"
@@ -1171,7 +1171,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Paläontologisieren",
       "en": "Paleontologizing "
@@ -1209,7 +1209,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Eyewire",
       "en": "Eyewire"
@@ -1249,7 +1249,7 @@
     "imgFit": "",
     "imgWrapBgColor": "",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Theory of Change",
       "en": "Theory of Change"
@@ -1289,7 +1289,7 @@
     "imgFit": "",
     "imgWrapBgColor": "",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Achtsamkeit & Co",
       "en": "Meditation & more"
@@ -1318,7 +1318,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "black",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "NASA Climate",
       "en": "NASA Climate"
@@ -1359,7 +1359,7 @@
     "imgFit": "scale-down",
     "imgWrapBgColor": "#F5F5F5",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Warn-App NINA",
       "en": "Warning App NINA"
@@ -1391,7 +1391,7 @@
     "imgFit": "scale-down",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Build-A-Cell",
       "en": "Build-A-Cell"
@@ -1431,7 +1431,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "80,000 hours",
       "en": "80,000 hours"
@@ -1474,7 +1474,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#144676",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Eterna",
       "en": "Eterna"
@@ -1517,7 +1517,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Trierer Nothilfe e. V.",
       "en": "Trierer Nothilfe e. V."
@@ -1553,7 +1553,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Waldzustandserhebung",
       "en": "Waldzustandserhebung"
@@ -1593,7 +1593,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "TUTATA",
       "en": "TUTATA"
@@ -1636,7 +1636,7 @@
     "imgFit": "cover",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Quantum Moves 2",
       "en": "Quantum Moves 2"
@@ -1672,7 +1672,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "WolframTones",
       "en": "WolframTones"
@@ -1708,7 +1708,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "NiDonas.com",
       "en": "NiDonas.com"
@@ -1740,7 +1740,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#FFFFFF",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Repair Café Trier",
       "en": "Repair Café Trier"
@@ -1774,7 +1774,7 @@
     "imgFit": "fill",
     "imgWrapBgColor": "black",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Noods Radio",
       "en": "Noods Radio"
@@ -1816,7 +1816,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#E6E6E6",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Law Enforcement Against Prohibition Deutschland e.V.",
       "en": "Law Enforcement Against Prohibition Deutschland e.V."
@@ -1857,7 +1857,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#373737",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "Foldit",
       "en": "Foldit"
@@ -1898,7 +1898,7 @@
     "imgFit": "contain",
     "imgWrapBgColor": "#F3EFE6",
     "funkyStyles": true,
-    "bgColor": "#c7a583",
+    "bgColor": "#355852",
     "title": {
       "de": "abgeordnetenwatch.de",
       "en": "abgeordnetenwatch.de"

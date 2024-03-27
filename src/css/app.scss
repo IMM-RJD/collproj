@@ -114,15 +114,6 @@ body {
   position: relative;
   left: calc(50% - 40px);
   color: white;
-  background: rgb(109, 5, 5);
-  background: linear-gradient(
-    0deg,
-    rgba(109, 5, 5, 1) 0%,
-    rgba(199, 165, 131, 1) 100%
-  );
-}
-
-.snow-wrapper {
-  overflow: hidden;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: $primary;
+  background: linear-gradient(0deg, $primary 0%, $secondary 100%);
 }
