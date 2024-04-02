@@ -27,7 +27,8 @@ export default {
   // event page
   // event_headline:
   //   "...is it already later, the cookie monster asked? Jep, finally it's later!",
-  event_headline: 'zzzZZZzzz... yaaawn',
+  event_headline: 'zzzZZZzzz... yaaawn...',
+  event_headline_others: '...Meanwhile on Pangaea...',
   event_udinegeht_description:
     'Light art performance on the theme "Undine geht" at Galerie Netzwerk on 12.5.2023 at 7 pm.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',

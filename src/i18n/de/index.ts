@@ -28,7 +28,8 @@ export default {
   // event page
   // event_headline:
   //   '„...ist jetzt schon später?“, fragte das Krümelmonster. „Jep, endlich ist es später!“',
-  event_headline: 'zzzZZZzzz... gääähn',
+  event_headline: 'zzzZZZzzz... gääähn...',
+  event_headline_others: '...Währenddessen auf Pangaea...',
   event_udinegeht_description:
     'Lichtkunst-Performance zum Thema "Undine geht" in der Galerie Netzwerk am 12.5.2023 um 19 Uhr.',
   event_event1_title: 'Landgut Girtenmühle LosLosLosheim 18.-21.5.',

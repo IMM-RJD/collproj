@@ -10,6 +10,36 @@
     <h4 class="q-my-lg q-ml-md" style="color: white">
       {{ $t('event_headline') }}
     </h4>
+    <h5 class="q-my-lg q-ml-md q-mt-lg" style="color: white">
+      {{ $t('event_headline_others') }}
+    </h5>
+    <div class="q-my-lg q-ml-md" style="color: white">
+      <h6 class="q-my-none" style="color: #355852">∞Shahab Amin∞</h6>
+      <q-btn
+        unelevated
+        :no-caps="true"
+        align="left"
+        type="a"
+        href="https://soundcloud.com/shahab-amin-6129446"
+        target="_blank"
+        icon="fa-brands fa-soundcloud"
+      ></q-btn>
+
+      <div class="q-mt-md rounded-borders">
+        <a
+          href="https://www.facebook.com/photo/?fbid=971062761689515&set=gm.1074735293833530"
+          target="_blank"
+        >
+          <q-img
+            width="350px"
+            height="500px"
+            fit="fill"
+            loading="lazy"
+            src="src/assets/event/shahab.jpg"
+          ></q-img>
+        </a>
+      </div>
+    </div>
 
     <!-- <q-btn
       :label="$t('Team')"
