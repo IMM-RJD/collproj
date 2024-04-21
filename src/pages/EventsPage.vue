@@ -7,13 +7,21 @@
       <div class="spring-circle spring-mediun spring-shade4"></div>
       <div class="spring-circle spring-small spring-shade5"></div>
     </div>
-    <h4 class="q-my-lg q-ml-md" style="color: white">
+    <!-- <h4 class="q-my-lg q-ml-md" style="color: white">
       {{ $t('event_headline') }}
-    </h4>
-    <h5 class="q-my-lg q-ml-md q-mt-lg" style="color: white">
+    </h4> -->
+    <q-img
+      class="q-mt-md q-ml-lg rounded-borders"
+      width="350px"
+      height="500px"
+      fit="fill"
+      loading="lazy"
+      src="src/assets/events/arttower.jpeg"
+    ></q-img>
+    <!-- <h5 class="q-my-lg q-ml-md q-mt-lg" style="color: white">
       {{ $t('event_headline_others') }}
-    </h5>
-    <div class="q-my-lg q-ml-md" style="color: white">
+    </h5> -->
+    <!-- <div class="q-my-lg q-ml-md" style="color: white">
       <h6 class="q-my-none" style="color: #355852">∞Shahab Amin∞</h6>
       <q-btn
         unelevated
@@ -39,7 +47,7 @@
           ></q-img>
         </a>
       </div>
-    </div>
+    </div> -->
 
     <!-- <q-btn
       :label="$t('Team')"
