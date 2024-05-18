@@ -107,7 +107,7 @@ export default {
   bulletinboard_headline: 'Unser Buntes Brett',
   bulletinboard_description:
     'zeigt kunterbunt verschiedenes aus einer kunterbunten Welt.',
-  citizenscience: 'Bürgerwissenschaftsspiele',
+  citizenscience: 'Bürgerwissenschaften',
   // music / mehr klang
   music_headline: 'Mehr_klang',
   music_recommendation: '(🌸ºั⌣ºั)',

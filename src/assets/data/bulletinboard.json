@@ -1400,7 +1400,7 @@
       "de": "Offene Zusammenarbeit zur Unterstützung der Wissenschaft und Technik beim Bau synthetischer Zellen.",
       "en": "Open collaboration supporting the science and engineering of building synthetic cells."
     },
-    "filter": { "visibility": "visible" },
+    "filter": { "citizenscience": true, "visibility": "visible" },
     "introVideo": {
       "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCfY9ue4-jjbV5CO1RUtVcI",
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zCfY9ue4-jjbV5CO1RUtVcI"
@@ -1568,8 +1568,8 @@
     },
     "filter": { "visibility": "visible" },
     "introVideo": {
-      "de": "https://www.youtube.com/watch?v=cArz95QXEh0",
-      "en": "https://www.youtube.com/watch?v=cArz95QXEh0"
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDr4OV3PTxcgQYYdAE0UTQO",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDr4OV3PTxcgQYYdAE0UTQO"
     },
     "readmore": {
       "de": "https://wo-apps.thuenen.de/apps/wze/",
@@ -1827,8 +1827,8 @@
     },
     "filter": { "visibility": "visible" },
     "introVideo": {
-      "de": "https://youtu.be/HBtZpH1HAog",
-      "en": "https://youtu.be/HBtZpH1HAog"
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBdugudhCELxdgpd29KErqU",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBdugudhCELxdgpd29KErqU"
     },
     "description": {
       "de": "LEAP (Law Enforcement Against Prohibition) wurde am 16. März 2002 in den USA als gemeinnützige Organisation gegründet. Mittlerweile ist LEAP eine weltweit agierende Organisation mit etwa 150.000 Unterstützern in 120 Ländern. \n\nIn Deutschland wurde LEAP 2015 in Berlin gegründet, arbeitet aber eigenständig und steht im Austausch mit anderen Organisationen.",

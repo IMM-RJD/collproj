@@ -101,7 +101,7 @@ export default {
   // bulletinboard
   bulletinboard_headline: 'Our Bulletin Board',
   bulletinboard_description: 'did you know...?',
-  citizenscience: 'Citizen Science Games',
+  citizenscience: 'Citizen Science',
   // music / mehr klang
   music_headline: "Mehr_klang {'|'} More_sound",
   music_recommendation: '(🌸ºั⌣ºั)',

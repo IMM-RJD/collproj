@@ -10,14 +10,7 @@
     <!-- <h4 class="q-my-lg q-ml-md" style="color: white">
       {{ $t('event_headline') }}
     </h4> -->
-    <q-img
-      class="q-mt-md q-ml-lg rounded-borders"
-      width="350px"
-      height="500px"
-      fit="fill"
-      loading="lazy"
-      src="src/assets/events/arttower.jpeg"
-    ></q-img>
+
     <!-- <h5 class="q-my-lg q-ml-md q-mt-lg" style="color: white">
       {{ $t('event_headline_others') }}
     </h5> -->
