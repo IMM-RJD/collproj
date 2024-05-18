@@ -1930,5 +1930,45 @@
     "youtube": "@abgeordnetenwatchDE",
     "instagram": { "en": "abgeordnetenwatch", "de": "abgeordnetenwatch" },
     "socialOrder": "facebook, twitter, youtube, instagram"
+  },
+  {
+    "id": 50,
+    "imgSrc": "src/assets/bulletinboard/geldfuerdiewelt/geldfuerdiewelt.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "Geld für die Welt - Maurice Höfgen",
+      "en": "Geld für die Welt - Maurice Höfgen"
+    },
+    "subtitle": {
+      "de": "Hier geht es um Wirtschaft, Geld und Politik. Ich leuchte aus, was andere Journalisten im Schatten liegen lassen. Ich kommentiere, was die Regierung anstellt oder die Opposition fordert. Und ich schlage vor, wie die Welt besser laufen könnte. Faktenorientiert, fortschrittlich und kritisch, aber stets humorvoll und verständlich.",
+      "en": "This is about business, money and politics. I shine a light on what other journalists leave in the shadows. I comment on what the government is doing or what the opposition is demanding. And I suggest how the world could run better. Fact-based, progressive and critical, but always humorous and understandable."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zD6BJ-IpzwkYggGUp7M2HQ4",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zD6BJ-IpzwkYggGUp7M2HQ4"
+    },
+    "description": {
+      "de": "Maurice Höfgen, Jg. 1996, ist Ökonom und Betriebswirt. Neben seiner Arbeit als wissenschaftlicher Mitarbeiter für Finanzpolitik im Bundestag ist er als Autor und Speaker tätig. Sein erstes Buch »Mythos Geldknappheit« erschien 2020, sein zweites Buch »Der neue Wirtschaftskrieg« im Herbst 2022, sein neuestes Buch »Teuer!« im Frühjahr 2023. Zweiwöchentlich erscheint seine Kolumne in der Berliner Zeitung. Zudem betreibt er unter der Marke Geld für die Welt einen Newsletter sowie einen YouTube-Kanal und moderiert das „Wirtschaftsbriefing“ auf dem YouTube-Kanal Jung und Naiv. Maurice Höfgen kommt aus Mönchengladbach, hat in Maastricht studiert und lebt nach einigen Jahren in Berlin wieder in Mönchengladbach.",
+      "en": "Maurice Höfgen, born in 1996, is an economist and business economist. In addition to his work as a research assistant for financial policy in the German Bundestag, he also works as an author and speaker. His first book \"Mythos Geldknappheit\" was published in 2020, his second book \"Der neue Wirtschaftskrieg\" in fall 2022 and his latest book \"Teuer!\" in spring 2023. His column appears fortnightly in the Berliner Zeitung. He also runs a newsletter under the Geld für die Welt brand as well as a YouTube channel and hosts the \"Wirtschaftsbriefing\" on the YouTube channel Jung und Naiv. Maurice Höfgen comes from Mönchengladbach, studied in Maastricht and now lives in Mönchengladbach again after several years in Berlin."
+    },
+    "readmore": {
+      "de": "https://www.geldfuerdiewelt.de/about",
+      "en": "https://www.geldfuerdiewelt.de/about"
+    },
+    "homepage": {
+      "en": "https://www.geldfuerdiewelt.de/",
+      "de": "https://www.geldfuerdiewelt.de/"
+    },
+    "homepageText": "homepage",
+    "youtube": "@Maurice_Hoefgen",
+    "twitter": "a_waMauriceHoefgentch",
+    "instagram": { "en": "mauricehoefgen", "de": "mauricehoefgen" },
+    "socialOrder": "youtube, twitter, instagram"
   }
 ]
