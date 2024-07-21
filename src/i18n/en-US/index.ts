@@ -43,6 +43,10 @@ export default {
     'Schattenwelten und Lichtgestalten (Realm of the shades and light figures) - Choreographic dance performance [FRANKENTURM - As part of the "Trierer Unterweltenfestival 2022"]',
   // project
   project_headline: 'Past Projects',
+  project_timeline_revengeofthegods_title:
+    "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Dance and acroyoga performance [Berdorf Amphitheater 2024]",
+  project_timeline_revengeofthegods_description_first:
+    '“The collective Mehrklang enchants the audience with a performance of dance and acroyoga and takes you into the mystical world of Nordic gods. Witness the giant hunting goddess Skadi and Thrud, the goddess of strength, on their pursuit to reach Idun, the goddess of fertility and eternal youth.“',
   project_timeline_arttower_title:
     'ARTTower vernissage - joint exhibition Kunsthaus “Alte Druckerei” [Fourside Plaza Hotel 2024]',
   project_timeline_losheim_title:

@@ -55,6 +55,60 @@
     </div> -->
 
     <q-timeline color="km-timeline">
+      <q-timeline-entry :title="$t('project_timeline_revengeofthegods_title')">
+        <q-carousel
+          v-model="slideROTG"
+          v-model:fullscreen="fullscreenROTG"
+          animated
+          arrows
+          infinite
+          control-type="regular"
+          control-color="secondary"
+          control-text-color="primary"
+          prev-icon="arrow_left"
+          next-icon="arrow_right"
+          class="secondary shadow-1 rounded-borders"
+          height="250px"
+        >
+          <q-carousel-slide :name="1" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/kollektiv.jpeg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="2" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/kollektiv_flyer.jpeg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="3" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/rotg_banner.jpeg"
+            ></q-img>
+          </q-carousel-slide>
+
+          <template #control>
+            <q-carousel-control position="bottom-right" :offset="[18, 18]">
+              <q-btn
+                round
+                dense
+                color="secondary"
+                text-color="primary"
+                :icon="fullscreenROTG ? 'fullscreen_exit' : 'fullscreen'"
+                @click="fullscreenROTG = !fullscreenROTG"
+              />
+            </q-carousel-control>
+          </template>
+        </q-carousel>
+        <div class="q-py-md">
+          {{ $t('project_timeline_revengeofthegods_description_first') }}
+        </div>
+      </q-timeline-entry>
       <q-timeline-entry :title="$t('project_timeline_arttower_title')">
         <q-img
           loading="lazy"
@@ -438,6 +492,8 @@ export default defineComponent({
       fullscreenUdine: ref(false),
       slideLosheim: ref(1),
       fullscreenLosheim: ref(false),
+      slideROTG: ref(1),
+      fullscreenROTG: ref(false),
     };
   },
 });

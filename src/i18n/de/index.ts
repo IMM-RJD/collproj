@@ -48,6 +48,10 @@ export default {
   // project_timeline_udine_description_first: '',
   // project_timeline_udine_description_second: '',
   // project_timeline_udine_description_third: '',
+  project_timeline_revengeofthegods_title:
+    "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Tanz und Acroyoga Performance [Berdorf Amphitheater 2024]",
+  project_timeline_revengeofthegods_description_first:
+    '„Das Kollektiv Mehrklang verzaubert das Publikum mit einer Performance aus Tanz und Acroyoga und entführt Sie in die mystische Welt der nordischen Götter. Erleben Sie die riesige Jagdgöttin Skadi und Thrud, die Göttin der Stärke, auf ihrer Jagd nach Idun, der Göttin der Fruchtbarkeit und ewigen Jugend.“',
   project_timeline_arttower_title:
     'ARTTower Vernissage - Gemeinschaftsausstellung Kunsthaus „Alte Druckerei“ [Fourside Plaza Hotel 2024]',
   project_timeline_losheim_title:
