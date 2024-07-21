@@ -55,6 +55,16 @@
     </div> -->
 
     <q-timeline color="km-timeline">
+      <q-timeline-entry :title="$t('project_timeline_arttower_title')">
+        <q-img
+          loading="lazy"
+          position="left"
+          width="300px"
+          height="450px"
+          fit="contain"
+          src="src/assets/projects/arttower/arttower.jpeg"
+        ></q-img>
+      </q-timeline-entry>
       <q-timeline-entry :title="$t('project_timeline_losheim_title')">
         <q-carousel
           v-model="slideLosheim"
@@ -240,6 +250,12 @@
             </q-carousel-control>
           </template>
         </q-carousel>
+        <q-video
+          style="height: 250px; margin-top: 1rem"
+          loading="lazy"
+          fetchpriority="high"
+          src="https://www.youtube.com/embed/playlist?list=PLPw5IThuM1zBmvN--4iJhhK1s03WRQn-G"
+        />
         <div class="q-py-md">
           {{ $t('project_timeline_schattenwelten_description_first') }}
           <br /><br />
@@ -343,6 +359,12 @@
           :ratio="16 / 9"
           src="https://www.youtube.com/embed/oOBoDeAeCgs"
         ></q-video>
+        <q-video
+          style="height: 250px; margin-top: 1rem"
+          loading="lazy"
+          fetchpriority="high"
+          src="https://www.youtube.com/embed/o13ojPp_s8o"
+        />
         <div class="q-py-md">
           {{ $t('project_timeline_panta_description_first') }} <br />
           {{ $t('project_timeline_panta_description_second') }}

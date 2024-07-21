@@ -43,6 +43,8 @@ export default {
     'Schattenwelten und Lichtgestalten (Realm of the shades and light figures) - Choreographic dance performance [FRANKENTURM - As part of the "Trierer Unterweltenfestival 2022"]',
   // project
   project_headline: 'Past Projects',
+  project_timeline_arttower_title:
+    'ARTTower vernissage - joint exhibition Kunsthaus “Alte Druckerei” [Fourside Plaza Hotel 2024]',
   project_timeline_losheim_title:
     'LosLosLosheim - Thematic Light Art Performance & Workshop [Losheim 2023]',
   project_timeline_losheim_description_first:

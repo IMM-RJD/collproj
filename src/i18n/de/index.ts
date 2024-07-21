@@ -48,6 +48,8 @@ export default {
   // project_timeline_udine_description_first: '',
   // project_timeline_udine_description_second: '',
   // project_timeline_udine_description_third: '',
+  project_timeline_arttower_title:
+    'ARTTower Vernissage - Gemeinschaftsausstellung Kunsthaus „Alte Druckerei“ [Fourside Plaza Hotel 2024]',
   project_timeline_losheim_title:
     'LosLosLosheim - Thematische Lichtkunst-Performance & Workshop [Losheim 2023]',
   project_timeline_losheim_description_first:
