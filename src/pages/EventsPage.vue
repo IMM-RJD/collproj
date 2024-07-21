@@ -7,6 +7,32 @@
       <div class="spring-circle spring-mediun spring-shade4"></div>
       <div class="spring-circle spring-small spring-shade5"></div>
     </div>
+
+    <!-- <h4 class="q-my-lg q-ml-md" style="color: white">
+      <a
+        style="color: white"
+        href="https://www.loversoftheuniverse.com/revenge-of-the-gods"
+        target="_blank"
+        >Revenge of the Gods | Lovers of the Universe || 6.6
+      </a>
+    </h4>
+    <div class="q-mt-md rounded-borders">
+      <a
+        href="https://www.loversoftheuniverse.com/revenge-of-the-gods"
+        target="_blank"
+      >
+        <q-img
+          style="left: 10px"
+          class="rounded-borders"
+          width="300px"
+          height="300px"
+          fit="fill"
+          loading="lazy"
+          src="src/assets/events/event.jpeg"
+        ></q-img>
+      </a>
+    </div> -->
+
     <!-- <h4 class="q-my-lg q-ml-md" style="color: white">
       {{ $t('event_headline') }}
     </h4> -->
@@ -42,7 +68,8 @@
       </div>
     </div> -->
 
-    <!-- <q-btn
+    <q-spacer class="q-my-lg"></q-spacer>
+    <q-btn
       :label="$t('Team')"
       to="/team"
       icon="fa-solid fa-people-group"
@@ -64,7 +91,7 @@
       icon="fa-solid fa-music"
       color="primary"
       class="q-py-md"
-    /> -->
+    />
 
     <!-- <h5 style="color: #d46643" class="q-mb-md">
       {{ $t('event_event2_title') }}
