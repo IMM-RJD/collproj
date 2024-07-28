@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@quasar/cli": "^2.4.1",
-    "@quasar/extras": "^1.16.11",
+    "@quasar/extras": "^1.16.12",
     "@quasar/icongenie": "^3.1.1",
     "@quasar/quasar-ui-qmediaplayer": "^2.0.0-beta.6",
-    "quasar": "^2.16.5",
+    "quasar": "^2.16.6",
     "vue": "^3.2.37",
     "vue-i18n": "^9.3.0-beta.16",
     "vue-router": "^4.0.16"

@@ -81,14 +81,35 @@
             <q-img
               class="imm-sliderImgImprovMobExp"
               loading="lazy"
-              src="src/assets/projects/revengeofthegods/kollektiv_flyer.jpeg"
+              src="src/assets/projects/revengeofthegods/Thrud.png"
             ></q-img>
           </q-carousel-slide>
           <q-carousel-slide :name="3" class="imm-p-0-important">
             <q-img
               class="imm-sliderImgImprovMobExp"
               loading="lazy"
-              src="src/assets/projects/revengeofthegods/rotg_banner.jpeg"
+              src="src/assets/projects/revengeofthegods/Sol.png"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="4" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/Freyr.png"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="5" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/rotg.jpg"
+            ></q-img>
+          </q-carousel-slide>
+          <q-carousel-slide :name="6" class="imm-p-0-important">
+            <q-img
+              class="imm-sliderImgImprovMobExp"
+              loading="lazy"
+              src="src/assets/projects/revengeofthegods/kollektiv_flyer.jpeg"
             ></q-img>
           </q-carousel-slide>
 
