@@ -55,6 +55,10 @@
     </div> -->
 
     <q-timeline color="km-timeline">
+      <q-timeline-entry
+        :title="$t('project_timeline_revengeofthegods2025_title')"
+      >
+      </q-timeline-entry>
       <q-timeline-entry :title="$t('project_timeline_revengeofthegods_title')">
         <q-carousel
           v-model="slideROTG"

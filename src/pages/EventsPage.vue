@@ -68,7 +68,9 @@
       </div>
     </div> -->
 
-    <q-spacer class="q-my-lg"></q-spacer>
+    <h4 class="q-my-lg q-ml-md" style="color: white">LosLosLosheim 23-25.05</h4>
+
+    <!-- <q-spacer class="q-my-lg"></q-spacer>
     <q-btn
       :label="$t('Team')"
       to="/team"
@@ -91,7 +93,7 @@
       icon="fa-solid fa-music"
       color="primary"
       class="q-py-md"
-    />
+    /> -->
 
     <!-- <h5 style="color: #d46643" class="q-mb-md">
       {{ $t('event_event2_title') }}

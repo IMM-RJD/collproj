@@ -1630,42 +1630,6 @@
   },
   {
     "id": 42,
-    "imgSrc": "src/assets/bulletinboard/quantummoves/quantummoves.jpg",
-    "imgClass": "",
-    "imgPosition": "none",
-    "imgFit": "cover",
-    "imgWrapBgColor": "#FFFFFF",
-    "funkyStyles": true,
-    "bgColor": "#355852",
-    "title": {
-      "de": "Quantum Moves 2",
-      "en": "Quantum Moves 2"
-    },
-    "subtitle": {
-      "de": "ist ein gamifiziertes Bürgerwissenschaftsprojekt im Bereich der Quantenphysik und der Hybridintelligenz.",
-      "en": "is a gamified citizen science project in the field of quantum physics and hybrid-intelligence."
-    },
-    "filter": { "citizenscience": true, "visibility": "visible" },
-    "introVideo": {
-      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR",
-      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA6loBRZYb8pbLDyDzpy4aR"
-    },
-    "description": {
-      "de": "Die Idee des Spiels ist ganz einfach: Bei jedem Spielzug simulieren die Mausbewegungen die Bewegung von Laserstrahlen, die in Quantenlabors zur Kontrolle und zum Transfer von Atomen verwendet werden. Jedes Spiel erzeugt eine Lösung, die auf unserer Seite als Daten erscheint, die die Bewegung des Laserstrahls und die Qualität der Lösung beschreiben. Die Herausforderungen im Spiel basieren auf modernsten Forschungsproblemen im Bereich des Quantencomputings und der Quantenmaterie-Wellen-Optik.",
-      "en": "The idea of the game is quite simple: in every gameplay, the mouse movements simulate the movement of laser beams used in quantum labs to control and transfer atoms. Every gameplay creates a solution which appears on our end as data describing the movement of the laser beam and quality of the solution. The challenges in the game are based on cutting-edge research problems in quantum computing and quantum matter-wave optics."
-    },
-    "readmore": {
-      "de": "https://www.scienceathome.org/games/quantum-moves-2/about-quantum-moves-2/",
-      "en": "https://www.scienceathome.org/games/quantum-moves-2/about-quantum-moves-2/"
-    },
-    "homepage": {
-      "de": "https://www.scienceathome.org/games/quantum-moves-2/",
-      "en": "https://www.scienceathome.org/games/quantum-moves-2/"
-    },
-    "homepageText": "homepage"
-  },
-  {
-    "id": 43,
     "imgSrc": "src/assets/bulletinboard/wolframtones/wolframtones.jpg",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1701,7 +1665,7 @@
     "homepageText": "homepage"
   },
   {
-    "id": 44,
+    "id": 43,
     "imgSrc": "src/assets/bulletinboard/nidonas/nidonas.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1733,7 +1697,7 @@
     "homepageText": "homepage"
   },
   {
-    "id": 45,
+    "id": 44,
     "imgSrc": "src/assets/bulletinboard/repaircafetrier/Repair-Cafe-Trier.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1767,7 +1731,7 @@
     "socialOrder": "facebook"
   },
   {
-    "id": 46,
+    "id": 45,
     "imgSrc": "src/assets/bulletinboard/noodsradio/noodsradio.jpg",
     "imgClass": "",
     "imgPosition": "none",
@@ -1809,7 +1773,7 @@
     "socialOrder": "facebook, twitter, instagram, mixcloud, bandcamp"
   },
   {
-    "id": 47,
+    "id": 46,
     "imgSrc": "src/assets/bulletinboard/leapdeutschland/leapdeutschland.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1850,7 +1814,7 @@
     "socialOrder": "facebook, twitter, instagram, youtube"
   },
   {
-    "id": 48,
+    "id": 47,
     "imgSrc": "src/assets/bulletinboard/foldit/foldit.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1891,7 +1855,7 @@
     "socialOrder": "facebook, youtube, twitter, discord"
   },
   {
-    "id": 49,
+    "id": 48,
     "imgSrc": "src/assets/bulletinboard/abgeordnetenwatchde/abgeordnetenwatchde.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1932,7 +1896,7 @@
     "socialOrder": "facebook, twitter, youtube, instagram"
   },
   {
-    "id": 50,
+    "id": 49,
     "imgSrc": "src/assets/bulletinboard/geldfuerdiewelt/geldfuerdiewelt.png",
     "imgClass": "q-pa-lg",
     "imgPosition": "none",
@@ -1970,5 +1934,75 @@
     "twitter": "a_waMauriceHoefgentch",
     "instagram": { "en": "mauricehoefgen", "de": "mauricehoefgen" },
     "socialOrder": "youtube, twitter, instagram"
+  },
+  {
+    "id": 50,
+    "imgSrc": "src/assets/bulletinboard/ruliology/rule30.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#000000",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "Ruliology",
+      "en": "Ruliology"
+    },
+    "subtitle": {
+      "de": "Eine neue Art der Wissenschaft.",
+      "en": "A new kind of science."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAraKyBJx82QOSXs9T9Fg-y",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAraKyBJx82QOSXs9T9Fg-y"
+    },
+    "description": {
+      "de": "Die Ruliologie ist die Lehre vom Ruliad. Das Ruliad ist die verwobene Grenze von allem, was komputatorisch möglich ist: das Ergebnis der Befolgung aller möglichen Komputationsregeln auf alle möglichen Arten.",
+      "en": "Ruliology is the study of the ruliad. The ruliad is the entangled limit of everything that is computationally possible: the result of following all possible computational rules in all possible ways."
+    },
+    "readmore": {
+      "de": "https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/",
+      "en": "https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/"
+    },
+    "homepage": {
+      "en": "https://www.wolframscience.com/",
+      "de": "https://www.wolframscience.com/"
+    },
+    "homepageText": "wolframscience homepage",
+    "youtube": "@WolframResearch",
+    "socialOrder": "youtube"
+  },
+  {
+    "id": 51,
+    "imgSrc": "src/assets/bulletinboard/charityengine/charityengine.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "Charity Engine",
+      "en": "Charity Engine"
+    },
+    "subtitle": {
+      "de": "Rettet die Welt - Bit für Bit.",
+      "en": "Saving the world one bit at a time."
+    },
+    "filter": { "citizenscience": true, "visibility": "visible" },
+    "introVideo": {
+      "de": "https://youtu.be/Kz1UrX_dHFI",
+      "en": "https://youtu.be/Kz1UrX_dHFI"
+    },
+    "description": {
+      "de": "Charity Engine zerlegt riesige, aufwändige Rechenaufgaben in 1000 kleine Teile, von denen jede so einfach ist, dass sie von einem Heim-PC im Hintergrund berechnet werden kann. Sobald jeder PC seinen Teil des Puzzles erledigt hat, sendet er die richtige Antwort zurück und verdient etwas Geld für wohltätige Zwecke - und für den Preisfond.",
+      "en": "Charity Engine takes enormous, expensive computing jobs and chops them into 1000s of small pieces, each simple enough for a home PC to work on as a background task. Once each PC has finished its part of the puzzle, it sends back the correct answer and earns some money for charity – and for the prize fund."
+    },
+    "homepage": {
+      "en": "https://www.charityengine.com/volunteer",
+      "de": "https://www.charityengine.com/volunteer"
+    },
+    "homepageText": "homepage"
   }
 ]

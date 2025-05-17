@@ -48,6 +48,8 @@ export default {
   // project_timeline_udine_description_first: '',
   // project_timeline_udine_description_second: '',
   // project_timeline_udine_description_third: '',
+  project_timeline_revengeofthegods2025_title:
+    "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Tanzperformance [Berdorf Amphitheater 2025]",
   project_timeline_revengeofthegods_title:
     "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Tanz und Acroyoga Performance [Berdorf Amphitheater 2024]",
   project_timeline_revengeofthegods_description_first:
@@ -116,5 +118,5 @@ export default {
   citizenscience: 'Bürgerwissenschaften',
   // music / mehr klang
   music_headline: 'Mehr_klang',
-  music_recommendation: '(🌸ºั⌣ºั)',
+  music_recommendation: '(🌸◕‿◕)',
 };

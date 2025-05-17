@@ -36,30 +36,11 @@
     },
     "email": "real_jane_doe@gmx.de",
     "youtube": "channel/UCf1CouiM7wRwDrROYltYDYA",
-    "soundcloud": "improvisingmusicmachines",
     "github": "IMM-RJD",
-    "bandcamp": "immmusic3",
-    "instagram": "imm_radio.feurgerson1337",
-    "socialOrder": "youtube, soundcloud, github, bandcamp, instagram"
+    "socialOrder": "youtube, github"
   },
   {
     "id": 2,
-    "imgSrc": "src/assets/team/fran-leh.jpg",
-    "imgPosition": "50% 0%",
-    "funkyStyles": true,
-    "firstName": "Franziska",
-    "lastName": "Lehmann",
-    "role": {
-      "de": "Studierende der Psychologie (B. Sc.), Sozialassistentin",
-      "en": "Psychology student (B. Sc.), social assistant"
-    },
-    "description": {
-      "de": "Franziska kommt ursprünglich aus Thüringen und durfte dort Erfahrungen in sozio-kulturellen und ökologischen Projekten sammeln. Neben ihrem Studium lässt sie sich für kreative Aktionen begeistern und träumt von Räumen, die achtsame Begegnung und herzlichen Austausch ermöglichen. \n\n„Es heißt, dass alles, was wir wirklich suchen, uns seinerseits schon seit Ewigkeiten sucht und dass es uns findet, wenn wir nur ein Weilchen innehalten können.“",
-      "en": "Franziska originally comes from Thuringia and was allowed to gain experience in socio-cultural and ecological projects there. Besides her studies, she is inspired by creative actions and dreams of spaces that enable mindful encounters and heartfelt exchange. \n\n \"It is said that everything we are really looking for has in turn been looking for us for ages and that it will find us if we can just pause for a while.\""
-    }
-  },
-  {
-    "id": 3,
     "imgSrc": "src/assets/team/irene.jpeg",
     "imgPosition": "50% 40%",
     "funkyStyles": true,
@@ -74,7 +55,7 @@
     "socialOrder": "instagram"
   },
   {
-    "id": 4,
+    "id": 3,
     "imgSrc": "src/assets/team/monika.jpeg",
     "imgPosition": "50% 40%",
     "funkyStyles": true,
@@ -90,7 +71,7 @@
     "socialOrder": "instagram"
   },
   {
-    "id": 5,
+    "id": 4,
     "imgSrc": "src/assets/team/sam-pet.jpg",
     "imgPosition": "50% 0%",
     "funkyStyles": true,
@@ -106,7 +87,7 @@
     }
   },
   {
-    "id": 6,
+    "id": 5,
     "imgSrc": "src/assets/team/cla-sch.jpg",
     "imgPosition": "50% 49%",
     "funkyStyles": true,
@@ -122,7 +103,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "imgSrc": "src/assets/team/isa-mul.jpg",
     "imgPosition": "50% 0%",
     "funkyStyles": true,

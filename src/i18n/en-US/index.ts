@@ -43,6 +43,8 @@ export default {
     'Schattenwelten und Lichtgestalten (Realm of the shades and light figures) - Choreographic dance performance [FRANKENTURM - As part of the "Trierer Unterweltenfestival 2022"]',
   // project
   project_headline: 'Past Projects',
+  project_timeline_revengeofthegods2025_title:
+    "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Dance performance [Berdorf Amphitheater 2025]",
   project_timeline_revengeofthegods_title:
     "Revenge of the gods {'|'} LOVERSoftheUNIVERSE - Dance and acroyoga performance [Berdorf Amphitheater 2024]",
   project_timeline_revengeofthegods_description_first:
@@ -110,5 +112,5 @@ export default {
   citizenscience: 'Citizen Science',
   // music / mehr klang
   music_headline: "Mehr_klang {'|'} More_sound",
-  music_recommendation: '(🌸ºั⌣ºั)',
+  music_recommendation: '(🌸◕‿◕)',
 };

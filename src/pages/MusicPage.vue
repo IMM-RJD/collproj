@@ -43,8 +43,10 @@ export default defineComponent({
           'https://www.youtube.com/watch?v=v-QD7vaHQgY',
           'https://www.youtube.com/watch?v=vqRWMDv0r78',
           'https://www.youtube.com/playlist?list=OLAK5uy_nH99tyjJtLp-Fk1gFjhWLf51cGPSjIE0E',
+          'https://youtu.be/9prvrirks24?si=KdWTEq77FCjbHmr7',
           //////// sebastians musik ////////
           'https://youtu.be/ThKU8AhGPOo',
+          'https://youtu.be/wtqkNCx06Ls',
           'https://youtu.be/_1b7GtCBYQU',
           'https://youtu.be/PWXYe5J23sA',
           'https://youtu.be/QqgODVZTSQ8',
