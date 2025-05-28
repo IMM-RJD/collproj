@@ -55,6 +55,8 @@
     </div> -->
 
     <q-timeline color="km-timeline">
+      <q-timeline-entry :title="'LosLosLosheim [Losheim 2025]'">
+      </q-timeline-entry>
       <q-timeline-entry
         :title="$t('project_timeline_revengeofthegods2025_title')"
       >

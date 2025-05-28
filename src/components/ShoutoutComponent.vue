@@ -401,7 +401,7 @@ export default defineComponent({
   border-radius: 0 10px 10px 0px !important;
   border: 2px solid transparent;
   &:hover {
-    border: 2px solid $primary;
+    border: 2px solid $secondary;
   }
   > .content-wrapper {
     flex-grow: 10000;

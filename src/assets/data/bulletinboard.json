@@ -1945,12 +1945,12 @@
     "funkyStyles": true,
     "bgColor": "#355852",
     "title": {
-      "de": "Ruliology",
-      "en": "Ruliology"
+      "de": "Eine neue Art der Wissenschaft",
+      "en": "A new kind of science"
     },
     "subtitle": {
-      "de": "Eine neue Art der Wissenschaft.",
-      "en": "A new kind of science."
+      "de": "Ein (multi-) computationales Paradigma.",
+      "en": "A (multi-) computational paradigm."
     },
     "filter": { "visibility": "visible" },
     "introVideo": {
@@ -1958,8 +1958,8 @@
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAraKyBJx82QOSXs9T9Fg-y"
     },
     "description": {
-      "de": "Die Ruliologie ist die Lehre vom Ruliad. Das Ruliad ist die verwobene Grenze von allem, was komputatorisch möglich ist: das Ergebnis der Befolgung aller möglichen Komputationsregeln auf alle möglichen Arten.",
-      "en": "Ruliology is the study of the ruliad. The ruliad is the entangled limit of everything that is computationally possible: the result of following all possible computational rules in all possible ways."
+      "de": "Das Ruliad ist die verwobene Grenze von allem, was komputatorisch möglich ist: das Ergebnis der Befolgung aller möglichen Komputationsregeln auf alle möglichen Arten.",
+      "en": "The ruliad is the entangled limit of everything that is computationally possible: the result of following all possible computational rules in all possible ways."
     },
     "readmore": {
       "de": "https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/",

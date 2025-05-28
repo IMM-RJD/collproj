@@ -36,8 +36,10 @@
     },
     "email": "real_jane_doe@gmx.de",
     "youtube": "channel/UCf1CouiM7wRwDrROYltYDYA",
+    "soundcloud": "improvisingmusicmachines",
     "github": "IMM-RJD",
-    "socialOrder": "youtube, github"
+    "bandcamp": "immmusic3",
+    "socialOrder": "youtube, soundcloud, github, bandcamp"
   },
   {
     "id": 2,
