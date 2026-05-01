@@ -311,12 +311,12 @@
     "funkyStyles": true,
     "bgColor": "#355852",
     "title": {
-      "de": "Nager IT",
-      "en": "Nager IT"
+      "de": "fairemaus.de",
+      "en": "fairemaus.de"
     },
     "subtitle": {
-      "de": "Dem scheinbar unerreichbaren Ziel einer Computermaus ohne jegliche Ausbeutung nähern wir uns Schritt für Schritt, nach dem Motto »Am Fairsten → Fairer → Fair«. \n(siehe \"Das Projekt\" -> \"Der Weg dorthin\")",
-      "en": "It seems impossible to create a mouse which is definitely free of all exploitation in its product chain in one go, so we are approaching our goal step by step. \n(see \"The Project\" -> \"How to reach this\")"
+      "de": "Kaufe eine Faire Maus oder baue sie selber!",
+      "en": "Buy a Fair Mouse or make your own!"
     },
     "filter": { "visibility": "visible" },
     "introVideo": {
@@ -324,22 +324,18 @@
       "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zA4MHrljqXHOuLiAGNQBJUz"
     },
     "description": {
-      "de": "Wie alle kleineren Elektronikprodzuenten stehen wir vor dem Problem, dass es uns bei unserem geringen Produktionsvolumen nicht möglich ist, nur faire Rohstoffe in unserer Maus zu verwenden. Die Lieferkette ist zu lang, zu komplex, zu sehr von großen, konservativen Technikunternehmen bestimmt. Als Ausgleich unterstützen wir nun, auch rückwirkend, ein lokales Netzwerk in Indonesien, die sich seit Jahrzehnten ernsthaft für einen verträglichen Zinnabbau einsetzt, u.a. indem sie Menschenrechte in den betroffenen Regionen vor Gericht erstreitet. \n(siehe \"Sind die Metalle in der Fairen Maus auch fair gewonnen?\")",
-      "en": "Our mouse is going to be by far the most sustainable IT product currently available on the market, and we know we can't stress that enough when marketing it. While we can't completely rule out exploitation for now due to the centralised structure of the supply chain, the degree of exploitative labour with our mouse has been, compared to its \"fellow\" anyway, significantly reduced. Therefore, while not entirely fair, this mouse can be rightfully called considerably sustainable. It is by far the fairest alternative and should therefore be preferred to other mice at any rate. It ist also important to see that the project of NAGER IT is a dynamic one: The aim to produce a completely fair computer mouse will not be kept sight of. Further efforts, to create a fairer and fairer production process for the mouse will be made transaparent and will be accessible on demand or publicly. \n(see \"If an entirely fair mouse isn't possible, does a partly fair mouse actually stand a chance of getting marketed?\")"
+      "de": "10 % unserer Profite fließen direkt an Fair IT yourself e. V., um die Weiterentwicklung und Produktion innovativer, fairer Produkte voranzutreiben.Unser Ziel ist es, als Übergangsgesellschaft zu agieren, während wir sicherstellen, dass die Produktion der Fairen Maus mit Fair IT yourself e. V. in guten Händen liegt. Jeder Kauf hilft uns, unsere Mission zu erfüllen und die Faire Maus für zukünftige Generationen zu bewahren.",
+      "en": "10% of our profits go directly to Fair IT yourself e. V. to support the development and production of innovative, fair products. Our goal is to serve as a transitional organization while ensuring that the production of the Fair Mouse remains in good hands with Fair IT yourself e. V. Every purchase helps us fulfill our mission and preserve the Fair Mouse for future generations."
     },
     "readmore": {
-      "de": "https://www.nager-it.de/informationen/faq",
-      "en": "https://www.nager-it.de/en/informationen/faq"
+      "de": "https://fairityourself.de/",
+      "en": "https://fairityourself.de/"
     },
     "homepage": {
-      "en": "https://www.nager-it.de/",
-      "de": "https://www.nager-it.de/"
+      "en": "https://fairemaus.de/",
+      "de": "https://fairemaus.de/"
     },
-    "homepageText": "homepage",
-    "twitter": "NagerIT",
-    "facebook": "people/nager-it/100064707307591/",
-    "youtube": "@nagerit5165",
-    "socialOrder": "twitter, facebook, youtube"
+    "homepageText": "homepage"
   },
   {
     "id": 9,
@@ -439,8 +435,8 @@
     },
     "filter": { "visibility": "visible" },
     "introVideo": {
-      "de": "https://www.youtube.com/watch?v=RPiyEUWPhxU",
-      "en": "https://www.youtube.com/watch?v=RPiyEUWPhxU"
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBIDj95WmdXaHCYuOBvTmxx",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zBIDj95WmdXaHCYuOBvTmxx"
     },
     "description": {
       "de": "Algoraves kann eine Reihe von Stilen umfassen, einschließlich einer komplexen Form von Minimal Techno, und die Bewegung wurde als Treffpunkt von Hacker-Philosophie, Geek-Kultur und Clubbing beschrieben. (Übersetztung des englischen Wikipediaeintrag)",
@@ -1580,9 +1576,9 @@
       "en": "https://www.bmel.de/DE/themen/wald/wald-in-deutschland/waldzustandserhebung.html"
     },
     "homepageText": "homepage",
-    "twitter": "@bmel",
+    "twitter": "@BMLEH_Bund",
     "instagram": { "en": "lebensministerium", "de": "lebensministerium" },
-    "youtube": "@bmel_bund",
+    "youtube": "@bmleh_bund",
     "socialOrder": "twitter, instagram, youtube"
   },
   {
@@ -2004,5 +2000,118 @@
       "de": "https://www.charityengine.com/volunteer"
     },
     "homepageText": "homepage"
+  },
+  {
+    "id": 52,
+    "imgSrc": "src/assets/bulletinboard/freesound/freesound.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#FFFFFF",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "Freesound",
+      "en": "Freesound"
+    },
+    "subtitle": {
+      "de": "Finde jeden Sound, der dir gefällt.",
+      "en": "Find any sound you like."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://youtu.be/UzesXMsvRhQ",
+      "en": "https://youtu.be/UzesXMsvRhQ"
+    },
+    "homepage": {
+      "en": "https://freesound.org/",
+      "de": "https://freesound.org/"
+    },
+    "homepageText": "homepage"
+  },
+  {
+    "id": 53,
+    "imgSrc": "src/assets/bulletinboard/theoceancleanup/theoceancleanup.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#01CBE1",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "The Ocean Cleanup",
+      "en": "The Ocean Cleanup"
+    },
+    "subtitle": {
+      "de": "Mach mit bei der größten Aufräumaktion aller Zeiten.",
+      "en": "Join the largest cleanup in history."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAn3eLF9t4I-vwzW4BSPcEd",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zAn3eLF9t4I-vwzW4BSPcEd"
+    },
+    "description": {
+      "de": "Unsere Reinigungstechnologien kommen weltweit zum Einsatz, während wir die größte Säuberungsaktion der Geschichte durchführen. Seit über zehn Jahren erforscht, sammelt und überwacht The Ocean Cleanup die Plastikverschmutzung in Ozeanen und Flüssen weltweit – bis heute wurden bereits mehrere zehn Millionen Kilogramm Plastik entfernt.",
+      "en": "Our cleaning technologies are deployed around the world as we conduct the largest cleanup in history. For over ten years, The Ocean Cleanup has been researching, extracting, and monitoring plastic pollution in oceans and rivers globally – with tens of millions of kilograms removed to date."
+    },
+    "readmore": {
+      "de": "https://theoceancleanup.com/about/",
+      "en": "https://theoceancleanup.com/about/"
+    },
+    "homepage": {
+      "en": "https://theoceancleanup.com/",
+      "de": "https://theoceancleanup.com/"
+    },
+    "homepageText": "homepage",
+    "instagram": { "en": "theoceancleanup", "de": "theoceancleanup" },
+    "facebook": "TheOceanCleanup",
+    "twitter": "theoceancleanup",
+    "youtube": "@theoceancleanup",
+    "linkedin": "https://www.linkedin.com/company/the-ocean-cleanup",
+    "tiktok": "@theoceancleanup",
+    "socialOrder": "instagram, facebook, twitter, youtube, linkedin, tiktok"
+  },
+  {
+    "id": 54,
+    "imgSrc": "src/assets/bulletinboard/fairphone/fairphone.png",
+    "imgClass": "q-pa-lg",
+    "imgPosition": "none",
+    "imgFit": "contain",
+    "imgWrapBgColor": "#08473D",
+    "funkyStyles": true,
+    "bgColor": "#355852",
+    "title": {
+      "de": "Fairphone",
+      "en": "Fairphone"
+    },
+    "subtitle": {
+      "de": "The One That Lasts.",
+      "en": "The One That Lasts."
+    },
+    "filter": { "visibility": "visible" },
+    "introVideo": {
+      "de": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDI5IjFyCQhab2MpvSSXuBV",
+      "en": "https://www.youtube.com/playlist?list=PLPw5IThuM1zDI5IjFyCQhab2MpvSSXuBV"
+    },
+    "description": {
+      "de": "Wir sind Fairphone aus Amsterdam. Technik soll unser Leben bereichern und nicht unterbrechen. Wir möchten dir hochwertige Technologie bieten, die langlebig und besser ist.",
+      "en": "We are Fairphone from Amsterdam. Technology should enrich our lives, not disrupt them. We want to offer you high-quality technology that is durable and better."
+    },
+    "readmore": {
+      "de": "https://www.fairphone.com/de/about-us",
+      "en": "https://www.fairphone.com/about-us"
+    },
+    "homepage": {
+      "en": "https://www.fairphone.com/",
+      "de": "https://www.fairphone.com/de"
+    },
+    "homepageText": "homepage",
+    "instagram": { "en": "fairphone", "de": "fairphone" },
+    "tiktok": "@fairphone",
+    "facebook": "fairphone",
+    "youtube": "@fairphone",
+    "linkedin": "https://www.linkedin.com/company/fairphone/",
+    "socialOrder": "instagram, tiktok, facebook, youtube, linkedin"
   }
 ]
